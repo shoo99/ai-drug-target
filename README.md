@@ -275,15 +275,57 @@ python scripts/test_all.py
 - Dashboard UI (4 tests)
 - End-to-end integration (10 tests)
 
+## Data Sources & Licenses
+
+All data used in this platform is from publicly available databases:
+
+| Database | License | Usage | URL |
+|----------|---------|-------|-----|
+| ChEMBL | CC BY-SA 3.0 | Drug-target mechanisms | https://www.ebi.ac.uk/chembl/ |
+| OpenTargets | Apache 2.0 | Gene-disease associations | https://platform.opentargets.org/ |
+| UniProt | CC BY 4.0 | Protein sequences & annotations | https://www.uniprot.org/ |
+| PubMed/NCBI | Public domain | Biomedical literature (abstracts) | https://pubmed.ncbi.nlm.nih.gov/ |
+| AlphaFold DB | CC BY 4.0 | Predicted protein structures | https://alphafold.ebi.ac.uk/ |
+| GWAS Catalog | EBI Terms of Use | Genetic associations | https://www.ebi.ac.uk/gwas/ |
+| ClinicalTrials.gov | Public domain | Clinical trial data | https://clinicaltrials.gov/ |
+| openFDA/FAERS | Public domain | Drug adverse event reports | https://open.fda.gov/ |
+| BiGG Models | Academic use | GEM metabolic models (iML1515, iYS1720) | http://bigg.ucsd.edu/ |
+
+### ML Model Licenses
+
+| Model | License | Source |
+|-------|---------|--------|
+| BioBERT (biobert_genetic_ner) | Apache 2.0 | [Hugging Face](https://huggingface.co/alvaroalon2/biobert_genetic_ner) |
+| PyTorch | BSD-3 | https://pytorch.org/ |
+| COBRApy | LGPL / Apache 2.0 | https://opencobra.github.io/cobrapy/ |
+| Transformers | Apache 2.0 | https://huggingface.co/transformers/ |
+| AutoDock Vina | Apache 2.0 | https://github.com/ccsb-scripps/AutoDock-Vina |
+
+### GEM Model Citations
+
+The genome-scale metabolic models used in this platform should be cited as:
+- **iML1515**: Monk et al. (2017) "iML1515, a knowledgebase that computes Escherichia coli traits" *Nature Biotechnology* 35:904-908
+- **iYS1720**: Seif et al. (2018) "A computational knowledge-base elucidates the response of Staphylococcus aureus to different media types" *PLoS Computational Biology*
+
+### CALMA Methodology
+
+The metabolism-informed neural network architecture is inspired by:
+- Arora et al. (2026) "A Metabolism-Informed Neural Network Identifies Pathways Influencing the Potency and Toxicity of Antimicrobial Combinations" *npj Drug Discovery* 3:11
+
+This implementation is an independent reimplementation for educational/research purposes. "CALMA" is the original authors' framework name and is not claimed by this project.
+
 ## References
 
 - Arora et al. (2026) "A Metabolism-Informed Neural Network Identifies Pathways Influencing the Potency and Toxicity of Antimicrobial Combinations" *npj Drug Discovery*
 - Monk et al. (2017) "iML1515, a knowledgebase for E. coli K-12 MG1655" *Nature Biotechnology*
 - Lee et al. (2019) "BioBERT: a pre-trained biomedical language representation model" *Bioinformatics*
+- Seif et al. (2018) "A computational knowledge-base elucidates the response of Staphylococcus aureus to different media types" *PLoS Computational Biology*
 
 ## License
 
 MIT License. See [LICENSE](LICENSE).
+
+This project is released under MIT License. All third-party data and models retain their original licenses as listed above.
 
 ## Citation
 
@@ -291,6 +333,6 @@ MIT License. See [LICENSE](LICENSE).
 @software{ai_drug_target_2026,
   title={AI Drug Target Discovery Platform},
   year={2026},
-  url={https://github.com/YOUR_USERNAME/ai-drug-target}
+  url={https://github.com/shoo99/ai-drug-target}
 }
 ```
