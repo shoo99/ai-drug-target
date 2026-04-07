@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+data/
+models/*.pt
+models/*.pkl
+reports/*.pdf
+reports/*.txt
+.streamlit/
+neo4j-data/
+*.log
+.DS_Store
