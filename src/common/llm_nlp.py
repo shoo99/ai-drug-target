@@ -61,7 +61,7 @@ class LLMNLPExtractor:
 
         if backend == "ollama":
             self.ollama_url = ollama_url or os.getenv("OLLAMA_URL", "http://localhost:11434")
-            self.ollama_model = ollama_model or os.getenv("OLLAMA_MODEL", "gemma4:26b")
+            self.ollama_model = ollama_model or os.getenv("OLLAMA_MODEL", "gemma4:e4b")
             self.ollama_api_key = ollama_api_key or os.getenv("OLLAMA_API_KEY", "")
             self.ollama_headers = {"X-API-Key": self.ollama_api_key}
             print(f"  LLM NLP initialized: Ollama ({self.ollama_model}) @ {self.ollama_url}")
