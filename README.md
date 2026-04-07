@@ -1,6 +1,6 @@
 # AI Drug Target Discovery Platform
 
-A metabolism-informed AI platform for discovering novel drug targets, inspired by the [CALMA methodology](https://www.nature.com/articles/s44386-026-00042-9). Integrates genome-scale metabolic models (GEMs), BioBERT NLP, graph neural networks, and sequence homology analysis for predicting drug target potency and toxicity.
+A metabolism-informed AI platform for discovering novel drug targets, inspired by the [CALMA methodology](https://www.nature.com/articles/s44386-026-00042-9). Integrates genome-scale metabolic models (GEMs), LLM-powered NLP (Ollama/Claude), graph neural networks, and sequence homology analysis for predicting drug target potency and toxicity.
 
 Dual-track analysis: **Antimicrobial Resistance (AMR)** and **Chronic Pruritus (Itch)**.
 
@@ -8,7 +8,7 @@ Dual-track analysis: **Antimicrobial Resistance (AMR)** and **Chronic Pruritus (
 ![Neo4j](https://img.shields.io/badge/Neo4j-2026.x-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Tests](https://img.shields.io/badge/Tests-40%2F40_Passed-brightgreen)
-![BioBERT](https://img.shields.io/badge/NLP-BioBERT-orange)
+![LLM](https://img.shields.io/badge/NLP-LLM%20(Ollama%2FClaude)-orange)
 ![COBRApy](https://img.shields.io/badge/FBA-COBRApy-purple)
 
 ## Highlights
@@ -17,7 +17,7 @@ Dual-track analysis: **Antimicrobial Resistance (AMR)** and **Chronic Pruritus (
 - **Genome-scale FBA** — Gene knockout simulation on iML1515 (E. coli, 2,712 reactions) and iYS1720 (S. aureus, 3,357 reactions)
 - **Drug combination analysis** — 120 pairwise combinations with Bliss synergy scoring and Pareto optimization
 - **Sequence-based toxicity** — Bacterial vs human protein homology for selectivity prediction (20/20 targets assessed safe)
-- **BioBERT NLP** — Transformer-based gene/protein NER from PubMed abstracts
+- **LLM-powered NLP** — Ollama (gemma4) or Claude API for gene/protein NER, relation extraction, and drug mention detection from PubMed abstracts
 - **Temporal validation** — Train on pre-2020 data, validate against post-2020 discoveries (Precision: 1.000)
 - **40/40 automated tests passing** across 6 test scenarios
 
@@ -73,7 +73,7 @@ Public Databases ─────────────────────
          ┌───────────────┼───────────────┐
          ▼               ▼               ▼
 ┌─────────────┐  ┌──────────────┐  ┌─────────────┐
-│ BioBERT NLP │  │  GEM + FBA   │  │  AlphaFold  │
+│  LLM NLP   │  │  GEM + FBA   │  │  AlphaFold  │
 │ Gene NER    │  │  iML1515     │  │  Structure  │
 │ Relation    │  │  iYS1720     │  │  34 proteins│
 │ Extraction  │  │  Gene KO sim │  │  Pocket det.│
@@ -115,7 +115,7 @@ Public Databases ─────────────────────
 |-----------|-----------|
 | Language | Python 3.12 |
 | Knowledge Graph | Neo4j 2026.x |
-| NLP | **BioBERT** (biobert_genetic_ner) + custom relation extraction |
+| NLP | **LLM** (Ollama gemma4 / Claude API) + BioBERT fallback |
 | Metabolic Modeling | **COBRApy** + FBA (iML1515, iYS1720, iSB619) |
 | ML/AI | PyTorch, scikit-learn, Node2Vec, Subsystem-Structured ANN |
 | Structure | AlphaFold DB, AutoDock Vina, binding pocket detection |
@@ -156,7 +156,9 @@ cp .env.example .env
 python scripts/rebuild_pipeline.py      # Core data + scoring
 python scripts/run_metabolic.py         # GEM/FBA analysis
 python scripts/run_calma_v2.py          # CALMA combination analysis
-python scripts/run_upgrades.py          # BioBERT + temporal + sequence toxicity
+python scripts/run_upgrades.py          # LLM NLP + temporal + sequence toxicity
+python scripts/run_rationales.py        # LLM target rationale generation
+python scripts/run_llm_reprocess.py     # Full PubMed reprocessing with LLM (background)
 python scripts/run_advanced.py          # Clinical trials + patents + docking
 
 # Run tests (should be 40/40)
@@ -174,7 +176,9 @@ ai-drug-target/
 ├── src/
 │   ├── common/
 │   │   ├── knowledge_graph.py      # Neo4j interface (injection-safe)
-│   │   ├── biobert_nlp.py          # BioBERT NER + relation extraction
+│   │   ├── llm_nlp.py              # LLM NLP (Ollama/Claude) — primary
+│   │   ├── target_rationale.py     # LLM target rationale generator
+│   │   ├── biobert_nlp.py          # BioBERT NER (fallback)
 │   │   ├── pubmed_miner.py         # PubMed API mining
 │   │   ├── nlp_extractor.py        # Rule-based NLP (fallback)
 │   │   ├── opentargets.py          # OpenTargets API
@@ -255,7 +259,8 @@ Based on [Arora et al., npj Drug Discovery (2026)](https://www.nature.com/articl
 ## Limitations
 
 - AMR essential genes are curated from published literature, not novel experimental screens
-- BioBERT NER may miss some gene mentions or include descriptive terms
+- LLM NLP (Ollama) may be slower than dedicated NER models (~8s/article) but significantly more accurate
+- BioBERT fallback available but less accurate than LLM approach
 - CALMA neural network trained on 91 combinations (limited data) — R² is low
 - Sequence toxicity uses k-mer approximation, not full BLAST alignment
 - Drug combination analysis uses FBA (stoichiometric), not kinetic models
@@ -295,7 +300,9 @@ All data used in this platform is from publicly available databases:
 
 | Model | License | Source |
 |-------|---------|--------|
-| BioBERT (biobert_genetic_ner) | Apache 2.0 | [Hugging Face](https://huggingface.co/alvaroalon2/biobert_genetic_ner) |
+| Ollama + gemma4 | [Gemma License](https://ai.google.dev/gemma/terms) | Local LLM inference (primary NLP) |
+| Anthropic Claude API | Commercial | Optional cloud LLM backend |
+| BioBERT (biobert_genetic_ner) | Apache 2.0 | [Hugging Face](https://huggingface.co/alvaroalon2/biobert_genetic_ner) (fallback) |
 | PyTorch | BSD-3 | https://pytorch.org/ |
 | COBRApy | LGPL / Apache 2.0 | https://opencobra.github.io/cobrapy/ |
 | Transformers | Apache 2.0 | https://huggingface.co/transformers/ |
@@ -318,7 +325,8 @@ This implementation is an independent reimplementation for educational/research 
 
 - Arora et al. (2026) "A Metabolism-Informed Neural Network Identifies Pathways Influencing the Potency and Toxicity of Antimicrobial Combinations" *npj Drug Discovery*
 - Monk et al. (2017) "iML1515, a knowledgebase for E. coli K-12 MG1655" *Nature Biotechnology*
-- Lee et al. (2019) "BioBERT: a pre-trained biomedical language representation model" *Bioinformatics*
+- Lee et al. (2019) "BioBERT: a pre-trained biomedical language representation model" *Bioinformatics* (fallback NLP)
+- Google DeepMind (2026) "Gemma 4: Open Models" (primary NLP via Ollama)
 - Seif et al. (2018) "A computational knowledge-base elucidates the response of Staphylococcus aureus to different media types" *PLoS Computational Biology*
 
 ## License
