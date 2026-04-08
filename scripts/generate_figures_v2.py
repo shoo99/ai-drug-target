@@ -418,10 +418,12 @@ def fig5_selectivity():
             name=f"{risk} risk",
         ))
 
-    fig.add_vline(x=25, line_dash="dash", line_color="#ff9800", line_width=1.5,
-                  annotation_text="Moderate (25%)", annotation_position="top")
-    fig.add_vline(x=40, line_dash="dash", line_color="#c62828", line_width=1.5,
-                  annotation_text="High (40%)", annotation_position="top")
+    fig.add_vline(x=25, line_dash="dash", line_color="#ff9800", line_width=1.5)
+    fig.add_annotation(x=25, y=1.02, text="Moderate (25%)", showarrow=False,
+                       font=dict(size=10, color="#ff9800"), xref="x", yref="paper")
+    fig.add_vline(x=40, line_dash="dash", line_color="#c62828", line_width=1.5)
+    fig.add_annotation(x=40, y=1.02, text="High (40%)", showarrow=False,
+                       font=dict(size=10, color="#c62828"), xref="x", yref="paper")
 
     # Shade safe zone
     fig.add_vrect(x0=0, x1=10, fillcolor="rgba(46,125,50,0.08)", line_width=0)
