@@ -20,30 +20,14 @@ from config.settings import DATA_DIR
 
 LLM_RESULTS_DIR = DATA_DIR / "llm_nlp"
 
-EXTRACTION_PROMPT = """You are a biomedical NLP expert. Extract all gene/protein mentions and their relationships from the following biomedical abstract.
+EXTRACTION_PROMPT = """Extract genes, drugs, and relationships from this biomedical text. Return ONLY JSON, no other text.
 
-Return ONLY valid JSON in this exact format (no other text):
-{
-  "genes": [
-    {"name": "GENE_SYMBOL", "type": "gene|protein|enzyme|receptor|kinase", "role": "target|biomarker|pathway_member|drug_target"}
-  ],
-  "relations": [
-    {"gene1": "GENE1", "relation": "inhibits|activates|binds|regulates|phosphorylates|upregulates|downregulates|targets|interacts_with", "gene2": "GENE2", "confidence": "high|medium|low", "evidence": "brief quote"}
-  ],
-  "drugs_mentioned": [
-    {"name": "DRUG_NAME", "target_gene": "GENE_SYMBOL", "mechanism": "inhibitor|agonist|antagonist|antibody|other"}
-  ],
-  "key_finding": "one sentence summary"
-}
+Format:
+{"genes":[{"name":"GENE","type":"enzyme/protein/receptor","role":"target/biomarker"}],"relations":[{"gene1":"A","relation":"inhibits/activates/binds","gene2":"B"}],"drugs_mentioned":[{"name":"DRUG","target_gene":"GENE","mechanism":"inhibitor/agonist"}],"key_finding":"one sentence"}
 
-Rules:
-- Use standard HUGO gene symbols (uppercase, e.g., LPXC not lpxC)
-- Only include genes/proteins explicitly mentioned in the text
-- Do NOT hallucinate genes not present in the text
-- If no genes found, return empty arrays
-- Return ONLY the JSON, no markdown formatting
+Rules: uppercase gene symbols, only genes in text, empty arrays if none found.
 
-Abstract:
+Text:
 """
 
 
@@ -90,7 +74,7 @@ class LLMNLPExtractor:
         }
         try:
             resp = requests.post(url, json=payload,
-                                headers=self.ollama_headers, timeout=120)
+                                headers=self.ollama_headers, timeout=300)
             if resp.status_code == 200:
                 return resp.json().get("response", "")
             else:
@@ -153,21 +137,21 @@ class LLMNLPExtractor:
 
     def extract_from_text(self, text: str) -> dict:
         """Extract genes, relations, drugs from text using LLM."""
-        prompt = EXTRACTION_PROMPT + text[:3000]
+        prompt = EXTRACTION_PROMPT + text[:1500]
         response = self._call_llm(prompt)
         result = self._parse_json_response(response)
 
-        # Normalize gene names
+        # Normalize gene names (with null safety)
         for gene in result.get("genes", []):
-            if isinstance(gene, dict) and "name" in gene:
-                gene["name"] = gene["name"].upper().replace("-", "").strip()
+            if isinstance(gene, dict) and gene.get("name"):
+                gene["name"] = str(gene["name"]).upper().replace("-", "").strip()
 
         for rel in result.get("relations", []):
             if isinstance(rel, dict):
-                if "gene1" in rel:
-                    rel["gene1"] = rel["gene1"].upper().replace("-", "").strip()
-                if "gene2" in rel:
-                    rel["gene2"] = rel["gene2"].upper().replace("-", "").strip()
+                if rel.get("gene1"):
+                    rel["gene1"] = str(rel["gene1"]).upper().replace("-", "").strip()
+                if rel.get("gene2"):
+                    rel["gene2"] = str(rel["gene2"]).upper().replace("-", "").strip()
 
         return result
 
