@@ -191,7 +191,7 @@ def fig3_nlp_comparison():
 
 
 def fig3b_score_distribution():
-    """Fig 3b: Target score distribution by tier."""
+    """Fig 4: Target score scatter — labeled by gene name and tier."""
     scored_path = AMR_CONFIG["data_dir"] / "top_targets_scored.csv"
     if not scored_path.exists():
         return
@@ -200,7 +200,11 @@ def fig3b_score_distribution():
     if "composite_score" not in df.columns:
         return
 
-    # Add tier labels
+    # Deduplicate
+    df = df.drop_duplicates(subset="gene_name", keep="first")
+    df = df.sort_values("composite_score", ascending=True).reset_index(drop=True)
+    df["rank"] = range(1, len(df) + 1)
+
     def get_tier(s):
         if s >= 0.7: return "Tier 1 (High Priority)"
         elif s >= 0.5: return "Tier 2 (Promising)"
@@ -220,39 +224,39 @@ def fig3b_score_distribution():
 
     for tier in ["Tier 1 (High Priority)", "Tier 2 (Promising)", "Tier 3 (Exploratory)", "Tier 4 (Low Priority)"]:
         subset = df[df["tier_label"] == tier]
-        if not subset.empty:
-            fig.add_trace(go.Histogram(
-                x=subset["composite_score"], name=tier,
-                marker_color=tier_colors.get(tier, "#9e9e9e"),
-                opacity=0.8, nbinsx=20,
-            ))
+        if subset.empty:
+            continue
+        # Show gene labels for Tier 1 and top of Tier 2
+        show_labels = tier == "Tier 1 (High Priority)" or (tier == "Tier 2 (Promising)" and len(subset) < 10)
+        fig.add_trace(go.Scatter(
+            x=subset["composite_score"],
+            y=subset["rank"],
+            mode="markers+text" if show_labels else "markers",
+            marker=dict(size=10, color=tier_colors[tier], line=dict(width=1, color="white")),
+            text=subset["gene_name"] if show_labels else None,
+            textposition="middle right",
+            textfont=dict(size=8),
+            name=tier,
+        ))
 
     # Tier boundary lines
     for threshold, label in [(0.7, "Tier 1"), (0.5, "Tier 2"), (0.3, "Tier 3")]:
-        fig.add_vline(x=threshold, line_dash="dash", line_color="gray", line_width=1)
-        fig.add_annotation(x=threshold, y=1.05, text=label, showarrow=False,
+        fig.add_vline(x=threshold, line_dash="dash", line_color="gray", line_width=1, opacity=0.5)
+        fig.add_annotation(x=threshold, y=1.03, text=label, showarrow=False,
                           font=dict(size=9, color="gray"), xref="x", yref="paper")
 
-    # Annotate key targets
-    top5 = df.nlargest(5, "composite_score").drop_duplicates("gene_name")
-    for _, row in top5.iterrows():
-        fig.add_annotation(x=row["composite_score"], y=0,
-                          text=row["gene_name"], showarrow=True,
-                          arrowhead=2, ax=0, ay=-30, font=dict(size=9))
-
     fig.update_layout(
-        width=900, height=450, font=FONT, plot_bgcolor="white",
-        barmode="overlay",
-        title="Figure 4. Target Composite Score Distribution<br><br>"
-              "<sub>AMR targets scored across 6 dimensions. Tier 1 (>0.7) targets are prioritized for experimental validation.</sub>",
+        width=900, height=500, font=FONT, plot_bgcolor="white",
+        title="Figure 4. Target Composite Score Ranking<br><br>"
+              "<sub>Each point = one AMR target. Tier 1 (>0.7) targets are labeled. Rankings sensitive to weight selection.</sub>",
         xaxis=dict(title="Composite Score", range=[0, 1], gridcolor="#eee"),
-        yaxis=dict(title="Number of Targets"),
+        yaxis=dict(title="Rank", gridcolor="#eee"),
         legend=dict(x=0.02, y=0.98, bgcolor="rgba(255,255,255,0.8)"),
-        margin=dict(l=60, r=40, t=110, b=60),
+        margin=dict(l=60, r=120, t=110, b=60),
     )
     fig.write_image(str(FIG_DIR / "fig3b_score_distribution.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig3b_score_distribution.pdf"))
-    print("  Fig 3b: Score Distribution ✅")
+    print("  Fig 4: Score Scatter ✅")
 
 
 def fig3_old_combination_landscape():
