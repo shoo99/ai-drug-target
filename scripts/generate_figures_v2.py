@@ -191,7 +191,7 @@ def fig3_nlp_comparison():
 
 
 def fig3b_score_distribution():
-    """Fig 4: Target score scatter — labeled by gene name and tier."""
+    """Fig 4: Top 30 targets only — horizontal bar with gene labels."""
     scored_path = AMR_CONFIG["data_dir"] / "top_targets_scored.csv"
     if not scored_path.exists():
         return
@@ -200,63 +200,64 @@ def fig3b_score_distribution():
     if "composite_score" not in df.columns:
         return
 
-    # Deduplicate
+    # Deduplicate and take top 30
     df = df.drop_duplicates(subset="gene_name", keep="first")
-    df = df.sort_values("composite_score", ascending=True).reset_index(drop=True)
-    df["rank"] = range(1, len(df) + 1)
+    df = df.nlargest(30, "composite_score").sort_values("composite_score", ascending=True)
 
     def get_tier(s):
-        if s >= 0.7: return "Tier 1 (High Priority)"
-        elif s >= 0.5: return "Tier 2 (Promising)"
-        elif s >= 0.3: return "Tier 3 (Exploratory)"
-        else: return "Tier 4 (Low Priority)"
+        if s >= 0.7: return "Tier 1"
+        elif s >= 0.5: return "Tier 2"
+        elif s >= 0.3: return "Tier 3"
+        else: return "Tier 4"
 
-    df["tier_label"] = df["composite_score"].apply(get_tier)
+    df["tier"] = df["composite_score"].apply(get_tier)
 
-    tier_colors = {
-        "Tier 1 (High Priority)": "#c62828",
-        "Tier 2 (Promising)": "#ff9800",
-        "Tier 3 (Exploratory)": "#1565c0",
-        "Tier 4 (Low Priority)": "#9e9e9e",
-    }
+    tier_colors = {"Tier 1": "#c62828", "Tier 2": "#ff9800", "Tier 3": "#1565c0", "Tier 4": "#9e9e9e"}
+    colors = [tier_colors[t] for t in df["tier"]]
+
+    # Check if is_novel or has_existing_drug columns exist
+    labels = []
+    for _, row in df.iterrows():
+        name = row["gene_name"]
+        novel = row.get("is_novel_target", False)
+        marker = " 🆕" if novel else ""
+        labels.append(f"{name}{marker}")
 
     fig = go.Figure()
-
-    for tier in ["Tier 1 (High Priority)", "Tier 2 (Promising)", "Tier 3 (Exploratory)", "Tier 4 (Low Priority)"]:
-        subset = df[df["tier_label"] == tier]
-        if subset.empty:
-            continue
-        # Show gene labels for Tier 1 and top of Tier 2
-        show_labels = tier == "Tier 1 (High Priority)" or (tier == "Tier 2 (Promising)" and len(subset) < 10)
-        fig.add_trace(go.Scatter(
-            x=subset["composite_score"],
-            y=subset["rank"],
-            mode="markers+text" if show_labels else "markers",
-            marker=dict(size=10, color=tier_colors[tier], line=dict(width=1, color="white")),
-            text=subset["gene_name"] if show_labels else None,
-            textposition="middle right",
-            textfont=dict(size=8),
-            name=tier,
-        ))
+    fig.add_trace(go.Bar(
+        y=labels,
+        x=df["composite_score"],
+        orientation="h",
+        marker_color=colors,
+        text=df["composite_score"].apply(lambda s: f"{s:.3f}"),
+        textposition="outside",
+        textfont=dict(size=9),
+    ))
 
     # Tier boundary lines
-    for threshold, label in [(0.7, "Tier 1"), (0.5, "Tier 2"), (0.3, "Tier 3")]:
-        fig.add_vline(x=threshold, line_dash="dash", line_color="gray", line_width=1, opacity=0.5)
-        fig.add_annotation(x=threshold, y=1.03, text=label, showarrow=False,
-                          font=dict(size=9, color="gray"), xref="x", yref="paper")
+    fig.add_vline(x=0.7, line_dash="dash", line_color="gray", line_width=1)
+    fig.add_annotation(x=0.7, y=1.02, text="Tier 1 →", showarrow=False,
+                       font=dict(size=9, color="#c62828"), xref="x", yref="paper")
+    fig.add_vline(x=0.5, line_dash="dash", line_color="gray", line_width=1)
+    fig.add_annotation(x=0.5, y=1.02, text="Tier 2 →", showarrow=False,
+                       font=dict(size=9, color="#ff9800"), xref="x", yref="paper")
+
+    fig.add_annotation(x=0.02, y=-0.06,
+                       text="🔴 Tier 1 (High Priority)  🟠 Tier 2 (Promising)  🔵 Tier 3 (Exploratory)  🆕 = Novel target",
+                       showarrow=False, font=dict(size=9), xref="paper", yref="paper")
 
     fig.update_layout(
-        width=900, height=500, font=FONT, plot_bgcolor="white",
-        title="Figure 4. Target Composite Score Ranking<br><br>"
-              "<sub>Each point = one AMR target. Tier 1 (>0.7) targets are labeled. Rankings sensitive to weight selection.</sub>",
-        xaxis=dict(title="Composite Score", range=[0, 1], gridcolor="#eee"),
-        yaxis=dict(title="Rank", gridcolor="#eee"),
-        legend=dict(x=0.02, y=0.98, bgcolor="rgba(255,255,255,0.8)"),
-        margin=dict(l=60, r=120, t=110, b=60),
+        width=900, height=max(450, len(df) * 20),
+        font=FONT, plot_bgcolor="white",
+        title="Figure 4. Top 30 AMR Target Candidates by Composite Score<br> <br>"
+              "<sub>Ranked by 6-dimension weighted score. Rankings sensitive to weight selection (see text).</sub>",
+        xaxis=dict(title="Composite Score", range=[0, 0.95], gridcolor="#eee"),
+        yaxis=dict(title=""),
+        margin=dict(l=100, r=80, t=110, b=60),
     )
     fig.write_image(str(FIG_DIR / "fig3b_score_distribution.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig3b_score_distribution.pdf"))
-    print("  Fig 4: Score Scatter ✅")
+    print("  Fig 4: Top 30 Bar ✅")
 
 
 def fig3_old_combination_landscape():
