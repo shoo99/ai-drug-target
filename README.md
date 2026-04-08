@@ -13,12 +13,13 @@ Dual-track analysis: **Antimicrobial Resistance (AMR)** and **Chronic Pruritus (
 
 ## Highlights
 
-- **Metabolism-informed AI** — GEM flux simulation + subsystem-structured neural network (CALMA-inspired)
-- **Genome-scale FBA** — Gene knockout simulation on iML1515 (E. coli, 2,712 reactions) and iYS1720 (S. aureus, 3,357 reactions)
-- **Drug combination analysis** — 120 pairwise combinations with Bliss synergy scoring and Pareto optimization
-- **Sequence-based toxicity** — Bacterial vs human protein homology for selectivity prediction (20/20 targets assessed safe)
-- **LLM-powered NLP** — Ollama (gemma4) or Claude API for gene/protein NER, relation extraction, and drug mention detection from PubMed abstracts
-- **Temporal validation** — Train on pre-2020 data, validate against post-2020 discoveries (Precision: 1.000)
+- **Metabolism-informed AI** — GEM flux simulation + subsystem-structured neural network (CALMA-inspired), potency R²=0.997 via partial inhibition simulation
+- **Genome-scale FBA across 3 species** — iML1515 (E. coli), iYS1720 (S. aureus), iYL1228 (K. pneumoniae) with cross-species validation
+- **Drug combination analysis** — 91 pairwise + 945 partial inhibition combinations with Bliss synergy scoring and Pareto optimization
+- **Sequence-based toxicity** — Literature-curated homology audit: 11/21 targets lack human homologs, folA→DHFR2 (30%) identified as cross-reactivity risk
+- **Drug-likeness** — RDKit Lipinski analysis: 4/5 reference compounds pass Rule of Five
+- **LLM-powered NLP** — Ollama (gemma4) or Claude API for gene/protein NER (92% UniProt-validated precision), relation extraction, and drug mention detection from 914 PubMed articles
+- **Temporal validation** — Honest reporting: z-score=-0.99 vs random baseline; platform positioned as hypothesis generation tool
 - **40/40 automated tests passing** across 6 test scenarios
 
 ## Key Results
