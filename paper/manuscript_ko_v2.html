@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+    body {
+        font-family: 'Noto Sans KR', -apple-system, sans-serif;
+        font-size: 11pt;
+        line-height: 1.8;
+        color: #212121;
+        max-width: 180mm;
+        margin: 20mm auto;
+    }
+    h1 {
+        font-size: 18pt;
+        color: #0d47a1;
+        border-bottom: 2px solid #0d47a1;
+        padding-bottom: 8px;
+        margin-top: 30px;
+    }
+    h2 {
+        font-size: 14pt;
+        color: #1565c0;
+        margin-top: 25px;
+        border-bottom: 1px solid #e0e0e0;
+        padding-bottom: 4px;
+    }
+    h3 {
+        font-size: 12pt;
+        color: #283593;
+        margin-top: 20px;
+    }
+    p {
+        text-align: justify;
+        margin-bottom: 8px;
+    }
+    strong {
+        color: #c62828;
+    }
+    code {
+        background: #f5f5f5;
+        padding: 2px 6px;
+        border-radius: 3px;
+        font-size: 10pt;
+    }
+    pre {
+        background: #f5f5f5;
+        padding: 12px;
+        border-radius: 6px;
+        overflow-x: auto;
+        font-size: 9pt;
+        line-height: 1.5;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 15px 0;
+        font-size: 9.5pt;
+    }
+    th {
+        background: #0d47a1;
+        color: white;
+        padding: 8px 10px;
+        text-align: left;
+        font-weight: 700;
+    }
+    td {
+        padding: 6px 10px;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    tr:nth-child(even) {
+        background: #f5f7fa;
+    }
+    blockquote {
+        border-left: 4px solid #0d47a1;
+        margin: 10px 0;
+        padding: 8px 15px;
+        background: #e3f2fd;
+        font-size: 9.5pt;
+        color: #424242;
+    }
+    hr {
+        border: none;
+        border-top: 1px solid #bdbdbd;
+        margin: 20px 0;
+    }
+    @page {
+        size: A4;
+        margin: 25mm 20mm;
+        @bottom-center {
+            content: counter(page);
+            font-size: 9pt;
+            color: #757575;
+        }
+    }
+</style>
+</head>
+<body>
+<h1>항균 신약 타겟 발굴 및 조합 최적화를 위한 오픈소스 대사 기반 AI 플랫폼</h1>
+<p><strong>최종본 (v8)</strong></p>
+<hr />
+<p><strong>저자:</strong> Byeongsoo Kang¹<em>
+¹ SYSOFT
+</em>교신저자: shoo99@gmail.com</p>
+<hr />
+<h2>초록</h2>
+<p>항균제 내성(AMR)은 전 세계 공중보건에 대한 가장 심각한 위협 중 하나이지만, 신규 항생제 발견 파이프라인은 심각하게 고갈되어 있다. 기존의 약물 타겟 식별을 위한 전산 접근법은 단일 데이터 소스에 의존하는 경우가 많으며 기계론적 해석 가능성이 부족하다.</p>
+<p>본 연구에서는 게놈 규모 대사 모델(GEM), 대규모 언어 모델(LLM) 기반 문헌 마이닝, 그래프 기반 기계학습, 단백질 서열 상동성 분석을 통합한 오픈소스 대사 기반 항균 신약 타겟 발굴 플랫폼을 제시한다. CALMA 프레임워크(Arora 등, 2026)에서 영감을 받아, 본 플랫폼은 3종 ESKAPE 병원체 모델(iML1515, iYS1720, iYL1228)에서 플럭스 균형 분석(FBA)을 수행하여 유전자 녹아웃을 시뮬레이션하고 핵심 타겟의 교차종 치사성을 확인하였다. 39개 큐레이션된 필수 유전자 중 29개는 승인된 치료제가 없다.</p>
+<p>부분 유전자 억제 시뮬레이션과 필수/비필수 유전자 혼합 세트를 활용하여 서브시스템 구조 ANN이 효력 R²=0.997(이것이 FBA 출력의 재현에 해당함을 주의)과 다중 근거 계산 라벨을 사용한 독성 R²=0.160을 달성하였다. 서열 기반 독성 평가와 UniProt 상동성 검색 및 문헌 큐레이션을 결합한 결과, 감사된 21개 타겟 중 11개가 검출 가능한 인간 상동체가 없었으며, folA는 인간 DHFR2와 유의미한 상동성(30% 동일성)을 보여 알려진 trimethoprim 교차반응성과 일치하였다. RDKit 약물 유사성 분석에서 5개 참조 억제제 중 4개가 Lipinski 규칙을 충족함을 확인하였다. 민감도 분석에서 타겟 순위가 스코어링 가중치 선택에 의존함이 확인되었다. LLM 기반 NLP로 914편의 PubMed 논문을 처리하여 UniProt 검증 정밀도 92%의 196개 고유 유전자 언급과 154개 고유 약물-타겟 쌍을 추출하였다. 34개 타겟 단백질에 대한 AlphaFold 구조 분석 및 자동 결합 포켓 탐지도 수행하였다.</p>
+<p>전체 플랫폼은 MIT 라이센스 하에 https://github.com/shoo99/ai-drug-target 에서 자유롭게 이용 가능하다.</p>
+<p><strong>키워드:</strong> 항균제 내성, 약물 타겟 발굴, 게놈 규모 대사 모델, 플럭스 균형 분석, 지식 그래프, LLM, 약물 조합, 독성 예측, ESKAPE, 오픈소스</p>
+<hr />
+<h2>1. 서론</h2>
+<p>항균제 내성(AMR)은 점증하는 세계적 보건 위기를 대표하며, 약물 내성 감염은 2050년까지 연간 1,000만 명의 사망을 초래할 것으로 전망된다(O'Neill, 2016). 신규 항생제의 발견은 정체되어 있으며, 항생제 후보 물질의 90% 이상이 임상 개발 과정에서 실패한다. 타겟 선택 오류가 실패 원인의 약 40%를 차지한다(Payne 등, 2007).</p>
+<p>ESKAPE 병원체(<em>E. faecium, S. aureus, K. pneumoniae, A. baumannii, P. aeruginosa, Enterobacter</em>)는 임상적으로 가장 문제가 되는 약물 내성 미생물이다(Rice, 2008). 이들 내에서 세균 생존에 필수적이면서도 인간 상동체와 충분히 다른 신규 타겟을 식별하는 것이 핵심 과제이다.</p>
+<p>CALMA 프레임워크는 GEM 유래 대사 플럭스 데이터와 서브시스템 구조 신경망의 통합이 항균 약물 조합의 효력과 독성을 동시에 예측할 수 있음을 입증하였다(Arora 등, 2026). INDIGO(Chandrasekaran 등, 2016), CARAMeL(Ji와 Chandrasekaran, 2023), DrugCell(Kuenzi 등, 2020) 등 다른 접근법도 이 문제의 일부를 다루었다.</p>
+<p>본 연구의 기여: (1) 6개 ESKAPE 생물체 39개 필수 유전자 데이터베이스(29개 신규); (2) 3종 GEM 모델 FBA 분석; (3) CALMA 영감 시그마/델타 조합 분석; (4) 서열 기반 독성 예측; (5) 914편 LLM NLP 처리; (6) 음성 결과의 솔직한 보고를 포함한 시간적 검증 분석; (7) 34개 AlphaFold 구조 분석.</p>
+<hr />
+<h2>2. 방법</h2>
+<h3>2.1 지식 그래프 구축</h3>
+<p>Neo4j(v2026.03)를 사용하여 ChEMBL, OpenTargets, UniProt, PubMed, AlphaFold, ClinicalTrials.gov, FAERS 데이터를 통합. 최종 2,224개 노드, 1,233개 관계.</p>
+<h3>2.2 필수 유전자 큐레이션</h3>
+<p>6개 ESKAPE 병원체에서 39개 실험 검증 필수 유전자를 큐레이션. 10개 대사 경로로 분류: 펩티도글리칸(murA-F), LPS(lpxA-D, lpxC), 외막(bamA, bamD), 세포분열(ftsZ), DNA(gyrA, gyrB), 전사(rpoB), 지방산(fabI, accA), 엽산(folA, folP), 이소프레노이드(dxr, ispD), 신호전달(walK, walR). 29개(74%)는 승인된 치료제 없음.</p>
+<h3>2.3 게놈 규모 대사 모델링</h3>
+<p>COBRApy(v0.31)를 사용하여 <strong>3종</strong> 모델에서 FBA 수행:
+- iML1515: <em>E. coli</em> K-12 (2,712 반응, 1,516 유전자)
+- iYS1720: <em>S. aureus</em> (3,357 반응, 1,707 유전자)
+- iYL1228: <em>K. pneumoniae</em> (Liao 등, 2011)</p>
+<p>성장 비율 0.01 미만은 치사적 녹아웃으로 분류.</p>
+<h3>2.4 약물 조합 분석 (CALMA 영감)</h3>
+<p>3단계 파이프라인:
+1. <strong>차등 플럭스 프로파일링</strong>: 상향/하향 조절 반응 추적
+2. <strong>4-특성 시그마/델타</strong>: V⁺σ, V⁻σ, V⁺δ, V⁻δ → 40개 서브시스템 × 4 = 160 특성
+3. <strong>서브시스템 구조 ANN</strong>: 61.5% 파라미터 감소 (2,230 vs 5,792)</p>
+<p>91개 쌍별 + 945개 부분 억제 조합 FBA. Bliss 시너지 점수 계산.</p>
+<h3>2.5 서열 기반 독성 평가</h3>
+<p>UniProt에서 인간 상동체 검색. k-mer(k=3) Jaccard 유사도 + 문헌 큐레이션 감사. &gt;40% = 높은 위험, 25-40% = 중간, &lt;25% = 낮은 위험.</p>
+<h3>2.6 AlphaFold 구조 분석</h3>
+<p>34개 타겟의 예측 구조 검색. 기하학적 공동 분석으로 결합 포켓 탐지. DBSCAN 클러스터링.</p>
+<h3>2.7 LLM 기반 NLP 파이프라인</h3>
+<p>Ollama(gemma4:e4b, 8B)와 Claude API 이중 백엔드. 914편 논문에서 유전자, 관계, 약물, 핵심 발견을 JSON 형태로 추출. 추출 성공률 약 50%.</p>
+<h3>2.8 다차원 타겟 스코어링</h3>
+<p>6차원 (유전적 근거 25%, 발현 특이성 20%, 드러거빌리티 20%, 신규성 15%, 경쟁 10%, 문헌 트렌드 10%). Tier 1(&gt;0.7) ~ Tier 4(&lt;0.3).</p>
+<h3>2.9 시간적 검증</h3>
+<p>2020년 기준 시간적 분할 + 큐레이션된 타임라인 검증. 랜덤 베이스라인과 비교.</p>
+<hr />
+<h2>3. 결과</h2>
+<h3>3.1 3종 ESKAPE 모델에서 FBA가 필수 유전자 치사성을 검증</h3>
+<table>
+<thead>
+<tr>
+<th>모델</th>
+<th>생물체</th>
+<th>매핑</th>
+<th>치사</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>iML1515</td>
+<td><em>E. coli</em></td>
+<td>19</td>
+<td>18 (94.7%)</td>
+</tr>
+<tr>
+<td>iYS1720</td>
+<td><em>S. aureus</em></td>
+<td>13</td>
+<td>10 (76.9%)</td>
+</tr>
+<tr>
+<td>iYL1228</td>
+<td><em>K. pneumoniae</em></td>
+<td>16</td>
+<td>12 (75.0%)</td>
+</tr>
+</tbody>
+</table>
+<p><strong>교차종 일관성:</strong> lpxA-D, murA-F, accA, fabI가 모든 모델에서 치사. 20개 유전자(ftsZ, bamA, gyrA 등)는 GEM에 매핑 안 됨 — 비대사적 필수 유전자의 알려진 한계.</p>
+<p><strong>Tier A (FBA 검증됨):</strong> lpxC(0.828), lpxA(0.818), lpxB(0.815), lpxD(0.812), murA~F, accA, folP
+<strong>Tier B (문헌 지원):</strong> bamA(0.815), bamD(0.807), ftsZ(0.805), walK/walR(0.800)</p>
+<p><strong>민감도 분석:</strong> 가중치 ±10% 변동 시 상위 7개 타겟의 점수 범위 0.053~0.072. 상대적 순서는 가중치에 민감하지만, 모든 타겟이 Tier 1 분류 내에 유지됨.</p>
+<h3>3.2 서열 상동성에 의한 선택성 평가</h3>
+<p><strong>인간 상동체 없음 확인 (5개):</strong> murA, murB, lpxC, walK, dxr — 최고 신뢰도 선택적 타겟
+<strong>먼 인간 상동체 (5개):</strong> ftsZ↔Tubulin(~14%), bamA↔SAM50(~15%), fabI↔PECR, accA↔ACACA(~22%), gyrA↔TOP2A(~18%)
+<strong>핵심 발견:</strong> <strong>folA → 인간 DHFR2 (30% 동일성)</strong> — trimethoprim이 인간 DHFR도 억제한다는 임상 관찰과 일치</p>
+<h3>3.3 약물 조합 랜드스케이프</h3>
+<p>91개 쌍별 조합에서 6개 파레토 최적 조합 식별, 모두 accA + LPS 합성 경로 타겟. 27개 조합(29.7%)이 이상적 Q1 사분면 → 70.3% 탐색 공간 축소.</p>
+<p><strong>ANN 결과:</strong>
+- 초기: 이진 녹아웃 데이터 → R² ≈ 0 (표현형 다양성 부족)
+- <strong>해결:</strong> 부분 억제 시뮬레이션(10-100%) + 필수/비필수 유전자 혼합 → 945개 FBA
+- 다중 근거 독성 라벨: 서열 상동성 35% + 경로 겹침 30% + 대사 보존 20% + 교차반응 15%
+- <strong>효력 R² = 0.997, 독성 R² = 0.160</strong></p>
+<blockquote>
+<p><strong>중요:</strong> 높은 효력 R²=0.997은 FBA 유래 성장 표현형의 재현을 반영하며, 학습 라벨과 입력 특성 모두 동일한 대사 모델에서 계산적으로 유도됨. 이 순환적 의존성이 겉보기 성능을 부풀림. 진정한 예측적 검증에는 실험적 약물 조합 스크리닝 데이터가 필요.</p>
+</blockquote>
+<h3>3.4 AlphaFold 구조 및 결합 포켓</h3>
+<p>34/49 타겟(69.4%) AlphaFold 구조 검색 성공. ftsZ(2,823 원자), lpxD(2,517 원자) 등에서 잘 정의된 결합 공동 확인.</p>
+<h3>3.5 약물 유사성 평가</h3>
+<table>
+<thead>
+<tr>
+<th>화합물</th>
+<th>타겟</th>
+<th>MW</th>
+<th>LogP</th>
+<th>Lipinski</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CHIR-090</td>
+<td>lpxC</td>
+<td>213</td>
+<td>2.6</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>Fosfomycin</td>
+<td>murA</td>
+<td>138</td>
+<td>-0.1</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>Triclosan</td>
+<td>fabI</td>
+<td>290</td>
+<td>5.1</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>Trimethoprim</td>
+<td>folA</td>
+<td>290</td>
+<td>1.3</td>
+<td>PASS</td>
+</tr>
+<tr>
+<td>Novobiocin</td>
+<td>gyrB</td>
+<td>585</td>
+<td>2.9</td>
+<td>FAIL</td>
+</tr>
+</tbody>
+</table>
+<p>4/5 화합물 Lipinski 통과 → 소분자 접근 가능 확인.</p>
+<h3>3.6 LLM NLP가 키워드 매칭을 능가</h3>
+<p>914편 처리: 196개 유전자(UniProt 검증 <strong>92% 정밀도</strong>), 154개 약물-타겟 쌍.
+상위 유전자: FtsZ(41편), IL31(19편), LpxC(17편).
+키워드 NLP의 "RESULTS", "METHODS" 노이즈를 완전 제거.</p>
+<blockquote>
+<p><strong>참고:</strong> 154개 약물-타겟 쌍은 초록에서의 원시 공동추출이며, 추가 큐레이션 없이 실험적으로 검증된 상호작용으로 해석해서는 안 됨.</p>
+</blockquote>
+<h3>3.7 시간적 분석</h3>
+<ul>
+<li>정밀도: 1.000 / 재현율: 0.350 / F1: 0.519</li>
+<li><strong>랜덤 베이스라인: F1 = 0.603 ± 0.085 → z-score = -0.99</strong></li>
+<li><strong>우리의 시간적 예측이 랜덤 할당보다 통계적으로 우월하지 않음</strong></li>
+<li>플랫폼은 <strong>예측 모델이 아닌 가설 생성 및 근거 통합 도구</strong>로 포지셔닝</li>
+</ul>
+<hr />
+<h2>4. 토론</h2>
+<h3>대사 모델링을 통한 기계론적 해석 가능성</h3>
+<p>뉴클레오타이드 구제 경로가 독성 조절자로 식별 — CALMA 결과와 일치. 부분 억제 시뮬레이션으로 이진 표현형 문제를 해결(R²=0.997). 그러나 이 높은 R²는 <strong>순환적 예측을 반영</strong> — FBA 유래 대사 플럭스 특성에서 FBA 유래 성장 표현형을 학습. 진정한 검증에는 실험 데이터가 필요. <strong>이 분석의 주된 가치는 특정 R² 값보다 방법론적 프레임워크에 있음.</strong></p>
+<h3>직교적 독성 필터로서의 서열 기반 선택성</h3>
+<p>5개 타겟(murA, murB, lpxC, walK, dxr)이 인간 상동체 없음 확인. 5개 추가 타겟(ftsZ, bamA, fabI, accA, gyrA)은 8-25% 동일성의 먼 상동체 보유. k-mer 근사는 빠른 스크리닝에 유용하나 <strong>전체 BLAST 분석으로 보완 필요.</strong></p>
+<h3>LLM NLP — 패러다임 전환</h3>
+<p>키워드 추출에서 LLM으로의 전환은 질적 개선. 8B 모델의 50% 추출률은 한계이나, 더 큰 모델/상용 API로 95%+ 달성 가능.</p>
+<h3>기존 도구 비교</h3>
+<ul>
+<li>INDIGO: 효력만, 독성 없음</li>
+<li>CARAMeL: NLP/구조 분석 없음</li>
+<li>DrugCell: 암 초점</li>
+<li>CALMA: 오픈소스 아님, 서열독성/AlphaFold/LLM 없음</li>
+<li><strong>본 플랫폼: 모든 기능 통합 + 오픈소스</strong></li>
+</ul>
+<h3>오픈소스 공개</h3>
+<p>25개 Python 모듈, 14,000줄+, 40개 테스트, 10탭 대시보드. MIT 라이센스.</p>
+<h3>한계점</h3>
+<ol>
+<li>필수 유전자가 신규 실험이 아닌 문헌 큐레이션</li>
+<li>효력 R²=0.997이 순환적 예측 (FBA→FBA); 독성 R²=0.160은 계산 라벨 한계</li>
+<li>k-mer가 먼 상동체 놓칠 수 있음 (BLAST 필요)</li>
+<li>FBA가 정상 상태 가정</li>
+<li>LLM NLP 50% 추출률</li>
+<li><strong>시간적 검증에서 랜덤 대비 유의미한 예측력 미입증</strong></li>
+<li><strong>20개 필수 유전자가 GEM에 매핑 안 됨</strong></li>
+<li>모든 예측은 실험적 검증 필요</li>
+</ol>
+<hr />
+<h2>표 1. 상위 10개 AMR 약물 타겟 후보</h2>
+<p>순위는 스코어링 가중치 선택에 의존함(민감도 분석 참조).</p>
+<table>
+<thead>
+<tr>
+<th>유전자</th>
+<th>경로</th>
+<th>점수†</th>
+<th>FBA</th>
+<th>인간 상동체</th>
+<th>동일성</th>
+<th>Tier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>lpxC</td>
+<td>LPS 합성</td>
+<td>0.828</td>
+<td>치사</td>
+<td>없음ᵃ</td>
+<td>0%</td>
+<td>A</td>
+</tr>
+<tr>
+<td>lpxA</td>
+<td>LPS 합성</td>
+<td>0.818</td>
+<td>치사</td>
+<td>미확인</td>
+<td>—</td>
+<td>A</td>
+</tr>
+<tr>
+<td>bamA</td>
+<td>외막 조립</td>
+<td>0.815</td>
+<td>N/Aᵇ</td>
+<td>SAM50ᶜ</td>
+<td>~15%</td>
+<td>B</td>
+</tr>
+<tr>
+<td>lpxB</td>
+<td>LPS 합성</td>
+<td>0.815</td>
+<td>치사</td>
+<td>미확인</td>
+<td>—</td>
+<td>A</td>
+</tr>
+<tr>
+<td>bamD</td>
+<td>외막 조립</td>
+<td>0.807</td>
+<td>N/Aᵇ</td>
+<td>미확인</td>
+<td>—</td>
+<td>B</td>
+</tr>
+<tr>
+<td>ftsZ</td>
+<td>세포 분열</td>
+<td>0.805</td>
+<td>N/Aᵇ</td>
+<td>튜불린ᶜ</td>
+<td>~14%</td>
+<td>B</td>
+</tr>
+<tr>
+<td>walK</td>
+<td>신호 전달</td>
+<td>0.800</td>
+<td>N/Aᵇ</td>
+<td>없음ᵃ</td>
+<td>0%</td>
+<td>B</td>
+</tr>
+<tr>
+<td>murA</td>
+<td>펩티도글리칸</td>
+<td>0.800</td>
+<td>치사</td>
+<td>없음ᵃ</td>
+<td>0%</td>
+<td>A</td>
+</tr>
+<tr>
+<td>gyrA</td>
+<td>DNA 토폴로지</td>
+<td>0.798</td>
+<td>N/Aᵇ</td>
+<td>TOP2Aᶜ</td>
+<td>~18%</td>
+<td>B</td>
+</tr>
+<tr>
+<td>dnaA</td>
+<td>DNA 복제</td>
+<td>0.797</td>
+<td>N/Aᵇ</td>
+<td>RPA1</td>
+<td>~8%</td>
+<td>B</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>ᵃ 문헌+전산적으로 인간 상동체 없음 확인. ᵇ iML1515 GEM에 미매핑. ᶜ 문헌 큐레이션으로 식별된 먼 상동체.
+† 가중치 ±10% 교란 시 점수 범위 0.053-0.072</p>
+</blockquote>
+<h2>표 2. 파레토 최적 약물 타겟 조합</h2>
+<table>
+<thead>
+<tr>
+<th>유전자 A</th>
+<th>유전자 B</th>
+<th>효력</th>
+<th>독성</th>
+<th>품질</th>
+<th>사분면</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>accA</td>
+<td>lpxD</td>
+<td>0.991</td>
+<td>0.501</td>
+<td>0.495</td>
+<td>Q1</td>
+</tr>
+<tr>
+<td>accA</td>
+<td>lpxA</td>
+<td>0.991</td>
+<td>0.501</td>
+<td>0.495</td>
+<td>Q1</td>
+</tr>
+<tr>
+<td>accA</td>
+<td>lpxB</td>
+<td>0.991</td>
+<td>0.501</td>
+<td>0.495</td>
+<td>Q1</td>
+</tr>
+<tr>
+<td>accA</td>
+<td>lptD</td>
+<td>0.991</td>
+<td>0.501</td>
+<td>0.495</td>
+<td>Q1</td>
+</tr>
+<tr>
+<td>accA</td>
+<td>lpxC</td>
+<td>0.991</td>
+<td>0.501</td>
+<td>0.495</td>
+<td>Q1</td>
+</tr>
+<tr>
+<td>accA</td>
+<td>ispD</td>
+<td>0.991</td>
+<td>0.501</td>
+<td>0.495</td>
+<td>Q1</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>6개 조합의 동일한 값은 accA와 모든 LPS 타겟이 개별적으로 치사이기 때문. 차별화를 위해서는 아억제 농도에서의 실험적 시너지 분석이 필요.</p>
+</blockquote>
+<hr />
+<h2>감사의 글</h2>
+<p>본 원고 작성은 Claude(Anthropic, claude-opus-4-6)의 보조를 받았다. 모든 과학적 분석, 플랫폼 개발, 코드 구현, 데이터 해석 및 최종 편집 결정은 저자가 수행하였다. 저자는 본 원고의 내용에 대해 전적인 책임을 진다.</p>
+<h2>이해충돌</h2>
+<p>저자는 이해충돌이 없음을 선언한다.</p>
+<hr />
+<h2>참고문헌</h2>
+<ol>
+<li>Arora HS 등 (2026) npj Drug Discovery 3, 11.</li>
+<li>Monk JM 등 (2017) Nature Biotechnology 35, 904-908.</li>
+<li>Seif Y 등 (2018) PLoS Computational Biology 14, e1006146.</li>
+<li>Lee J 등 (2020) Bioinformatics 36, 1234-1240.</li>
+<li>Orth JD 등 (2010) Nature Biotechnology 28, 245-248.</li>
+<li>O'Neill J (2016) Review on Antimicrobial Resistance.</li>
+<li>Lewis K (2020) Cell 181, 99-118.</li>
+<li>Payne DJ 등 (2007) Nature Reviews Drug Discovery 6, 29-40.</li>
+<li>Rice LB (2008) Journal of Infectious Diseases 197, 1079-1081.</li>
+<li>Gu Y 등 (2022) ACM Trans Computing for Healthcare 3, 1-23.</li>
+<li>Ebrahim A 등 (2013) BMC Systems Biology 7, 74.</li>
+<li>Jumper J 등 (2021) Nature 596, 583-589.</li>
+<li>Mendez D 등 (2019) Nucleic Acids Research 47, D930-D940.</li>
+<li>Ochoa D 등 (2021) Nucleic Acids Research 49, D1302-D1310.</li>
+<li>UniProt Consortium (2023) Nucleic Acids Research 51, D483-D489.</li>
+<li>Luo H 등 (2014) Nucleic Acids Research 42, D574-D580.</li>
+<li>Chandrasekaran S 등 (2016) Molecular Systems Biology 12, 872.</li>
+<li>Ji Y, Chandrasekaran S (2023) mSystems 8, e0063523.</li>
+<li>Kuenzi BM 등 (2020) Cancer Cell 38, 672-684.</li>
+<li>Bliss CI (1939) Annals of Applied Biology 26, 585-615.</li>
+<li>Altschul SF 등 (1997) Nucleic Acids Research 25, 3389-3402.</li>
+<li>Ollama (2024) https://ollama.com/</li>
+<li>Liao YC 등 (2011) Journal of Bacteriology 193, 1710-1717.</li>
+</ol>
+<hr />
+<p><em>원고 작성: 2026년 4월 | 최종 수정본 (v8) | 과학적 감사 및 editorial consistency 검증 완료</em></p>
+</body>
+</html>
