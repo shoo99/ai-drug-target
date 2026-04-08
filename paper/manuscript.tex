@@ -29,7 +29,7 @@
 \maketitle
 
 \begin{abstract}
-Antimicrobial resistance (AMR) poses one of the greatest threats to global public health, yet the discovery pipeline for novel antibiotics remains critically depleted. Current computational approaches to drug target identification often rely on single-source data analysis and lack mechanistic interpretability. Here, we present an open-source, metabolism-informed platform for antimicrobial drug target discovery that integrates genome-scale metabolic models (GEMs), large language model (LLM)-powered literature mining, graph-based machine learning, and protein sequence homology analysis. Inspired by the CALMA framework (Arora et al., 2026), our platform employs flux balance analysis (FBA) to simulate gene knockouts across ESKAPE pathogen metabolic models (iML1515, iYS1720), identifies 29 novel drug targets lacking approved therapeutics among 39 curated essential genes, and evaluates 91 pairwise drug target combinations using 4-feature sigma/delta metabolic profiles and a subsystem-structured artificial neural network. Sequence-based toxicity assessment reveals that all 20 top-ranked targets exhibit less than 12.2\% identity to human proteins, indicating favorable selectivity profiles. Temporal validation using a 2020 cutoff demonstrates that the platform correctly prioritizes emerging targets (bamA, walK/walR) with a precision of 1.000. LLM-powered NLP processing of 914 PubMed articles extracts 196 unique gene mentions and 217 drug-target relationships, eliminating the noise artifacts inherent in keyword-based extraction. Additionally, AlphaFold structure analysis of 34 target proteins with automated binding pocket detection provides druggability assessment. The complete platform, including a 10-tab interactive dashboard, 40 automated tests across 6 scenarios, and all analysis pipelines, is freely available at \url{https://github.com/shoo99/ai-drug-target} under an MIT license.
+Antimicrobial resistance (AMR) poses one of the greatest threats to global public health, yet the discovery pipeline for novel antibiotics remains critically depleted. Current computational approaches to drug target identification often rely on single-source data analysis and lack mechanistic interpretability. Here, we present an open-source, metabolism-informed platform for antimicrobial drug target discovery that integrates genome-scale metabolic models (GEMs), large language model (LLM)-powered literature mining, graph-based machine learning, and protein sequence homology analysis. Inspired by the CALMA framework (Arora et al., 2026), our platform employs flux balance analysis (FBA) to simulate gene knockouts across ESKAPE pathogen metabolic models (iML1515, iYS1720), identifies 29 novel drug targets lacking approved therapeutics among 39 curated essential genes, and evaluates 91 pairwise drug target combinations using 4-feature sigma/delta metabolic profiles and a subsystem-structured artificial neural network. Sequence-based toxicity assessment combined with literature-curated homology audit reveals that 5 of the top 15 targets (murA, murB, lpxC, walK, dxr) lack detectable human homologs, while others (ftsZ, bamA, accA) possess distant homologs with less than 20\% sequence identity. Sensitivity analysis demonstrates that target rankings are dependent on scoring weight selection, highlighting the importance of domain-specific weight calibration. LLM-powered NLP processing of 914 PubMed articles extracts 196 unique gene mentions with 92\% precision (validated against UniProt) and 154 unique drug-target pairs, eliminating the noise artifacts inherent in keyword-based extraction. Additionally, AlphaFold structure analysis of 34 target proteins with automated binding pocket detection provides druggability assessment. The complete platform, including a 10-tab interactive dashboard, 40 automated tests across 6 scenarios, and all analysis pipelines, is freely available at \url{https://github.com/shoo99/ai-drug-target} under an MIT license.
 
 \medskip
 \noindent\textbf{Keywords:} antimicrobial resistance, drug target discovery, genome-scale metabolic model, flux balance analysis, knowledge graph, LLM, drug combination, toxicity prediction, ESKAPE, open-source
@@ -99,12 +99,16 @@ Organ-specific toxicity (kidney, liver, heart, neuron) was assessed by mapping a
 %-------------------------------------------------------------------
 
 \subsection{FBA Validates Essential Gene Lethality}
-Of the 39 curated essential genes, 19 were successfully mapped to the iML1515 \textit{E. coli} model, of which FBA confirmed lethality (growth ratio $<$ 0.01) for 18 (94.7\%). In the iYS1720 \textit{S. aureus} model, 13 of 30 organism-specific genes were mapped, with 10 (76.9\%) showing lethal phenotypes (Figure~\ref{fig:fba}). Organ-specific toxicity assessment showed favorable safety profiles: heart safety was confirmed for 19/19 analyzed targets (100\%) and neuronal safety for 17/19 (89.5\%).
+Of the 39 curated essential genes, 19 were successfully mapped to the iML1515 \textit{E. coli} model, of which FBA confirmed lethality (growth ratio $<$ 0.01) for 18 (94.7\%). In the iYS1720 \textit{S. aureus} model, 13 of 30 organism-specific genes were mapped, with 10 (76.9\%) showing lethal phenotypes (Figure~\ref{fig:fba}). Importantly, 20 genes---including well-established essential targets such as ftsZ, bamA, bamD, dnaA, gyrA, and rpoB---could not be mapped to the metabolic models due to absent gene-reaction associations, reflecting a known limitation of current GEM annotations for non-metabolic essential genes (e.g., cell division and DNA topology genes). Organ-specific toxicity assessment showed favorable safety profiles: heart safety was confirmed for 19/19 analyzed targets (100\%) and neuronal safety for 17/19 (89.5\%).
 
-The top-ranked novel targets by composite score were: lpxC (0.828, LPS synthesis), lpxA (0.818, LPS synthesis), bamA (0.815, outer membrane assembly), lpxB (0.815, LPS synthesis), bamD (0.807, outer membrane assembly), ftsZ (0.805, cell division), walK/walR (0.800, signal transduction), and murA (0.800, peptidoglycan synthesis). All 15 top targets achieved Tier 1 (High Priority) classification (Table~\ref{tab:targets}).
+We therefore report target rankings in two tiers based on evidence level. \textbf{Tier A (FBA-validated)} targets have experimentally confirmed essentiality reinforced by FBA lethality simulation: lpxC (0.828, LPS synthesis), lpxA (0.818), lpxB (0.815), lpxD (0.812), murA--F (0.795--0.802), accA (0.790), and folP (0.790). \textbf{Tier B (literature-supported)} targets have strong experimental evidence from published essentiality studies but could not be evaluated by our FBA pipeline: bamA (0.815, outer membrane assembly), bamD (0.807), ftsZ (0.805, cell division), and walK/walR (0.800, signal transduction). Both tiers achieved Tier 1 ($>$0.7) composite score classification (Table~\ref{tab:targets}).
 
-\subsection{Favorable Selectivity by Sequence Homology}
-Sequence homology analysis of the top 20 AMR targets against the human proteome revealed uniformly favorable selectivity profiles (Figure~\ref{fig:selectivity}). The highest observed identity was 12.2\% (gyrA vs. human TOP2A), well below the 25\% threshold for cross-reactivity concern. Critically, the most promising targets---murA through murF, lpxC, lpxA-D, bamA, and bamD---showed no detectable human homolog (0\% identity), indicating exceptional selectivity for drug development. Among targets with detectable human homologs, ftsZ showed 7.8\% identity to human chaperonin CCT6A, dnaA showed 7.9\% identity to human RPA1, and fabI showed 3.3\% identity to human PECR, all well within the safe range (Table~\ref{tab:targets}).
+\paragraph{Sensitivity analysis.} To assess the robustness of target rankings, we varied each scoring dimension weight by $\pm$10\% and recomputed composite scores. All top 7 targets showed score ranges of 0.053--0.072 under perturbation, indicating that while the relative ordering within the top tier is sensitive to weight selection, all targets remain within Tier 1 classification regardless of perturbation. Users are advised to calibrate scoring weights for their specific therapeutic context.
+
+\subsection{Selectivity Assessment by Sequence Homology}
+A multi-strategy homology audit combining k-mer similarity screening, UniProt functional search, and literature curation revealed a nuanced selectivity landscape (Figure~\ref{fig:selectivity}). Five targets were confirmed to lack human homologs through both computational and literature evidence: murA, murB, lpxC, walK, and dxr---representing the highest-confidence selective targets. Five additional targets possess known distant human homologs: ftsZ shares ancestral homology with human tubulin ($\sim$10--17\% identity), bamA is distantly related to human mitochondrial SAM50 ($\sim$15\%), fabI has low homology to human PECR, accA shares a domain with human ACACA ($\sim$20--25\%), and gyrA is related to human TOP2A ($\sim$15--20\%). The remaining targets (murC--F, lpxA, bamD) require further characterization.
+
+We note that our initial k-mer-based screening reported several targets with distant homologs as ``no detectable homolog'' due to the method's limited sensitivity. The literature-curated audit corrects this. For drug development, the confirmed no-homolog targets (murA, murB, lpxC, walK, dxr) offer the strongest selectivity rationale, while targets with distant homologs require structure-based selectivity engineering (Table~\ref{tab:targets}).
 
 \subsection{Drug Combination Landscape}
 Analysis of 91 pairwise target combinations via double-gene knockout FBA identified 6 Pareto-optimal combinations, all involving accA (acetyl-CoA carboxylase) paired with LPS synthesis pathway targets: accA+lpxA, accA+lpxB, accA+lpxC, accA+lpxD, accA+lptD, and accA+ispD (Figure~\ref{fig:landscape}). The 2D potency-toxicity landscape classified 27 combinations (29.7\%) in the ideal Q1 quadrant (high potency, low toxicity), representing a 70.3\% reduction in search space compared to exhaustive evaluation.
@@ -115,14 +119,18 @@ Subsystem-structured ANN weight analysis identified glycerophospholipid metaboli
 Of the 49 target proteins queried, 34 (69.4\%) had AlphaFold structures successfully retrieved. Binding pocket analysis identified at least one candidate pocket in each structure, with BACH2 showing the most complex topology (3 pockets). Among AMR targets, bamA (6,395 atoms), dnaE (9,135 atoms), and infB (6,825 atoms) represented the largest structures, while key targets such as ftsZ (2,823 atoms) and lpxD (2,517 atoms) showed well-defined binding cavities suitable for small molecule drug design.
 
 \subsection{LLM NLP Outperforms Keyword Matching}
-LLM processing of 914 PubMed articles using gemma4:e4b extracted 196 unique gene mentions and 217 drug-target relationships. The most frequently mentioned genes were FtsZ (41 articles), IL31 (19), LpxC (17), IL13 (8), and TRPV1 (7), accurately reflecting current research priorities in both AMR and pruritus fields. Compared to the previous keyword-based NLP approach, where the top ``genes'' were noise artifacts (``RESULTS'', ``METHODS'', ``BACKGROUND''), LLM extraction eliminated all non-gene false positives and introduced drug mention extraction as a new capability (217 drug-target pairs identified).
+LLM processing of 914 PubMed articles using gemma4:e4b extracted 196 unique gene mentions and 154 unique drug-target pairs. Validation of the top 50 extracted genes against UniProt confirmed 46 as valid gene/protein identifiers, yielding a \textbf{gene extraction precision of 92\%}. The four false positives were generic terms (``CYTOKINES'', ``CHEMOKINES'') and a Unicode variant (``IL4R$\alpha$''). Of the 154 unique drug-target pairs, 85 (55\%) involved a UniProt-validated gene target.
 
-The LLM extraction rate was approximately 50\% on complex biomedical abstracts using the 8B parameter model, with failures primarily due to JSON formatting non-compliance rather than incorrect entity recognition. This represents a practical trade-off between cost (free local inference) and accuracy that can be improved with larger models or commercial API services.
+The most frequently mentioned genes were FtsZ (41 articles), IL31 (19), LpxC (17), IL13 (8), and TRPV1 (7), accurately reflecting current research priorities in both AMR and pruritus fields. Compared to the previous keyword-based NLP approach, where the top ``genes'' were noise artifacts (``RESULTS'', ``METHODS'', ``BACKGROUND''), LLM extraction eliminated all non-gene false positives.
 
-\subsection{Temporal Validation Confirms Predictive Power}
-Literature-based temporal split analysis revealed 131 novel genes appearing only in post-2020 publications, with 20 genes persisting across both periods. The platform achieved a prediction precision of 1.000 (all genes predicted as persistent were confirmed in post-2020 literature), recall of 0.350, and F1 score of 0.519. The high precision indicates reliable identification of enduring research targets, while the moderate recall reflects the conservative nature of the prediction (many novel post-2020 genes were not predictable from pre-2020 data alone, which is expected).
+The LLM extraction rate was approximately 50\% on complex biomedical abstracts using the 8B parameter model, with failures primarily due to JSON formatting non-compliance. This represents a practical trade-off between cost (free local inference) and accuracy. We note that the 154 drug-target pairs represent raw co-extraction from abstracts and should not be interpreted as experimentally validated interactions without further curation.
 
-Curated timeline validation confirmed that the platform correctly prioritizes emerging and novel targets within its top rankings: bamA (emerging, ranked 7th), bamD (novel, ranked 13th), and walK/walR (emerging, ranked 24--25th) all appeared in the top 30, while classic targets with existing drugs (gyrA, folA, rpoB) were appropriately down-weighted due to lower novelty and higher competition scores.
+\subsection{Temporal Analysis}
+We attempted to validate predictive power using a temporal split with 2020 as the cutoff year. Literature-based analysis revealed 131 novel genes appearing only in post-2020 publications, with 20 genes persisting across both periods. The platform achieved a prediction precision of 1.000 but a recall of only 0.350 (F1 = 0.519). Critically, comparison against a random baseline (1,000 Monte Carlo simulations with prediction probability equal to the base rate) showed that the random baseline achieved a mean F1 of 0.603 $\pm$ 0.085, yielding a z-score of --0.99 for our model. \textbf{This indicates that our temporal predictions are not statistically superior to random assignment}, and the high precision is an artifact of the model's conservative prediction strategy (predicting only 7 of 33 genes as persistent).
+
+This negative result highlights an important limitation: the composite scoring approach, while useful for integrating heterogeneous evidence, does not demonstrate de novo predictive power for identifying future research targets from historical data alone. The platform should therefore be positioned as a hypothesis generation and evidence integration tool rather than a predictive model.
+
+Curated timeline analysis showed that the scoring system appropriately places emerging targets (bamA, bamD, walK/walR) in the top 30 and down-weights classic targets with existing drugs (gyrA, folA, rpoB), confirming that the novelty and competition dimensions function as intended.
 
 %-------------------------------------------------------------------
 \section{Discussion}
@@ -202,23 +210,25 @@ The complete platform source code, including all analysis pipelines, the Streaml
 
 \begin{table}[H]
 \centering
-\caption{\textbf{Top 10 AMR Drug Target Candidates}, ranked by composite score. All targets are essential for bacterial survival (FBA-confirmed lethal knockout), lack approved therapeutic agents (novel), and show $<$12.2\% sequence identity to human proteins (safe selectivity).}
+\caption{\textbf{Top 10 AMR Drug Target Candidates}, ranked by composite score. FBA status indicates Tier A (lethal knockout confirmed) or Tier B (not mapped in GEM). Human homolog column reflects literature-curated audit. $^\dagger$Rankings are sensitive to scoring weight selection (see Sensitivity Analysis).}
 \label{tab:targets}
-\begin{tabular}{llcclcc}
+\begin{tabular}{llcclccl}
 \toprule
-\textbf{Gene} & \textbf{Pathway} & \textbf{Score} & \textbf{FBA} & \textbf{Human Homolog} & \textbf{Identity} & \textbf{Risk} \\
+\textbf{Gene} & \textbf{Pathway} & \textbf{Score}$^\dagger$ & \textbf{FBA} & \textbf{Human Homolog} & \textbf{Identity} & \textbf{Risk} & \textbf{Tier} \\
 \midrule
-lpxC & LPS synthesis & 0.828 & Lethal & None & 0\% & Minimal \\
-lpxA & LPS synthesis & 0.818 & Lethal & None & 0\% & Minimal \\
-bamA & Outer membrane & 0.815 & Lethal & None & 0\% & Minimal \\
-lpxB & LPS synthesis & 0.815 & Lethal & None & 0\% & Minimal \\
-bamD & Outer membrane & 0.807 & Lethal & None & 0\% & Minimal \\
-ftsZ & Cell division & 0.805 & Lethal & CCT6A & 7.8\% & Low \\
-walK & Signaling & 0.800 & Lethal & None & 0\% & Minimal \\
-murA & Peptidoglycan & 0.800 & Lethal & None & 0\% & Minimal \\
-gyrA & DNA topology & 0.798 & Lethal & TOP2A & 12.2\% & Low \\
-dnaA & DNA replication & 0.797 & Lethal & RPA1 & 7.9\% & Low \\
+lpxC & LPS synthesis & 0.828 & Lethal & None$^a$ & 0\% & Minimal & A \\
+lpxA & LPS synthesis & 0.818 & Lethal & Unknown & --- & TBD & A \\
+bamA & Outer membrane & 0.815 & N/A$^b$ & SAM50$^c$ & $\sim$15\% & Low & B \\
+lpxB & LPS synthesis & 0.815 & Lethal & Unknown & --- & TBD & A \\
+bamD & Outer membrane & 0.807 & N/A$^b$ & Unknown & --- & TBD & B \\
+ftsZ & Cell division & 0.805 & N/A$^b$ & Tubulin$^c$ & $\sim$10--17\% & Low & B \\
+walK & Signaling & 0.800 & N/A$^b$ & None$^a$ & 0\% & Minimal & B \\
+murA & Peptidoglycan & 0.800 & Lethal & None$^a$ & 0\% & Minimal & A \\
+gyrA & DNA topology & 0.798 & N/A$^b$ & TOP2A$^c$ & $\sim$15--20\% & Low & B \\
+dnaA & DNA replication & 0.797 & N/A$^b$ & RPA1 & $\sim$8\% & Low & B \\
 \bottomrule
+\multicolumn{8}{l}{\footnotesize $^a$Confirmed no human homolog (literature + computational). $^b$Gene not mapped in iML1515 GEM.} \\
+\multicolumn{8}{l}{\footnotesize $^c$Distant homolog identified by literature curation; k-mer screening missed this relationship.}
 \end{tabular}
 \end{table}
 
