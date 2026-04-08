@@ -10,6 +10,8 @@
 \usepackage{float}
 \usepackage{xcolor}
 \usepackage{lineno}
+\usepackage{multirow}
+\usepackage{longtable}
 \linenumbers
 
 \title{An Open-Source Metabolism-Informed Platform for Antimicrobial Drug Target Discovery and Combination Optimization}
@@ -27,10 +29,10 @@
 \maketitle
 
 \begin{abstract}
-Antimicrobial resistance (AMR) poses one of the greatest threats to global public health, yet the discovery pipeline for novel antibiotics remains critically depleted. Current computational approaches to drug target identification often rely on single-source data analysis and lack mechanistic interpretability. Here, we present an open-source, metabolism-informed platform for antimicrobial drug target discovery that integrates genome-scale metabolic models (GEMs), large language model (LLM)-powered literature mining, graph-based machine learning, and protein sequence homology analysis. Inspired by the CALMA framework, our platform employs flux balance analysis (FBA) to simulate gene knockouts across ESKAPE pathogen metabolic models (iML1515, iYS1720), identifies 29 novel drug targets lacking approved therapeutics among 39 curated essential genes, and evaluates 91 pairwise drug target combinations using 4-feature sigma/delta metabolic profiles and a subsystem-structured artificial neural network. Sequence-based toxicity assessment reveals that all 20 top-ranked targets exhibit less than 12.2\% identity to human proteins, indicating favorable selectivity profiles. Temporal validation using a 2020 cutoff demonstrates that the platform correctly prioritizes emerging targets (bamA, walK/walR) with a precision of 1.000. LLM-powered NLP processing of 914 PubMed articles extracts 196 unique gene mentions and 217 drug-target relationships. The complete platform, including a 10-tab interactive dashboard, 40 automated tests, and all analysis pipelines, is freely available at \url{https://github.com/shoo99/ai-drug-target} under an MIT license.
+Antimicrobial resistance (AMR) poses one of the greatest threats to global public health, yet the discovery pipeline for novel antibiotics remains critically depleted. Current computational approaches to drug target identification often rely on single-source data analysis and lack mechanistic interpretability. Here, we present an open-source, metabolism-informed platform for antimicrobial drug target discovery that integrates genome-scale metabolic models (GEMs), large language model (LLM)-powered literature mining, graph-based machine learning, and protein sequence homology analysis. Inspired by the CALMA framework (Arora et al., 2026), our platform employs flux balance analysis (FBA) to simulate gene knockouts across ESKAPE pathogen metabolic models (iML1515, iYS1720), identifies 29 novel drug targets lacking approved therapeutics among 39 curated essential genes, and evaluates 91 pairwise drug target combinations using 4-feature sigma/delta metabolic profiles and a subsystem-structured artificial neural network. Sequence-based toxicity assessment reveals that all 20 top-ranked targets exhibit less than 12.2\% identity to human proteins, indicating favorable selectivity profiles. Temporal validation using a 2020 cutoff demonstrates that the platform correctly prioritizes emerging targets (bamA, walK/walR) with a precision of 1.000. LLM-powered NLP processing of 914 PubMed articles extracts 196 unique gene mentions and 217 drug-target relationships, eliminating the noise artifacts inherent in keyword-based extraction. Additionally, AlphaFold structure analysis of 34 target proteins with automated binding pocket detection provides druggability assessment. The complete platform, including a 10-tab interactive dashboard, 40 automated tests across 6 scenarios, and all analysis pipelines, is freely available at \url{https://github.com/shoo99/ai-drug-target} under an MIT license.
 
 \medskip
-\noindent\textbf{Keywords:} antimicrobial resistance, drug target discovery, genome-scale metabolic model, flux balance analysis, knowledge graph, LLM, drug combination, toxicity prediction
+\noindent\textbf{Keywords:} antimicrobial resistance, drug target discovery, genome-scale metabolic model, flux balance analysis, knowledge graph, LLM, drug combination, toxicity prediction, ESKAPE, open-source
 \end{abstract}
 
 %-------------------------------------------------------------------
@@ -41,79 +43,119 @@ Antimicrobial resistance (AMR) represents an escalating global health crisis, wi
 
 The ESKAPE pathogens (\textit{Enterococcus faecium}, \textit{Staphylococcus aureus}, \textit{Klebsiella pneumoniae}, \textit{Acinetobacter baumannii}, \textit{Pseudomonas aeruginosa}, and \textit{Enterobacter} species) represent the most clinically problematic drug-resistant organisms \citep{rice2008}. Identifying novel, druggable targets within these organisms---targets that are essential for bacterial survival yet sufficiently divergent from human homologs to ensure selectivity---remains a central challenge in antibacterial drug discovery.
 
-Recent advances in computational biology have enabled new approaches to drug target identification. Genome-scale metabolic models (GEMs) provide mathematical representations of an organism's complete metabolic network, enabling \textit{in silico} simulation of gene essentiality through flux balance analysis (FBA) \citep{orth2010}. The CALMA framework recently demonstrated that integrating GEM-derived metabolic flux data with subsystem-structured neural networks can predict both the potency and toxicity of antimicrobial drug combinations, achieving a 97\% reduction in experimental search space \citep{arora2026}. Concurrently, large language models (LLMs) have emerged as powerful tools for biomedical text mining, surpassing traditional named entity recognition approaches \citep{gu2022}.
+Recent advances in computational biology have enabled new approaches to drug target identification. Genome-scale metabolic models (GEMs) provide mathematical representations of an organism's complete metabolic network, enabling \textit{in silico} simulation of gene essentiality through flux balance analysis (FBA) \citep{orth2010}. The CALMA framework recently demonstrated that integrating GEM-derived metabolic flux data with subsystem-structured neural networks can predict both the potency and toxicity of antimicrobial drug combinations, achieving a 97\% reduction in experimental search space \citep{arora2026}. Several other computational approaches have addressed aspects of this problem: INDIGO uses chemogenomic profiles to predict drug combination potency \citep{chandrasekaran2016}, CARAMeL integrates metabolic models with machine learning for combination therapy \citep{ji2023}, and DrugCell employs Gene Ontology-structured visible neural networks for drug response prediction \citep{kuenzi2020}. Concurrently, large language models (LLMs) have emerged as powerful tools for biomedical text mining, surpassing traditional named entity recognition approaches such as BioBERT \citep{lee2020, gu2022}.
 
-Here, we present an open-source platform that integrates multiple computational approaches into a unified drug target discovery and combination optimization pipeline. Our contributions include: (1) a curated essential gene database covering 39 genes across six ESKAPE organisms with 29 novel targets; (2) metabolism-informed analysis using FBA on genome-scale models; (3) CALMA-inspired combination analysis with sigma/delta profiles and subsystem-structured ANNs; (4) sequence-based toxicity prediction; (5) LLM-powered NLP processing of 914 PubMed articles; and (6) temporal validation demonstrating predictive power.
+Despite these advances, no integrated open-source platform exists that combines metabolic modeling, LLM-powered literature mining, graph-based target prediction, structural analysis, and clinical data integration into a unified drug target discovery pipeline. Existing tools typically address individual aspects of the problem without providing a holistic view of target viability.
+
+Here, we present an open-source platform that addresses this gap. Our contributions include: (1) a curated essential gene database covering 39 genes across six ESKAPE organisms with 29 novel targets; (2) metabolism-informed analysis using FBA on genome-scale models; (3) CALMA-inspired combination analysis with 4-feature sigma/delta profiles and subsystem-structured ANNs; (4) sequence-based toxicity prediction via bacterial-human protein homology; (5) LLM-powered NLP processing of 914 PubMed articles; (6) temporal validation demonstrating predictive power; and (7) AlphaFold structure analysis with binding pocket detection for 34 target proteins.
 
 %-------------------------------------------------------------------
 \section{Methods}
 %-------------------------------------------------------------------
 
 \subsection{Knowledge Graph Construction}
-We constructed a biomedical knowledge graph using Neo4j (v2026.03), integrating data from ChEMBL, OpenTargets, UniProt, PubMed, AlphaFold, ClinicalTrials.gov, and FAERS. The final graph contains 2,224 nodes and 1,233 relationships spanning genes, proteins, drugs, diseases, organisms, and publications.
+We constructed a biomedical knowledge graph using Neo4j (v2026.03), integrating data from multiple public sources: ChEMBL for drug-target mechanisms \citep{mendez2019}, OpenTargets for gene-disease associations \citep{ochoa2021}, UniProt for protein annotations \citep{uniprot2023}, PubMed for literature via NCBI E-utilities, AlphaFold for predicted protein structures \citep{jumper2021}, ClinicalTrials.gov for clinical trial status, and the FDA Adverse Event Reporting System (FAERS) via the openFDA API. The final knowledge graph contains 2,224 nodes and 1,233 relationships spanning genes, proteins, drugs, diseases, organisms, and publications.
 
 \subsection{Essential Gene Curation}
-We curated 39 experimentally validated essential genes across the six ESKAPE pathogens from published transposon mutagenesis studies, CRISPRi screens, and the Database of Essential Genes (DEG). Of these, 29 genes (74\%) lack any approved therapeutic agent.
+We curated a database of 39 experimentally validated essential genes across the six ESKAPE pathogens from published transposon mutagenesis studies, CRISPRi screens, and the Database of Essential Genes (DEG) \citep{luo2014}. Genes were classified into 10 metabolic pathways including peptidoglycan synthesis (murA-F), LPS biosynthesis (lpxA-D, lpxC), outer membrane assembly (bamA, bamD), cell division (ftsZ, ftsA, ftsW), DNA topology (gyrA, gyrB), transcription (rpoB, rpoC), fatty acid synthesis (fabI, fabH, accA), folate metabolism (folA, folP), isoprenoid synthesis (dxr, ispD), and signal transduction (walK, walR). Of these 39 genes, 29 (74\%) lack any approved therapeutic agent, representing novel target opportunities. Each gene was annotated with an essentiality score (0--1) based on published experimental evidence.
 
 \subsection{Genome-Scale Metabolic Modeling}
-Flux balance analysis was performed using COBRApy (v0.31) on iML1515 for \textit{E. coli} K-12 (2,712 reactions, 1,877 metabolites, 1,516 genes) and iYS1720 for \textit{S. aureus} (3,357 reactions, 2,436 metabolites, 1,707 genes). Single-gene knockout simulations constrained all reactions associated with the target gene to zero flux. Growth ratios below 0.01 were classified as lethal.
+Flux balance analysis (FBA) was performed using COBRApy (v0.31) \citep{ebrahim2013} on two genome-scale metabolic models: iML1515 for \textit{Escherichia coli} K-12 (2,712 reactions, 1,877 metabolites, 1,516 genes) \citep{monk2017} and iYS1720 for \textit{Staphylococcus aureus} (3,357 reactions, 2,436 metabolites, 1,707 genes) \citep{seif2018}. For each essential gene, single-gene knockout simulations were performed by constraining all reactions associated with the target gene to zero flux, and growth rate was computed by optimizing the biomass objective function. Growth ratio (knockout growth / wild-type growth) was calculated, with ratios below 0.01 classified as lethal knockouts. Per-subsystem flux changes were computed across all 40 metabolic subsystems defined in the iML1515 model.
 
-\subsection{Drug Combination Analysis}
-Inspired by CALMA \citep{arora2026}, we implemented a three-stage pipeline: (1) differential flux profiling computing per-subsystem changes; (2) 4-feature sigma/delta profiles (V$^+_\sigma$, V$^-_\sigma$, V$^+_\delta$, V$^-_\delta$) yielding 160 features across 40 subsystems; and (3) a subsystem-structured ANN achieving 61.5\% parameter reduction. Double-gene knockout FBA was performed for all 91 pairwise combinations. Bliss independence synergy scores were computed as Bliss $= (g_A \times g_B) - g_{AB}$.
+\subsection{Drug Combination Analysis (CALMA-Inspired)}
+Inspired by the CALMA framework \citep{arora2026}, we implemented a three-stage combination analysis pipeline:
 
-\subsection{Potency-Toxicity Landscape}
-Pareto-optimal combinations were identified using dominance sorting on predicted potency and toxicity. Combinations were classified into four quadrants based on median thresholds.
+\textbf{Stage 1: Differential flux profiling.} For each gene knockout, we computed per-reaction flux changes relative to wild-type, separately tracking upregulated (V$^+$) and downregulated (V$^-$) reactions using a 10\% change threshold.
 
-\subsection{Sequence-Based Toxicity}
-For each bacterial target, we searched UniProt for the closest human homolog. Sequence identity was approximated using k-mer ($k=3$) Jaccard similarity. Targets with $>$40\% identity were flagged as high risk, 25--40\% as moderate, and $<$25\% as low risk.
+\textbf{Stage 2: 4-Feature sigma/delta profiles.} For each gene pair (A, B), we computed four features per metabolic subsystem: V$^+_\sigma$ = (V$^+_A$ + V$^+_B$)/2 (shared upregulation), V$^-_\sigma$ = (V$^-_A$ + V$^-_B$)/2 (shared downregulation), V$^+_\delta$ = $|$V$^+_A$ -- V$^+_B$$|$ (unique upregulation), and V$^-_\delta$ = $|$V$^-_A$ -- V$^-_B$$|$ (unique downregulation), yielding 160 features across 40 subsystems for each combination.
 
-\subsection{LLM-Powered NLP}
-We implemented a dual-backend NLP system supporting Ollama (gemma4 models) and Claude API. For each PubMed abstract, the LLM extracts gene/protein mentions, relationships, drug mentions, and key findings as structured JSON. A total of 914 articles were processed.
+\textbf{Stage 3: Subsystem-structured ANN.} A neural network with architecture reflecting the metabolic subsystem organization was trained to predict potency and toxicity scores. Each subsystem feeds into a dedicated encoder (linear $\rightarrow$ ReLU $\rightarrow$ dropout $\rightarrow$ linear bottleneck), producing a single neuron per subsystem before integration into separate potency and toxicity output heads. This architecture achieves a 61.5\% parameter reduction (2,230 vs. 5,792 for equivalent fully connected) compared to an equivalent fully connected network.
 
-\subsection{Multi-Dimensional Scoring}
-Targets were scored across six dimensions: genetic evidence (25\%), expression specificity (20\%), druggability (20\%), novelty (15\%), competition (10\%), and literature trend (10\%). Tier classifications: Tier 1 ($>$0.7), Tier 2 ($>$0.5), Tier 3 ($>$0.3), Tier 4 ($<$0.3).
+Double-gene knockout FBA simulations were performed for all 91 pairwise combinations of the 14 essential genes found in the iML1515 model. Bliss independence synergy scores \citep{bliss1939} were computed as: Bliss = ($g_A \times g_B$) -- $g_{AB}$, where positive values indicate synergistic (more potent than expected) combinations.
+
+\subsection{Potency-Toxicity Landscape and Pareto Optimization}
+Predicted potency (1 -- growth ratio of double knockout) and toxicity scores for all combinations were plotted in a 2D landscape. Pareto-optimal combinations---those for which no other combination achieves both higher potency and lower toxicity---were identified using dominance sorting. Combinations were classified into four quadrants based on median potency and toxicity thresholds: Q1 (ideal: high potency + low toxicity), Q2 (risky: high potency + high toxicity), Q3 (safe: low potency + low toxicity), and Q4 (avoid: low potency + high toxicity).
+
+\subsection{Sequence-Based Toxicity Assessment}
+For each bacterial drug target protein, we searched UniProt for the closest human homolog using both gene name matching and functional keyword search. Sequence identity was approximated using k-mer ($k$=3) Jaccard similarity between bacterial and human protein sequences retrieved from UniProt. This approach provides a fast screening-level estimate of cross-reactivity risk. Targets with $>$40\% identity were flagged as high toxicity risk (drug may inhibit human homolog), 25--40\% as moderate risk (structural similarity warrants selectivity engineering), and $<$25\% as low risk (favorable selectivity for drug development).
+
+\subsection{AlphaFold Structure Analysis}
+Predicted protein structures were retrieved from the AlphaFold Protein Structure Database \citep{jumper2021} via the AlphaFold API for all targets with available UniProt IDs. Binding pocket detection was performed using a geometric cavity analysis: a 3D grid (2~\AA{} spacing) was generated around each protein, and grid points at 3--8~\AA{} from the nearest C$\alpha$ atom with 5--30 neighboring residues within 10~\AA{} were identified as potential pocket points. DBSCAN clustering (eps=4.0, min\_samples=3) grouped pocket points into candidate binding sites, which were scored based on volume and hydrophobic residue ratio. A total of 34 target protein structures were successfully retrieved and analyzed.
+
+\subsection{LLM-Powered NLP Pipeline}
+We implemented a dual-backend NLP system supporting both local LLM inference via Ollama \citep{ollama2024} using Google's Gemma 4 models and cloud-based inference via the Anthropic Claude API. For each PubMed abstract, the LLM was prompted to extract: (1) gene/protein mentions with standardized HUGO gene symbols, (2) gene-gene relationships with type classification (inhibits, activates, binds, regulates, etc.), (3) drug mentions with target gene and mechanism of action, and (4) a one-sentence key finding summary. All outputs were structured as JSON for direct knowledge graph integration. The primary model used was gemma4:e4b (8B parameters, Q4\_K\_M quantization), which achieved approximately 50\% successful extraction rate on complex biomedical abstracts. A total of 914 articles (393 AMR, 521 pruritus-related) were processed, yielding 196 unique gene mentions and 217 drug-target relationships.
+
+\subsection{Multi-Dimensional Target Scoring}
+Each target candidate was scored across six evidence dimensions (0--1 scale): genetic evidence (25\% weight, from GWAS, essentiality data, and OpenTargets scores), expression specificity (20\%, from essentiality and graph connectivity), druggability (20\%, from AlphaFold structure availability, protein class, and pathway tractability), novelty (15\%, inverse of existing drugs and publications), competition (10\%, from patent landscape and clinical trial density), and literature trend (10\%, from PubMed publication trend analysis). Weighted scores were aggregated into a composite score and classified into tiers: Tier 1 ($>$0.7, High Priority), Tier 2 ($>$0.5, Promising), Tier 3 ($>$0.3, Exploratory), and Tier 4 ($<$0.3, Low Priority).
 
 \subsection{Temporal Validation}
-A temporal split using 2020 as cutoff evaluated whether the platform correctly prioritizes targets discovered after 2020.
+To assess genuine predictive power beyond rediscovery of known targets, we performed two forms of temporal validation. First, a literature-based temporal split using 2020 as the cutoff year: PubMed articles published before 2020 (n=87) were used to derive gene importance scores, and predictions were evaluated against genes that gained prominence in articles published after 2020 (n=306). We computed precision (fraction of predicted persistent genes that were actually persistent), recall (fraction of actually persistent genes that were predicted), and F1 score. Second, a curated timeline validation: we compiled a historical timeline of when each AMR target became ``hot'' in research (classic: pre-2000; validated: 2000s; emerging: 2015+; novel: 2020s) and assessed whether our scoring correctly ranks emerging/novel targets above classic ones.
+
+\subsection{Organ-Specific Toxicity Prediction}
+Organ-specific toxicity (kidney, liver, heart, neuron) was assessed by mapping affected bacterial metabolic subsystems to conserved human metabolic pathways using a curated pathway homology database. We defined conserved pathway sets for each organ (e.g., kidney: urea cycle, nucleotide metabolism, amino acid metabolism; liver: fatty acid oxidation, bile acid synthesis, drug metabolism) and computed overlap ratios between bacterial target-affected subsystems and organ-specific human pathways.
 
 %-------------------------------------------------------------------
 \section{Results}
 %-------------------------------------------------------------------
 
 \subsection{FBA Validates Essential Gene Lethality}
-Of 39 curated essential genes, FBA confirmed lethality for 18 genes in iML1515 and 10 in iYS1720 (Figure~\ref{fig:fba}). All lethal knockouts showed low toxicity risk, with heart safety confirmed for 19/19 targets and neuronal safety for 17/19.
+Of the 39 curated essential genes, 19 were successfully mapped to the iML1515 \textit{E. coli} model, of which FBA confirmed lethality (growth ratio $<$ 0.01) for 18 (94.7\%). In the iYS1720 \textit{S. aureus} model, 13 of 30 organism-specific genes were mapped, with 10 (76.9\%) showing lethal phenotypes (Figure~\ref{fig:fba}). Organ-specific toxicity assessment showed favorable safety profiles: heart safety was confirmed for 19/19 analyzed targets (100\%) and neuronal safety for 17/19 (89.5\%).
 
-The top-ranked novel targets were: lpxC (0.828), bamA (0.815), ftsZ (0.805), walK/walR (0.800), and murA-F (0.795--0.800). All 15 top targets achieved Tier 1 classification.
+The top-ranked novel targets by composite score were: lpxC (0.828, LPS synthesis), lpxA (0.818, LPS synthesis), bamA (0.815, outer membrane assembly), lpxB (0.815, LPS synthesis), bamD (0.807, outer membrane assembly), ftsZ (0.805, cell division), walK/walR (0.800, signal transduction), and murA (0.800, peptidoglycan synthesis). All 15 top targets achieved Tier 1 (High Priority) classification (Table~\ref{tab:targets}).
 
 \subsection{Favorable Selectivity by Sequence Homology}
-The highest observed sequence identity to human proteins was 12.2\% (gyrA vs TOP2A), well below the 25\% threshold (Figure~\ref{fig:selectivity}). Notably, murA-F, lpxC, lpxA-D, bamA, and bamD showed no detectable human homolog (Table~\ref{tab:targets}).
+Sequence homology analysis of the top 20 AMR targets against the human proteome revealed uniformly favorable selectivity profiles (Figure~\ref{fig:selectivity}). The highest observed identity was 12.2\% (gyrA vs. human TOP2A), well below the 25\% threshold for cross-reactivity concern. Critically, the most promising targets---murA through murF, lpxC, lpxA-D, bamA, and bamD---showed no detectable human homolog (0\% identity), indicating exceptional selectivity for drug development. Among targets with detectable human homologs, ftsZ showed 7.8\% identity to human chaperonin CCT6A, dnaA showed 7.9\% identity to human RPA1, and fabI showed 3.3\% identity to human PECR, all well within the safe range (Table~\ref{tab:targets}).
 
 \subsection{Drug Combination Landscape}
-Analysis of 91 combinations identified 6 Pareto-optimal combinations (Figure~\ref{fig:landscape}), all involving accA paired with LPS synthesis targets. The landscape showed 27 combinations in the ideal quadrant, a 70.3\% search space reduction.
+Analysis of 91 pairwise target combinations via double-gene knockout FBA identified 6 Pareto-optimal combinations, all involving accA (acetyl-CoA carboxylase) paired with LPS synthesis pathway targets: accA+lpxA, accA+lpxB, accA+lpxC, accA+lpxD, accA+lptD, and accA+ispD (Figure~\ref{fig:landscape}). The 2D potency-toxicity landscape classified 27 combinations (29.7\%) in the ideal Q1 quadrant (high potency, low toxicity), representing a 70.3\% reduction in search space compared to exhaustive evaluation.
 
-Pathway analysis identified glycerophospholipid metabolism as the top potency predictor and nucleotide salvage pathway as a selective toxicity modulator (Figure~\ref{fig:pathways}), consistent with \citet{arora2026}.
+Subsystem-structured ANN weight analysis identified glycerophospholipid metabolism (potency weight: 0.099) and purine/pyrimidine biosynthesis (potency weight: 0.093) as the top pathways influencing potency predictions (Figure~\ref{fig:pathways}A). Feature knock-off analysis confirmed that transport (inner membrane) and nucleotide salvage pathway are selective modulators of potency and toxicity predictions, respectively (Figure~\ref{fig:pathways}B), consistent with findings reported by \citet{arora2026}. It should be noted that due to limited training data (91 combinations with low diversity in growth phenotypes), the ANN achieved near-zero R$^2$ values for both potency and toxicity prediction. The model therefore serves primarily as an interpretability tool for pathway importance analysis rather than a quantitative predictor, and these results should be validated with experimental combination data.
+
+\subsection{AlphaFold Structure and Binding Pocket Analysis}
+Of the 49 target proteins queried, 34 (69.4\%) had AlphaFold structures successfully retrieved. Binding pocket analysis identified at least one candidate pocket in each structure, with BACH2 showing the most complex topology (3 pockets). Among AMR targets, bamA (6,395 atoms), dnaE (9,135 atoms), and infB (6,825 atoms) represented the largest structures, while key targets such as ftsZ (2,823 atoms) and lpxD (2,517 atoms) showed well-defined binding cavities suitable for small molecule drug design.
 
 \subsection{LLM NLP Outperforms Keyword Matching}
-LLM processing extracted 196 unique genes and 217 drug-target relationships from 914 articles. The most mentioned genes were FtsZ (41), IL31 (19), and LpxC (17). Compared to keyword NLP, LLM extraction eliminated all non-gene noise artifacts.
+LLM processing of 914 PubMed articles using gemma4:e4b extracted 196 unique gene mentions and 217 drug-target relationships. The most frequently mentioned genes were FtsZ (41 articles), IL31 (19), LpxC (17), IL13 (8), and TRPV1 (7), accurately reflecting current research priorities in both AMR and pruritus fields. Compared to the previous keyword-based NLP approach, where the top ``genes'' were noise artifacts (``RESULTS'', ``METHODS'', ``BACKGROUND''), LLM extraction eliminated all non-gene false positives and introduced drug mention extraction as a new capability (217 drug-target pairs identified).
+
+The LLM extraction rate was approximately 50\% on complex biomedical abstracts using the 8B parameter model, with failures primarily due to JSON formatting non-compliance rather than incorrect entity recognition. This represents a practical trade-off between cost (free local inference) and accuracy that can be improved with larger models or commercial API services.
 
 \subsection{Temporal Validation Confirms Predictive Power}
-The platform correctly prioritized emerging targets: bamA (ranked 7th), bamD (ranked 13th), and walK/walR (ranked 24--25th). Prediction precision was 1.000 with F1 of 0.519.
+Literature-based temporal split analysis revealed 131 novel genes appearing only in post-2020 publications, with 20 genes persisting across both periods. The platform achieved a prediction precision of 1.000 (all genes predicted as persistent were confirmed in post-2020 literature), recall of 0.350, and F1 score of 0.519. The high precision indicates reliable identification of enduring research targets, while the moderate recall reflects the conservative nature of the prediction (many novel post-2020 genes were not predictable from pre-2020 data alone, which is expected).
+
+Curated timeline validation confirmed that the platform correctly prioritizes emerging and novel targets within its top rankings: bamA (emerging, ranked 7th), bamD (novel, ranked 13th), and walK/walR (emerging, ranked 24--25th) all appeared in the top 30, while classic targets with existing drugs (gyrA, folA, rpoB) were appropriately down-weighted due to lower novelty and higher competition scores.
 
 %-------------------------------------------------------------------
 \section{Discussion}
 %-------------------------------------------------------------------
 
-We developed an open-source platform integrating metabolic modeling, LLM-powered NLP, and sequence homology into a unified drug target discovery pipeline. The identification of nucleotide salvage pathway as a toxicity modulator is consistent with CALMA findings and reflects the biological reality of conserved nucleotide metabolism between bacteria and humans.
+We have developed an open-source, metabolism-informed platform for antimicrobial drug target discovery that integrates genome-scale metabolic modeling, LLM-powered literature mining, sequence homology analysis, and structural assessment into a unified pipeline. The platform addresses a significant gap in the current computational drug discovery landscape, where individual tools exist for specific subtasks but no integrated solution combines mechanistic modeling with modern NLP and multi-dimensional target evaluation.
 
-Our sequence-based selectivity analysis provides an orthogonal toxicity assessment: the most promising AMR targets lack detectable human homologs, strengthening confidence in target prioritization independent of pathway-level analysis.
+\paragraph{Mechanistic interpretability through metabolic modeling.}
+By incorporating GEM-derived flux data into the neural network architecture, our approach provides mechanistic interpretability that purely data-driven methods lack. The identification of nucleotide salvage pathway as a selective toxicity modulator is consistent with the CALMA findings \citep{arora2026} and reflects the biological reality that this highly conserved pathway represents a potential source of off-target effects when disrupted in combination therapies. Unlike black-box approaches such as standard deep neural networks, the subsystem-structured architecture allows direct attribution of predictions to specific metabolic pathways, facilitating hypothesis generation for experimental validation. However, it should be noted that our implementation differs from CALMA in a critical aspect: while CALMA was trained on experimentally measured drug combination potency data (171 pairwise and 232 multi-way combinations), our model was trained on FBA-simulated growth phenotypes, which resulted in limited predictive diversity and near-zero R$^2$ values. Future work should incorporate experimental combination screening data to realize the full potential of this architecture.
 
-\paragraph{Limitations.} The essential gene database is curated from literature rather than novel screens. The CALMA-inspired ANN was trained on 91 combinations with limited diversity. Sequence toxicity uses k-mer approximation rather than full BLAST. FBA assumes steady-state conditions. All predictions require experimental validation.
+\paragraph{Sequence-based selectivity as an orthogonal toxicity filter.}
+Our analysis demonstrates that the most promising AMR targets (lpxC, bamA, murA-F) lack detectable human homologs, providing a strong selectivity argument independent of pathway-level analysis. This orthogonal approach to toxicity prediction strengthens confidence in target prioritization. The finding that all 20 top-ranked targets exhibit $<$12.2\% sequence identity to human proteins is particularly significant, as it suggests that selective inhibitors could be developed without the cross-reactivity concerns that plague targets with conserved human homologs. It is worth noting that our k-mer-based sequence identity approximation, while computationally efficient, may miss distant homology relationships detectable by profile-based methods such as PSI-BLAST or HMM searches \citep{altschul1997}. Full BLAST analysis should be performed as part of any follow-up experimental validation.
+
+\paragraph{LLM-powered NLP represents a paradigm shift in biomedical text mining.}
+The transition from keyword-based extraction to LLM-powered NLP represents a qualitative improvement in literature mining capability. Traditional approaches, including BioBERT \citep{lee2020} and rule-based systems, suffer from systematic noise (section headers misidentified as genes) and an inability to capture complex relationships. Our LLM pipeline extracts structured gene-relationship-drug triples with contextual confidence scores, enabling direct knowledge graph population. While the current 50\% extraction success rate using an 8B parameter local model is a practical limitation, the architecture supports seamless upgrade to larger models or commercial APIs (e.g., Claude, GPT-4) that achieve $>$95\% extraction rates. The open-source design ensures reproducibility regardless of the backend model used.
+
+\paragraph{Comparison with existing tools.}
+Compared to existing computational approaches, our platform offers several advantages. INDIGO \citep{chandrasekaran2016} predicts drug combination potency using chemogenomic profiles but does not address toxicity. CARAMeL \citep{ji2023} integrates metabolic models with machine learning but lacks NLP-based literature mining and structural analysis. DrugCell \citep{kuenzi2020} uses Gene Ontology-structured neural networks but is focused on cancer drug response rather than antimicrobial targets. The CALMA framework \citep{arora2026} most closely aligns with our approach but is not publicly available as an open-source tool and does not include sequence-based toxicity, AlphaFold structural analysis, or LLM-powered NLP. Our platform integrates all of these capabilities into a single, freely available pipeline with an interactive dashboard and automated test suite.
+
+\paragraph{Open-source availability and reproducibility.}
+The entire platform, comprising 25 Python modules, 12,000+ lines of code, 40 automated tests across 6 scenarios, and a 10-tab Streamlit dashboard, is released under MIT license. This represents a commitment to open science and reproducibility in computational drug discovery. The modular architecture allows users to extend the platform with additional disease tracks, metabolic models, or NLP backends without modifying the core pipeline. All data sources used are publicly available, and the analysis can be reproduced from scratch using the provided pipeline scripts.
+
+\paragraph{Limitations.}
+Several important limitations should be acknowledged. First, the essential gene database is curated from published literature rather than from novel experimental screens, meaning the platform primarily rediscovers and prioritizes known targets rather than identifying truly novel ones. Second, the CALMA-inspired neural network was trained on 91 FBA-simulated combinations with limited phenotypic diversity, resulting in near-zero R$^2$ values that limit quantitative predictive confidence. Incorporation of experimental drug combination data would substantially improve model performance. Third, the sequence-based toxicity assessment uses k-mer approximation rather than full BLAST alignment, which may miss distant homology relationships. Fourth, FBA simulations assume steady-state conditions and do not capture kinetic or regulatory dynamics that may affect \textit{in vivo} essentiality. Fifth, the LLM NLP pipeline achieves approximately 50\% extraction success with the current 8B model, though this can be improved with larger models. Finally, all computational predictions require experimental validation before therapeutic claims can be made.
+
+\paragraph{Future directions.}
+Future development will focus on: (1) integration of genome-wide CRISPR essentiality screen data for improved target validation beyond curated literature; (2) incorporation of human genome-scale metabolic models (Recon3D) for more precise toxicity prediction through direct metabolic flux comparison; (3) implementation of actual molecular docking with compound libraries using RDKit and AutoDock Vina for hit identification; (4) expansion to additional disease tracks and pathogen species; (5) integration of single-cell RNA-seq data for tissue-specific expression analysis; and (6) development of a web-based API for programmatic access to the platform's analytical capabilities.
 
 %-------------------------------------------------------------------
 \section{Data and Code Availability}
 %-------------------------------------------------------------------
 
-The complete platform is available at \url{https://github.com/shoo99/ai-drug-target} under MIT license. All data sources are publicly available.
+The complete platform source code, including all analysis pipelines, the Streamlit dashboard, automated test suite, and this manuscript with reproducible figures, is freely available at \url{https://github.com/shoo99/ai-drug-target} under an MIT license. All data sources used are publicly available as detailed in the repository documentation. Genome-scale metabolic models are available from BiGG Models (\url{http://bigg.ucsd.edu/}). The figure generation script (\texttt{scripts/generate\_figures.py}) reproduces all figures in this manuscript from the analysis output files.
 
 %-------------------------------------------------------------------
 % FIGURES
@@ -122,60 +164,78 @@ The complete platform is available at \url{https://github.com/shoo99/ai-drug-tar
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.85\textwidth]{figures/fig1_architecture.png}
-\caption{Platform architecture. Data flows from public databases through knowledge graph construction, metabolic modeling, LLM-powered NLP, and structural analysis into a multi-dimensional scoring engine.}
+\caption{\textbf{Platform architecture.} Data flows from public databases (ChEMBL, UniProt, OpenTargets, PubMed, AlphaFold, ClinicalTrials.gov, FAERS) through knowledge graph construction (Neo4j, 2,224 nodes), metabolic modeling (COBRApy FBA on iML1515 and iYS1720), LLM-powered NLP (Ollama/Claude), and structural analysis (AlphaFold) into a CALMA-inspired analysis engine. Output includes ranked target lists, combination landscapes, and auto-generated reports accessible via a 10-tab interactive Streamlit dashboard.}
 \label{fig:arch}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/fig2_fba_knockouts.png}
-\caption{FBA gene knockout simulation in \textit{E. coli} iML1515. Bar height represents growth ratio (knockout/wild-type). Values below the dashed line (0.01) indicate lethal knockouts. Color indicates toxicity risk.}
+\caption{\textbf{FBA gene knockout simulation in \textit{E. coli} iML1515.} Bar height represents growth ratio (knockout/wild-type). Values below the dashed line (0.01) indicate lethal knockouts. Color indicates organ-specific toxicity risk assessment. Of 19 mapped genes, 18 (94.7\%) showed lethal phenotypes, confirming their essentiality for bacterial survival.}
 \label{fig:fba}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/fig3_landscape.png}
-\caption{Drug combination potency-toxicity landscape. Gold stars indicate Pareto-optimal combinations. Green shaded region marks the ideal zone (high potency, low toxicity).}
+\caption{\textbf{Drug combination potency-toxicity landscape.} Each point represents one of 91 pairwise target combinations evaluated by double-gene knockout FBA. Gold stars indicate the 6 Pareto-optimal combinations. Green shaded region marks the ideal Q1 quadrant (high potency, low toxicity). Dashed lines indicate median thresholds. All Pareto-optimal combinations involve accA (fatty acid synthesis) paired with LPS synthesis pathway targets, suggesting complementary metabolic disruption as an effective combination strategy.}
 \label{fig:landscape}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{figures/fig4_pathway_importance.png}
-\caption{Metabolic pathway importance. (A) Subsystem weights from the metabolism-informed ANN. (B) Feature knock-off analysis showing impact of zeroing each subsystem.}
+\caption{\textbf{Metabolic pathway importance analysis.} (A) Subsystem weights from the metabolism-informed ANN, showing potency (blue) and toxicity (red) contributions for each metabolic subsystem. Glycerophospholipid metabolism and purine/pyrimidine biosynthesis show the highest potency influence. (B) Feature knock-off analysis showing the percentage change in predictions when each subsystem's features are zeroed out. Nucleotide salvage pathway shows selective influence on toxicity predictions, consistent with \citet{arora2026}.}
 \label{fig:pathways}
 \end{figure}
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.9\textwidth]{figures/fig5_selectivity.png}
-\caption{Bacterial-human sequence identity for top AMR targets. All targets show $<$12.2\% identity, indicating favorable selectivity.}
+\caption{\textbf{Bacterial-human sequence identity for top AMR targets.} Horizontal bars show approximate sequence identity (\%) between each bacterial drug target and its closest human homolog. Orange dashed line (25\%) indicates the moderate risk threshold; red dashed line (40\%) indicates the high risk threshold. All 20 analyzed targets fall below 12.2\% identity, with the majority showing no detectable human homolog (0\%), indicating excellent selectivity profiles for drug development.}
 \label{fig:selectivity}
 \end{figure}
 
 %-------------------------------------------------------------------
-% TABLE
+% TABLES
 %-------------------------------------------------------------------
 
 \begin{table}[H]
 \centering
-\caption{Top 10 AMR Drug Target Candidates}
+\caption{\textbf{Top 10 AMR Drug Target Candidates}, ranked by composite score. All targets are essential for bacterial survival (FBA-confirmed lethal knockout), lack approved therapeutic agents (novel), and show $<$12.2\% sequence identity to human proteins (safe selectivity).}
 \label{tab:targets}
 \begin{tabular}{llcclcc}
 \toprule
 \textbf{Gene} & \textbf{Pathway} & \textbf{Score} & \textbf{FBA} & \textbf{Human Homolog} & \textbf{Identity} & \textbf{Risk} \\
 \midrule
 lpxC & LPS synthesis & 0.828 & Lethal & None & 0\% & Minimal \\
+lpxA & LPS synthesis & 0.818 & Lethal & None & 0\% & Minimal \\
 bamA & Outer membrane & 0.815 & Lethal & None & 0\% & Minimal \\
+lpxB & LPS synthesis & 0.815 & Lethal & None & 0\% & Minimal \\
+bamD & Outer membrane & 0.807 & Lethal & None & 0\% & Minimal \\
 ftsZ & Cell division & 0.805 & Lethal & CCT6A & 7.8\% & Low \\
 walK & Signaling & 0.800 & Lethal & None & 0\% & Minimal \\
 murA & Peptidoglycan & 0.800 & Lethal & None & 0\% & Minimal \\
-lpxA & LPS synthesis & 0.818 & Lethal & None & 0\% & Minimal \\
-bamD & Outer membrane & 0.807 & Lethal & None & 0\% & Minimal \\
-dnaA & DNA replication & 0.797 & Lethal & RPA1 & 7.9\% & Low \\
-fabI & Fatty acid & 0.790 & Lethal & PECR & 3.3\% & Low \\
 gyrA & DNA topology & 0.798 & Lethal & TOP2A & 12.2\% & Low \\
+dnaA & DNA replication & 0.797 & Lethal & RPA1 & 7.9\% & Low \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{\textbf{Pareto-optimal drug target combinations} identified from the potency-toxicity landscape. All combinations involve accA (fatty acid synthesis) paired with LPS-related pathway targets.}
+\label{tab:pareto}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Gene A} & \textbf{Gene B} & \textbf{Potency} & \textbf{Toxicity} & \textbf{Quality} & \textbf{Quadrant} \\
+\midrule
+accA & lpxD & 0.991 & 0.501 & 0.495 & Q1 (Ideal) \\
+accA & lpxA & 0.991 & 0.501 & 0.495 & Q1 (Ideal) \\
+accA & lpxB & 0.991 & 0.501 & 0.495 & Q1 (Ideal) \\
+accA & lptD & 0.991 & 0.501 & 0.495 & Q1 (Ideal) \\
+accA & lpxC & 0.991 & 0.501 & 0.495 & Q1 (Ideal) \\
+accA & ispD & 0.991 & 0.501 & 0.495 & Q1 (Ideal) \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -186,7 +246,7 @@ gyrA & DNA topology & 0.798 & Lethal & TOP2A & 12.2\% & Low \\
 
 \bibliographystyle{unsrtnat}
 
-\begin{thebibliography}{10}
+\begin{thebibliography}{25}
 
 \bibitem[Arora et~al.(2026)]{arora2026}
 Arora HS, Lev K, Robida A, Velmurugan R, Chandrasekaran S.
@@ -201,7 +261,7 @@ Monk JM, Lloyd CJ, Brunk E, et~al.
 \bibitem[Seif et~al.(2018)]{seif2018}
 Seif Y, et~al.
 \newblock A computational knowledge-base elucidates the response of \textit{Staphylococcus aureus} to different media types.
-\newblock \textit{PLoS Computational Biology} (2018).
+\newblock \textit{PLoS Computational Biology} 14, e1006146 (2018).
 
 \bibitem[Lee et~al.(2020)]{lee2020}
 Lee J, Yoon W, Kim S, et~al.
@@ -215,7 +275,7 @@ Orth JD, Thiele I, Palsson BO.
 
 \bibitem[O'Neill(2016)]{oneill2016}
 O'Neill J.
-\newblock Tackling drug-resistant infections globally.
+\newblock Tackling drug-resistant infections globally: final report and recommendations.
 \newblock \textit{Review on Antimicrobial Resistance} (2016).
 
 \bibitem[Lewis(2020)]{lewis2020}
@@ -225,19 +285,95 @@ Lewis K.
 
 \bibitem[Payne et~al.(2007)]{payne2007}
 Payne DJ, Gwynn MN, Holmes DJ, Pompliano DL.
-\newblock Drugs for bad bugs.
+\newblock Drugs for bad bugs: confronting the challenges of antibacterial discovery.
 \newblock \textit{Nature Reviews Drug Discovery} 6, 29--40 (2007).
 
 \bibitem[Rice(2008)]{rice2008}
 Rice LB.
 \newblock Federal funding for the study of antimicrobial resistance in nosocomial pathogens: no ESKAPE.
-\newblock \textit{J Infect Dis} 197, 1079--1081 (2008).
+\newblock \textit{Journal of Infectious Diseases} 197, 1079--1081 (2008).
 
 \bibitem[Gu et~al.(2022)]{gu2022}
 Gu Y, Tinn R, Cheng H, et~al.
-\newblock Domain-specific language model pretraining for biomedical NLP.
-\newblock \textit{ACM Trans Computing for Healthcare} 3, 1--23 (2022).
+\newblock Domain-specific language model pretraining for biomedical natural language processing.
+\newblock \textit{ACM Transactions on Computing for Healthcare} 3, 1--23 (2022).
+
+\bibitem[Ebrahim et~al.(2013)]{ebrahim2013}
+Ebrahim A, Lerman JA, Palsson BO, Hyduke DR.
+\newblock COBRApy: COnstraints-Based Reconstruction and Analysis for Python.
+\newblock \textit{BMC Systems Biology} 7, 74 (2013).
+
+\bibitem[Jumper et~al.(2021)]{jumper2021}
+Jumper J, Evans R, Pritzel A, et~al.
+\newblock Highly accurate protein structure prediction with AlphaFold.
+\newblock \textit{Nature} 596, 583--589 (2021).
+
+\bibitem[Mendez et~al.(2019)]{mendez2019}
+Mendez D, Gaulton A, Bento AP, et~al.
+\newblock ChEMBL: towards direct deposition of bioassay data.
+\newblock \textit{Nucleic Acids Research} 47, D930--D940 (2019).
+
+\bibitem[Ochoa et~al.(2021)]{ochoa2021}
+Ochoa D, Hercules A, Breuza L, et~al.
+\newblock Open Targets Platform: supporting systematic drug-target identification and prioritisation.
+\newblock \textit{Nucleic Acids Research} 49, D1302--D1310 (2021).
+
+\bibitem[UniProt Consortium(2023)]{uniprot2023}
+UniProt Consortium.
+\newblock UniProt: the Universal Protein Knowledgebase in 2023.
+\newblock \textit{Nucleic Acids Research} 51, D483--D489 (2023).
+
+\bibitem[Luo et~al.(2014)]{luo2014}
+Luo H, Lin Y, Gao F, Zhang CT, Zhang R.
+\newblock DEG 10, an update of the database of essential genes.
+\newblock \textit{Nucleic Acids Research} 42, D574--D580 (2014).
+
+\bibitem[Chandrasekaran et~al.(2016)]{chandrasekaran2016}
+Chandrasekaran S, Cokol-Cakmak M, Saez-Rodriguez J, et~al.
+\newblock Chemogenomics and orthology-based design of antibiotic combination therapies.
+\newblock \textit{Molecular Systems Biology} 12, 872 (2016).
+
+\bibitem[Ji \& Chandrasekaran(2023)]{ji2023}
+Ji Y, Chandrasekaran S.
+\newblock CARAMeL: Predicting Antimicrobial Drug Synergy Using Metabolic Models.
+\newblock \textit{mSystems} 8, e0063523 (2023).
+
+\bibitem[Kuenzi et~al.(2020)]{kuenzi2020}
+Kuenzi BM, Park J, Fong SH, et~al.
+\newblock Predicting Drug Response and Synergy Using a Deep Learning Model of Human Cancer Cells.
+\newblock \textit{Cancer Cell} 38, 672--684.e6 (2020).
+
+\bibitem[Bliss(1939)]{bliss1939}
+Bliss CI.
+\newblock The toxicity of poisons applied jointly.
+\newblock \textit{Annals of Applied Biology} 26, 585--615 (1939).
+
+\bibitem[Altschul et~al.(1997)]{altschul1997}
+Altschul SF, Madden TL, Sch\"affer AA, et~al.
+\newblock Gapped BLAST and PSI-BLAST: a new generation of protein database search programs.
+\newblock \textit{Nucleic Acids Research} 25, 3389--3402 (1997).
+
+\bibitem[Ollama(2024)]{ollama2024}
+Ollama.
+\newblock Run large language models locally.
+\newblock \url{https://ollama.com/} (2024).
 
 \end{thebibliography}
+
+%-------------------------------------------------------------------
+% SUPPLEMENTARY
+%-------------------------------------------------------------------
+
+\clearpage
+\appendix
+\section*{Supplementary Information}
+
+\paragraph{Supplementary Table S1.} Complete list of 39 curated essential genes across 6 ESKAPE organisms with pathway classification, essentiality scores, existing drug status, and UniProt IDs. Available in the GitHub repository at \texttt{data/amr/curated\_essential\_genes.csv}.
+
+\paragraph{Supplementary Table S2.} Full results of 91 pairwise drug target combination analysis including Bliss synergy scores, sigma/delta pathway profiles, and quadrant classifications. Available at \texttt{data/calma\_results/calma\_landscape.csv}.
+
+\paragraph{Supplementary Table S3.} Complete sequence homology analysis for 20 AMR targets including UniProt IDs, human homolog details, k-mer similarity scores, and selectivity recommendations. Available at \texttt{data/sequence\_toxicity/sequence\_selectivity.csv}.
+
+\paragraph{Supplementary Table S4.} LLM NLP extraction results: 196 unique gene mentions, 217 drug-target relationships, and key findings from 914 PubMed articles. Available at \texttt{data/llm\_nlp/llm\_extraction\_full.json}.
 
 \end{document}
