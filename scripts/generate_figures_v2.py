@@ -181,9 +181,9 @@ def fig3_nlp_comparison():
 
     fig.update_layout(
         width=1100, height=500, font=FONT, plot_bgcolor="white",
-        title="Figure 3. NLP Extraction Quality — Keyword Matching vs LLM<br>"
+        title="Figure 3. NLP Extraction Quality — Keyword Matching vs LLM<br><br>"
               "<sub>914 PubMed articles processed. LLM achieves 92% gene precision with zero noise artifacts.</sub>",
-        margin=dict(l=100, r=40, t=80, b=60),
+        margin=dict(l=100, r=40, t=110, b=60),
     )
     fig.write_image(str(FIG_DIR / "fig3_nlp_comparison.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig3_nlp_comparison.pdf"))
@@ -243,12 +243,12 @@ def fig3b_score_distribution():
     fig.update_layout(
         width=900, height=450, font=FONT, plot_bgcolor="white",
         barmode="overlay",
-        title="Figure 4. Target Composite Score Distribution<br>"
+        title="Figure 4. Target Composite Score Distribution<br><br>"
               "<sub>AMR targets scored across 6 dimensions. Tier 1 (>0.7) targets are prioritized for experimental validation.</sub>",
         xaxis=dict(title="Composite Score", range=[0, 1], gridcolor="#eee"),
         yaxis=dict(title="Number of Targets"),
         legend=dict(x=0.02, y=0.98, bgcolor="rgba(255,255,255,0.8)"),
-        margin=dict(l=60, r=40, t=80, b=60),
+        margin=dict(l=60, r=40, t=110, b=60),
     )
     fig.write_image(str(FIG_DIR / "fig3b_score_distribution.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig3b_score_distribution.pdf"))
@@ -429,14 +429,14 @@ def fig5_selectivity():
     fig.update_layout(
         width=900, height=550,
         font=FONT, plot_bgcolor="white",
-        title="Figure 6. Bacterial-Human Protein Homology (Literature-Curated Audit)<br>"
-              "<sub>folA→DHFR2 (30%) is the only target with significant human homology. "
+        title="Figure 6. Bacterial-Human Protein Homology (Literature-Curated Audit)<br><br>"
+              "<sub>folA → DHFR2 (30%) is the only target with significant human homology. "
               "11 targets have no detectable homolog.</sub>",
         xaxis=dict(title="Sequence Identity to Closest Human Homolog (%)",
                    range=[-2, 50], gridcolor="#eee", dtick=10),
         yaxis=dict(title=""),
         legend=dict(x=0.65, y=0.3, bgcolor="rgba(255,255,255,0.9)"),
-        margin=dict(l=70, r=150, t=80, b=50),
+        margin=dict(l=70, r=150, t=110, b=50),
     )
     fig.write_image(str(FIG_DIR / "fig5_selectivity.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig5_selectivity.pdf"))
