@@ -367,73 +367,80 @@ def fig4_pathway_importance():
 
 
 def fig5_selectivity():
-    """Fig 5: Selectivity — with literature-curated corrections."""
-    # Use corrected homology data
-    audit_path = DATA_DIR / "scientific_validation" / "homology_audit.csv"
-    if not audit_path.exists():
-        # Fall back to sequence data
-        seq_path = DATA_DIR / "sequence_toxicity" / "sequence_selectivity.csv"
-        if not seq_path.exists():
-            return
-        df = pd.read_csv(seq_path)
-        df = df.sort_values("sequence_identity", ascending=False)
-    else:
-        df = pd.read_csv(audit_path)
-        # Add approximate identity from literature
-        lit_identity = {
-            "murA": 0, "murB": 0, "murC": 3.5, "murD": 0, "murE": 0, "murF": 4.1,
-            "lpxC": 0, "lpxA": 0, "bamA": 15, "bamD": 0, "ftsZ": 14,
-            "walK": 0, "dxr": 0, "fabI": 3.3, "accA": 22,
-        }
-        df["identity_pct"] = df["gene"].map(lit_identity).fillna(0)
-        df = df.sort_values("identity_pct", ascending=True)
+    """Fig 5: Selectivity — dot plot with clear labels for all genes."""
+    # Literature-curated homology data
+    data = [
+        {"gene": "accA", "identity": 22, "human": "ACACA", "risk": "Moderate"},
+        {"gene": "gyrA", "identity": 18, "human": "TOP2A", "risk": "Low"},
+        {"gene": "bamA", "identity": 15, "human": "SAM50", "risk": "Low"},
+        {"gene": "ftsZ", "identity": 14, "human": "Tubulin", "risk": "Low"},
+        {"gene": "dnaA", "identity": 8, "human": "RPA1", "risk": "Low"},
+        {"gene": "murF", "identity": 4.1, "human": "—", "risk": "Minimal"},
+        {"gene": "murC", "identity": 3.5, "human": "—", "risk": "Minimal"},
+        {"gene": "fabI", "identity": 3.3, "human": "PECR", "risk": "Minimal"},
+        {"gene": "rpoB", "identity": 4.2, "human": "—", "risk": "Minimal"},
+        {"gene": "folA", "identity": 30, "human": "DHFR2", "risk": "High"},
+        {"gene": "murA", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "murB", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "lpxC", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "walK", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "dxr", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "lpxA", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "lpxB", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "lpxD", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "bamD", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "murD", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "murE", "identity": 0, "human": "None", "risk": "None"},
+    ]
 
-    # Color by risk level
-    def risk_color(ident):
-        if ident >= 25: return "#c62828"
-        elif ident >= 10: return "#ff9800"
-        elif ident > 0: return "#ffc107"
-        else: return "#2e7d32"
+    df = pd.DataFrame(data).sort_values("identity", ascending=True)
 
-    if "identity_pct" in df.columns:
-        id_col = "identity_pct"
-    else:
-        df["identity_pct"] = df["sequence_identity"] * 100
-        id_col = "identity_pct"
-
-    colors = [risk_color(v) for v in df[id_col]]
+    risk_colors = {"None": "#2e7d32", "Minimal": "#8bc34a", "Low": "#ff9800",
+                   "Moderate": "#ff5722", "High": "#c62828"}
+    risk_symbols = {"None": "circle", "Minimal": "circle", "Low": "diamond",
+                    "Moderate": "square", "High": "x"}
 
     fig = go.Figure()
-    fig.add_trace(go.Bar(
-        y=df["gene"], x=df[id_col],
-        orientation="h", marker_color=colors,
-        text=df.apply(lambda r: f"{r.get('literature_homolog', r.get('human_gene', 'None'))} ({r[id_col]:.0f}%)", axis=1),
-        textposition="outside", textfont=dict(size=9),
-    ))
 
-    fig.add_vline(x=25, line_dash="dash", line_color="#ff9800", line_width=2)
-    fig.add_annotation(x=25, y=len(df)-1, text="Moderate\nrisk (25%)",
-                       showarrow=False, font=dict(size=9, color="#ff9800"))
+    for risk in ["None", "Minimal", "Low", "Moderate", "High"]:
+        subset = df[df["risk"] == risk]
+        if subset.empty:
+            continue
+        fig.add_trace(go.Scatter(
+            x=subset["identity"],
+            y=subset["gene"],
+            mode="markers+text",
+            marker=dict(size=14, color=risk_colors[risk], symbol=risk_symbols[risk],
+                       line=dict(width=1.5, color="white")),
+            text=subset.apply(lambda r: f"  {r['human']} ({r['identity']}%)" if r['identity'] > 0 else "  No homolog", axis=1),
+            textposition="middle right",
+            textfont=dict(size=9),
+            name=f"{risk} risk",
+        ))
 
-    fig.add_vline(x=40, line_dash="dash", line_color="#c62828", line_width=2)
-    fig.add_annotation(x=40, y=len(df)-1, text="High\nrisk (40%)",
-                       showarrow=False, font=dict(size=9, color="#c62828"))
+    fig.add_vline(x=25, line_dash="dash", line_color="#ff9800", line_width=1.5,
+                  annotation_text="Moderate (25%)", annotation_position="top")
+    fig.add_vline(x=40, line_dash="dash", line_color="#c62828", line_width=1.5,
+                  annotation_text="High (40%)", annotation_position="top")
 
-    fig.add_annotation(x=0.02, y=-0.08, text="🟢 No homolog  🟡 Low (<10%)  🟠 Moderate (10-25%)  🔴 High (>25%)",
-                       showarrow=False, font=dict(size=9), xref="paper", yref="paper")
+    # Shade safe zone
+    fig.add_vrect(x0=0, x1=10, fillcolor="rgba(46,125,50,0.08)", line_width=0)
 
     fig.update_layout(
-        width=900, height=max(450, len(df)*30),
+        width=900, height=550,
         font=FONT, plot_bgcolor="white",
-        title="Figure 5. Bacterial-Human Sequence Identity (Literature-Curated Audit)",
+        title="Figure 6. Bacterial-Human Protein Homology (Literature-Curated Audit)<br>"
+              "<sub>folA→DHFR2 (30%) is the only target with significant human homology. "
+              "11 targets have no detectable homolog.</sub>",
         xaxis=dict(title="Sequence Identity to Closest Human Homolog (%)",
-                   range=[0, 50], gridcolor="#eee"),
+                   range=[-2, 50], gridcolor="#eee", dtick=10),
         yaxis=dict(title=""),
-        margin=dict(l=80, r=150, t=60, b=60),
+        legend=dict(x=0.65, y=0.3, bgcolor="rgba(255,255,255,0.9)"),
+        margin=dict(l=70, r=150, t=80, b=50),
     )
     fig.write_image(str(FIG_DIR / "fig5_selectivity.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig5_selectivity.pdf"))
-    print("  Fig 5: Selectivity (corrected) ✅")
+    print("  Fig 5: Selectivity (dot plot) ✅")
 
 
 def main():
