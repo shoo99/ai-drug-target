@@ -17,9 +17,9 @@
 \title{An Open-Source Metabolism-Informed Platform for Antimicrobial Drug Target Discovery and Combination Optimization}
 
 \author{
-[Author Name]\textsuperscript{1*}\\
-\small\textsuperscript{1}[Affiliation]\\
-\small *Corresponding author: [email]
+Byeongsoo Kang\textsuperscript{1*}\\
+\small\textsuperscript{1}SYSOFT\\
+\small *Corresponding author: shoo99@gmail.com
 }
 
 \date{}
@@ -142,7 +142,7 @@ We have developed an open-source, metabolism-informed platform for antimicrobial
 By incorporating GEM-derived flux data into the neural network architecture, our approach provides mechanistic interpretability that purely data-driven methods lack. The identification of nucleotide salvage pathway as a selective toxicity modulator is consistent with the CALMA findings \citep{arora2026} and reflects the biological reality that this highly conserved pathway represents a potential source of off-target effects when disrupted in combination therapies. Unlike black-box approaches such as standard deep neural networks, the subsystem-structured architecture allows direct attribution of predictions to specific metabolic pathways, facilitating hypothesis generation for experimental validation. However, it should be noted that our implementation differs from CALMA in a critical aspect: while CALMA was trained on experimentally measured drug combination potency data (171 pairwise and 232 multi-way combinations), our model was trained on FBA-simulated growth phenotypes, which resulted in limited predictive diversity and near-zero R$^2$ values. Future work should incorporate experimental combination screening data to realize the full potential of this architecture.
 
 \paragraph{Sequence-based selectivity as an orthogonal toxicity filter.}
-Our analysis demonstrates that the most promising AMR targets (lpxC, bamA, murA-F) lack detectable human homologs, providing a strong selectivity argument independent of pathway-level analysis. This orthogonal approach to toxicity prediction strengthens confidence in target prioritization. The finding that all 20 top-ranked targets exhibit $<$12.2\% sequence identity to human proteins is particularly significant, as it suggests that selective inhibitors could be developed without the cross-reactivity concerns that plague targets with conserved human homologs. It is worth noting that our k-mer-based sequence identity approximation, while computationally efficient, may miss distant homology relationships detectable by profile-based methods such as PSI-BLAST or HMM searches \citep{altschul1997}. Full BLAST analysis should be performed as part of any follow-up experimental validation.
+Our multi-strategy homology audit confirmed that 5 of the top 15 targets (murA, murB, lpxC, walK, dxr) lack detectable human homologs through both computational and literature evidence, providing strong selectivity arguments. However, 5 additional targets (ftsZ, bamA, fabI, accA, gyrA) possess distant human homologs with 8--25\% sequence identity, necessitating structure-based selectivity engineering for drug development. This nuanced assessment---correcting our initial k-mer screening which had reported several of these as ``no homolog detected''---demonstrates the importance of multi-method homology validation. Our k-mer-based approximation, while useful for rapid screening, should be supplemented with full BLAST or PSI-BLAST analysis \citep{altschul1997} as part of preclinical evaluation.
 
 \paragraph{LLM-powered NLP represents a paradigm shift in biomedical text mining.}
 The transition from keyword-based extraction to LLM-powered NLP represents a qualitative improvement in literature mining capability. Traditional approaches, including BioBERT \citep{lee2020} and rule-based systems, suffer from systematic noise (section headers misidentified as genes) and an inability to capture complex relationships. Our LLM pipeline extracts structured gene-relationship-drug triples with contextual confidence scores, enabling direct knowledge graph population. While the current 50\% extraction success rate using an 8B parameter local model is a practical limitation, the architecture supports seamless upgrade to larger models or commercial APIs (e.g., Claude, GPT-4) that achieve $>$95\% extraction rates. The open-source design ensures reproducibility regardless of the backend model used.
@@ -164,6 +164,14 @@ Future development will focus on: (1) integration of genome-wide CRISPR essentia
 %-------------------------------------------------------------------
 
 The complete platform source code, including all analysis pipelines, the Streamlit dashboard, automated test suite, and this manuscript with reproducible figures, is freely available at \url{https://github.com/shoo99/ai-drug-target} under an MIT license. All data sources used are publicly available as detailed in the repository documentation. Genome-scale metabolic models are available from BiGG Models (\url{http://bigg.ucsd.edu/}). The figure generation script (\texttt{scripts/generate\_figures.py}) reproduces all figures in this manuscript from the analysis output files.
+
+\section*{Acknowledgments}
+
+Manuscript drafting was assisted by Claude (Anthropic, claude-opus-4-6). All scientific analyses, platform development, code implementation, data interpretation, and final editorial decisions were performed by the author. The author takes full responsibility for the content of this manuscript.
+
+\section*{Competing Interests}
+
+The author declares no competing interests.
 
 %-------------------------------------------------------------------
 % FIGURES
