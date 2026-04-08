@@ -193,9 +193,16 @@ The author declares no competing interests.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{figures/fig3_landscape.png}
-\caption{\textbf{Drug combination potency-toxicity landscape.} Each point represents one of 91 pairwise target combinations evaluated by double-gene knockout FBA. Gold stars indicate the 6 Pareto-optimal combinations. Green shaded region marks the ideal Q1 quadrant (high potency, low toxicity). Dashed lines indicate median thresholds. All Pareto-optimal combinations involve accA (fatty acid synthesis) paired with LPS synthesis pathway targets, suggesting complementary metabolic disruption as an effective combination strategy.}
-\label{fig:landscape}
+\includegraphics[width=\textwidth]{figures/fig3_nlp_comparison.png}
+\caption{\textbf{NLP extraction quality comparison.} (A) Traditional keyword-based NLP extracts non-gene noise artifacts (red bars: ``RESULTS'', ``METHODS'', ``AREAS'') as top ``genes''. (B) LLM-powered NLP (gemma4:e4b) correctly identifies real genes (FtsZ, IL31, LpxC) with 92\% precision validated against UniProt. 914 PubMed articles processed.}
+\label{fig:nlp}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{figures/fig3b_score_distribution.png}
+\caption{\textbf{Target composite score distribution.} AMR targets scored across 6 evidence dimensions. Vertical dashed lines indicate tier boundaries. Tier 1 targets ($>$0.7) are prioritized for experimental validation. Key targets (lpxC, lpxA, bamA) are annotated. Rankings are sensitive to scoring weight selection (see Sensitivity Analysis in text).}
+\label{fig:scores}
 \end{figure}
 
 \begin{figure}[H]
