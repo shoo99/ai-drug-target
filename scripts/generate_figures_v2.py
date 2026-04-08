@@ -16,75 +16,117 @@ FONT = dict(family="Arial", size=14)
 
 
 def fig2_fba_knockouts():
-    """Fig 2: FBA — show potency score (1-growth) instead of growth ratio."""
+    """Fig 2: FBA — heatmap showing essentiality across organisms + pathways."""
+    from src.amr.data_collector_v2 import CURATED_ESSENTIAL_GENES, KNOWN_ANTIBIOTIC_TARGETS
+
     fba_ec = DATA_DIR / "metabolic_analysis" / "metabolic_Escherichia_coli.csv"
     fba_sa = DATA_DIR / "metabolic_analysis" / "metabolic_Staphylococcus_aureus.csv"
 
-    frames = []
-    if fba_ec.exists():
-        df = pd.read_csv(fba_ec)
-        df["organism"] = "E. coli (iML1515)"
-        frames.append(df)
-    if fba_sa.exists():
-        df = pd.read_csv(fba_sa)
-        df["organism"] = "S. aureus (iYS1720)"
-        frames.append(df)
+    ec_data = pd.read_csv(fba_ec) if fba_ec.exists() else pd.DataFrame()
+    sa_data = pd.read_csv(fba_sa) if fba_sa.exists() else pd.DataFrame()
 
-    if not frames:
-        return
+    # Build gene info from curated data
+    gene_info = {}
+    for organism, genes in CURATED_ESSENTIAL_GENES.items():
+        for gene, info in genes.items():
+            if gene not in gene_info:
+                gene_info[gene] = {
+                    "pathway": info["pathway"].replace("_", " ").title(),
+                    "organisms": [],
+                    "ec_fba": "Not mapped",
+                    "sa_fba": "Not mapped",
+                    "has_drug": len(KNOWN_ANTIBIOTIC_TARGETS.get(gene, [])) > 0,
+                }
+            gene_info[gene]["organisms"].append(organism.split()[0][:4])
 
-    all_df = pd.concat(frames)
-    valid = all_df[all_df["growth_ratio"].notna()].copy()
-    valid["potency"] = 1.0 - valid["growth_ratio"]
-    valid["label"] = valid["gene"] + " (" + valid["organism"].str.split(" ").str[0] + ")"
+    # Fill FBA results
+    if not ec_data.empty:
+        for _, row in ec_data.iterrows():
+            g = row["gene"]
+            if g in gene_info:
+                if pd.notna(row.get("growth_ratio")):
+                    gene_info[g]["ec_fba"] = "Lethal" if row["is_lethal"] else f"Growth {row['growth_ratio']:.2f}"
 
-    # Deduplicate by gene (keep highest potency)
-    valid = valid.sort_values("potency", ascending=False).drop_duplicates(subset="gene", keep="first")
-    valid = valid.sort_values("potency", ascending=True)
+    if not sa_data.empty:
+        for _, row in sa_data.iterrows():
+            g = row["gene"]
+            if g in gene_info:
+                if pd.notna(row.get("growth_ratio")):
+                    gene_info[g]["sa_fba"] = "Lethal" if row["is_lethal"] else f"Growth {row['growth_ratio']:.2f}"
 
-    fig = go.Figure()
+    # Build heatmap data
+    genes = sorted(gene_info.keys())
+    pathways = [gene_info[g]["pathway"] for g in genes]
 
-    # Color by lethal vs growth-reducing
-    colors = []
-    for _, row in valid.iterrows():
-        if row["potency"] > 0.99:
-            colors.append("#c62828")  # Lethal (red)
-        elif row["potency"] > 0.5:
-            colors.append("#ff9800")  # Growth-reducing (orange)
-        else:
-            colors.append("#4caf50")  # Non-essential (green)
+    # Numeric encoding: Lethal=2, Growth-reduced=1, Not mapped=0
+    def encode(status):
+        if "Lethal" in status: return 2
+        elif "Growth" in status: return 1
+        else: return 0
 
-    fig.add_trace(go.Bar(
-        y=valid["gene"],
-        x=valid["potency"],
-        orientation="h",
-        marker_color=colors,
-        text=valid["potency"].apply(lambda p: "LETHAL" if p > 0.99 else f"{p:.2f}"),
-        textposition="outside",
-        textfont=dict(size=10),
+    ec_values = [encode(gene_info[g]["ec_fba"]) for g in genes]
+    sa_values = [encode(gene_info[g]["sa_fba"]) for g in genes]
+    drug_markers = ["💊" if gene_info[g]["has_drug"] else "🆕" for g in genes]
+
+    fig = make_subplots(rows=1, cols=1)
+
+    # Custom colorscale: 0=gray, 1=orange, 2=red
+    colorscale = [[0, "#e0e0e0"], [0.5, "#ff9800"], [1.0, "#c62828"]]
+
+    z = np.array([ec_values, sa_values])
+    text = []
+    for vals, org in [(ec_values, "ec_fba"), (sa_values, "sa_fba")]:
+        row_text = []
+        for i, g in enumerate(genes):
+            status = gene_info[g][org]
+            row_text.append(f"{g}: {status}")
+        text.append(row_text)
+
+    fig = go.Figure(data=go.Heatmap(
+        z=z,
+        x=[f"{g} {drug_markers[i]}" for i, g in enumerate(genes)],
+        y=["E. coli<br>(iML1515)", "S. aureus<br>(iYS1720)"],
+        text=text,
+        texttemplate="",
+        hovertext=text,
+        colorscale=colorscale,
+        showscale=True,
+        colorbar=dict(
+            title="FBA Result",
+            tickvals=[0, 1, 2],
+            ticktext=["Not mapped", "Growth reduced", "Lethal"],
+        ),
+        zmin=0, zmax=2,
     ))
 
-    # Add threshold line
-    fig.add_vline(x=0.99, line_dash="dash", line_color="red", line_width=1.5)
-    fig.add_annotation(x=0.95, y=len(valid)-1, text="Lethal\nthreshold",
-                       showarrow=False, font=dict(size=10, color="red"))
+    # Add pathway annotations at bottom
+    pathway_colors = {}
+    for g in genes:
+        pw = gene_info[g]["pathway"]
+        if pw not in pathway_colors:
+            palette = px.colors.qualitative.Set3
+            pathway_colors[pw] = palette[len(pathway_colors) % len(palette)]
 
-    # Legend annotations
-    fig.add_annotation(x=0.85, y=0, text="🔴 Lethal (potency>0.99)  🟠 Growth-reducing  🟢 Non-essential",
-                       showarrow=False, font=dict(size=9), xref="paper", yref="paper")
+    for i, g in enumerate(genes):
+        pw = gene_info[g]["pathway"]
+        fig.add_annotation(
+            x=i, y=-0.3, text=pw[:15],
+            showarrow=False, font=dict(size=6, color=pathway_colors[pw]),
+            textangle=45, xref="x", yref="y",
+        )
 
     fig.update_layout(
-        width=900, height=max(450, len(valid)*25),
+        width=1100, height=350,
         font=FONT, plot_bgcolor="white",
-        title="Figure 2. FBA Gene Knockout — Target Potency",
-        xaxis=dict(title="Potency Score (1 - growth ratio; 1.0 = complete growth arrest)",
-                   range=[0, 1.15], gridcolor="#eee"),
-        yaxis=dict(title=""),
-        margin=dict(l=80, r=120, t=60, b=60),
+        title="Figure 2. Essential Gene FBA Analysis Across ESKAPE Models<br>"
+              "<sub>🔴 Lethal knockout  🟠 Growth-reducing  ⬜ Not mapped in model  "
+              "💊 Has existing drug  🆕 Novel target</sub>",
+        xaxis=dict(tickangle=45, tickfont=dict(size=9)),
+        margin=dict(l=100, r=40, t=80, b=100),
     )
     fig.write_image(str(FIG_DIR / "fig2_fba_knockouts.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig2_fba_knockouts.pdf"))
-    print("  Fig 2: FBA Potency ✅")
+    print("  Fig 2: FBA Heatmap ✅")
 
 
 def fig3_combination_landscape():

@@ -24,31 +24,34 @@ def fig1_architecture():
     """Figure 1: Platform architecture diagram (simplified as flowchart)."""
     fig = go.Figure()
 
-    # Boxes
+    # Boxes — wider with smaller font to keep text inside
     boxes = [
-        (0.5, 0.95, "Public Databases\n(ChEMBL, UniProt, OpenTargets,\nPubMed, AlphaFold, FAERS)", "#e3f2fd"),
-        (0.15, 0.7, "Knowledge\nGraph\n(Neo4j)", "#bbdefb"),
-        (0.5, 0.7, "GEM + FBA\n(COBRApy)", "#c8e6c9"),
-        (0.85, 0.7, "LLM NLP\n(Ollama)", "#fff3e0"),
-        (0.5, 0.45, "CALMA Engine\n(Sigma/Delta + Subsystem ANN\n+ Pareto Optimization)", "#e1bee7"),
-        (0.15, 0.2, "Sequence\nHomology\nToxicity", "#ffcdd2"),
-        (0.5, 0.2, "Multi-dim\nScoring\n(6 axes)", "#b2dfdb"),
-        (0.85, 0.2, "Clinical\nTrials +\nPatents", "#d7ccc8"),
-        (0.5, 0.0, "Dashboard (10 tabs) + PDF Reports + Target Rankings", "#e8eaf6"),
+        (0.5, 0.95, "Public Databases<br><sub>ChEMBL · UniProt · OpenTargets<br>PubMed · AlphaFold · FAERS</sub>", "#e3f2fd", 0.22, 0.06),
+        (0.15, 0.7, "Knowledge Graph<br><sub>Neo4j</sub>", "#bbdefb", 0.13, 0.055),
+        (0.5, 0.7, "GEM + FBA<br><sub>COBRApy</sub>", "#c8e6c9", 0.13, 0.055),
+        (0.85, 0.7, "LLM NLP<br><sub>Ollama</sub>", "#fff3e0", 0.13, 0.055),
+        (0.5, 0.45, "CALMA Engine<br><sub>Sigma/Delta · Subsystem ANN · Pareto</sub>", "#e1bee7", 0.22, 0.055),
+        (0.15, 0.2, "Sequence<br>Homology<br><sub>Toxicity</sub>", "#ffcdd2", 0.13, 0.06),
+        (0.5, 0.2, "Multi-dim<br>Scoring<br><sub>6 axes</sub>", "#b2dfdb", 0.13, 0.06),
+        (0.85, 0.2, "Clinical Trials<br>+ Patents", "#d7ccc8", 0.13, 0.055),
+        (0.5, 0.0, "Dashboard (10 tabs) · PDF Reports · Target Rankings", "#e8eaf6", 0.28, 0.045),
     ]
 
-    for x, y, text, color in boxes:
+    for item in boxes:
+        x, y, text, color = item[0], item[1], item[2], item[3]
+        hw = item[4] if len(item) > 4 else 0.14
+        hh = item[5] if len(item) > 5 else 0.06
         fig.add_shape(type="rect",
-                      x0=x-0.14, y0=y-0.08, x1=x+0.14, y1=y+0.08,
+                      x0=x-hw, y0=y-hh, x1=x+hw, y1=y+hh,
                       fillcolor=color, line=dict(color="#455a64", width=1.5))
         fig.add_annotation(x=x, y=y, text=text, showarrow=False,
-                          font=dict(size=9), align="center")
+                          font=dict(size=8), align="center")
 
     # Arrows
-    arrows = [(0.5, 0.87, 0.15, 0.78), (0.5, 0.87, 0.5, 0.78), (0.5, 0.87, 0.85, 0.78),
-              (0.15, 0.62, 0.5, 0.53), (0.5, 0.62, 0.5, 0.53), (0.85, 0.62, 0.5, 0.53),
-              (0.5, 0.37, 0.15, 0.28), (0.5, 0.37, 0.5, 0.28), (0.5, 0.37, 0.85, 0.28),
-              (0.15, 0.12, 0.5, 0.08), (0.5, 0.12, 0.5, 0.08), (0.85, 0.12, 0.5, 0.08)]
+    arrows = [(0.5, 0.89, 0.15, 0.755), (0.5, 0.89, 0.5, 0.755), (0.5, 0.89, 0.85, 0.755),
+              (0.15, 0.645, 0.5, 0.505), (0.5, 0.645, 0.5, 0.505), (0.85, 0.645, 0.5, 0.505),
+              (0.5, 0.395, 0.15, 0.26), (0.5, 0.395, 0.5, 0.26), (0.5, 0.395, 0.85, 0.255),
+              (0.15, 0.14, 0.5, 0.045), (0.5, 0.14, 0.5, 0.045), (0.85, 0.145, 0.5, 0.045)]
 
     for x0, y0, x1, y1 in arrows:
         fig.add_annotation(x=x1, y=y1, ax=x0, ay=y0, xref="x", yref="y",
