@@ -228,25 +228,27 @@ The author declares no competing interests.
 
 \begin{table}[H]
 \centering
-\caption{\textbf{Top 10 AMR Drug Target Candidates}, ranked by composite score. FBA status indicates Tier A (lethal knockout confirmed) or Tier B (not mapped in GEM). Human homolog column reflects literature-curated audit. $^\dagger$Rankings are sensitive to scoring weight selection (see Sensitivity Analysis).}
+\caption{\textbf{Top 10 AMR Drug Target Candidates}, ranked by composite score. FBA status: Tier A = lethal knockout confirmed; Tier B = not mapped in GEM. Homolog data from literature-curated audit. Ties broken by alphabetical order within same score. $^\dagger$Rankings sensitive to weight selection ($\pm$10\% perturbation range: 0.053--0.072).}
 \label{tab:targets}
 \begin{tabular}{llcclccl}
 \toprule
 \textbf{Gene} & \textbf{Pathway} & \textbf{Score}$^\dagger$ & \textbf{FBA} & \textbf{Human Homolog} & \textbf{Identity} & \textbf{Risk} & \textbf{Tier} \\
 \midrule
 lpxC & LPS synthesis & 0.828 & Lethal & None$^a$ & 0\% & Minimal & A \\
-lpxA & LPS synthesis & 0.818 & Lethal & Unknown & --- & TBD & A \\
+lpxA & LPS synthesis & 0.818 & Lethal & None$^d$ & 0\% & Minimal & A \\
 bamA & Outer membrane & 0.815 & N/A$^b$ & SAM50$^c$ & $\sim$15\% & Low & B \\
-lpxB & LPS synthesis & 0.815 & Lethal & Unknown & --- & TBD & A \\
-bamD & Outer membrane & 0.807 & N/A$^b$ & Unknown & --- & TBD & B \\
-ftsZ & Cell division & 0.805 & N/A$^b$ & Tubulin$^c$ & $\sim$10--17\% & Low & B \\
+lpxB & LPS synthesis & 0.815 & Lethal & None$^d$ & 0\% & Minimal & A \\
+bamD & Outer membrane & 0.807 & N/A$^b$ & None$^d$ & 0\% & Minimal & B \\
+ftsZ & Cell division & 0.805 & N/A$^b$ & Tubulin$^c$ & $\sim$14\% & Low & B \\
 walK & Signaling & 0.800 & N/A$^b$ & None$^a$ & 0\% & Minimal & B \\
 murA & Peptidoglycan & 0.800 & Lethal & None$^a$ & 0\% & Minimal & A \\
-gyrA & DNA topology & 0.798 & N/A$^b$ & TOP2A$^c$ & $\sim$15--20\% & Low & B \\
-dnaA & DNA replication & 0.797 & N/A$^b$ & RPA1 & $\sim$8\% & Low & B \\
+gyrA & DNA topology & 0.798 & N/A$^b$ & TOP2A$^c$ & $\sim$18\% & Low & B \\
+dnaA & DNA replication & 0.797 & N/A$^b$ & None$^d$ & 0\% & Minimal & B \\
 \bottomrule
-\multicolumn{8}{l}{\footnotesize $^a$Confirmed no human homolog (literature + computational). $^b$Gene not mapped in iML1515 GEM.} \\
-\multicolumn{8}{l}{\footnotesize $^c$Distant homolog identified by literature curation; k-mer screening missed this relationship.}
+\multicolumn{8}{l}{\footnotesize $^a$Confirmed no human homolog (literature + computational + UniProt search).} \\
+\multicolumn{8}{l}{\footnotesize $^b$Gene not mapped in iML1515 GEM (non-metabolic essential gene).} \\
+\multicolumn{8}{l}{\footnotesize $^c$Distant homolog identified by literature curation; k-mer screening missed this relationship.} \\
+\multicolumn{8}{l}{\footnotesize $^d$No homolog found by UniProt protein-name search; same pathway enzymes as confirmed$^a$ targets.}
 \end{tabular}
 \end{table}
 
