@@ -16,117 +16,78 @@ FONT = dict(family="Arial", size=14)
 
 
 def fig2_fba_knockouts():
-    """Fig 2: FBA — heatmap showing essentiality across organisms + pathways."""
+    """Fig 2: FBA heatmap — 3 species, mapped genes only."""
     from src.amr.data_collector_v2 import CURATED_ESSENTIAL_GENES, KNOWN_ANTIBIOTIC_TARGETS
 
-    fba_ec = DATA_DIR / "metabolic_analysis" / "metabolic_Escherichia_coli.csv"
-    fba_sa = DATA_DIR / "metabolic_analysis" / "metabolic_Staphylococcus_aureus.csv"
+    fba_files = {
+        "E. coli (iML1515)": DATA_DIR / "metabolic_analysis" / "metabolic_Escherichia_coli.csv",
+        "S. aureus (iYS1720)": DATA_DIR / "metabolic_analysis" / "metabolic_Staphylococcus_aureus.csv",
+        "K. pneumoniae (iYL1228)": DATA_DIR / "metabolic_analysis" / "metabolic_Klebsiella_pneumoniae.csv",
+    }
 
-    ec_data = pd.read_csv(fba_ec) if fba_ec.exists() else pd.DataFrame()
-    sa_data = pd.read_csv(fba_sa) if fba_sa.exists() else pd.DataFrame()
-
-    # Build gene info from curated data
-    gene_info = {}
-    for organism, genes in CURATED_ESSENTIAL_GENES.items():
-        for gene, info in genes.items():
-            if gene not in gene_info:
-                gene_info[gene] = {
-                    "pathway": info["pathway"].replace("_", " ").title(),
-                    "organisms": [],
-                    "ec_fba": "Not mapped",
-                    "sa_fba": "Not mapped",
-                    "has_drug": len(KNOWN_ANTIBIOTIC_TARGETS.get(gene, [])) > 0,
-                }
-            gene_info[gene]["organisms"].append(organism.split()[0][:4])
-
-    # Fill FBA results
-    if not ec_data.empty:
-        for _, row in ec_data.iterrows():
-            g = row["gene"]
-            if g in gene_info:
+    # Load all FBA results
+    fba_data = {}
+    for org_label, path in fba_files.items():
+        if path.exists():
+            df = pd.read_csv(path)
+            for _, row in df.iterrows():
+                g = row["gene"]
                 if pd.notna(row.get("growth_ratio")):
-                    gene_info[g]["ec_fba"] = "Lethal" if row["is_lethal"] else f"Growth {row['growth_ratio']:.2f}"
+                    if g not in fba_data:
+                        fba_data[g] = {}
+                    fba_data[g][org_label] = "Lethal" if row["is_lethal"] else "Reduced"
 
-    if not sa_data.empty:
-        for _, row in sa_data.iterrows():
-            g = row["gene"]
-            if g in gene_info:
-                if pd.notna(row.get("growth_ratio")):
-                    gene_info[g]["sa_fba"] = "Lethal" if row["is_lethal"] else f"Growth {row['growth_ratio']:.2f}"
+    # Only include genes mapped in at least one model
+    mapped_genes = sorted(fba_data.keys())
+    organisms = list(fba_files.keys())
 
-    # Build heatmap data
-    genes = sorted(gene_info.keys())
-    pathways = [gene_info[g]["pathway"] for g in genes]
+    # Get drug status
+    has_drug = {g: len(KNOWN_ANTIBIOTIC_TARGETS.get(g, [])) > 0 for g in mapped_genes}
 
-    # Numeric encoding: Lethal=2, Growth-reduced=1, Not mapped=0
+    # Build matrix: Lethal=2, Reduced=1, Not mapped=0
     def encode(status):
-        if "Lethal" in status: return 2
-        elif "Growth" in status: return 1
+        if status == "Lethal": return 2
+        elif status == "Reduced": return 1
         else: return 0
 
-    ec_values = [encode(gene_info[g]["ec_fba"]) for g in genes]
-    sa_values = [encode(gene_info[g]["sa_fba"]) for g in genes]
-    drug_markers = ["💊" if gene_info[g]["has_drug"] else "🆕" for g in genes]
+    z = []
+    hover = []
+    for org in organisms:
+        row_z = []
+        row_h = []
+        for g in mapped_genes:
+            status = fba_data.get(g, {}).get(org, "Not mapped")
+            row_z.append(encode(status))
+            row_h.append(f"{g}: {status}")
+        z.append(row_z)
+        hover.append(row_h)
 
-    fig = make_subplots(rows=1, cols=1)
+    # Gene labels with drug marker
+    x_labels = [f"{g} {'💊' if has_drug.get(g) else '🆕'}" for g in mapped_genes]
 
-    # Custom colorscale: 0=gray, 1=orange, 2=red
-    colorscale = [[0, "#e0e0e0"], [0.5, "#ff9800"], [1.0, "#c62828"]]
-
-    z = np.array([ec_values, sa_values])
-    text = []
-    for vals, org in [(ec_values, "ec_fba"), (sa_values, "sa_fba")]:
-        row_text = []
-        for i, g in enumerate(genes):
-            status = gene_info[g][org]
-            row_text.append(f"{g}: {status}")
-        text.append(row_text)
+    colorscale = [[0, "#bdbdbd"], [0.5, "#ff9800"], [1.0, "#c62828"]]
 
     fig = go.Figure(data=go.Heatmap(
-        z=z,
-        x=[f"{g} {drug_markers[i]}" for i, g in enumerate(genes)],
-        y=["E. coli<br>(iML1515)", "S. aureus<br>(iYS1720)"],
-        text=text,
-        texttemplate="",
-        hovertext=text,
-        colorscale=colorscale,
+        z=z, x=x_labels, y=organisms,
+        hovertext=hover, texttemplate="",
+        colorscale=colorscale, zmin=0, zmax=2,
         showscale=True,
-        colorbar=dict(
-            title="FBA Result",
-            tickvals=[0, 1, 2],
-            ticktext=["Not mapped", "Growth reduced", "Lethal"],
-        ),
-        zmin=0, zmax=2,
+        colorbar=dict(title="FBA", tickvals=[0, 1, 2],
+                      ticktext=["Not mapped", "Growth reduced", "Lethal"]),
     ))
 
-    # Add pathway annotations at bottom
-    pathway_colors = {}
-    for g in genes:
-        pw = gene_info[g]["pathway"]
-        if pw not in pathway_colors:
-            palette = px.colors.qualitative.Set3
-            pathway_colors[pw] = palette[len(pathway_colors) % len(palette)]
-
-    for i, g in enumerate(genes):
-        pw = gene_info[g]["pathway"]
-        fig.add_annotation(
-            x=i, y=-0.3, text=pw[:15],
-            showarrow=False, font=dict(size=6, color=pathway_colors[pw]),
-            textangle=45, xref="x", yref="y",
-        )
-
     fig.update_layout(
-        width=1100, height=350,
-        font=FONT, plot_bgcolor="white",
-        title="Figure 2. Essential Gene FBA Analysis Across ESKAPE Models<br>"
-              "<sub>🔴 Lethal knockout  🟠 Growth-reducing  ⬜ Not mapped in model  "
-              "💊 Has existing drug  🆕 Novel target</sub>",
-        xaxis=dict(tickangle=45, tickfont=dict(size=9)),
-        margin=dict(l=100, r=40, t=80, b=100),
+        width=1000, height=280,
+        font=dict(family="Arial", size=11), plot_bgcolor="white",
+        title="Figure 2. Essential Gene FBA Across 3 ESKAPE Models (Mapped Genes Only)<br> <br>"
+              "<sub>🔴 Lethal  🟠 Growth-reducing  ⬜ Not mapped  💊 Has drug  🆕 Novel</sub>",
+        xaxis=dict(tickangle=60, tickfont=dict(size=8), side="bottom"),
+        yaxis=dict(tickfont=dict(size=10)),
+        margin=dict(l=140, r=40, t=100, b=100),
     )
     fig.write_image(str(FIG_DIR / "fig2_fba_knockouts.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig2_fba_knockouts.pdf"))
-    print("  Fig 2: FBA Heatmap ✅")
+    print("  Fig 2: FBA 3-species Heatmap ✅")
 
 
 def fig3_nlp_comparison():
