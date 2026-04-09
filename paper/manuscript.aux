@@ -37,7 +37,7 @@
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.8}LLM-Powered NLP Pipeline}{5}{subsection.2.8}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.9}Multi-Dimensional Target Scoring}{5}{subsection.2.9}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.10}Temporal Validation}{5}{subsection.2.10}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.11}Organ-Specific Toxicity Prediction}{5}{subsection.2.11}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.11}Organ-Specific Toxicity Prediction}{6}{subsection.2.11}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {3}Results}{6}{section.3}\protected@file@percent }
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.1}FBA Validates Essential Gene Lethality Across Three Species}{6}{subsection.3.1}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Sensitivity analysis.}{6}{section*.1}\protected@file@percent }
@@ -51,20 +51,20 @@
 \citation{arora2026}
 \@writefile{toc}{\contentsline {subsection}{\numberline {3.7}Temporal Analysis}{9}{subsection.3.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{9}{section.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Mechanistic interpretability through metabolic modeling.}{9}{section*.2}\protected@file@percent }
 \citation{altschul1997}
 \citation{lee2020}
+\@writefile{toc}{\contentsline {paragraph}{Mechanistic interpretability through metabolic modeling.}{10}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Sequence-based selectivity as an orthogonal toxicity filter.}{10}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{LLM-powered NLP represents a paradigm shift in biomedical text mining.}{10}{section*.4}\protected@file@percent }
 \citation{chandrasekaran2016}
 \citation{ji2023}
 \citation{kuenzi2020}
 \citation{arora2026}
-\@writefile{toc}{\contentsline {paragraph}{Sequence-based selectivity as an orthogonal toxicity filter.}{10}{section*.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{LLM-powered NLP represents a paradigm shift in biomedical text mining.}{10}{section*.4}\protected@file@percent }
-\@writefile{toc}{\contentsline {paragraph}{Comparison with existing tools.}{10}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Comparison with existing tools.}{11}{section*.5}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Open-source availability and reproducibility.}{11}{section*.6}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Limitations.}{11}{section*.7}\protected@file@percent }
 \@writefile{toc}{\contentsline {paragraph}{Future directions.}{11}{section*.8}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {5}Data and Code Availability}{11}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Data and Code Availability}{12}{section.5}\protected@file@percent }
 \@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {Platform architecture.} Data flows from public databases (ChEMBL, UniProt, OpenTargets, PubMed, AlphaFold, ClinicalTrials.gov, FAERS) through knowledge graph construction (Neo4j, 2,224 nodes), metabolic modeling (COBRApy FBA on iML1515, iYS1720, and iYL1228), LLM-powered NLP (Ollama/Claude), and structural analysis (AlphaFold) into a CALMA-inspired analysis engine. Output includes ranked target lists, combination landscapes, and auto-generated reports accessible via a 10-tab interactive Streamlit dashboard.}}{13}{figure.1}\protected@file@percent }
 \newlabel{fig:arch}{{1}{13}{\textbf {Platform architecture.} Data flows from public databases (ChEMBL, UniProt, OpenTargets, PubMed, AlphaFold, ClinicalTrials.gov, FAERS) through knowledge graph construction (Neo4j, 2,224 nodes), metabolic modeling (COBRApy FBA on iML1515, iYS1720, and iYL1228), LLM-powered NLP (Ollama/Claude), and structural analysis (AlphaFold) into a CALMA-inspired analysis engine. Output includes ranked target lists, combination landscapes, and auto-generated reports accessible via a 10-tab interactive Streamlit dashboard}{figure.1}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Essential gene FBA analysis across three ESKAPE models (mapped genes only).} Heatmap shows FBA results for \textit  {E. coli} (iML1515), \textit  {S. aureus} (iYS1720), and \textit  {K. pneumoniae} (iYL1228). Red = lethal knockout, orange = growth-reducing, gray = not mapped in this model. Only genes mapped in at least one model are shown (20 unmapped genes listed in Supplementary Table S1). Cross-species consistency: lpxA--D, murA--F, accA, and fabI are lethal in all models where mapped. Note species-specific differences: fabH is lethal in \textit  {E. coli} but growth-reducing in \textit  {S. aureus}; folA/folP are lethal in \textit  {E. coli} but not mapped in \textit  {S. aureus}. Symbols: \raisebox  {-1pt}{\small  $\blacklozenge $} = has existing drug; \raisebox  {-1pt}{\small  $\bigstar $} = novel target.}}{14}{figure.2}\protected@file@percent }
