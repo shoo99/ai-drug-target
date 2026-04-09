@@ -103,15 +103,14 @@ def fig3_nlp_comparison():
         ("LPXC", 12, "Real gene"), ("OM", 11, "Bio term"), ("QS", 10, "Bio term"),
     ]
 
-    # LLM: AMR vs Pruritus
+    # LLM: AMR vs Pruritus (duplicates merged: IL31+IL31RA, BAM→BAMA)
     llm_data = [
         ("FTSZ", 41, "AMR"), ("LPXC", 17, "AMR"), ("BAMA", 6, "AMR"),
         ("MURA", 5, "AMR"), ("MURB", 3, "AMR"), ("LPTD", 3, "AMR"),
-        ("IL31", 19, "Pruritus"), ("IL13", 8, "Pruritus"),
+        ("IL31/IL31RA", 22, "Pruritus"), ("IL13", 8, "Pruritus"),
         ("TRPV1", 7, "Pruritus"), ("IL4", 6, "Pruritus"),
         ("TRPA1", 5, "Pruritus"), ("TRPV3", 5, "Pruritus"),
         ("EGFR", 5, "Pruritus"), ("JAK", 4, "Pruritus"),
-        ("IL31RA", 3, "Pruritus"),
     ]
 
     fig = make_subplots(rows=1, cols=2,
@@ -348,9 +347,9 @@ def fig5_selectivity():
         {"gene": "bamA", "identity": 15, "human": "SAM50", "risk": "Low"},
         {"gene": "ftsZ", "identity": 14, "human": "Tubulin (10-17%)", "risk": "Low"},
         {"gene": "dnaA", "identity": 8, "human": "RPA1", "risk": "Low"},
-        {"gene": "rpoB", "identity": 4.2, "human": "RECQL5", "risk": "Minimal"},
-        {"gene": "murF", "identity": 4.1, "human": "TRIM54", "risk": "Minimal"},
-        {"gene": "murC", "identity": 3.5, "human": "CAVIN4", "risk": "Minimal"},
+        {"gene": "rpoB", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "murF", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "murC", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "fabI", "identity": 3.3, "human": "PECR", "risk": "Minimal"},
         {"gene": "murA", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "murB", "identity": 0, "human": "None", "risk": "None"},
