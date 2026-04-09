@@ -339,33 +339,35 @@ def fig4_pathway_importance():
 
 
 def fig5_selectivity():
-    """Fig 5: Selectivity — dot plot with clear labels for all genes."""
-    # Literature-curated homology data
+    """Fig 6: Selectivity — single dot per gene, all data corrected."""
+    # Literature-curated homology data (one entry per gene, no duplicates)
     data = [
+        {"gene": "folA", "identity": 30, "human": "DHFR2 (Q86XF0)", "risk": "High"},
         {"gene": "accA", "identity": 22, "human": "ACACA", "risk": "Moderate"},
         {"gene": "gyrA", "identity": 18, "human": "TOP2A", "risk": "Low"},
         {"gene": "bamA", "identity": 15, "human": "SAM50", "risk": "Low"},
-        {"gene": "ftsZ", "identity": 14, "human": "Tubulin", "risk": "Low"},
+        {"gene": "ftsZ", "identity": 14, "human": "Tubulin (10-17%)", "risk": "Low"},
         {"gene": "dnaA", "identity": 8, "human": "RPA1", "risk": "Low"},
-        {"gene": "murF", "identity": 4.1, "human": "—", "risk": "Minimal"},
-        {"gene": "murC", "identity": 3.5, "human": "—", "risk": "Minimal"},
+        {"gene": "rpoB", "identity": 4.2, "human": "RECQL5", "risk": "Minimal"},
+        {"gene": "murF", "identity": 4.1, "human": "TRIM54", "risk": "Minimal"},
+        {"gene": "murC", "identity": 3.5, "human": "CAVIN4", "risk": "Minimal"},
         {"gene": "fabI", "identity": 3.3, "human": "PECR", "risk": "Minimal"},
-        {"gene": "rpoB", "identity": 4.2, "human": "—", "risk": "Minimal"},
-        {"gene": "folA", "identity": 30, "human": "DHFR2", "risk": "High"},
         {"gene": "murA", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "murB", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "murD", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "murE", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "lpxC", "identity": 0, "human": "None", "risk": "None"},
-        {"gene": "walK", "identity": 0, "human": "None", "risk": "None"},
-        {"gene": "dxr", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "lpxA", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "lpxB", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "lpxD", "identity": 0, "human": "None", "risk": "None"},
         {"gene": "bamD", "identity": 0, "human": "None", "risk": "None"},
-        {"gene": "murD", "identity": 0, "human": "None", "risk": "None"},
-        {"gene": "murE", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "walK", "identity": 0, "human": "None", "risk": "None"},
+        {"gene": "dxr", "identity": 0, "human": "None", "risk": "None"},
     ]
 
-    df = pd.DataFrame(data).sort_values("identity", ascending=True)
+    df = pd.DataFrame(data)
+    # Sort: high identity first, then alphabetical within same identity
+    df = df.sort_values(["identity", "gene"], ascending=[False, True])
 
     risk_colors = {"None": "#2e7d32", "Minimal": "#8bc34a", "Low": "#ff9800",
                    "Moderate": "#ff5722", "High": "#c62828"}
@@ -374,47 +376,62 @@ def fig5_selectivity():
 
     fig = go.Figure()
 
-    for risk in ["None", "Minimal", "Low", "Moderate", "High"]:
+    # Plot one trace per risk level (for legend)
+    for risk in ["High", "Moderate", "Low", "Minimal", "None"]:
         subset = df[df["risk"] == risk]
         if subset.empty:
             continue
+
+        labels = []
+        for _, r in subset.iterrows():
+            if r["identity"] > 0:
+                labels.append(f"  {r['human']} ({r['identity']}%)")
+            else:
+                labels.append("  No homolog")
+
         fig.add_trace(go.Scatter(
-            x=subset["identity"],
-            y=subset["gene"],
+            x=subset["identity"].values,
+            y=subset["gene"].values,
             mode="markers+text",
-            marker=dict(size=14, color=risk_colors[risk], symbol=risk_symbols[risk],
-                       line=dict(width=1.5, color="white")),
-            text=subset.apply(lambda r: f"  {r['human']} ({r['identity']}%)" if r['identity'] > 0 else "  No homolog", axis=1),
+            marker=dict(size=12, color=risk_colors[risk], symbol=risk_symbols[risk],
+                       line=dict(width=1, color="white")),
+            text=labels,
             textposition="middle right",
-            textfont=dict(size=9),
+            textfont=dict(size=8),
             name=f"{risk} risk",
         ))
 
+    # Threshold lines
     fig.add_vline(x=25, line_dash="dash", line_color="#ff9800", line_width=1.5)
-    fig.add_annotation(x=25, y=1.02, text="Moderate (25%)", showarrow=False,
-                       font=dict(size=10, color="#ff9800"), xref="x", yref="paper")
     fig.add_vline(x=40, line_dash="dash", line_color="#c62828", line_width=1.5)
-    fig.add_annotation(x=40, y=1.02, text="High (40%)", showarrow=False,
-                       font=dict(size=10, color="#c62828"), xref="x", yref="paper")
 
-    # Shade safe zone
-    fig.add_vrect(x0=0, x1=10, fillcolor="rgba(46,125,50,0.08)", line_width=0)
+    # Labels above chart
+    fig.add_annotation(x=25, y=-0.5, text="Moderate (25%)", showarrow=False,
+                       font=dict(size=9, color="#ff9800"), yref="y")
+    fig.add_annotation(x=40, y=-0.5, text="High (40%)", showarrow=False,
+                       font=dict(size=9, color="#c62828"), yref="y")
+
+    # Safe zone
+    fig.add_vrect(x0=-1, x1=10, fillcolor="rgba(46,125,50,0.06)", line_width=0)
 
     fig.update_layout(
-        width=900, height=550,
+        width=900, height=600,
         font=FONT, plot_bgcolor="white",
-        title="Figure 6. Bacterial-Human Protein Homology (Literature-Curated Audit)<br><br>"
-              "<sub>folA → DHFR2 (30%) is the only target with significant human homology. "
-              "11 targets have no detectable homolog.</sub>",
+        title="Figure 6. Bacterial-Human Protein Homology<br> <br>"
+              "<sub>Literature-curated audit of 21 AMR targets. "
+              "folA→DHFR2 (30%) is the only high-risk target. "
+              "11 targets have no detectable human homolog.</sub>",
         xaxis=dict(title="Sequence Identity to Closest Human Homolog (%)",
-                   range=[-2, 50], gridcolor="#eee", dtick=10),
-        yaxis=dict(title=""),
-        legend=dict(x=0.65, y=0.3, bgcolor="rgba(255,255,255,0.9)"),
-        margin=dict(l=70, r=150, t=110, b=50),
+                   range=[-2, 48], gridcolor="#eee", dtick=10),
+        yaxis=dict(title="", categoryorder="array",
+                   categoryarray=list(df["gene"].values)),
+        legend=dict(x=0.60, y=0.95, bgcolor="rgba(255,255,255,0.9)",
+                   font=dict(size=10)),
+        margin=dict(l=70, r=160, t=110, b=50),
     )
     fig.write_image(str(FIG_DIR / "fig5_selectivity.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig5_selectivity.pdf"))
-    print("  Fig 5: Selectivity (dot plot) ✅")
+    print("  Fig 6: Selectivity (fixed) ✅")
 
 
 def main():
