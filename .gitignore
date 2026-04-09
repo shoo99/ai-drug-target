@@ -2,12 +2,22 @@ venv/
 __pycache__/
 *.pyc
 .env
-data/
-models/*.pt
-models/*.pkl
-reports/*.pdf
-reports/*.txt
 .streamlit/
 neo4j-data/
 *.log
 .DS_Store
+
+# Large raw data (download via pipeline scripts)
+data/gem_models/
+data/docking/structures/
+data/llm_nlp/llm_extraction_full.json
+data/*/pubmed_*.json
+data/models_cache/
+
+# Generated reports (reproducible via scripts)
+reports/*.pdf
+reports/*.txt
+
+# Model weights
+models/*.pt
+models/*.pkl

@@ -1,0 +1,6 @@
+compound,target_gene,type,smiles,note
+CHIR-090,lpxC,hydroxamate LpxC inhibitor,O=C(NC1=CC=CC=C1)C2=CC=C(O)C=C2,RDKit unavailable — properties not computed
+Fosfomycin,murA,approved antibiotic,O=P(O)(O)C1OC1C,RDKit unavailable — properties not computed
+Triclosan,fabI,enoyl-ACP reductase inhibitor,OC1=CC(Cl)=CC=C1OC2=CC(Cl)=C(Cl)C=C2,RDKit unavailable — properties not computed
+Trimethoprim,folA,DHFR inhibitor,COC1=CC(CC2=CN=C(N)N=C2N)=CC(OC)=C1OC,RDKit unavailable — properties not computed
+Novobiocin,gyrB,DNA gyrase inhibitor,CC1=CC(O)=C2C(=O)C(NC(=O)C3=CC=C(O)C(CC=C(C)C)=C3)=C(OC4OC(C)(O)C(OC(N)=O)C(O)C4)OC2=C1,RDKit unavailable — properties not computed

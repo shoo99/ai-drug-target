@@ -1,0 +1,20 @@
+gene,kidney_risk,kidney_score,liver_risk,liver_score,heart_risk,heart_score,neuron_risk,neuron_score,overall_toxicity,overall_risk,at_risk_organs,safe_organs
+murA,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+murB,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+murC,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+murD,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+murE,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+murF,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+ftsW,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+fabI,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+fabH,high,1.0,high,1.0,minimal,0.05,high,0.9,1.0,high,"kidney, liver, neuron",heart
+accA,high,1.0,high,1.0,minimal,0.05,high,1.0,1.0,high,"kidney, liver, neuron",heart
+folA,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+folP,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+dxr,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+ispD,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+lpxC,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+lpxA,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+lpxB,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+lpxD,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"
+lptD,high,1.0,high,1.0,minimal,0.05,minimal,0.05,1.0,high,"kidney, liver","heart, neuron"

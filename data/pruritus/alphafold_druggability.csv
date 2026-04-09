@@ -1,0 +1,21 @@
+gene,uniprot_id,has_alphafold,avg_plddt,protein_class,has_pdb_experimental,druggability_score,modality_suggestion,subcellular
+IL7R,B8YG18,True,,receptor,False,0.45,Monoclonal antibody or small molecule,
+IL6R,A0A087WTB5,True,,receptor,False,0.45,Monoclonal antibody or small molecule,"Cell membrane, Secreted"
+DOK2,O60496,True,,,True,0.4,Multiple modalities possible,
+TESPA1,H0YDP3,False,,,False,0.1,"Consider PROTAC, ASO, or siRNA",
+PRKCQ,Q04759,True,,kinase,True,0.65,Small molecule inhibitor,"Cytoplasm, Cell membrane"
+CYP24A1,Q07973,True,,enzyme,False,0.4,Small molecule inhibitor,Mitochondrion
+NLRP10,E9PPY0,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",
+TAGAP,A0A2R8YEB9,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",
+BACH2,Q9BYV9,True,,,True,0.4,Multiple modalities possible,"Cytoplasm, Nucleus"
+MMP12,P39900,True,,protease,True,0.6,Small molecule inhibitor,"Secreted, extracellular space, extracellular matrix"
+CSF2RB,B0QY07,True,,receptor,False,0.45,Monoclonal antibody or small molecule,Membrane
+IL18R1,B7ZKV7,True,,receptor,False,0.45,Monoclonal antibody or small molecule,Membrane
+SERPINB7,A0A1B0GX82,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",Cytoplasm
+SATB1,C9JP21,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",
+NFILZ,A0A5F9ZHS7,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",Nucleus
+TRAF3,H0YL26,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",Cytoplasm
+ZNF652,Q9Y2D9,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",Nucleus
+PRR5L,E9PP62,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",
+BLTP1,A0A8I5KWM3,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",
+CREB5,H0YFV2,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",Nucleus

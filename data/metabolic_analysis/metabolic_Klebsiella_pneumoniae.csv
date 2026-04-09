@@ -1,0 +1,40 @@
+gene,organism,model,wt_growth,ko_growth,growth_ratio,is_lethal,is_growth_reducing,n_affected_reactions,affected_subsystems,n_flux_changes,toxicity_risk,toxicity_score,selectivity,human_overlap,potency_score,target_quality
+accA,Klebsiella pneumoniae,iYL1228,1.042637,-0.0,-0.0,True,True,1,Membrane Lipid Metabolism,322.0,low,0.2,0.8,,1.0,0.8
+bamA,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+bamD,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+dnaA,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+dnaB,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+dnaE,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+dnaN,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+dxr,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+fabH,Klebsiella pneumoniae,iYL1228,1.042637,1.040583,0.998029,False,False,2,Membrane Lipid Metabolism,17.0,low,0.2,0.8,,0.002,0.0016
+fabI,Klebsiella pneumoniae,iYL1228,1.042637,0.0,0.0,True,True,24,Cell Envelope Biosynthesis,326.0,low,0.2,0.8,,1.0,0.8
+folA,Klebsiella pneumoniae,iYL1228,1.042637,1.042637,1.0,False,False,1,Cofactor and Prosthetic Group Biosynthesis,0.0,low,0.2,0.8,,0.0,0.0
+folP,Klebsiella pneumoniae,iYL1228,1.042637,1.042637,1.0,False,False,1,Cofactor and Prosthetic Group Biosynthesis,0.0,low,0.2,0.8,,0.0,0.0
+ftsA,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+ftsW,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+ftsZ,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+gyrA,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+gyrB,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+infA,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+infB,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+ispD,Klebsiella pneumoniae,iYL1228,1.042637,1.042637,1.0,False,False,1,Cofactor and Prosthetic Group Biosynthesis,0.0,low,0.2,0.8,,0.0,0.0
+lptD,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+lpxA,Klebsiella pneumoniae,iYL1228,1.042637,0.0,0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,322.0,low,0.2,0.8,,1.0,0.8
+lpxB,Klebsiella pneumoniae,iYL1228,1.042637,-0.0,-0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,322.0,low,0.2,0.8,,1.0,0.8
+lpxC,Klebsiella pneumoniae,iYL1228,1.042637,-0.0,-0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,322.0,low,0.2,0.8,,1.0,0.8
+lpxD,Klebsiella pneumoniae,iYL1228,1.042637,0.0,0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,322.0,low,0.2,0.8,,1.0,0.8
+murA,Klebsiella pneumoniae,iYL1228,1.042637,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,319.0,low,0.2,0.8,,1.0,0.8
+murB,Klebsiella pneumoniae,iYL1228,1.042637,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,319.0,low,0.2,0.8,,1.0,0.8
+murC,Klebsiella pneumoniae,iYL1228,1.042637,-0.0,-0.0,True,True,1,Cell Envelope Biosynthesis,319.0,low,0.2,0.8,,1.0,0.8
+murD,Klebsiella pneumoniae,iYL1228,1.042637,-0.0,-0.0,True,True,1,Cell Envelope Biosynthesis,319.0,low,0.2,0.8,,1.0,0.8
+murE,Klebsiella pneumoniae,iYL1228,1.042637,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,319.0,low,0.2,0.8,,1.0,0.8
+murF,Klebsiella pneumoniae,iYL1228,1.042637,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,319.0,low,0.2,0.8,,1.0,0.8
+parC,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+parE,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+rpoB,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+rpoC,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+secA,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+secY,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+walK,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,
+walR,Klebsiella pneumoniae,iYL1228,,,,,,0,,,unknown,,,,,

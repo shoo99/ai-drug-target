@@ -1,0 +1,16 @@
+gene,total_trials,active_trials,completed_trials,most_advanced_phase,competition_level,n_unique_sponsors
+IL7R,24,6,7,PHASE4,very_high,19
+IL6R,56,14,29,PHASE4,very_high,49
+DOK2,0,0,0,None,none,0
+TESPA1,0,0,0,None,none,0
+PRKCQ,0,0,0,None,none,0
+CYP24A1,9,0,5,PHASE3,high,9
+NLRP10,0,0,0,None,none,0
+TAGAP,0,0,0,None,none,0
+BACH2,2,1,1,PHASE2,low,2
+MMP12,12,1,10,PHASE4,high,8
+CSF2RB,16,7,8,PHASE3,very_high,13
+IL18R1,2,1,1,PHASE1,low,2
+SERPINB7,0,0,0,None,none,0
+SATB1,0,0,0,None,none,0
+NFILZ,0,0,0,None,none,0

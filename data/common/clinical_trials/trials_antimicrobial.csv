@@ -1,0 +1,16 @@
+gene,total_trials,active_trials,completed_trials,most_advanced_phase,competition_level,n_unique_sponsors
+OX40,27,10,13,PHASE3,very_high,20
+CRISPR,41,25,5,PHASE2,very_high,31
+RESULTS,73,17,35,PHASE4,very_high,65
+IL,69,9,37,PHASE4,very_high,62
+BP,75,15,42,PHASE4,very_high,61
+CCL17,34,4,22,PHASE4,very_high,26
+EMA,72,24,33,PHASE4,very_high,65
+GYRA,64,14,43,PHASE4,very_high,37
+VCM,3,2,0,None,low,3
+JAK,51,20,18,PHASE4,very_high,39
+LPS,70,18,34,PHASE4,very_high,67
+TRPV4,6,1,3,PHASE2,moderate,2
+GRP,55,9,40,PHASE4,very_high,25
+PCG,67,14,38,PHASE4,very_high,57
+TNF,66,14,34,PHASE4,very_high,59

@@ -1,0 +1,208 @@
+{\rtf1\ansi\ansicpg949\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset129 AppleSDGothicNeo-Bold;\f1\fnil\fcharset129 AppleSDGothicNeo-Regular;\f2\fswiss\fcharset0 Helvetica;
+}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
+\paperw11905\paperh16837\margl1133\margr1133\margb1133\margt1133
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs60 \cf2 \up0 \nosupersub \ulnone \
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0\fs22 \cf2 # CALMA \'b3\'ed\'b9\'ae \'bb\'f3\'bc\'bc \'b8\'ae\'ba\'e4\
+\
+**"A Metabolism-Informed Neural Network Identifies Pathways Influencing the Potency and Toxicity of Antimicrobial Combinations"**\
+\
+*npj Drug Discovery, Volume 3, Article 11 (2026)*\
+*Arora, Lev, Robida, Velmurugan & Chandrasekaran*\
+\
+---\
+\
+## 1. \'bf\'ac\'b1\'b8 \'b9\'e8\'b0\'e6\'b0\'fa \'b9\'ae\'c1\'a6 \'c1\'a4\'c0\'c7\
+\
+\'c0\'cc \'b3\'ed\'b9\'ae\'c0\'cc \'b4\'d9\'b7\'e7\'b4\'c2 \'b9\'ae\'c1\'a6\'b4\'c2 \'b5\'ce \'b0\'a1\'c1\'f6 \'c3\'e0\'c0\'b8\'b7\'ce \'c1\'a4\'b8\'ae\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\'c3\'b9\'c2\'b0, **\'c7\'d7\'bb\'fd\'c1\'a6 \'b3\'bb\'bc\'ba(AMR)\'c0\'c7 \'c0\'a7\'b1\'e2**\'c0\'d4\'b4\'cf\'b4\'d9. \'c7\'f6\'c0\'e7 \'c3\'df\'bc\'bc\'b0\'a1 \'c1\'f6\'bc\'d3\'b5\'c7\'b8\'e9 2050\'b3\'e2\'b1\'ee\'c1\'f6 \'bf\'ac\'b0\'a3 1,000\'b8\'b8 \'b8\'ed\'c0\'cc \'be\'e0\'b9\'b0 \'b3\'bb\'bc\'ba \'b0\'a8\'bf\'b0\'c0\'b8\'b7\'ce \'bb\'e7\'b8\'c1\'c7\'d2 \'bc\'f6 \'c0\'d6\'c0\'b8\'b8\'e7, \'c0\'cc\'b4\'c2 2008-09 \'b1\'dd\'c0\'b6\'c0\'a7\'b1\'e2\'bf\'a1 \'ba\'f1\'b0\'df\'b5\'c7\'b4\'c2 \'b0\'e6\'c1\'a6\'c0\'fb \'c3\'e6\'b0\'dd\'c0\'bb \'c3\'ca\'b7\'a1\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5 \'c4\'a1\'b7\'e1\'b4\'c2 \'c0\'cc\'bf\'a1 \'b4\'eb\'c7\'d1 \'c0\'af\'b7\'c2\'c7\'d1 \'b4\'eb\'be\'c8\'c0\'cc\'c1\'f6\'b8\'b8, \'c1\'b6\'c7\'d5 \'bc\'f6\'c0\'c7 combinatorial explosion \'b6\'a7\'b9\'ae\'bf\'a1 \'bd\'c7\'c7\'e8\'c0\'fb \'c0\'fc\'bc\'f6 \'b0\'cb\'c1\'f5\'c0\'ba \'bb\'e7\'bd\'c7\'bb\'f3 \'ba\'d2\'b0\'a1\'b4\'c9\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\'b5\'d1\'c2\'b0, **\'b1\'e2\'c1\'b8 \'c1\'a2\'b1\'d9\'b9\'fd\'c0\'c7 \'b1\'b8\'c1\'b6\'c0\'fb \'c7\'d1\'b0\'e8**\'c0\'d4\'b4\'cf\'b4\'d9. INDIGO, CARAMeL, MAGENTA \'b0\'b0\'c0\'ba \'bc\'b1\'c7\'e0 \'bf\'ac\'b1\'b8\'b5\'e9\'c0\'ba pathogen\'bf\'a1 \'b4\'eb\'c7\'d1 potency \'bf\'b9\'c3\'f8\'bf\'a1\'b8\'b8 \'c1\'fd\'c1\'df\'c7\'df\'b0\'ed, \'c0\'ce\'c3\'bc \'b5\'b6\'bc\'ba\'c0\'bb \'c3\'bc\'b0\'e8\'c0\'fb\'c0\'b8\'b7\'ce \'b0\'ed\'b7\'c1\'c7\'cf\'c1\'f6 \'be\'ca\'be\'d2\'bd\'c0\'b4\'cf\'b4\'d9. \'bd\'c7\'c1\'a6\'b7\'ce \'bd\'c5\'be\'e0 \'c8\'c4\'ba\'b8\'c0\'c7 \'be\'e0 90%\'b0\'a1 \'c0\'d3\'bb\'f3\'bd\'c3\'c7\'e8\'bf\'a1\'bc\'ad \'bd\'c7\'c6\'d0\'c7\'cf\'b8\'e7, \'b1\'d7 \'c1\'df \'be\'e0 30%\'b0\'a1 \'bf\'b9\'bb\'f3\'c4\'a1 \'b8\'f8\'c7\'d1 \'ba\'ce\'c0\'db\'bf\'eb \'b6\'a7\'b9\'ae\'c0\'d4\'b4\'cf\'b4\'d9. \'c6\'af\'c8\'f7 \'c7\'d7\'bb\'fd\'c1\'a6\'b4\'c2 \'be\'e0 46%\'c0\'c7 \'c8\'af\'c0\'da\'bf\'a1\'bc\'ad \'be\'e0\'b9\'b0 \'c0\'af\'b9\'df \'b0\'a3 \'bc\'d5\'bb\'f3\'c0\'bb \'c0\'cf\'c0\'b8\'c5\'b0\'b0\'ed, \'bd\'c5\'c0\'e5 \'b1\'e2\'b4\'c9 \'c0\'e5\'be\'d6\'c0\'c7 \'c1\'d6\'bf\'e4 \'bf\'f8\'c0\'ce \'be\'e0\'b9\'b0\'b1\'ba \'c1\'df \'c7\'cf\'b3\'aa\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+\'b1\'e2\'c1\'b8 ML \'b1\'e2\'b9\'dd \'b5\'b6\'bc\'ba \'bf\'b9\'c3\'f8 \'b8\'f0\'b5\'a8\'b5\'e9(ToxCast, QSP \'b8\'f0\'b5\'a8 \'b5\'ee)\'c0\'ba \'b4\'eb\'ba\'ce\'ba\'d0 \'b4\'dc\'c0\'cf \'be\'e0\'b9\'b0\'bf\'a1 \'c3\'ca\'c1\'a1\'c0\'bb \'b8\'c2\'c3\'df\'b0\'ed \'c0\'d6\'c0\'b8\'b8\'e7, graph-based \'c1\'a2\'b1\'d9(Zitnik et al., 2018)\'c0\'ba \'b5\'b6\'bc\'ba\'c0\'bb \'c1\'a4\'b7\'ae\'c8\'ad\'c7\'cf\'b0\'c5\'b3\'aa \'b0\'e6\'b7\'ce \'bc\'f6\'c1\'d8\'c0\'c7 \'b8\'de\'c4\'bf\'b4\'cf\'c1\'f2\'c0\'bb \'b9\'e0\'c8\'f7\'c1\'f6 \'b8\'f8\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 2. CALMA \'c7\'c1\'b7\'b9\'c0\'d3\'bf\'f6\'c5\'a9\'c0\'c7 \'be\'c6\'c5\'b0\'c5\'d8\'c3\'b3\
+\
+CALMA(Combining Antibiotics by Leveraging Metabolism-inspired Artificial neural networks)\'b4\'c2 3\'b4\'dc\'b0\'e8 \'c6\'c4\'c0\'cc\'c7\'c1\'b6\'f3\'c0\'ce\'c0\'b8\'b7\'ce \'b1\'b8\'bc\'ba\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+### 2-1. GEM \'b1\'e2\'b9\'dd \'b4\'eb\'bb\'e7 \'c7\'c3\'b7\'b0\'bd\'ba \'bd\'c3\'b9\'c4\'b7\'b9\'c0\'cc\'bc\'c7\
+\
+E. coli GEM(iJO1366, 2,583 \'b9\'dd\'c0\'c0)\'b0\'fa M. tuberculosis GEM(iEK1008)\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9, \'b0\'a2 \'be\'e0\'b9\'b0 \'c1\'b6\'b0\'c7\'bf\'a1\'bc\'ad\'c0\'c7 \'b4\'eb\'bb\'e7 \'b9\'dd\'c0\'c0 \'c7\'c3\'b7\'b0\'bd\'ba\'b8\'a6 steady-state\'bf\'a1\'bc\'ad \'bd\'c3\'b9\'c4\'b7\'b9\'c0\'cc\'bc\'c7\'c7\'d5\'b4\'cf\'b4\'d9. \'c3\'df\'b0\'a1 \'c1\'a6\'be\'e0 \'c1\'b6\'b0\'c7\'c0\'b8\'b7\'ce E. coli\'bf\'a1\'b4\'c2 chemogenomics \'b5\'a5\'c0\'cc\'c5\'cd(single-gene KO fitness), M. tuberculosis\'bf\'a1\'b4\'c2 transcriptomics \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'df\'c0\'b8\'b8\'e7, linear iMAT \'be\'cb\'b0\'ed\'b8\'ae\'c1\'f2\'c0\'bb \'c5\'eb\'c7\'d8 omics \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 GEM\'bf\'a1 \'c5\'eb\'c7\'d5\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\'c7\'d9\'bd\'c9 \'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd\'b7\'ce kappa, rho, epsilon\'c0\'cc \'c0\'d6\'b4\'c2\'b5\'a5, \'c0\'cc\'b4\'c2 CARAMeL\'bf\'a1\'bc\'ad \'bb\'e7\'bf\'eb\'b5\'c8 \'b0\'aa\'c0\'bb \'b1\'d7\'b4\'eb\'b7\'ce \'c3\'a4\'c5\'c3\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. E. coli\'c0\'c7 \'b0\'e6\'bf\'ec kappa=0.01, rho=0.01, epsilon=1\'c0\'cc\'b0\'ed, M. tuberculosis\'b4\'c2 epsilon\'b8\'b8 0.01\'b7\'ce \'b4\'d9\'b8\'a8\'b4\'cf\'b4\'d9.\
+\
+### 2-2. Joint Profile Feature \'bb\'fd\'bc\'ba\
+\
+\'b0\'b3\'ba\'b0 \'be\'e0\'b9\'b0\'c0\'c7 \'b9\'dd\'c0\'c0 \'c7\'c3\'b7\'b0\'bd\'ba \'c7\'c1\'b7\'ce\'c6\'c4\'c0\'cf\'c0\'bb \'c0\'cc\'c1\'f8\'c8\'ad(differential flux activity \'b1\'e2\'c1\'d8, threshold \'a1\'be2)\'c7\'d1 \'c8\'c4, \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5\'bf\'a1 \'b4\'eb\'c7\'d8 **sigma score**(\'c1\'b6\'c7\'d5 \'b3\'bb \'be\'e0\'b9\'b0\'b5\'e9\'c0\'c7 \'b0\'f8\'c5\'eb \'c8\'bf\'b0\'fa)\'bf\'cd **delta score**(\'b0\'a2 \'be\'e0\'b9\'b0\'c0\'c7 \'b0\'ed\'c0\'af \'c8\'bf\'b0\'fa)\'b8\'a6 \'bb\'ea\'c3\'e2\'c7\'d5\'b4\'cf\'b4\'d9. \'b0\'a2 \'b9\'dd\'c0\'c0\'c0\'ba V_positive, V_negative \'b5\'ce \'b0\'b3\'c0\'c7 \'c0\'cc\'c1\'f8\'b0\'aa\'c0\'b8\'b7\'ce \'c7\'a5\'c7\'f6\'b5\'c7\'b9\'c7\'b7\'ce, sigma\'bf\'cd delta\'b8\'a6 \'c7\'d5\'c4\'a1\'b8\'e9 \'b9\'dd\'c0\'c0\'b4\'e7 4\'b0\'b3\'c0\'c7 feature\'b0\'a1 \'bb\'fd\'bc\'ba\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+\'c0\'cc \'bc\'b3\'b0\'e8\'c0\'c7 \'c0\'c7\'b9\'cc\'b4\'c2, \'b4\'dc\'bc\'f8\'c8\'f7 \'b0\'b3\'ba\'b0 \'be\'e0\'b9\'b0\'c0\'c7 feature\'b8\'a6 concatenation\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'cc \'be\'c6\'b4\'cf\'b6\'f3, \'be\'e0\'b9\'b0 \'b0\'a3 \'bb\'f3\'c8\'a3\'c0\'db\'bf\'eb\'c0\'c7 \'b9\'e6\'c7\'e2\'bc\'ba(\'c0\'af\'bb\'e7\'bc\'ba vs \'b5\'b6\'b8\'b3\'bc\'ba)\'c0\'bb \'b8\'ed\'bd\'c3\'c0\'fb\'c0\'b8\'b7\'ce \'c0\'ce\'c4\'da\'b5\'f9\'c7\'d1\'b4\'d9\'b4\'c2 \'c1\'a1\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+### 2-3. Metabolism-Informed ANN \'be\'c6\'c5\'b0\'c5\'d8\'c3\'b3\
+\
+\'c0\'cc \'b3\'ed\'b9\'ae\'c0\'c7 \'b0\'a1\'c0\'e5 \'c7\'d9\'bd\'c9\'c0\'fb\'c0\'ce \'b1\'e2\'bf\'a9\'c0\'d4\'b4\'cf\'b4\'d9. ANN\'c0\'c7 \'b1\'b8\'c1\'b6 \'c0\'da\'c3\'bc\'b0\'a1 GEM\'c0\'c7 \'b4\'eb\'bb\'e7 subsystem \'b8\'c5\'c7\'ce\'c0\'bb \'b9\'dd\'bf\'b5\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+**Input Layer:** GEM\'c0\'c7 subsystem \'bc\'f6\'b8\'b8\'c5\'ad input sub-layer\'b7\'ce \'ba\'d0\'c7\'d2\'b5\'cb\'b4\'cf\'b4\'d9. E. coli\'c0\'c7 \'b0\'e6\'bf\'ec 37\'b0\'b3 subsystem \'a1\'e6 37\'b0\'b3 input sub-layer, \'c3\'d1 10,332\'b0\'b3 feature(4 \'a1\'bf 2,583)\'b0\'a1 \'b5\'cb\'b4\'cf\'b4\'d9. \'b0\'b0\'c0\'ba subsystem\'bf\'a1 \'bc\'d3\'c7\'cf\'b4\'c2 \'b9\'dd\'c0\'c0\'b5\'e9\'c0\'c7 feature\'b4\'c2 \'b0\'b0\'c0\'ba sub-layer\'b7\'ce \'b1\'d7\'b7\'ec\'c7\'ce\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+**First Hidden Layer:** \'b0\'a2 input sub-layer\'b4\'c2 \'b5\'b6\'b8\'b3\'c0\'fb\'c0\'ce first hidden sub-layer\'b7\'ce \'bf\'ac\'b0\'e1\'b5\'c7\'b8\'e7, \'b4\'ba\'b7\'b1 \'bc\'f6\'b4\'c2 \'c7\'d8\'b4\'e7 subsystem \'b3\'bb \'b9\'dd\'c0\'c0 \'bc\'f6\'bf\'cd \'b5\'bf\'c0\'cf\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'fc\'c3\'bc first hidden layer\'c0\'c7 \'b4\'ba\'b7\'b1 \'bc\'f6\'b4\'c2 GEM\'c0\'c7 \'c3\'d1 \'b9\'dd\'c0\'c0 \'bc\'f6\'bf\'cd \'b0\'b0\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+**Second Hidden Layer:** \'b0\'a2 first hidden sub-layer\'b0\'a1 single neuron\'c0\'b8\'b7\'ce \'be\'d0\'c3\'e0\'b5\'cb\'b4\'cf\'b4\'d9. \'b5\'fb\'b6\'f3\'bc\'ad second hidden layer\'c0\'c7 \'b4\'ba\'b7\'b1 \'bc\'f6 = subsystem \'bc\'f6(E. coli: 37\'b0\'b3)\'c0\'d4\'b4\'cf\'b4\'d9. \'c0\'cc \'b4\'ba\'b7\'b1\'c0\'c7 \'b0\'aa\'c0\'ba \'c7\'d8\'b4\'e7 subsystem\'c0\'c7 input feature\'bf\'a1\'b8\'b8 \'c0\'c7\'c1\'b8\'c7\'cf\'b8\'e7, \'b4\'d9\'b8\'a5 subsystem\'c0\'c7 feature\'bf\'cd\'b4\'c2 \'b5\'b6\'b8\'b3\'c0\'fb\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+**Output Layer:** Second hidden layer\'c0\'c7 \'b4\'ba\'b7\'b1\'b5\'e9\'c0\'cc concatenation\'b5\'c8 \'c8\'c4 \'c3\'d6\'c1\'be potency \'b6\'c7\'b4\'c2 toxicity score\'b8\'a6 \'c3\'e2\'b7\'c2\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+\'c0\'cc \'b1\'b8\'c1\'b6\'c0\'c7 \'b0\'e1\'b0\'fa\'b7\'ce \'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd \'bc\'f6\'b0\'a1 \'b1\'d8\'c0\'fb\'c0\'b8\'b7\'ce \'b0\'a8\'bc\'d2\'c7\'d5\'b4\'cf\'b4\'d9. Fully connected \'b8\'f0\'b5\'a8 \'b4\'eb\'ba\'f1 E. coli\'b4\'c2 26,703,061 \'a1\'e6 2,055,269 (\'be\'e0 92% \'b0\'a8\'bc\'d2), M. tuberculosis\'b4\'c2 6,019,667 \'a1\'e6 283,495 (\'be\'e0 95% \'b0\'a8\'bc\'d2)\'c0\'d4\'b4\'cf\'b4\'d9. \'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd \'b0\'a8\'bc\'d2\'b4\'c2 \'b4\'dc\'bc\'f8\'c7\'d1 \'c8\'bf\'c0\'b2\'bc\'ba \'b9\'ae\'c1\'a6\'b0\'a1 \'be\'c6\'b4\'cf\'b6\'f3, sparse\'c7\'d1 \'b4\'eb\'bb\'e7 \'c7\'c3\'b7\'b0\'bd\'ba \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1\'bc\'ad \'b0\'fa\'c0\'fb\'c7\'d5\'c0\'bb \'b9\'e6\'c1\'f6\'c7\'cf\'b0\'ed \'c0\'cf\'b9\'dd\'c8\'ad \'b0\'a1\'b4\'c9\'c7\'d1 \'bd\'c5\'c8\'a3\'b8\'a6 \'c7\'d0\'bd\'c0\'c7\'d2 \'bc\'f6 \'c0\'d6\'b0\'d4 \'c7\'cf\'b4\'c2 \'b1\'b8\'c1\'b6\'c0\'fb regularization\'c0\'c7 \'bf\'aa\'c7\'d2\'c0\'bb \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 3. \'bc\'ba\'b4\'c9 \'c6\'f2\'b0\'a1\
+\
+### 3-1. Potency \'bf\'b9\'c3\'f8 \'ba\'a5\'c4\'a1\'b8\'b6\'c5\'b7\
+\
+4\'b0\'b3 \'b5\'a5\'c0\'cc\'c5\'cd\'bc\'c2\'bf\'a1\'bc\'ad \'c6\'f2\'b0\'a1\'c7\'df\'c0\'b8\'b8\'e7, \'b8\'f0\'b5\'ce \'c5\'eb\'b0\'e8\'c0\'fb\'c0\'b8\'b7\'ce \'c0\'af\'c0\'c7\'c7\'d1 \'bf\'b9\'c3\'f8\'c0\'bb \'b4\'de\'bc\'ba\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+| \'b5\'a5\'c0\'cc\'c5\'cd\'bc\'c2 | N | \'b0\'cb\'c1\'f5 \'b9\'e6\'bd\'c4 | Spearman R | p-value |\
+|---|---|---|---|---|\
+| E. coli 19\'be\'e0\'b9\'b0 pairwise | 171 | 5-fold CV | 0.56 | 4.25E-16 |\
+| E. coli M9 glycerol | 55 | Independent test | 0.63 | 3.29E-7 |\
+| M. tuberculosis multi-way | 232 | 5-fold CV | 0.47 | 2.40E-13 |\
+| TB Phase 2 \'c0\'d3\'bb\'f3\'bd\'c3\'c7\'e8 regimen | 57 | Independent test | 0.35 | 0.006 |\
+\
+\'c0\'fa\'c0\'da\'b5\'e9\'c0\'ba CALMA\'b0\'a1 \'b1\'e2\'c1\'b8 RF \'b1\'e2\'b9\'dd \'b9\'e6\'b9\'fd\'c0\'bb \'b4\'c9\'b0\'a1\'c7\'cf\'c1\'f6\'b4\'c2 \'be\'ca\'b4\'c2\'b4\'d9\'b0\'ed \'bc\'d6\'c1\'f7\'c7\'cf\'b0\'d4 \'c0\'ce\'c1\'a4\'c7\'d5\'b4\'cf\'b4\'d9. ANN\'c0\'cc RF\'b8\'a6 outperform\'c7\'cf\'b7\'c1\'b8\'e9 \'b4\'eb\'b1\'d4\'b8\'f0 \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'c7\'ca\'bf\'e4\'c7\'d1\'b5\'a5, \'c7\'f6\'c0\'e7 \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5 \'b5\'a5\'c0\'cc\'c5\'cd\'b4\'c2 \'b1\'d7 \'bc\'f6\'c1\'d8\'bf\'a1 \'c0\'cc\'b8\'a3\'c1\'f6 \'b8\'f8\'c7\'d5\'b4\'cf\'b4\'d9. \'c7\'cf\'c1\'f6\'b8\'b8 CALMA\'c0\'c7 \'b8\'f1\'c0\'fb\'c0\'ba \'c3\'d6\'b0\'ed \'bc\'ba\'b4\'c9\'c0\'cc \'be\'c6\'b4\'cf\'b6\'f3, \'b5\'bf\'b5\'ee\'c7\'d1 \'bc\'f6\'c1\'d8\'c0\'c7 \'bf\'b9\'c3\'f8\'b7\'c2\'c0\'bb \'c0\'af\'c1\'f6\'c7\'cf\'b8\'e9\'bc\'ad \'c7\'d8\'bc\'ae \'b0\'a1\'b4\'c9\'bc\'ba\'b0\'fa \'b5\'b6\'bc\'ba \'b5\'bf\'bd\'c3 \'bf\'b9\'c3\'f8\'c0\'cc\'b6\'f3\'b4\'c2 \'c3\'df\'b0\'a1 \'b0\'a1\'c4\'a1\'b8\'a6 \'c1\'a6\'b0\'f8\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+### 3-2. Toxicity \'bf\'b9\'c3\'f8\
+\
+FAERS(FDA Adverse Event Reporting System)\'bf\'a1\'bc\'ad \'c6\'c4\'bb\'fd\'b5\'c8 TWOSIDES \'b5\'a5\'c0\'cc\'c5\'cd\'ba\'a3\'c0\'cc\'bd\'ba\'c0\'c7 PRR(Proportional Reporting Ratio) score\'b8\'a6 \'b5\'b6\'bc\'ba \'c1\'f6\'c7\'a5\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+| \'b5\'a5\'c0\'cc\'c5\'cd\'bc\'c2 | N | Spearman R | Bootstrap 95% CI | p-value |\
+|---|---|---|---|---|\
+| E. coli GEM \'b1\'e2\'b9\'dd | 466 | 0.41 | 0.31\uc0\u8211 0.51 | 5.11E-21 |\
+| M. tuberculosis GEM \'b1\'e2\'b9\'dd | 749 | 0.42 | 0.36\uc0\u8211 0.48 | 3.20E-33 |\
+\
+\'ba\'d0\'b7\'f9 \'bc\'ba\'b4\'c9\'b5\'b5 \'c0\'af\'c0\'c7\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. PRR > 10\'c0\'ce \'b0\'ed\'b5\'b6\'bc\'ba \'c1\'b6\'c7\'d5 \'ba\'d0\'b7\'f9\'bf\'a1\'bc\'ad E. coli AUC 0.727, M. tuberculosis AUC 0.73\'c0\'bb \'b4\'de\'bc\'ba\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'e5\'b1\'e2\'ba\'b0 \'b5\'b6\'bc\'ba \'bf\'b9\'c3\'f8(\'bd\'c5\'c0\'e5, \'b0\'a3)\'b5\'b5 \'c5\'eb\'b0\'e8\'c0\'fb\'c0\'b8\'b7\'ce \'c0\'af\'c0\'c7\'c7\'df\'c0\'b8\'b3\'aa, \'bb\'f3\'b0\'fc\'b0\'e8\'bc\'f6\'c0\'c7 \'c0\'fd\'b4\'eb\'b0\'aa\'c0\'ba \'b3\'b7\'bd\'c0\'b4\'cf\'b4\'d9(R = 0.24\uc0\u8211 0.25). \'c0\'fa\'c0\'da\'b5\'e9\'c0\'ba \'c0\'cc\'b8\'a6 FAERS \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 heterogeneity\'bf\'cd \'c0\'e5\'b1\'e2\'ba\'b0 adverse event \'ba\'b8\'b0\'ed \'b0\'c7\'bc\'f6\'c0\'c7 \'c7\'d1\'b0\'e8\'b7\'ce \'bc\'b3\'b8\'ed\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+**\'bf\'a9\'b1\'e2\'bc\'ad \'c1\'d6\'b8\'f1\'c7\'d2 \'c1\'a1:** potency\'bf\'cd toxicity \'bf\'b9\'c3\'f8\'bf\'a1 \'b5\'bf\'c0\'cf\'c7\'d1 input(bacterial GEM \'b1\'e2\'b9\'dd metabolic flux)\'c0\'bb \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9\'b4\'c2 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9. \'c0\'cc\'b4\'c2 \'c0\'c7\'b5\'b5\'c0\'fb\'c0\'ce \'bc\'b3\'b0\'e8\'b7\'ce, \'b5\'ce \'b8\'f0\'b5\'a8\'c0\'c7 weight\'b8\'a6 \'c1\'f7\'c1\'a2 \'ba\'f1\'b1\'b3\'c7\'cf\'bf\'a9 potency\'bf\'a1\'b4\'c2 \'c1\'df\'bf\'e4\'c7\'cf\'c1\'f6\'b8\'b8 toxicity\'bf\'a1\'b4\'c2 \'c1\'df\'bf\'e4\'c7\'cf\'c1\'f6 \'be\'ca\'c0\'ba(\'b6\'c7\'b4\'c2 \'b1\'d7 \'b9\'dd\'b4\'eb\'c0\'ce) "selective pathway targets"\'b8\'a6 \'bd\'c4\'ba\'b0\'c7\'d2 \'bc\'f6 \'c0\'d6\'b0\'d4 \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 4. Drug Combination Landscape \'ba\'d0\'bc\'ae\
+\
+35\'b0\'b3 \'c0\'d3\'bb\'f3 \'b0\'fc\'b7\'c3 \'be\'e0\'b9\'b0\'bf\'a1 \'b4\'eb\'c7\'d8 595\'b0\'b3 pairwise \'c1\'b6\'c7\'d5\'c0\'c7 potency\'bf\'cd toxicity\'b8\'a6 \'b5\'bf\'bd\'c3\'bf\'a1 \'bf\'b9\'c3\'f8\'c7\'cf\'b0\'ed, \'c0\'cc\'b8\'a6 2D scatter plot(x\'c3\'e0: potency, y\'c3\'e0: toxicity)\'c0\'b8\'b7\'ce \'bd\'c3\'b0\'a2\'c8\'ad\'c7\'d5\'b4\'cf\'b4\'d9. Potency \'bb\'f3\'c0\'a7 75\'b0\'b3\'bf\'cd toxicity \'bb\'f3\'c0\'a7 75\'b0\'b3\'bf\'a1 \'b5\'bf\'bd\'c3\'bf\'a1 \'c6\'f7\'c7\'d4\'b5\'c7\'b4\'c2 \'c1\'b6\'c7\'d5\'c0\'ba \'c0\'fc\'c3\'bc\'c0\'c7 \'be\'e0 3%\'bf\'a1 \'ba\'d2\'b0\'fa\'c7\'cf\'bf\'a9, \'c5\'bd\'bb\'f6 \'b0\'f8\'b0\'a3\'c0\'bb 97% \'c3\'e0\'bc\'d2\'c7\'d2 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+\'c0\'cc landscape \'c1\'a2\'b1\'d9\'c0\'ba \'bd\'c7\'bf\'eb\'c0\'fb \'b0\'a1\'c4\'a1\'b0\'a1 \'c5\'ae\'b4\'cf\'b4\'d9. \'b1\'e2\'c1\'b8\'bf\'a1\'b4\'c2 potency\'b8\'b8 \'b1\'e2\'c1\'d8\'c0\'b8\'b7\'ce \'c1\'b6\'c7\'d5\'c0\'bb \'bc\'b1\'ba\'b0\'c7\'df\'b1\'e2 \'b6\'a7\'b9\'ae\'bf\'a1, \'c0\'d3\'bb\'f3\'bf\'a1\'bc\'ad \'b5\'b6\'bc\'ba \'b9\'ae\'c1\'a6\'b7\'ce \'bd\'c7\'c6\'d0\'c7\'d2 \'b8\'ae\'bd\'ba\'c5\'a9\'b0\'a1 \'b3\'f4\'be\'d2\'bd\'c0\'b4\'cf\'b4\'d9. Potency-toxicity 2D \'b0\'f8\'b0\'a3\'bf\'a1\'bc\'ad\'c0\'c7 Pareto optimal \'c1\'b6\'c7\'d5\'c0\'bb \'c3\'bc\'b0\'e8\'c0\'fb\'c0\'b8\'b7\'ce \'c5\'bd\'bb\'f6\'c7\'d2 \'bc\'f6 \'c0\'d6\'b0\'d4 \'b5\'c8 \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 5. \'bd\'c7\'c7\'e8\'c0\'fb \'b0\'cb\'c1\'f5\
+\
+### 5-1. In Vitro \'b5\'b6\'bc\'ba \'b0\'cb\'c1\'f5\
+\
+15\'b0\'b3 \'c1\'b6\'c7\'d5\'c0\'bb HEK293(\'bd\'c5\'c0\'e5)\'b0\'fa HEPG2(\'b0\'a3) \'bc\'bc\'c6\'f7\'c1\'d6\'bf\'a1\'bc\'ad CellTiter-Glo assay\'b7\'ce \'b0\'cb\'c1\'f5\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. SynergyFinder+\'b8\'a6 \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 Loewe synergy score\'b8\'a6 \'bb\'ea\'c3\'e2\'c7\'df\'b0\'ed, \'b5\'b6\'bc\'ba \'c6\'f2\'b0\'a1\'bf\'a1\'bc\'ad\'b4\'c2 \'b3\'b7\'c0\'ba synergy score(= \'b1\'e6\'c7\'d7 = \'c1\'b6\'c7\'d5 \'bd\'c3 \'b5\'b6\'bc\'ba \'b0\'a8\'bc\'d2)\'b8\'a6 \'b8\'f1\'c7\'a5\'b7\'ce \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+3\'b0\'b3\'c0\'c7 \'c0\'af\'b8\'c1 \'c1\'b6\'c7\'d5\'c0\'cc \'c8\'ae\'c0\'ce\'b5\'c7\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+- **Azithromycin + Trimethoprim:** \'b8\'f0\'b5\'e7 \'b3\'f3\'b5\'b5\'bf\'a1\'bc\'ad \'b0\'a1\'c0\'e5 \'b3\'f4\'c0\'ba \'c0\'bd\'c0\'c7 synergy score, \'c1\'ef \'bf\'b9\'bb\'f3\'ba\'b8\'b4\'d9 \'b3\'b7\'c0\'ba \'bc\'bc\'c6\'f7 \'be\'ef\'c1\'a6\
+- **Azithromycin + Vancomycin:** \'b3\'f4\'c0\'ba Azithromycin \'b3\'f3\'b5\'b5\'bf\'a1\'bc\'ad \'bd\'c5\'c0\'e5 \'bc\'bc\'c6\'f7 \'b5\'b6\'bc\'ba \'b0\'ad\'c7\'d1 \'b1\'e6\'c7\'d7, E. coli\'bf\'a1 \'b4\'eb\'c7\'d8\'bc\'ad\'b4\'c2 mild synergy \'c0\'af\'c1\'f6\
+- **Isoniazid + Trimethoprim:** \'bd\'c5\'c0\'e5\'b0\'fa \'b0\'a3 \'bc\'bc\'c6\'f7 \'b8\'f0\'b5\'ce\'bf\'a1\'bc\'ad \'b5\'b6\'bc\'ba \'b0\'a8\'bc\'d2\
+\
+\'c3\'df\'b0\'a1\'b7\'ce HK2(\'bd\'c5\'c0\'e5)\'bf\'cd HEP3B(\'b0\'a3) \'bc\'bc\'c6\'f7\'c1\'d6\'bf\'a1\'bc\'ad\'b5\'b5 \'b1\'b3\'c2\'f7 \'b0\'cb\'c1\'f5\'c0\'bb \'bc\'f6\'c7\'e0\'c7\'cf\'bf\'a9 \'bc\'bc\'c6\'f7\'c1\'d6 \'b0\'a3 \'c0\'cf\'b0\'fc\'bc\'ba\'c0\'bb \'c8\'ae\'c0\'ce\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. \'c6\'af\'c8\'f7 \'c0\'cc \'c1\'b6\'c7\'d5\'b5\'e9\'c0\'cc E. coli MG1655\'bf\'a1 \'b4\'eb\'c7\'d8\'bc\'ad\'b4\'c2 \'b1\'e6\'c7\'d7\'c0\'bb \'ba\'b8\'c0\'cc\'c1\'f6 \'be\'ca\'be\'d2\'b4\'d9\'b4\'c2 \'c1\'a1\'c0\'cc \'c1\'df\'bf\'e4\'c7\'d5\'b4\'cf\'b4\'d9. \'c1\'ef, \'c0\'ce\'c3\'bc \'bc\'bc\'c6\'f7\'bf\'a1\'bc\'ad\'b8\'b8 \'bc\'b1\'c5\'c3\'c0\'fb\'c0\'b8\'b7\'ce \'b5\'b6\'bc\'ba\'c0\'cc \'b0\'a8\'bc\'d2\'c7\'cf\'b0\'ed, \'bc\'bc\'b1\'d5\'bf\'a1 \'b4\'eb\'c7\'d1 \'c7\'d7\'b1\'d5\'b7\'c2\'c0\'ba \'c0\'af\'c1\'f6\'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+### 5-2. Nucleotide Salvage Pathway \'b8\'de\'c4\'bf\'b4\'cf\'c1\'f2 \'b0\'cb\'c1\'f5\
+\
+\'b8\'f0\'b5\'a8 \'c7\'d8\'bc\'ae\'bf\'a1\'bc\'ad nucleotide salvage pathway\'b0\'a1 \'b5\'b6\'bc\'ba\'c0\'c7 \'c7\'d9\'bd\'c9 \'c1\'b6\'c0\'fd \'b0\'e6\'b7\'ce\'b7\'ce \'bd\'c4\'ba\'b0\'b5\'c7\'be\'fa\'b0\'ed, \'c0\'cc\'b8\'a6 \'bd\'c7\'c7\'e8\'c0\'fb\'c0\'b8\'b7\'ce \'b0\'cb\'c1\'f5\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. Guanine(purine), Thymine(pyrimidine), Xanthine(purine analog), Gemcitabine(nucleoside inhibitor)\'c0\'bb \'ba\'b8\'c3\'e6\'c7\'cf\'bf\'a9 \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5\'c0\'c7 \'b5\'b6\'bc\'ba \'ba\'af\'c8\'ad\'b8\'a6 \'b0\'fc\'c2\'fb\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+\'b0\'e1\'b0\'fa\'b0\'a1 \'b8\'c5\'bf\'ec \'c8\'ef\'b9\'cc\'b7\'d3\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+- Azithromycin + Vancomycin\'c0\'c7 \'bd\'c5\'c0\'e5 \'b5\'b6\'bc\'ba \'b1\'e6\'c7\'d7\'c0\'cc Guanine, Xanthine, Gemcitabine \'c1\'b8\'c0\'e7 \'c7\'cf\'bf\'a1\'bc\'ad **\'bf\'aa\'c0\'fc**(\'b5\'b6\'bc\'ba \'c1\'f5\'b0\'a1)\
+- Isoniazid + Trimethoprim\'c0\'c7 \'b3\'b7\'c0\'ba \'b5\'b6\'bc\'ba\'c0\'cc Xanthine/Thymine \'ba\'b8\'c3\'e6 \'bd\'c3 \'ba\'af\'c8\'ad(Trimethoprim\'c0\'cc nucleotide \'c7\'d5\'bc\'ba\'bf\'a1 \'bf\'b5\'c7\'e2\'c0\'bb \'b9\'cc\'c4\'a1\'b9\'c7\'b7\'ce, nucleotide \'ba\'b8\'c3\'e6\'c0\'cc \'b1\'d7 \'b5\'b6\'bc\'ba\'c0\'bb \'bf\'cf\'c8\'ad)\
+\
+\'c0\'cc\'b4\'c2 nucleotide salvage pathway\'c0\'c7 \'c8\'b0\'bc\'ba\'c8\'ad\'b0\'a1 \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5 \'b5\'b6\'bc\'ba\'c0\'bb context-dependent\'c7\'cf\'b0\'d4 \'c1\'b6\'c0\'fd\'c7\'d1\'b4\'d9\'b4\'c2 \'b0\'cd\'c0\'bb \'ba\'b8\'bf\'a9\'c1\'d6\'b8\'e7, \'b8\'f0\'b5\'a8\'c0\'c7 pathway-level \'c7\'d8\'bc\'ae\'c0\'cc \'bb\'fd\'b9\'b0\'c7\'d0\'c0\'fb\'c0\'b8\'b7\'ce \'c5\'b8\'b4\'e7\'c7\'d4\'c0\'bb \'b5\'de\'b9\'de\'c4\'a7\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+### 5-3. EHR(\'c0\'fc\'c0\'da\'b0\'c7\'b0\'ad\'b1\'e2\'b7\'cf) \'b0\'cb\'c1\'f5\
+\
+Komodo Healthcare Map\'a2\'e2\'c0\'c7 3.3\'be\'ef \'b8\'ed \'c0\'cc\'bb\'f3\'c0\'c7 \'ba\'f1\'bd\'c4\'ba\'b0 \'b9\'cc\'b1\'b9 \'c8\'af\'c0\'da \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 \'ba\'d0\'bc\'ae\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+Vancomycin \'bb\'e7\'bf\'eb \'c8\'af\'c0\'da \'c1\'df Azithromycin \'ba\'b4\'bf\'eb \'c5\'f5\'bf\'a9(5\'c0\'cf \'c0\'cc\'b3\'bb) \'c8\'af\'c0\'da 182,565\'b8\'ed\'c0\'bb \'bd\'c4\'ba\'b0\'c7\'cf\'b0\'ed, propensity score matching\'c0\'b8\'b7\'ce \'b5\'bf\'c0\'cf \'bc\'f6\'c0\'c7 Vancomycin \'b4\'dc\'b5\'b6 \'bb\'e7\'bf\'eb \'b4\'eb\'c1\'b6\'b1\'ba\'c0\'bb \'b8\'c5\'c4\'aa\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9. Vancomycin \'c5\'f5\'bf\'a9 \'c8\'c4 6\'b0\'b3\'bf\'f9 \'b3\'bb nephrotoxicity code \'b9\'df\'bb\'fd\'b7\'fc\'c0\'bb \'ba\'f1\'b1\'b3\'c7\'d1 \'b0\'e1\'b0\'fa, Azithromycin \'ba\'b4\'bf\'eb \'b1\'d7\'b7\'ec\'bf\'a1\'bc\'ad \'c0\'af\'c0\'c7\'c7\'d1 \'b0\'a8\'bc\'d2\'b8\'a6 \'c8\'ae\'c0\'ce\'c7\'df\'bd\'c0\'b4\'cf\'b4\'d9(0.16% vs 0.23%, p = 2.53\'a1\'bf10\uc0\u8315 
+\f2 \uc0\u8310 
+\f1 ).\
+\
+\'b9\'dd\'b8\'e9 Trimethoprim \'ba\'b4\'bf\'eb\'c0\'ba \'c0\'af\'c0\'c7\'c7\'d1 \'c2\'f7\'c0\'cc\'b0\'a1 \'be\'f8\'be\'fa\'b0\'ed(p = 0.203), \'c0\'cc\'b4\'c2 in vitro \'b0\'e1\'b0\'fa\'bf\'cd \'c0\'cf\'c4\'a1\'c7\'d5\'b4\'cf\'b4\'d9. Vancomycin \'c3\'b3\'b9\'e6\'c0\'cc \'bf\'ac\'b0\'a3 387\'b8\'b8 \'b0\'c7 \'c0\'cc\'bb\'f3\'c0\'ce \'c1\'a1\'c0\'bb \'b0\'a8\'be\'c8\'c7\'cf\'b8\'e9, 0.07%p \'c2\'f7\'c0\'cc\'b5\'b5 \'bc\'f6\'c3\'b5 \'b0\'c7\'c0\'c7 nephrotoxicity \'bf\'b9\'b9\'e6\'bf\'a1 \'c7\'d8\'b4\'e7\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 6. \'b8\'f0\'b5\'a8 \'c7\'d8\'bc\'ae \'b9\'e6\'b9\'fd\'b7\'d0\
+\
+### 6-1. Weight Analysis\
+\
+Second hidden layer\'c0\'c7 \'b0\'a2 neuron weight\'b8\'a6 pathway \'c1\'df\'bf\'e4\'b5\'b5 \'c1\'f6\'c7\'a5\'b7\'ce \'c8\'b0\'bf\'eb\'c7\'d5\'b4\'cf\'b4\'d9. \'c7\'d9\'bd\'c9 \'b9\'df\'b0\'df\'c0\'ba \'b4\'d9\'c0\'bd\'b0\'fa \'b0\'b0\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+- **Transport (inner membrane):** potency \'b8\'f0\'b5\'a8\'bf\'a1\'bc\'ad \'be\'e7\'c0\'c7 weight, toxicity \'b8\'f0\'b5\'a8\'bf\'a1\'bc\'ad \'c0\'bd\'c0\'c7 weight \'a1\'e6 \'bc\'bc\'b1\'d5 \'c6\'af\'c0\'cc\'c0\'fb \'b0\'e6\'b7\'ce\
+- **Nucleotide salvage pathway:** toxicity \'b8\'f0\'b5\'a8\'bf\'a1\'bc\'ad potency \'b4\'eb\'ba\'f1 \'b3\'f4\'c0\'ba weight \'a1\'e6 \'c0\'ce\'c3\'bc \'b5\'b6\'bc\'ba\'b0\'fa \'b0\'ad\'c7\'d1 \'bf\'ac\'b0\'fc\
+- **Pyruvate metabolism:** potency \'b8\'f0\'b5\'a8\'bf\'a1\'bc\'ad \'bb\'f3\'b4\'eb\'c0\'fb\'c0\'b8\'b7\'ce \'b3\'f4\'c0\'ba weight\
+\
+\'c0\'cc \'c2\'f7\'c0\'cc\'b4\'c2 \'c1\'f8\'c8\'ad\'c0\'fb \'ba\'b8\'c1\'b8\'b5\'b5\'bf\'cd \'c0\'cf\'c4\'a1\'c7\'d5\'b4\'cf\'b4\'d9. Transport (inner membrane)\'b4\'c2 \'bc\'bc\'b1\'d5\'b0\'fa \'c0\'ce\'b0\'a3 \'bb\'e7\'c0\'cc\'bf\'a1\'bc\'ad \'ba\'b8\'c1\'b8\'b5\'b5\'b0\'a1 \'b3\'b7\'c0\'ba \'b9\'dd\'b8\'e9, nucleotide salvage\'b4\'c2 \'b3\'f4\'c0\'ba \'ba\'b8\'c1\'b8\'b5\'b5\'b8\'a6 \'ba\'b8\'c0\'d4\'b4\'cf\'b4\'d9. \'b5\'fb\'b6\'f3\'bc\'ad nucleotide salvage\'bf\'a1 \'bc\'f6\'b7\'c5\'c7\'cf\'b4\'c2 \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5\'c0\'ba \'c0\'ce\'c3\'bc\'bf\'a1\'bc\'ad\'b5\'b5 nucleotide imbalance\'b8\'a6 \'c0\'af\'b9\'df\'c7\'d2 \'b0\'a1\'b4\'c9\'bc\'ba\'c0\'cc \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+### 6-2. Feature Knock-off Analysis\
+\
+\'c6\'af\'c1\'a4 subsystem\'c0\'c7 feature\'b8\'a6 0\'c0\'b8\'b7\'ce \'bc\'b3\'c1\'a4\'c7\'d1 \'c8\'c4 \'b8\'f0\'b5\'a8 \'bc\'ba\'b4\'c9 \'ba\'af\'c8\'ad\'bf\'cd \'bf\'b9\'c3\'f8 \'b9\'e6\'c7\'e2\'bc\'ba \'ba\'af\'c8\'ad\'b8\'a6 \'c6\'f2\'b0\'a1\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+- Transport (inner membrane) \'c1\'a6\'b0\'c5 \'bd\'c3 potency \'b8\'f0\'b5\'a8 \'bc\'ba\'b4\'c9 -16.69% \'b0\'a8\'bc\'d2, 79.91% \'c1\'b6\'c7\'d5\'c0\'c7 potency score \'b0\'a8\'bc\'d2\
+- Nucleotide salvage pathway \'c1\'a6\'b0\'c5 \'bd\'c3 91.46% \'c1\'b6\'c7\'d5\'c0\'c7 toxicity score \'c1\'f5\'b0\'a1 \'a1\'e6 \'b8\'f0\'b5\'e7 pathway \'c1\'df \'b0\'a1\'c0\'e5 \'c5\'ab \'c0\'fd\'b4\'eb\'c0\'fb shift\
+\
+SHAP analysis\'b5\'b5 \'ba\'b8\'bf\'cf\'c0\'fb\'c0\'b8\'b7\'ce \'bc\'f6\'c7\'e0\'b5\'c7\'be\'fa\'bd\'c0\'b4\'cf\'b4\'d9(Supplementary).\
+\
+---\
+\
+## 7. \'b0\'ad\'c1\'a1\
+\
+1. **Potency\'bf\'cd toxicity\'c0\'c7 \'b5\'bf\'bd\'c3 \'bf\'b9\'c3\'f8**: \'b1\'e2\'c1\'b8 \'b9\'e6\'b9\'fd\'b7\'d0\'c0\'c7 \'b0\'a1\'c0\'e5 \'c5\'ab \'b8\'cd\'c1\'a1\'c0\'bb \'c1\'a4\'b8\'e9\'c0\'b8\'b7\'ce \'c7\'d8\'b0\'e1\'c7\'d5\'b4\'cf\'b4\'d9. Drug combination landscape\'b6\'f3\'b4\'c2 2D \'c7\'c1\'b7\'b9\'c0\'d3\'bf\'f6\'c5\'a9\'b4\'c2 \'c1\'f7\'b0\'fc\'c0\'fb\'c0\'cc\'b8\'e9\'bc\'ad\'b5\'b5 \'bd\'c7\'bf\'eb\'c0\'fb\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+2. **\'b1\'b8\'c1\'b6\'c0\'fb \'c7\'d8\'bc\'ae \'b0\'a1\'b4\'c9\'bc\'ba**: GEM\'c0\'c7 subsystem \'b1\'b8\'c1\'b6\'b8\'a6 ANN\'bf\'a1 \'b3\'bb\'c0\'e7\'c8\'ad\'c7\'d4\'c0\'b8\'b7\'ce\'bd\'e1, black-box \'ba\'f1\'c6\'c7\'c0\'bb \'b1\'d9\'ba\'bb\'c0\'fb\'c0\'b8\'b7\'ce \'bf\'ec\'c8\'b8\'c7\'d5\'b4\'cf\'b4\'d9. Second hidden layer\'c0\'c7 \'b0\'a2 neuron\'c0\'cc \'c6\'af\'c1\'a4 \'b4\'eb\'bb\'e7 subsystem\'bf\'a1 1:1 \'b4\'eb\'c0\'c0\'c7\'cf\'b9\'c7\'b7\'ce, weight analysis\'b0\'a1 \'b0\'f0 pathway-level \'c7\'d8\'bc\'ae\'c0\'cc \'b5\'cb\'b4\'cf\'b4\'d9.\
+\
+3. **\'b4\'d9\'c3\'fe\'c0\'fb \'b0\'cb\'c1\'f5 \'c3\'bc\'b0\'e8**: In silico \'bf\'b9\'c3\'f8 \'a1\'e6 in vitro \'bc\'bc\'c6\'f7\'c1\'d6 \'b0\'cb\'c1\'f5(4\'b0\'b3 \'bc\'bc\'c6\'f7\'c1\'d6) \'a1\'e6 nucleotide \'ba\'b8\'c3\'e6 \'b8\'de\'c4\'bf\'b4\'cf\'c1\'f2 \'bd\'c7\'c7\'e8 \'a1\'e6 40\'b8\'b8 \'b8\'ed \'b1\'d4\'b8\'f0 EHR \'b0\'cb\'c1\'f5\'b1\'ee\'c1\'f6 \'c0\'cc\'be\'ee\'c1\'f6\'b4\'c2 evidence chain\'c0\'cc \'b8\'c5\'bf\'ec \'c5\'ba\'c5\'ba\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+4. **\'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd \'c8\'bf\'c0\'b2\'bc\'ba**: 92-95% \'c6\'c4\'b6\'f3\'b9\'cc\'c5\'cd \'b0\'a8\'bc\'d2\'b4\'c2 \'b4\'dc\'bc\'f8\'c7\'d1 computational saving\'c0\'cc \'be\'c6\'b4\'cf\'b6\'f3, sparse \'b5\'a5\'c0\'cc\'c5\'cd\'bf\'a1\'bc\'ad\'c0\'c7 generalization\'c0\'bb \'b0\'a1\'b4\'c9\'c7\'cf\'b0\'d4 \'c7\'cf\'b4\'c2 \'b1\'b8\'c1\'b6\'c0\'fb inductive bias\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+5. **97% \'c5\'bd\'bb\'f6 \'b0\'f8\'b0\'a3 \'c3\'e0\'bc\'d2**: \'bd\'c7\'c7\'e8\'c0\'fb \'bd\'ba\'c5\'a9\'b8\'ae\'b4\'d7\'c0\'c7 \'ba\'f1\'bf\'eb\'b0\'fa \'bd\'c3\'b0\'a3\'c0\'bb \'c8\'b9\'b1\'e2\'c0\'fb\'c0\'b8\'b7\'ce \'c1\'d9\'c0\'cf \'bc\'f6 \'c0\'d6\'b4\'c2 \'c1\'a4\'b7\'ae\'c0\'fb \'b1\'d9\'b0\'c5\'b8\'a6 \'c1\'a6\'bd\'c3\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 8. \'c7\'d1\'b0\'e8\'bf\'cd \'ba\'f1\'c6\'c7\'c0\'fb \'b0\'cb\'c5\'e4\
+\
+1. **Potency \'bf\'b9\'c3\'f8 \'bc\'ba\'b4\'c9\'c0\'c7 \'c7\'d1\'b0\'e8**: RF \'b1\'e2\'b9\'dd \'b1\'e2\'c1\'b8 \'b9\'e6\'b9\'fd\'c0\'bb \'b4\'c9\'b0\'a1\'c7\'cf\'c1\'f6 \'b8\'f8\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'fa\'c0\'da\'b5\'e9\'c0\'ba \'c0\'cc\'b8\'a6 \'b5\'a5\'c0\'cc\'c5\'cd \'ba\'ce\'c1\'b7\'c0\'b8\'b7\'ce \'bc\'b3\'b8\'ed\'c7\'cf\'c1\'f6\'b8\'b8, \'bd\'c7\'c1\'a6\'b7\'ce\'b4\'c2 subsystem \'b0\'a3 cross-talk\'c0\'bb \'c2\'f7\'b4\'dc\'c7\'cf\'b4\'c2 \'be\'c6\'c5\'b0\'c5\'d8\'c3\'b3(second hidden layer\'b1\'ee\'c1\'f6 subsystem\'c0\'cc \'b5\'b6\'b8\'b3\'c0\'fb)\'b0\'a1 \'bc\'ba\'b4\'c9 ceiling\'c0\'bb \'b8\'b8\'b5\'e9 \'bc\'f6 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'b4\'eb\'bb\'e7 \'b0\'e6\'b7\'ce \'b0\'a3 \'bb\'f3\'c8\'a3\'c0\'db\'bf\'eb(\'bf\'b9: central carbon metabolism \'a1\'ea amino acid biosynthesis)\'c0\'cc \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5 \'c8\'bf\'b0\'fa\'bf\'a1 \'c1\'df\'bf\'e4\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'c2\'b5\'a5, \'c7\'f6\'c0\'e7 \'b1\'b8\'c1\'b6\'bf\'a1\'bc\'ad\'b4\'c2 \'c0\'cc\'b8\'a6 output layer\'bf\'a1\'bc\'ad\'b8\'b8 \'c5\'eb\'c7\'d5\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+2. **Toxicity \'bf\'b9\'c3\'f8\'c0\'c7 \'b0\'b3\'b3\'e4\'c0\'fb \'c0\'cc\'bd\'b4**: Bacterial GEM\'c0\'c7 metabolic flux\'b8\'a6 input\'c0\'b8\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'cf\'bf\'a9 human cell toxicity\'b8\'a6 \'bf\'b9\'c3\'f8\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'ba conceptual leap\'c0\'cc \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'cc\'b0\'cd\'c0\'cc \'c0\'db\'b5\'bf\'c7\'cf\'b4\'c2 \'c0\'cc\'c0\'af\'b4\'c2 \'be\'c6\'b8\'b6\'b5\'b5 \'be\'e0\'b9\'b0\'c0\'c7 metabolic target\'c0\'cc bacteria\'bf\'cd human \'bb\'e7\'c0\'cc\'bf\'a1\'bc\'ad \'be\'ee\'b4\'c0 \'c1\'a4\'b5\'b5 \'ba\'b8\'c1\'b8\'b5\'c7\'be\'ee \'c0\'d6\'b1\'e2 \'b6\'a7\'b9\'ae\'c0\'cc\'b0\'da\'c1\'f6\'b8\'b8, \'c0\'cc\'bf\'a1 \'b4\'eb\'c7\'d1 \'b8\'ed\'bd\'c3\'c0\'fb \'b3\'ed\'c0\'c7\'b0\'a1 \'ba\'ce\'c1\'b7\'c7\'d5\'b4\'cf\'b4\'d9. Human GEM(\'bf\'b9: Recon3D)\'c0\'bb \'c1\'f7\'c1\'a2 \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'c1\'a2\'b1\'d9\'b0\'fa\'c0\'c7 \'ba\'f1\'b1\'b3\'b0\'a1 \'be\'f8\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+3. **FAERS/TWOSIDES \'b5\'a5\'c0\'cc\'c5\'cd\'c0\'c7 \'ba\'bb\'c1\'fa\'c0\'fb \'c7\'d1\'b0\'e8**: PRR score\'b4\'c2 spontaneous reporting \'b1\'e2\'b9\'dd\'c0\'cc\'b9\'c7\'b7\'ce, reporting bias, confounding, Simpson's paradox \'b5\'ee\'c0\'c7 \'b9\'ae\'c1\'a6\'b0\'a1 \'b3\'bb\'c0\'e7\'b5\'c7\'be\'ee \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'cc \'b5\'a5\'c0\'cc\'c5\'cd\'b8\'a6 ground truth\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'cf\'b4\'c2 \'b0\'cd\'c0\'c7 \'c5\'b8\'b4\'e7\'bc\'ba\'bf\'a1 \'b4\'eb\'c7\'d1 \'b3\'ed\'c0\'c7\'b0\'a1 \'b4\'f5 \'c7\'ca\'bf\'e4\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+4. **EHR \'ba\'d0\'bc\'ae\'c0\'c7 \'c0\'ce\'b0\'fa\'bc\'ba \'b9\'ae\'c1\'a6**: Propensity score matching\'c0\'ba \'b0\'fc\'c2\'fb\'b5\'c8 \'b0\'f8\'ba\'af\'b7\'ae\'bf\'a1 \'b4\'eb\'c7\'d1 \'ba\'b8\'c1\'a4\'b8\'b8 \'b0\'a1\'b4\'c9\'c7\'cf\'b8\'e7, \'b9\'cc\'b0\'fc\'c2\'fb \'b1\'b3\'b6\'f5\'ba\'af\'bc\'f6(unmeasured confounding)\'b8\'a6 \'c1\'a6\'b0\'c5\'c7\'cf\'c1\'f6 \'b8\'f8\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'fa\'c0\'da\'b5\'e9\'b5\'b5 \'c0\'cc\'b8\'a6 \'c0\'ce\'c1\'a4\'c7\'cf\'c1\'f6\'b8\'b8, "further research is necessary to prove causation"\'c0\'cc\'b6\'f3\'b4\'c2 \'c7\'d1 \'c1\'d9\'b7\'ce \'b3\'d1\'be\'ee\'b0\'a1\'b4\'c2 \'b0\'cd\'c0\'ba \'be\'c6\'bd\'b1\'bd\'c0\'b4\'cf\'b4\'d9. Instrumental variable \'ba\'d0\'bc\'ae\'c0\'cc\'b3\'aa negative control outcome \'b5\'ee\'c0\'c7 \'c3\'df\'b0\'a1 \'b0\'cb\'c1\'f5\'c0\'cc \'b0\'a1\'b4\'c9\'c7\'df\'c0\'bb \'b0\'cd\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+5. **Omics \'b5\'a5\'c0\'cc\'c5\'cd \'c0\'c7\'c1\'b8\'bc\'ba**: CALMA\'b4\'c2 \'b0\'b3\'ba\'b0 \'be\'e0\'b9\'b0\'bf\'a1 \'b4\'eb\'c7\'d1 chemogenomics \'b6\'c7\'b4\'c2 transcriptomics \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'c0\'d6\'be\'ee\'be\'df \'c0\'db\'b5\'bf\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'cc\'b4\'c2 \'bb\'f5\'b7\'ce\'bf\'ee \'be\'e0\'b9\'b0\'c0\'cc\'b3\'aa omics \'b5\'a5\'c0\'cc\'c5\'cd\'b0\'a1 \'be\'f8\'b4\'c2 \'be\'e0\'b9\'b0\'bf\'a1 \'b4\'eb\'c7\'d1 \'c0\'fb\'bf\'eb\'c0\'bb \'c1\'a6\'c7\'d1\'c7\'d5\'b4\'cf\'b4\'d9. \'c0\'fa\'c0\'da\'b5\'e9\'c0\'ba DeepPurpose \'b0\'b0\'c0\'ba target prediction \'b9\'e6\'b9\'fd\'c0\'b8\'b7\'ce \'ba\'b8\'bf\'cf\'c7\'d2 \'bc\'f6 \'c0\'d6\'b4\'d9\'b0\'ed \'be\'f0\'b1\'de\'c7\'cf\'c1\'f6\'b8\'b8, \'bd\'c7\'c1\'a6 \'c5\'eb\'c7\'d5\'c0\'ba \'bc\'f6\'c7\'e0\'c7\'cf\'c1\'f6 \'be\'ca\'be\'d2\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+6. **\'bf\'eb\'b7\'ae-\'b9\'dd\'c0\'c0 \'b0\'fc\'b0\'e8\'c0\'c7 \'ba\'ce\'c0\'e7**: CALMA\'b4\'c2 \'c1\'b6\'c7\'d5\'c0\'c7 synergy/antagonism \'b9\'e6\'c7\'e2\'bc\'ba\'c0\'bb \'bf\'b9\'c3\'f8\'c7\'cf\'c1\'f6\'b8\'b8, \'c3\'d6\'c0\'fb \'bf\'eb\'b7\'ae \'ba\'f1\'c0\'b2\'c0\'cc\'b3\'aa dose-response surface\'b8\'a6 \'c1\'f7\'c1\'a2 \'bf\'b9\'c3\'f8\'c7\'cf\'c1\'f6\'b4\'c2 \'be\'ca\'bd\'c0\'b4\'cf\'b4\'d9. \'c0\'d3\'bb\'f3 \'c0\'fb\'bf\'eb\'c0\'bb \'c0\'a7\'c7\'d8\'bc\'ad\'b4\'c2 \'c0\'cc gap\'c0\'bb \'b8\'de\'bf\'f6\'be\'df \'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+7. **Multi-way \'c1\'b6\'c7\'d5\'bf\'a1\'bc\'ad\'c0\'c7 \'c8\'ae\'c0\'e5\'bc\'ba**: M. tuberculosis\'bf\'a1\'bc\'ad multi-way \'c1\'b6\'c7\'d5 \'b5\'a5\'c0\'cc\'c5\'cd\'b7\'ce \'c6\'f2\'b0\'a1\'c7\'df\'c1\'f6\'b8\'b8(R = 0.47), 3\'b0\'b3 \'c0\'cc\'bb\'f3 \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5\'bf\'a1\'bc\'ad sigma/delta score\'c0\'c7 \'c0\'c7\'b9\'cc\'b0\'a1 pairwise\'bf\'cd \'b5\'bf\'c0\'cf\'c7\'d1\'c1\'f6, combinatorial complexity\'b0\'a1 \'be\'ee\'b6\'bb\'b0\'d4 scaling\'b5\'c7\'b4\'c2\'c1\'f6\'bf\'a1 \'b4\'eb\'c7\'d1 \'c3\'bc\'b0\'e8\'c0\'fb \'ba\'d0\'bc\'ae\'c0\'cc \'ba\'ce\'c1\'b7\'c7\'d5\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 9. \'c7\'d0\'bc\'fa\'c0\'fb \'b8\'c6\'b6\'f4\'bf\'a1\'bc\'ad\'c0\'c7 \'c0\'a7\'c4\'a1\
+\
+\'c0\'cc \'bf\'ac\'b1\'b8\'b4\'c2 \'c3\'d6\'b1\'d9 "biology-informed neural network" \'c6\'ae\'b7\'bb\'b5\'e5\'c0\'c7 \'bf\'ac\'c0\'e5\'bc\'b1\'bf\'a1 \'c0\'d6\'bd\'c0\'b4\'cf\'b4\'d9. \'b9\'b0\'b8\'ae\'c7\'d0\'bf\'a1\'bc\'ad Physics-Informed Neural Networks(PINNs)\'b0\'a1 PDE\'c0\'c7 \'b1\'b8\'c1\'b6\'b8\'a6 \'b3\'d7\'c6\'ae\'bf\'f6\'c5\'a9\'bf\'a1 \'b3\'bb\'c0\'e7\'c8\'ad\'c7\'cf\'b5\'ed\'c0\'cc, CALMA\'b4\'c2 \'b4\'eb\'bb\'e7 \'b3\'d7\'c6\'ae\'bf\'f6\'c5\'a9\'c0\'c7 \'b8\'f0\'b5\'e2 \'b1\'b8\'c1\'b6\'b8\'a6 ANN\'bf\'a1 \'b9\'dd\'bf\'b5\'c7\'d5\'b4\'cf\'b4\'d9. DrugCell(Kuenzi et al., 2020)\'c0\'cc Gene Ontology \'b0\'e8\'c3\'fe\'c0\'bb visible neural network\'bf\'a1 \'b9\'dd\'bf\'b5\'c7\'d1 \'b0\'cd\'b0\'fa \'c0\'af\'bb\'e7\'c7\'d1 \'c3\'b6\'c7\'d0\'c0\'cc\'c1\'f6\'b8\'b8, CALMA\'b4\'c2 GEM\'c0\'c7 flux simulation\'c0\'bb input\'c0\'b8\'b7\'ce \'bb\'e7\'bf\'eb\'c7\'d1\'b4\'d9\'b4\'c2 \'c1\'a1\'bf\'a1\'bc\'ad metabolic modeling\'b0\'fa\'c0\'c7 \'b0\'e1\'c7\'d5\'c0\'cc \'b4\'f5 \'b1\'ed\'bd\'c0\'b4\'cf\'b4\'d9.\
+\
+Yang et al.(2019)\'c0\'c7 "white-box machine learning for antibiotic mechanisms"\'b0\'fa\'b5\'b5 \'b8\'c6\'c0\'cc \'b4\'ea\'c1\'f6\'b8\'b8, CALMA\'b4\'c2 \'b4\'dc\'c0\'cf \'be\'e0\'b9\'b0\'c0\'cc \'be\'c6\'b4\'d1 \'c1\'b6\'c7\'d5\'c0\'b8\'b7\'ce, potency\'b8\'b8\'c0\'cc \'be\'c6\'b4\'d1 toxicity\'b1\'ee\'c1\'f6 \'c8\'ae\'c0\'e5\'c7\'df\'b4\'d9\'b4\'c2 \'c1\'a1\'bf\'a1\'bc\'ad \'c1\'f8\'c0\'fc\'c0\'d4\'b4\'cf\'b4\'d9.\
+\
+---\
+\
+## 10. \'b0\'e1\'b7\'d0\
+\
+CALMA\'b4\'c2 "\'bf\'b9\'c3\'f8 \'c1\'a4\'c8\'ae\'b5\'b5\'c0\'c7 \'b1\'d8\'b4\'eb\'c8\'ad"\'b0\'a1 \'be\'c6\'b4\'d1 "\'c7\'d8\'bc\'ae \'b0\'a1\'b4\'c9\'c7\'cf\'b8\'e9\'bc\'ad \'b5\'bf\'bd\'c3\'bf\'a1 \'be\'c8\'c0\'fc\'bc\'ba\'b1\'ee\'c1\'f6 \'b0\'ed\'b7\'c1\'c7\'cf\'b4\'c2 \'c7\'d5\'b8\'ae\'c0\'fb \'bd\'ba\'c5\'a9\'b8\'ae\'b4\'d7"\'c0\'cc\'b6\'f3\'b4\'c2 \'b8\'ed\'c8\'ae\'c7\'d1 \'b8\'f1\'c7\'a5\'b8\'a6 \'b0\'a1\'c1\'f6\'b0\'ed \'c0\'d6\'c0\'b8\'b8\'e7, \'b1\'d7 \'b8\'f1\'c7\'a5\'b8\'a6 \'b4\'de\'bc\'ba\'c7\'cf\'b4\'c2 \'b5\'a5 \'bc\'ba\'b0\'f8\'c0\'fb\'c0\'d4\'b4\'cf\'b4\'d9. Nucleotide salvage pathway\'c0\'c7 \'b5\'b6\'bc\'ba \'c1\'b6\'c0\'fd \'bf\'aa\'c7\'d2 \'b9\'df\'b0\'df\'b0\'fa EHR \'b1\'e2\'b9\'dd \'b0\'cb\'c1\'f5\'c0\'ba \'c0\'cc \'c7\'c1\'b7\'b9\'c0\'d3\'bf\'f6\'c5\'a9\'c0\'c7 translational potential\'c0\'bb \'ba\'b8\'bf\'a9\'c1\'dd\'b4\'cf\'b4\'d9.\
+\
+\'b0\'a1\'c0\'e5 \'c5\'ab \'b1\'e2\'bf\'a9\'b4\'c2 \'b1\'e2\'bc\'fa\'c0\'fb \'c7\'f5\'bd\'c5\'c0\'cc \'be\'c6\'b4\'cf\'b6\'f3 **\'b0\'fc\'c1\'a1\'c0\'c7 \'c0\'fc\'c8\'af**\'c0\'d4\'b4\'cf\'b4\'d9. \'be\'e0\'b9\'b0 \'c1\'b6\'c7\'d5 \'bf\'ac\'b1\'b8\'bf\'a1\'bc\'ad "\'be\'f3\'b8\'b6\'b3\'aa \'c0\'df \'c1\'d7\'c0\'cc\'b4\'c0\'b3\'c4"\'b8\'b8\'c0\'cc \'be\'c6\'b4\'cf\'b6\'f3 "\'be\'f3\'b8\'b6\'b3\'aa \'be\'c8\'c0\'fc\'c7\'cf\'b0\'d4 \'c1\'d7\'c0\'cc\'b4\'c0\'b3\'c4"\'b8\'a6 \'b5\'bf\'b5\'ee\'c7\'cf\'b0\'d4 \'b4\'d9\'b7\'e7\'b4\'c2 \'c3\'bc\'b0\'e8\'c0\'fb \'c7\'c1\'b7\'b9\'c0\'d3\'bf\'f6\'c5\'a9\'b8\'a6 \'c1\'a6\'bd\'c3\'c7\'df\'b4\'d9\'b4\'c2 \'c1\'a1\'bf\'a1\'bc\'ad, \'c0\'cc \'b3\'ed\'b9\'ae\'c0\'ba \'c7\'e2\'c8\'c4 \'c1\'b6\'c7\'d5 \'c4\'a1\'b7\'e1 \'bc\'b3\'b0\'e8\'c0\'c7 \'c7\'a5\'c1\'d8 \'c1\'a2\'b1\'d9\'b9\'fd\'bf\'a1 \'bf\'b5\'c7\'e2\'c0\'bb \'c1\'d9 \'b0\'cd\'c0\'b8\'b7\'ce \'bf\'b9\'bb\'f3\'b5\'cb\'b4\'cf\'b4\'d9.}

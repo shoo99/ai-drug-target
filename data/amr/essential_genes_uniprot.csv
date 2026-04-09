@@ -1,0 +1,77 @@
+gene_name,organism,uniprot_id,protein_name,has_structure
+murA,Staphylococcus aureus,A0A2L0P0N5,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,False
+murB,Staphylococcus aureus,P61431,UDP-N-acetylenolpyruvoylglucosamine reductase,False
+murC,Staphylococcus aureus,O31211,UDP-N-acetylmuramate--L-alanine ligase,False
+murD,Staphylococcus aureus,P0A091,UDP-N-acetylmuramoylalanine--D-glutamate ligase,False
+murE,Staphylococcus aureus,A0AAN1ZNV0,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--L-lysine ligase,False
+murF,Staphylococcus aureus,K7XML5,UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase,False
+ftsZ,Staphylococcus aureus,B5LV61,Cell division protein FtsZ,False
+ftsA,Staphylococcus aureus,A0A6G4N246,Cell division protein FtsA,False
+ftsW,Staphylococcus aureus,A0A380E0F5,Probable peptidoglycan glycosyltransferase FtsW,False
+dnaA,Staphylococcus aureus,P68867,Chromosomal replication initiator protein DnaA,False
+dnaB,Staphylococcus aureus,A0AB37XUJ3,Replicative DNA helicase,False
+dnaE,Staphylococcus aureus,A0AAJ4YVG6,DNA polymerase III subunit alpha,False
+dnaN,Staphylococcus aureus,P0A024,Beta sliding clamp,False
+gyrA,Staphylococcus aureus,P20831,DNA gyrase subunit A,False
+gyrB,Staphylococcus aureus,A0A222UAJ8,DNA topoisomerase (ATP-hydrolyzing),False
+rpoB,Staphylococcus aureus,A0A0N9LFB6,DNA-directed RNA polymerase,False
+rpoC,Staphylococcus aureus,P95688,DNA-directed RNA polymerase subunit,False
+infA,Staphylococcus aureus,A0A6B0CP17,Translation initiation factor IF-1,False
+infB,Staphylococcus aureus,A0A2X2JX14,Translation initiation factor IF-2,False
+fabI,Staphylococcus aureus,G3G9A5,,False
+fabH,Staphylococcus aureus,Q5TKS1,SaFabH,False
+accA,Staphylococcus aureus,A0A2X2K6W2,Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha,False
+folA,Staphylococcus aureus,P0A017,Dihydrofolate reductase,False
+folP,Staphylococcus aureus,A0A8F2Z1A9,Dihydropteroate synthase,False
+walK,Staphylococcus aureus,A0A1L6C0D8,Sensor protein kinase WalK,False
+walR,Staphylococcus aureus,A0A1L6C155,Transcriptional regulatory protein WalR,False
+ispD,Staphylococcus aureus,A0A0U1MVX0,Ribitol-5-phosphate cytidylyltransferase,False
+secA,Staphylococcus aureus,A0A380DZT4,Protein translocase subunit SecA,False
+secY,Staphylococcus aureus,A0A380DUL2,Protein translocase subunit SecY,False
+lpxC,Pseudomonas aeruginosa,B5ATN6,UDP-3-O-acyl-N-acetylglucosamine deacetylase,False
+lpxA,Pseudomonas aeruginosa,B7V7U4,Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase,False
+lpxB,Pseudomonas aeruginosa,A0A0C6ECJ3,Lipid-A-disaccharide synthase,False
+lpxD,Pseudomonas aeruginosa,A0A7M3AW73,UDP-3-O-acylglucosamine N-acyltransferase,False
+lptD,Pseudomonas aeruginosa,A0A643J0Z4,LPS-assembly protein LptD,False
+bamA,Pseudomonas aeruginosa,A0A6A9K1A9,Outer membrane protein assembly factor BamA,False
+bamD,Pseudomonas aeruginosa,A0A6A9K6M3,Outer membrane protein assembly factor BamD,False
+ftsZ,Pseudomonas aeruginosa,A0ABD7K1P1,Cell division protein FtsZ,False
+murA,Pseudomonas aeruginosa,A0A643IY33,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,False
+gyrA,Pseudomonas aeruginosa,A0A089VME6,,False
+gyrB,Pseudomonas aeruginosa,A0A223FPW4,DNA topoisomerase (ATP-hydrolyzing),False
+parC,Pseudomonas aeruginosa,A0A089VLC7,,False
+parE,Pseudomonas aeruginosa,I6UGE4,DNA topoisomerase (ATP-hydrolyzing),False
+rpoB,Pseudomonas aeruginosa,G3M0Q8,DNA-directed RNA polymerase,False
+dnaA,Pseudomonas aeruginosa,A0ABD7KA18,Chromosomal replication initiator protein DnaA,False
+fabI,Pseudomonas aeruginosa,A0A5E5QU99,Enoyl-[acyl-carrier-protein] reductase [NADH],False
+folA,Pseudomonas aeruginosa,A0A2R4KRQ2,,False
+secA,Pseudomonas aeruginosa,A0A0C6F116,Protein translocase subunit SecA,False
+lpxC,Acinetobacter baumannii,A0A482KNG5,UDP-3-O-acyl-N-acetylglucosamine deacetylase,False
+bamA,Acinetobacter baumannii,A0A9P2QHL4,Outer membrane protein assembly factor BamA,False
+ftsZ,Acinetobacter baumannii,A0A482KP32,,False
+murA,Acinetobacter baumannii,A0A6F8TKP1,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,False
+gyrA,Acinetobacter baumannii,X5CLP4,,False
+rpoB,Acinetobacter baumannii,A0A060GUH1,DNA-directed RNA polymerase,False
+dnaA,Acinetobacter baumannii,A0A3R9RY11,Chromosomal replication initiator protein DnaA,False
+lpxC,Klebsiella pneumoniae,W1DVV5,UDP-3-O-acyl-N-acetylglucosamine deacetylase,False
+lpxA,Klebsiella pneumoniae,W1DM47,Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase,False
+bamA,Klebsiella pneumoniae,A0A8D6Q4R0,Outer membrane protein assembly factor BamA,False
+lptD,Klebsiella pneumoniae,A0A377TML7,LPS-assembly protein LptD,False
+ftsZ,Klebsiella pneumoniae,A0A3S4IU78,Cell division protein FtsZ,False
+murA,Klebsiella pneumoniae,A0A1S5RKE3,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,False
+gyrA,Klebsiella pneumoniae,A0A160DSH6,,False
+rpoB,Klebsiella pneumoniae,A0A161HU07,DNA-directed RNA polymerase,False
+folA,Klebsiella pneumoniae,A0A858C9F1,dihydrofolate reductase,False
+ftsZ,Enterococcus faecium,A0AAV3GRU7,Cell division protein FtsZ,False
+murA,Enterococcus faecium,A0A7T3UX14,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,False
+gyrA,Enterococcus faecium,O69048,,False
+gyrB,Enterococcus faecium,C3RSA9,DNA topoisomerase (ATP-hydrolyzing),False
+rpoB,Enterococcus faecium,A0A4Y5UGY1,DNA-directed RNA polymerase,False
+dnaA,Enterococcus faecium,A0A829F6Y4,Chromosomal replication initiator protein DnaA,False
+fabI,Enterococcus faecium,A0A9X1GBX3,Enoyl-[acyl-carrier-protein] reductase [NADH],False
+lpxC,Enterobacter cloacae,A0ABD0BY00,UDP-3-O-acyl-N-acetylglucosamine deacetylase,False
+bamA,Enterobacter cloacae,A0A330G972,Outer membrane protein assembly factor BamA,False
+ftsZ,Enterobacter cloacae,A0A377M997,Cell division protein FtsZ,False
+murA,Enterobacter cloacae,A0A377LSA5,UDP-N-acetylglucosamine 1-carboxyvinyltransferase,False
+gyrA,Enterobacter cloacae,Q9F5X0,,False
+rpoB,Enterobacter cloacae,A0A482JL52,DNA-directed RNA polymerase,False

@@ -1,0 +1,41 @@
+pathway,potency_weight,toxicity_weight,potency_direction,toxicity_direction
+Glycerophospholipid Metabolism,0.15536387264728546,0.0004936991026625037,positive,negative
+"Transport, Outer Membrane",0.1326809674501419,0.00016718829283490777,negative,negative
+"Tyrosine, Tryptophan, and Phenylalanine Metabolism",0.12279261648654938,0.00028818732243962586,negative,positive
+Pentose Phosphate Pathway,0.11612117290496826,0.0015299448277801275,negative,positive
+Alanine and Aspartate Metabolism,0.11226148903369904,0.0039616534486413,positive,negative
+Cofactor and Prosthetic Group Biosynthesis,0.11108042299747467,0.0007935130852274597,negative,negative
+Cell Envelope Biosynthesis,0.10533714294433594,0.00014341784117277712,negative,negative
+Nucleotide Salvage Pathway,0.09669838845729828,0.005856328643858433,positive,positive
+Methionine Metabolism,0.09960125386714935,0.0005121824215166271,negative,negative
+Cysteine Metabolism,0.09285243600606918,0.006864866707473993,negative,positive
+Murein Biosynthesis,0.09558238089084625,0.0001708507479634136,negative,negative
+"Transport, Inner Membrane",0.09246648848056793,0.002785169053822756,negative,negative
+Lipopolysaccharide Biosynthesis / Recycling,0.09377448260784149,0.00036261475179344416,positive,negative
+Extracellular exchange,0.08711396157741547,0.005326614715158939,negative,negative
+Inorganic Ion Transport and Metabolism,0.08552873879671097,0.0014366413233801723,positive,positive
+Purine and Pyrimidine Biosynthesis,0.08340691775083542,0.0019972878508269787,negative,negative
+Citric Acid Cycle,0.07964968681335449,0.004564092494547367,positive,positive
+Threonine and Lysine Metabolism,0.0741167888045311,0.007246614433825016,positive,negative
+Murein Recycling,0.0751163512468338,0.006064436864107847,negative,negative
+Glycine and Serine Metabolism,0.07946503907442093,0.0014767959946766496,negative,positive
+tRNA Charging,0.07631243020296097,0.003859159303829074,negative,negative
+Unassigned,0.06936432421207428,0.006205544341355562,positive,positive
+Methylglyoxal Metabolism,0.0652984231710434,0.007872971706092358,negative,negative
+"Valine, Leucine, and Isoleucine Metabolism",0.06548638641834259,0.006572799291461706,positive,positive
+Alternate Carbon Metabolism,0.06580701470375061,0.005254385061562061,negative,positive
+Biomass and maintenance functions,0.06162639707326889,0.007553398609161377,negative,positive
+Intracellular demand,0.06371481716632843,0.004792117513716221,negative,negative
+Anaplerotic Reactions,0.06577183306217194,0.0013581742532551289,negative,positive
+Pyruvate Metabolism,0.06491267681121826,0.0021759415976703167,negative,positive
+Membrane Lipid Metabolism,0.06562584638595581,0.0014251708053052425,positive,positive
+Glutamate Metabolism,0.06302952766418457,0.0040014972910285,positive,positive
+Folate Metabolism,0.056473661214113235,0.007910815998911858,negative,positive
+"Transport, Outer Membrane Porin",0.06150004267692566,0.0021067908965051174,negative,positive
+Oxidative Phosphorylation,0.06201726943254471,0.00015065260231494904,negative,positive
+Arginine and Proline Metabolism,0.05360383540391922,0.007142374757677317,positive,negative
+Glycolysis/Gluconeogenesis,0.054859600961208344,0.003403340931981802,positive,negative
+Metabolite Repair,0.05252297967672348,0.004519966896623373,negative,positive
+Glyoxylate Metabolism,0.040992408990859985,0.00198650942184031,positive,negative
+Nitrogen Metabolism,0.04092322289943695,0.0011407900601625443,negative,positive
+Histidine Metabolism,0.03986082226037979,9.87624516710639e-05,positive,negative

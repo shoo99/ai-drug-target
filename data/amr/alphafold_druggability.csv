@@ -1,0 +1,21 @@
+gene,uniprot_id,has_alphafold,avg_plddt,protein_class,has_pdb_experimental,druggability_score,modality_suggestion,subcellular
+OX40,,False,,,False,0.0,,
+CRISPR,,False,,,False,0.0,,
+RESULTS,,False,,,False,0.0,,
+IL,A0A510GAH5,True,,receptor,False,0.45,Monoclonal antibody or small molecule,
+BP,,False,,,False,0.0,,
+CCL17,Q92583,True,,,True,0.4,Multiple modalities possible,Secreted
+EMA,,False,,,False,0.0,,
+GYRA,,False,,,False,0.0,,
+VCM,,False,,,False,0.0,,
+JAK,,False,,,False,0.0,,
+LPS,,False,,,False,0.0,,
+TRPV4,A0A6Q8PFZ3,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",
+GRP,P07492,True,,,True,0.4,Multiple modalities possible,"Secreted, Cytoplasmic vesicle, secretory vesicle lumen, Cell projection, neuron projection"
+PCG,,False,,,False,0.0,,
+TNF,C1K3N5,True,,,False,0.25,"Consider PROTAC, ASO, or siRNA",Secreted
+PARE,,False,,,False,0.0,,
+LEV,,False,,,False,0.0,,
+TS,P04818,True,,enzyme,True,0.55,Small molecule inhibitor,"Nucleus, Cytoplasm, Mitochondrion"
+OX40L,,False,,,False,0.0,,
+CGRP,,False,,,False,0.0,,

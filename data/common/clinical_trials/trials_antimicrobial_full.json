@@ -1,0 +1,1555 @@
+[
+  {
+    "gene": "OX40",
+    "disease_context": "antimicrobial",
+    "total_trials": 27,
+    "active_trials": 10,
+    "completed_trials": 13,
+    "phase_distribution": {
+      "PHASE1": 21,
+      "PHASE2": 14,
+      "PHASE3": 1,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "PHASE3",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Providence Health & Services",
+        5
+      ],
+      [
+        "Baylor College of Medicine",
+        2
+      ],
+      [
+        "M.D. Anderson Cancer Center",
+        2
+      ],
+      [
+        "University of Southern California",
+        2
+      ],
+      [
+        "Fondazione Matilde Tettamanti Menotti De Marchi Onlus",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 20,
+    "trials_summary": [
+      {
+        "nct_id": "NCT05869279",
+        "title": "Allogeneic CARCIK-CD19 in Adults/Pediatric B-cell NHL or Chronic Lymphocytic Leukemia",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Fondazione Matilde Tettamanti Menotti De Marchi Onlus"
+      },
+      {
+        "nct_id": "NCT01303705",
+        "title": "Anti-OX40, Cyclophosphamide (CTX) and Radiation in Patients With Progressive Metastatic Prostate Can",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Providence Health & Services"
+      },
+      {
+        "nct_id": "NCT03831295",
+        "title": "SD-101 and BMS-986178 in Treating Patients With Advanced or Metastatic Solid Malignancies",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Ronald Levy"
+      },
+      {
+        "nct_id": "NCT03941132",
+        "title": "Clinical Phase II/III Trial of Ustekinumab to Treat Type 1 Diabetes (UST1D2)",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "University of British Columbia"
+      },
+      {
+        "nct_id": "NCT01822652",
+        "title": "3rd Generation GD-2 Chimeric Antigen Receptor and ICaspase Suicide Safety Switch, Neuroblastoma, GRA",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "sponsor": "Baylor College of Medicine"
+      },
+      {
+        "nct_id": "NCT03758001",
+        "title": "First in Human Study of IBI101 in Chinese Subjects With Advanced Solid Tumors",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Innovent Biologics (Suzhou) Co. Ltd."
+      },
+      {
+        "nct_id": "NCT02274155",
+        "title": "Anti-OX40 Antibody in Head and Neck Cancer Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Providence Health & Services"
+      },
+      {
+        "nct_id": "NCT02559024",
+        "title": "Anti-OX40 Antibody (MEDI6469) in Patients With Metastatic Colorectal Cancer",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "sponsor": "Providence Health & Services"
+      },
+      {
+        "nct_id": "NCT02221960",
+        "title": "A Phase 1 Study to Evaluate MEDI6383 Alone and in Combination With MEDI4736 in Adult Subjects With S",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "MedImmune LLC"
+      },
+      {
+        "nct_id": "NCT03390296",
+        "title": "OX40, Venetoclax, Avelumab, Glasdegib, Gemtuzumab Ozogamicin, and Azacitidine in Relapsed or Refract",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "M.D. Anderson Cancer Center"
+      }
+    ]
+  },
+  {
+    "gene": "CRISPR",
+    "disease_context": "antimicrobial",
+    "total_trials": 41,
+    "active_trials": 25,
+    "completed_trials": 5,
+    "phase_distribution": {
+      "PHASE1": 24,
+      "PHASE2": 11,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "PHASE2",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "CRISPR Therapeutics AG",
+        3
+      ],
+      [
+        "Chinese PLA General Hospital",
+        3
+      ],
+      [
+        "Suzhou Maximum Bio-tech Co., Ltd.",
+        2
+      ],
+      [
+        "University of Pennsylvania",
+        2
+      ],
+      [
+        "HuidaGene Therapeutics Co., Ltd.",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 31,
+    "trials_summary": [
+      {
+        "nct_id": "NCT06865924",
+        "title": "Colangioids to Define the Genetic Factors Involved in Atypical Primary Sclerosing Cholangitis",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "sponsor": "Fondazione IRCCS Ca' Granda, Ospedale Maggiore Policlinico"
+      },
+      {
+        "nct_id": "NCT07125274",
+        "title": "Sputum-free Diagnostis of TB",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "sponsor": "Research Center Borstel"
+      },
+      {
+        "nct_id": "NCT06737146",
+        "title": "Study of MT027 in Patients with Recurrent or Progressive High-grade Glioma",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1",
+        "sponsor": "Suzhou Maximum Bio-tech Co., Ltd."
+      },
+      {
+        "nct_id": "NCT04535505",
+        "title": "Pathogenic Bordetella Rapid Detection",
+        "status": "WITHDRAWN",
+        "phase": "N/A",
+        "sponsor": "Children's Hospital of Fudan University"
+      },
+      {
+        "nct_id": "NCT05565248",
+        "title": "An Open-Label, FIH Study Evaluating the Safety, Tolerability, and Efficacy of VCTX211 Combination Pr",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "CRISPR Therapeutics AG"
+      },
+      {
+        "nct_id": "NCT03332030",
+        "title": "Stem Cells in NF1 Patients With Tumors of the Central Nervous System",
+        "status": "WITHDRAWN",
+        "phase": "N/A",
+        "sponsor": "Roger Packer"
+      },
+      {
+        "nct_id": "NCT06742593",
+        "title": "Study of MT027 in Patients with Brain, Meninges, and Spinal Cord Metastatic Solid Tumors",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1",
+        "sponsor": "Suzhou Maximum Bio-tech Co., Ltd."
+      },
+      {
+        "nct_id": "NCT06881732",
+        "title": "Experimental Malaria Infection of Healthy Malaria-Naive Adults by Mosquito Bite With the Genetically",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE1",
+        "sponsor": "University of Melbourne"
+      },
+      {
+        "nct_id": "NCT04443907",
+        "title": "Study of Safety and Efficacy of Genome-edited Hematopoietic Stem and Progenitor Cells in Sickle Cell",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "sponsor": "Novartis Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT05812326",
+        "title": "PD-1 Knockout Anti-MUC1 CAR-T Cells in the Treatment of Advanced Breast Cancer",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Sun Yat-Sen Memorial Hospital of Sun Yat-Sen University"
+      }
+    ]
+  },
+  {
+    "gene": "RESULTS",
+    "disease_context": "antimicrobial",
+    "total_trials": 73,
+    "active_trials": 17,
+    "completed_trials": 35,
+    "phase_distribution": {
+      "PHASE1": 15,
+      "PHASE2": 21,
+      "PHASE3": 15,
+      "PHASE4": 4
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "GlaxoSmithKline",
+        3
+      ],
+      [
+        "Tongji Hospital",
+        2
+      ],
+      [
+        "National Institute of Allergy and Infectious Diseases (NIAID)",
+        2
+      ],
+      [
+        "Capital Medical University",
+        2
+      ],
+      [
+        "University of Oxford",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 65,
+    "trials_summary": [
+      {
+        "nct_id": "NCT05178524",
+        "title": "Clinical Study on BIFICO Accelerating Postoperative Liver Function Recovery in Patients With Hepatoc",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Tongji Hospital"
+      },
+      {
+        "nct_id": "NCT03122223",
+        "title": "Evaluating the Safety and Immunogenicity of ALVAC-HIV and MF59®- or AS01B-adjuvanted Bivalent Subtyp",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)"
+      },
+      {
+        "nct_id": "NCT06709079",
+        "title": "Study on the Effect and Mechanism of Aescine Sodium in the Treatment of Allergic Rhinitis",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "sponsor": "Cheng Lei"
+      },
+      {
+        "nct_id": "NCT05765396",
+        "title": "SARS-CoV-2/COVID-19 Study of Next Generation Non-Invasive Passive Detection Technologies",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "N/A",
+        "sponsor": "The Geneva Foundation"
+      },
+      {
+        "nct_id": "NCT07491796",
+        "title": "Comparison of One-Step and Two-Step Light Curing of Bonding Agents and Composite in Orthodontics",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Shaheed Zulfiqar Ali Bhutto Medical University"
+      },
+      {
+        "nct_id": "NCT02305862",
+        "title": "A High-Resolution Magnetic Resonance Imaging Study to Evaluate the Effect of Rosuvastatin on Carotid",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "sponsor": "Capital Medical University"
+      },
+      {
+        "nct_id": "NCT02157246",
+        "title": "RHYTHM-I: Investigating Hypoxia in Rectal Tumours",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "University of Oxford"
+      },
+      {
+        "nct_id": "NCT01286727",
+        "title": "Study to Improve Renal Function After Kidney Transplantation",
+        "status": "UNKNOWN",
+        "phase": "PHASE2",
+        "sponsor": "Angion Biomedica Corp"
+      },
+      {
+        "nct_id": "NCT05232227",
+        "title": "Primaquine Double Dose for Radical Cure of Plasmodium Vivax in Colombia",
+        "status": "WITHDRAWN",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "University of California, San Francisco"
+      },
+      {
+        "nct_id": "NCT02629861",
+        "title": "Efficacy and Safety of 2 Dose Regimens of TEV-48125 Versus Placebo for the Preventive Treatment of E",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Teva Branded Pharmaceutical Products R&D, Inc."
+      }
+    ]
+  },
+  {
+    "gene": "IL",
+    "disease_context": "antimicrobial",
+    "total_trials": 69,
+    "active_trials": 9,
+    "completed_trials": 37,
+    "phase_distribution": {
+      "PHASE1": 10,
+      "PHASE2": 24,
+      "PHASE3": 27,
+      "PHASE4": 5
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "National Cancer Institute (NCI)",
+        4
+      ],
+      [
+        "Novartis",
+        2
+      ],
+      [
+        "MacroGenics",
+        2
+      ],
+      [
+        "SWOG Cancer Research Network",
+        2
+      ],
+      [
+        "GlaxoSmithKline",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 62,
+    "trials_summary": [
+      {
+        "nct_id": "NCT00355524",
+        "title": "A Phase 2 Study to Evaluate Pharmacokinetics, Safety and Efficacy of TMC114/Ritonavir (Rtv) in Human",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Tibotec Pharmaceuticals, Ireland"
+      },
+      {
+        "nct_id": "NCT03480646",
+        "title": "ProSTAR: A Study Evaluating CPI-1205 in Patients With Metastatic Castration Resistant Prostate Cance",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Constellation Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT00997503",
+        "title": "TAXUS Libertē Post Approval Study",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Boston Scientific Corporation"
+      },
+      {
+        "nct_id": "NCT03254927",
+        "title": "A Study of CDX-3379 and Cetuximab and in Patients With Advanced Head and Neck Squamous Cell Carcinom",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "sponsor": "Celldex Therapeutics"
+      },
+      {
+        "nct_id": "NCT02629861",
+        "title": "Efficacy and Safety of 2 Dose Regimens of TEV-48125 Versus Placebo for the Preventive Treatment of E",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Teva Branded Pharmaceutical Products R&D, Inc."
+      },
+      {
+        "nct_id": "NCT00463242",
+        "title": "A Placebo- and Paroxetine-controlled Study of the Efficacy, Safety and Tolerability of Agomelatine (",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Novartis"
+      },
+      {
+        "nct_id": "NCT03081169",
+        "title": "Timing of VTE Prophylaxis in TBI",
+        "status": "WITHDRAWN",
+        "phase": "PHASE4",
+        "sponsor": "Loyola University"
+      },
+      {
+        "nct_id": "NCT01603641",
+        "title": "BOTOX® Open-Label Treatment in Pediatric Lower Limb Spasticity",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Allergan"
+      },
+      {
+        "nct_id": "NCT03439254",
+        "title": "Study Evaluating the Efficacy and Safety of Obeticholic Acid in Subjects With Compensated Cirrhosis ",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Intercept Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT03836105",
+        "title": "CemiplimAb Survivorship Epidemiology",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Regeneron Pharmaceuticals"
+      }
+    ]
+  },
+  {
+    "gene": "BP",
+    "disease_context": "antimicrobial",
+    "total_trials": 75,
+    "active_trials": 15,
+    "completed_trials": 42,
+    "phase_distribution": {
+      "PHASE1": 12,
+      "PHASE2": 18,
+      "PHASE3": 14,
+      "PHASE4": 14
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Pfizer",
+        7
+      ],
+      [
+        "AstraZeneca",
+        3
+      ],
+      [
+        "Medy-Tox",
+        2
+      ],
+      [
+        "University Hospitals Cleveland Medical Center",
+        2
+      ],
+      [
+        "National Cancer Institute (NCI)",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 61,
+    "trials_summary": [
+      {
+        "nct_id": "NCT06778122",
+        "title": "In-Bedroom Renewed Air as Anti-inflammatory Adjuvant Therapy in Cancer Survivors",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "sponsor": "University College, London"
+      },
+      {
+        "nct_id": "NCT02779231",
+        "title": "Text Messages and Blood Pressure Control",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Linnea Polgreen"
+      },
+      {
+        "nct_id": "NCT07081477",
+        "title": "Ciprofol's Influence on LVOT VTI in Elderly Painless Colonoscopy Patients",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "sponsor": "The First People's Hospital of Lianyungang"
+      },
+      {
+        "nct_id": "NCT03390777",
+        "title": "Plasma Rich in Growth Factors for Treatment of Medication Related Osteonecrosis of the Jaw",
+        "status": "UNKNOWN",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "University of Roma La Sapienza"
+      },
+      {
+        "nct_id": "NCT04157686",
+        "title": "MT10109L in the Long-term, Open-label Treatment of Glabellar Lines (GL) and Lateral Canthal Lines (L",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Medy-Tox"
+      },
+      {
+        "nct_id": "NCT05074173",
+        "title": "Text My Hypertension BP Meds NOLA",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Tulane University"
+      },
+      {
+        "nct_id": "NCT04592783",
+        "title": "Postpartum Hypertension, Tight vs Liberal Control Trial",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "University Hospitals Cleveland Medical Center"
+      },
+      {
+        "nct_id": "NCT00495794",
+        "title": "Adherence and Intensification of Medications (AIM) Implementation Study",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "US Department of Veterans Affairs"
+      },
+      {
+        "nct_id": "NCT03666351",
+        "title": "Study to Evaluate the Effect on Improvement of LVH by the Control of BP in Hypertension Patients Wit",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "sponsor": "Hanmi Pharmaceutical Company Limited"
+      },
+      {
+        "nct_id": "NCT00709137",
+        "title": "Spironolactone Versus Amiloride as an Add on Agent in Resistant Hypertension",
+        "status": "WITHDRAWN",
+        "phase": "NA",
+        "sponsor": "VA Salt Lake City Health Care System"
+      }
+    ]
+  },
+  {
+    "gene": "CCL17",
+    "disease_context": "antimicrobial",
+    "total_trials": 34,
+    "active_trials": 4,
+    "completed_trials": 22,
+    "phase_distribution": {
+      "PHASE1": 11,
+      "PHASE2": 12,
+      "PHASE3": 3,
+      "PHASE4": 1
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Keymed Biosciences Co.Ltd",
+        5
+      ],
+      [
+        "Pfizer",
+        4
+      ],
+      [
+        "Akesobio Australia Pty Ltd",
+        2
+      ],
+      [
+        "Norwegian University of Science and Technology",
+        1
+      ],
+      [
+        "Axikin Pharmaceuticals, Inc.",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 26,
+    "trials_summary": [
+      {
+        "nct_id": "NCT03915496",
+        "title": "Study Evaluating the Mechanism of Action of PF-04965842 Monotherapy for Moderate-to-severe Atopic De",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Pfizer"
+      },
+      {
+        "nct_id": "NCT05048056",
+        "title": "Phase 2 Study of Efficacy and Safety of AK120, in Subjects With Moderate-to-Severe Atopic Dermatitis",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "sponsor": "Akesobio Australia Pty Ltd"
+      },
+      {
+        "nct_id": "NCT02038725",
+        "title": "MIDNOR-TIA - a Study of 600 Patients With Transient Ischemic Attack",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Norwegian University of Science and Technology"
+      },
+      {
+        "nct_id": "NCT01890161",
+        "title": "A Phase IIa Repeat Dose AXP1275 vs Placebo Cross-over Trial With Pulmonary Allergen Challenge in Adu",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Axikin Pharmaceuticals, Inc."
+      },
+      {
+        "nct_id": "NCT06756126",
+        "title": "A Clinical Study of AK120 in Adolescents With Moderate-to-severe Atopic Dermatitis (AD)",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE2",
+        "sponsor": "Akeso"
+      },
+      {
+        "nct_id": "NCT05908032",
+        "title": "Study of CM310 in Subjects With Allergic Rhinitis",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Keymed Biosciences Co.Ltd"
+      },
+      {
+        "nct_id": "NCT05303480",
+        "title": "Deep Phenotyping of Cutaneous T Cell Lymphoma, Type Mycosis Fungoides",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Centre for Human Drug Research, Netherlands"
+      },
+      {
+        "nct_id": "NCT04893941",
+        "title": "Dose Escalation Trial of CM310 in Patients With Moderate-to-Severe Atopic Dermatitis (AD)",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Keymed Biosciences Co.Ltd"
+      },
+      {
+        "nct_id": "NCT04805411",
+        "title": "Subcutaneously CM310/Placebo in Patients With Moderate-to-Severe Atopic Dermatitis (AD)",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Keymed Biosciences Co.Ltd"
+      },
+      {
+        "nct_id": "NCT06675188",
+        "title": "A Study to Learn More About the Study Medicine PF-07275315 in Healthy Chinese Adult Participants",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Pfizer"
+      }
+    ]
+  },
+  {
+    "gene": "EMA",
+    "disease_context": "antimicrobial",
+    "total_trials": 72,
+    "active_trials": 24,
+    "completed_trials": 33,
+    "phase_distribution": {
+      "PHASE1": 9,
+      "PHASE2": 22,
+      "PHASE3": 12,
+      "PHASE4": 2
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Fondazione Policlinico Universitario Agostino Gemelli IRCCS",
+        3
+      ],
+      [
+        "National Cancer Institute (NCI)",
+        2
+      ],
+      [
+        "Hoffmann-La Roche",
+        2
+      ],
+      [
+        "AstraZeneca",
+        2
+      ],
+      [
+        "Melinta Therapeutics, Inc.",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 65,
+    "trials_summary": [
+      {
+        "nct_id": "NCT04487886",
+        "title": "Duvelisib Ameliorates Manifestations of Pneumonia in Established Novel Coronavirus Infection (COVID-",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Emory University"
+      },
+      {
+        "nct_id": "NCT00454077",
+        "title": "rhTSH-Thyroid Ablation With 1850 MBq of 131I",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "University of Siena"
+      },
+      {
+        "nct_id": "NCT01935466",
+        "title": "Risk of Bladder Cancer in Type 2 Diabetes Patients With Pioglitazone Therapy \"PROBE\"",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Post Graduate Institute of Medical Education and Research, Chandigarh"
+      },
+      {
+        "nct_id": "NCT04990245",
+        "title": "pAtient rePorted Outcomes Linked With histoLogy in Patients With uLcerative cOlitis",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Imelda GI Clinical Research Center"
+      },
+      {
+        "nct_id": "NCT01367288",
+        "title": "Comparative Study of Neoadjuvant Chemotherapy With and Without Zometa for Management of Locally Adva",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Hospices Civils de Lyon"
+      },
+      {
+        "nct_id": "NCT05715970",
+        "title": "ICT Tools for the Diagnosis of Autoimmune Diseases",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "University of Palermo"
+      },
+      {
+        "nct_id": "NCT01563328",
+        "title": "A Study to Evaluate the Effect of Boceprevir and Telaprevir on Dolutegravir Pharmacokinetics in Heal",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "ViiV Healthcare"
+      },
+      {
+        "nct_id": "NCT05785065",
+        "title": "Mycophenolate Mofetil in Systemic Sclerosis With Subclinical Interstitial Lung Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "sponsor": "Centre hospitalier de l'Université de Montréal (CHUM)"
+      },
+      {
+        "nct_id": "NCT06779123",
+        "title": "Treatment With Auricular Vagus Nerve Stimulation in Rheumatoid Arthritis - the TRAVAGA Study",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "sponsor": "taVNS AB"
+      },
+      {
+        "nct_id": "NCT02322190",
+        "title": "Biomarkers in Acute Graft-Versus-Host Disease and Extracorporeal Photopheresis Added to Investigator",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "sponsor": "National Cancer Institute (NCI)"
+      }
+    ]
+  },
+  {
+    "gene": "GYRA",
+    "disease_context": "antimicrobial",
+    "total_trials": 64,
+    "active_trials": 14,
+    "completed_trials": 43,
+    "phase_distribution": {
+      "PHASE1": 3,
+      "PHASE2": 17,
+      "PHASE3": 26,
+      "PHASE4": 4
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Novartis Pharmaceuticals",
+        11
+      ],
+      [
+        "AstraZeneca",
+        5
+      ],
+      [
+        "GlaxoSmithKline",
+        4
+      ],
+      [
+        "Regeneron Pharmaceuticals",
+        4
+      ],
+      [
+        "Bristol-Myers Squibb",
+        3
+      ]
+    ],
+    "n_unique_sponsors": 37,
+    "trials_summary": [
+      {
+        "nct_id": "NCT05734053",
+        "title": "Nilotinib for Patients With Chronic Myeloid Leukemia in First Line and Any Subsequent Line",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Novartis Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT05121480",
+        "title": "A Study Investigating the Effect of EDP1815 in the Treatment of Mild, Moderate and Severe Atopic Der",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Evelo Biosciences, Inc."
+      },
+      {
+        "nct_id": "NCT03155997",
+        "title": "Endocrine Therapy With or Without Abemaciclib (LY2835219) Following Surgery in Participants With Bre",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "sponsor": "Eli Lilly and Company"
+      },
+      {
+        "nct_id": "NCT00343161",
+        "title": "Symptom Adapted Therapy in GERD Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "sponsor": "AstraZeneca"
+      },
+      {
+        "nct_id": "NCT01285180",
+        "title": "Quality of Life in Daxas-treated Patients Older Than 18 Years With Severe COPD",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "AstraZeneca"
+      },
+      {
+        "nct_id": "NCT06312176",
+        "title": "A Study of Sacituzumab Tirumotecan (MK-2870) as a Single Agent and in Combination With Pembrolizumab",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "sponsor": "Merck Sharp & Dohme LLC"
+      },
+      {
+        "nct_id": "NCT01083849",
+        "title": "Long-Term Therapy Outcomes When Treating Chronic Kidney Disease (CKD) Patients With Paricalcitol in ",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "AbbVie (prior sponsor, Abbott)"
+      },
+      {
+        "nct_id": "NCT03580356",
+        "title": "A Phase III Study of and Efficacy of Ligelizumab in the Treatment of CSU in Adolescents and Adults I",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT00056407",
+        "title": "\"REDUCE\" - A Clinical Research Study To Reduce The Incidence Of Prostate Cancer In Men Who Are At In",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT01130831",
+        "title": "Effect of Lanthanum Carbonate in Patients Previously Treated With Calcium-based Phosphate Binder The",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Shire"
+      }
+    ]
+  },
+  {
+    "gene": "VCM",
+    "disease_context": "antimicrobial",
+    "total_trials": 3,
+    "active_trials": 2,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "low",
+    "top_sponsors": [
+      [
+        "Centre for Addiction and Mental Health",
+        1
+      ],
+      [
+        "Hellenic Institute for the Study of Sepsis",
+        1
+      ],
+      [
+        "Göteborg University",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 3,
+    "trials_summary": [
+      {
+        "nct_id": "NCT00310661",
+        "title": "Sarizotan in the Treatment of Neuroleptic-induced Tardive Dyskinesia",
+        "status": "TERMINATED",
+        "phase": "NA",
+        "sponsor": "Centre for Addiction and Mental Health"
+      },
+      {
+        "nct_id": "NCT07073456",
+        "title": "Viscoelastic Coagulation for Early Sepsis Detection",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "sponsor": "Hellenic Institute for the Study of Sepsis"
+      },
+      {
+        "nct_id": "NCT04433650",
+        "title": "Pictorial Support in Person-centred Care for Children (PicPecc)",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "sponsor": "Göteborg University"
+      }
+    ]
+  },
+  {
+    "gene": "JAK",
+    "disease_context": "antimicrobial",
+    "total_trials": 51,
+    "active_trials": 20,
+    "completed_trials": 18,
+    "phase_distribution": {
+      "PHASE1": 7,
+      "PHASE2": 26,
+      "PHASE3": 11,
+      "PHASE4": 5
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Pfizer",
+        4
+      ],
+      [
+        "Incyte Corporation",
+        4
+      ],
+      [
+        "Washington University School of Medicine",
+        3
+      ],
+      [
+        "National Institute of Allergy and Infectious Diseases (NIAID)",
+        3
+      ],
+      [
+        "Duke University",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 39,
+    "trials_summary": [
+      {
+        "nct_id": "NCT02152956",
+        "title": "Flotetuzumab in Primary Induction Failure (PIF) or Early Relapse (ER) Acute Myeloid Leukemia (AML)",
+        "status": "TERMINATED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "MacroGenics"
+      },
+      {
+        "nct_id": "NCT03915496",
+        "title": "Study Evaluating the Mechanism of Action of PF-04965842 Monotherapy for Moderate-to-severe Atopic De",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Pfizer"
+      },
+      {
+        "nct_id": "NCT05237388",
+        "title": "Janus Kinase-STAT Inhibition to Reduce APOL1 Associated Kidney Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "sponsor": "Duke University"
+      },
+      {
+        "nct_id": "NCT07357441",
+        "title": "A Study to Evaluate the Demographics and Treatment Patterns of Myelofibrosis Patients Treated With R",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Novartis Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT02747537",
+        "title": "Treating Relapsed/Recurrent/Refractory Pediatric Solid Tumors With Sorafenib in Combination With Iri",
+        "status": "WITHDRAWN",
+        "phase": "PHASE2",
+        "sponsor": "Washington University School of Medicine"
+      },
+      {
+        "nct_id": "NCT03144687",
+        "title": "A Study of Itacitinib in Combination With Low-Dose Ruxolitinib or Itacitinib Alone Following Ruxolit",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Incyte Corporation"
+      },
+      {
+        "nct_id": "NCT04282187",
+        "title": "Decitabine With Ruxolitinib, Fedratinib or Pacritinib for the Treatment of Accelerated/Blast Phase M",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "sponsor": "University of Washington"
+      },
+      {
+        "nct_id": "NCT02277093",
+        "title": "Pacritinib to Inhibit JAK/STAT Signaling in Refractory Colorectal Cancer",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "sponsor": "Washington University School of Medicine"
+      },
+      {
+        "nct_id": "NCT02426086",
+        "title": "Study to Evaluate Activity of 2 Dose Levels of Imetelstat in Participants With Intermediate-2 or Hig",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Geron Corporation"
+      },
+      {
+        "nct_id": "NCT03654768",
+        "title": "Testing the Addition of Ruxolitinib to the Usual Treatment (Tyrosine Kinase Inhibitors) for Chronic ",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE2",
+        "sponsor": "SWOG Cancer Research Network"
+      }
+    ]
+  },
+  {
+    "gene": "LPS",
+    "disease_context": "antimicrobial",
+    "total_trials": 70,
+    "active_trials": 18,
+    "completed_trials": 34,
+    "phase_distribution": {
+      "PHASE1": 18,
+      "PHASE2": 14,
+      "PHASE3": 5,
+      "PHASE4": 7
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Medical University of Vienna",
+        2
+      ],
+      [
+        "University of California, Davis",
+        2
+      ],
+      [
+        "Istituto Clinico Humanitas",
+        2
+      ],
+      [
+        "Light Chain Bioscience - Novimmune SA",
+        1
+      ],
+      [
+        "Indiana Hand to Shoulder Center",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 67,
+    "trials_summary": [
+      {
+        "nct_id": "NCT01808469",
+        "title": "First in Human Study of an Anti-Toll-like Receptor 4 (TLR4) Monoclonal Antibody (NI-0101) in Adult H",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Light Chain Bioscience - Novimmune SA"
+      },
+      {
+        "nct_id": "NCT06171542",
+        "title": "Efficacy of a Single Image Guided Injection of CTM for Glenohumeral Arthritis",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "sponsor": "Indiana Hand to Shoulder Center"
+      },
+      {
+        "nct_id": "NCT02552862",
+        "title": "Study of the Effect of Adjunctive Vivomixx® in Patients With Cirrhosis and Spontaneous Bacterial Per",
+        "status": "WITHDRAWN",
+        "phase": "PHASE3",
+        "sponsor": "Fundació Institut de Recerca de l'Hospital de la Santa Creu i Sant Pau"
+      },
+      {
+        "nct_id": "NCT04068246",
+        "title": "The AMPK Modulator Metformin as a Novel Adjunct to Conventional Therapy in Rheumatoid Arthritis Pati",
+        "status": "COMPLETED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Sadat City University"
+      },
+      {
+        "nct_id": "NCT01717950",
+        "title": "Safety and Immunogenicity of the Na-APR-1 Hookworm Vaccine in Healthy Adults",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Baylor College of Medicine"
+      },
+      {
+        "nct_id": "NCT04084418",
+        "title": "Carbohydrates Under Target for Type 1 Diabetes Management",
+        "status": "TERMINATED",
+        "phase": "NA",
+        "sponsor": "McGill University"
+      },
+      {
+        "nct_id": "NCT02322190",
+        "title": "Biomarkers in Acute Graft-Versus-Host Disease and Extracorporeal Photopheresis Added to Investigator",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "sponsor": "National Cancer Institute (NCI)"
+      },
+      {
+        "nct_id": "NCT00371397",
+        "title": "Yoga, Immune Function, and Health",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Ohio State University"
+      },
+      {
+        "nct_id": "NCT01501162",
+        "title": "Effect of Probiotics on Gut-Liver Axis of Alcoholic Liver Disease",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "sponsor": "Chuncheon Sacred Heart Hospital"
+      },
+      {
+        "nct_id": "NCT04549168",
+        "title": "A Study of Lemborexant in Chinese Participants With Insomnia Disorder",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Eisai Co., Ltd."
+      }
+    ]
+  },
+  {
+    "gene": "TRPV4",
+    "disease_context": "antimicrobial",
+    "total_trials": 6,
+    "active_trials": 1,
+    "completed_trials": 3,
+    "phase_distribution": {
+      "PHASE1": 3,
+      "PHASE2": 3,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "PHASE2",
+    "competition_level": "moderate",
+    "top_sponsors": [
+      [
+        "GlaxoSmithKline",
+        5
+      ],
+      [
+        "Huazhong University of Science and Technology",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 2,
+    "trials_summary": [
+      {
+        "nct_id": "NCT07240376",
+        "title": "Efficacy and Safety of Stapokibart in Non-Allergic Rhinitis With Eosinophilia Syndrome",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "NA",
+        "sponsor": "Huazhong University of Science and Technology"
+      },
+      {
+        "nct_id": "NCT03511105",
+        "title": "Effects of GSK2798745 on Alveolar Barrier Disruption in a Segmental Lipopolysaccharide (LPS) Challen",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT02497937",
+        "title": "A Study to Evaluate the Effect of the Transient Receptor Potential Vanilloid 4 (TRPV4) Channel Block",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT02119260",
+        "title": "A First Time in Human Study to Evaluate the Safety, Tolerability, Pharmacokinetics, and Pharmacodyna",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT02135861",
+        "title": "A Method Validation Study for Evaluation of Novel Treatments Limiting Pulmonary Oedema in Cardiac Fa",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT03372603",
+        "title": "A Study to Assess the Effectiveness and Side Effects of GSK2798745 in Participants With Chronic Coug",
+        "status": "TERMINATED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "GlaxoSmithKline"
+      }
+    ]
+  },
+  {
+    "gene": "GRP",
+    "disease_context": "antimicrobial",
+    "total_trials": 55,
+    "active_trials": 9,
+    "completed_trials": 40,
+    "phase_distribution": {
+      "PHASE1": 10,
+      "PHASE2": 18,
+      "PHASE3": 15,
+      "PHASE4": 6
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Novartis Pharmaceuticals",
+        10
+      ],
+      [
+        "National Institute of Allergy and Infectious Diseases (NIAID)",
+        9
+      ],
+      [
+        "Bristol-Myers Squibb",
+        4
+      ],
+      [
+        "Genentech, Inc.",
+        4
+      ],
+      [
+        "AbbVie",
+        4
+      ]
+    ],
+    "n_unique_sponsors": 25,
+    "trials_summary": [
+      {
+        "nct_id": "NCT00000666",
+        "title": "A Randomized Prospective Study of Pyrimethamine Therapy for Prevention of Toxoplasmic Encephalitis i",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "National Institute of Allergy and Infectious Diseases (NIAID)"
+      },
+      {
+        "nct_id": "NCT01239797",
+        "title": "Phase III Study of Lenalidomide and Dexamethasone With or Without Elotuzumab to Treat Relapsed or Re",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Bristol-Myers Squibb"
+      },
+      {
+        "nct_id": "NCT00633893",
+        "title": "Efficacy and Safety Study of Apixaban for Extended Treatment of Deep Vein Thrombosis or Pulmonary Em",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Bristol-Myers Squibb"
+      },
+      {
+        "nct_id": "NCT00002435",
+        "title": "A Study of Thymic Humoral Factor (THF Gamma 2) in HIV-Infected Patients",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Pharmacia"
+      },
+      {
+        "nct_id": "NCT01723826",
+        "title": "A Long-Term Safety Extension of Studies ABE4869g and ABE4955g in Participants With Mild to Moderate ",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Genentech, Inc."
+      },
+      {
+        "nct_id": "NCT02204553",
+        "title": "Expanded Treatment Prot of Panobinostat in Combo w/ Bortez and Dex in Pts w/ Relapsed and/or Refract",
+        "status": "NO_LONGER_AVAILABLE",
+        "phase": "N/A",
+        "sponsor": "Novartis Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT01132664",
+        "title": "Phase 1b/2 Study of BKM120 Plus Trastuzumab in Patients With HER2-positive Breast Cancer",
+        "status": "TERMINATED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Novartis Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT05739383",
+        "title": "A Study of Inclisiran to Prevent Cardiovascular Events in High-risk Primary Prevention Patients.",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals"
+      },
+      {
+        "nct_id": "NCT01510054",
+        "title": "Endometrial Luteal Phase Characteristics and Luteal Phase Support in Controlled Ovarian Stimulation ",
+        "status": "WITHDRAWN",
+        "phase": "N/A",
+        "sponsor": "Johns Hopkins University"
+      },
+      {
+        "nct_id": "NCT00757588",
+        "title": "Safety and Efficacy of Saxagliptin Plus Insulin With or Without Metformin",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "AstraZeneca"
+      }
+    ]
+  },
+  {
+    "gene": "PCG",
+    "disease_context": "antimicrobial",
+    "total_trials": 67,
+    "active_trials": 14,
+    "completed_trials": 38,
+    "phase_distribution": {
+      "PHASE1": 5,
+      "PHASE2": 10,
+      "PHASE3": 14,
+      "PHASE4": 26
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "Shanghai Jiao Tong University School of Medicine",
+        4
+      ],
+      [
+        "National Taiwan University Hospital",
+        3
+      ],
+      [
+        "Radboud University Medical Center",
+        2
+      ],
+      [
+        "Mackay Memorial Hospital",
+        2
+      ],
+      [
+        "Aga Khan University",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 57,
+    "trials_summary": [
+      {
+        "nct_id": "NCT03738683",
+        "title": "Pharmacokinetics of Piperacillin and Tazobactam in Critically Ill Patients",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Radboud University Medical Center"
+      },
+      {
+        "nct_id": "NCT03915366",
+        "title": "Empirical Treatment Against Cytomegalovirus and Tuberculosis in HIV-infected Infants With Severe Pne",
+        "status": "COMPLETED",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "Hospital Universitario 12 de Octubre"
+      },
+      {
+        "nct_id": "NCT00132275",
+        "title": "Guidelines for Acute Sinusitis",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "University of Pittsburgh"
+      },
+      {
+        "nct_id": "NCT04698057",
+        "title": "Amoxicillin-clavulanate Alone or in Combination With Ciprofloxacin in Low-Risk Febrile Neutropenic A",
+        "status": "WITHDRAWN",
+        "phase": "PHASE3",
+        "sponsor": "Poitiers University Hospital"
+      },
+      {
+        "nct_id": "NCT03795194",
+        "title": "Antibiotic Duration in Post-appendectomy Abscess",
+        "status": "TERMINATED",
+        "phase": "PHASE4",
+        "sponsor": "Phoenix Children's Hospital"
+      },
+      {
+        "nct_id": "NCT01442688",
+        "title": "Amoxicillin Drug Interaction Study With MMX® Mesalazine/Mesalamine",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Shire"
+      },
+      {
+        "nct_id": "NCT04697641",
+        "title": "Helicobacter Pylori Eradication in Functional Dyspepsia",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Sir Ganga Ram Hospital"
+      },
+      {
+        "nct_id": "NCT00377403",
+        "title": "Treatment of Acute Sinusitis",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "sponsor": "Washington University School of Medicine"
+      },
+      {
+        "nct_id": "NCT02058160",
+        "title": "Efficacy and Safety of the Insulin Glargine/Lixisenatide Fixed Ratio Combination Versus Insulin Glar",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Sanofi"
+      },
+      {
+        "nct_id": "NCT01853982",
+        "title": "Study of Intravenous Ceftolozane/Tazobactam Compared to Piperacillin/Tazobactam in Ventilator-Associ",
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "sponsor": "Cubist Pharmaceuticals LLC, a subsidiary of Merck & Co., Inc. (Rahway, New Jersey USA)"
+      }
+    ]
+  },
+  {
+    "gene": "TNF",
+    "disease_context": "antimicrobial",
+    "total_trials": 66,
+    "active_trials": 14,
+    "completed_trials": 34,
+    "phase_distribution": {
+      "PHASE1": 7,
+      "PHASE2": 11,
+      "PHASE3": 7,
+      "PHASE4": 13
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "National Cancer Institute (NCI)",
+        3
+      ],
+      [
+        "GlaxoSmithKline",
+        3
+      ],
+      [
+        "Emory University",
+        2
+      ],
+      [
+        "Hacettepe University",
+        2
+      ],
+      [
+        "The University of Texas Health Science Center at San Antonio",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 59,
+    "trials_summary": [
+      {
+        "nct_id": "NCT02878161",
+        "title": "Predictability Studies on the Efficacy of TNF-α Inhibitors in Chinese RA From \"Real World\"",
+        "status": "UNKNOWN",
+        "phase": "PHASE4",
+        "sponsor": "Fen Li"
+      },
+      {
+        "nct_id": "NCT04487886",
+        "title": "Duvelisib Ameliorates Manifestations of Pneumonia in Established Novel Coronavirus Infection (COVID-",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Emory University"
+      },
+      {
+        "nct_id": "NCT05063383",
+        "title": "Analysis of Clinical Characteristics and Study of Diagnostic Markers in Patients with Polycystic Ova",
+        "status": "UNKNOWN",
+        "phase": "N/A",
+        "sponsor": "Shanghai 10th People's Hospital"
+      },
+      {
+        "nct_id": "NCT01324141",
+        "title": "Topical MTS-01 for Dermatitis During Radiation and Chemotherapy for Anal Cancer",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "sponsor": "National Cancer Institute (NCI)"
+      },
+      {
+        "nct_id": "NCT05369156",
+        "title": "The Effects of Chiropractic Care in Adults With Subclinical Spinal Pain",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Riphah International University"
+      },
+      {
+        "nct_id": "NCT02342756",
+        "title": "Esophageal Pressure-Guided Optimal PEEP/mPaw in CMV and HFOV: The EPOCH Study",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "sponsor": "University of Toronto"
+      },
+      {
+        "nct_id": "NCT03090139",
+        "title": "Sub-optimal Response to Anti-Tumor Necrosis Factor's in Inflammatory Bowel Disease in Emerging Marke",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Takeda"
+      },
+      {
+        "nct_id": "NCT02244957",
+        "title": "Right Ventricular Hemodynamics Using Cardiac MRI in Patients COPD and OSA",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "University of California, San Diego"
+      },
+      {
+        "nct_id": "NCT02058641",
+        "title": "Effect of Darapladib on Cantharidin-Induced Inflammatory Blisters in Subjects With Type 2 Diabetes M",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT01708772",
+        "title": "Serum TNF-a in Comparison to Sequential Organ Failure Assessment (SOFA) Score Monitoring in Critical",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Tanta University"
+      }
+    ]
+  }
+]

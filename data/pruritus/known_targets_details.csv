@@ -1,0 +1,19 @@
+gene_symbol,uniprot_id,protein_name,function,subcellular_location,has_structure,is_known_target
+IL31,Q6EBC2,Interleukin-31,Activates STAT3 and possibly STAT1 and STAT5 through the IL31 heterodimeric receptor composed of IL31RA and OSMR (PubMed:15184896). May function in skin immunity (PubMed:15184896). Enhances myeloid progenitor cell survival in vitro (By similarity). Induces RETNLA and serum amyloid A protein expression in macrophages (By similarity),Secreted,False,True
+IL31RA,A0A494BZY2,,,,False,True
+OSMR,H0Y9E3,,,Membrane,False,True
+JAK1,A0A5F9ZHN8,Tyrosine-protein kinase,"Tyrosine kinase of the non-receptor type, involved in the IFN-alpha/beta/gamma signal pathway. Kinase partner for the interleukin (IL)-2 receptor as well as interleukin (IL)-10 receptor. Kinase partner for the type I interferon receptor IFNAR2. In response to interferon-binding to IFNAR1-IFNAR2 heterodimer, phosphorylates and activates its binding partner IFNAR2, creating docking sites for STAT proteins. Directly phosphorylates STAT proteins but also activates STAT signaling through the transact",Endomembrane system,False,True
+JAK2,Q506Q0,Tyrosine-protein kinase,,"Endomembrane system, Nucleus",False,True
+TYK2,A0A8V8TN50,Tyrosine-protein kinase,,,False,True
+TRPV1,E7EQ78,Transient receptor potential cation channel subfamily V member 1,,"Cell projection, dendritic spine membrane",False,True
+TRPA1,H0YAW0,Transient receptor potential cation channel subfamily A member 1,,Cell membrane,False,True
+TRPV4,A0A6Q8PFZ3,,,,False,True
+TACR1,Q53TR1,Substance-P receptor,,Cell membrane,False,True
+MRGPRX1,A0A494C1K4,,,Cell membrane,False,True
+MRGPRX2,Q96LB1,Mas-related G-protein coupled receptor member X2,"Mast cell-specific G protein-coupled receptor for basic secretagogues, which regulates mast cell degranulation and itch-related hypersensitivity reactions (PubMed:22069323, PubMed:25517090, PubMed:28288109, PubMed:34789874, PubMed:34789875). A secretagogue is an agent that promotes the secretion of hormones, neurohormones, chemical neurotransmitters or other compounds synthesized and secreted by cells (PubMed:25517090). Basic secretagogues comprise a set of cationic amphiphilic drugs, as well as",Cell membrane,False,True
+MRGPRX4,A0A2I4R868,,,Cell membrane,False,True
+HRH1,C9J2E6,,,,False,True
+HRH4,Q9H3N8,Histamine H4 receptor,"G protein-coupled receptor primarily expressed in immune cells such as mast cells, eosinophils, basophils, dendritic cells and neutrophils that plays a key role in immune and inflammatory responses (PubMed:26948974). Mediates chemotaxis of immune cells to sites of inflammation or injury by responding to histamine (PubMed:26948974). Activation by histamine also influences the release of proinflammatory cytokines such as TNF, CCL4, IL6 and IFN-gamma (PubMed:29600327, PubMed:31583075). Ligand bindi",Cell membrane,False,True
+S1PR1,A0A3B3IUD4,,,Cell membrane,False,True
+GRPR,X5D7H2,Gastrin-releasing peptide receptor,,Cell membrane,False,True
+NPPB,P16860,Natriuretic peptides B,May have a role in cardio-renal homeostasis (PubMed:17372040). Able to promote the production of cGMP (PubMed:17372040),Secreted,False,True

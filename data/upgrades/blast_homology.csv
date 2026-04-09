@@ -1,0 +1,13 @@
+gene,method,error,human_hit,identity_pct,evalue,coverage
+murA,BLAST,Timeout,,,,
+murB,BLAST,Timeout,,,,
+lpxC,BLAST,Timeout,,,,
+bamA,BLAST,Timeout,,,,
+ftsZ,BLAST,Timeout,,,,
+walK,BLAST,,No UniProt ID available,0.0,,0.0
+dxr,BLAST,Timeout,,,,
+fabI,BLAST,Timeout,,,,
+accA,BLAST,Timeout,,,,
+gyrA,BLAST,"HTTPSConnectionPool(host='blast.ncbi.nlm.nih.gov', port=443): Read timed out. (read timeout=30)",,,,
+folA,BLAST,Timeout,,,,
+folP,BLAST,Timeout,,,,

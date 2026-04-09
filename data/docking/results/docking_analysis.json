@@ -1,0 +1,1258 @@
+[
+  {
+    "gene": "ftsW",
+    "uniprot_id": "P0ABG4",
+    "status": "analyzed",
+    "n_atoms": 3240,
+    "dimensions": [
+      85.615,
+      69.35,
+      72.13
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -1.85,
+          -0.64,
+          1.21
+        ],
+        "volume_estimate": 61832.0,
+        "n_nearby_residues": 24,
+        "hydrophobic_ratio": 0.792,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -1.44,
+      "center_y": -0.19,
+      "center_z": 1.46,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "ftsA",
+    "uniprot_id": "P0ABH2",
+    "status": "analyzed",
+    "n_atoms": 3178,
+    "dimensions": [
+      99.36699999999999,
+      55.123000000000005,
+      64.497
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -4.85,
+          -0.09,
+          3.09
+        ],
+        "volume_estimate": 62552.0,
+        "n_nearby_residues": 26,
+        "hydrophobic_ratio": 0.538,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -3.55,
+      "center_y": -0.01,
+      "center_z": 2.62,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "infA",
+    "uniprot_id": "P69224",
+    "status": "analyzed",
+    "n_atoms": 577,
+    "dimensions": [
+      34.093,
+      28.415999999999997,
+      37.002
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -2.93,
+          2.51,
+          -1.01
+        ],
+        "volume_estimate": 12152.0,
+        "n_nearby_residues": 32,
+        "hydrophobic_ratio": 0.5,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -3.16,
+      "center_y": 2.74,
+      "center_z": -1.41,
+      "size_x": 20,
+      "size_y": 17,
+      "size_z": 22
+    }
+  },
+  {
+    "gene": "murE",
+    "uniprot_id": "Q8X9Z2",
+    "status": "analyzed",
+    "n_atoms": 3749,
+    "dimensions": [
+      74.584,
+      52.082,
+      65.359
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -1.93,
+          -0.17,
+          -0.48
+        ],
+        "volume_estimate": 66664.0,
+        "n_nearby_residues": 26,
+        "hydrophobic_ratio": 0.192,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -1.04,
+      "center_y": 0.07,
+      "center_z": -0.44,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "murD",
+    "uniprot_id": "P14900",
+    "status": "analyzed",
+    "n_atoms": 3294,
+    "dimensions": [
+      63.373999999999995,
+      61.783,
+      62.596
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -0.02,
+          -2.11,
+          -0.17
+        ],
+        "volume_estimate": 61360.0,
+        "n_nearby_residues": 18,
+        "hydrophobic_ratio": 0.222,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 0.52,
+      "center_y": -1.69,
+      "center_z": -0.21,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "infB",
+    "uniprot_id": "B6I1P3",
+    "status": "analyzed",
+    "n_atoms": 6825,
+    "dimensions": [
+      129.229,
+      125.37700000000001,
+      118.243
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          11.43,
+          11.24,
+          15.07
+        ],
+        "volume_estimate": 161040.0,
+        "n_nearby_residues": 13,
+        "hydrophobic_ratio": 0.308,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 10.11,
+      "center_y": 9.04,
+      "center_z": 12.09,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "murB",
+    "uniprot_id": "Q8X711",
+    "status": "analyzed",
+    "n_atoms": 2670,
+    "dimensions": [
+      50.675,
+      51.03,
+      64.212
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          0.84,
+          3.0,
+          -0.49
+        ],
+        "volume_estimate": 50904.0,
+        "n_nearby_residues": 26,
+        "hydrophobic_ratio": 0.385,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 0.9,
+      "center_y": 3.16,
+      "center_z": 0.38,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "lpxD",
+    "uniprot_id": "P65323",
+    "status": "analyzed",
+    "n_atoms": 2517,
+    "dimensions": [
+      57.718,
+      90.288,
+      64.479
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -1.1,
+          1.44,
+          4.42
+        ],
+        "volume_estimate": 55208.0,
+        "n_nearby_residues": 21,
+        "hydrophobic_ratio": 0.476,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -0.91,
+      "center_y": 2.34,
+      "center_z": 3.14,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "bamA",
+    "uniprot_id": "P0A942",
+    "status": "analyzed",
+    "n_atoms": 6395,
+    "dimensions": [
+      131.994,
+      65.72999999999999,
+      124.44200000000001
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -10.32,
+          0.15,
+          5.17
+        ],
+        "volume_estimate": 135360.0,
+        "n_nearby_residues": 3,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -9.0,
+      "center_y": 0.35,
+      "center_z": 2.86,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "dnaB",
+    "uniprot_id": "Q8X5V3",
+    "status": "analyzed",
+    "n_atoms": 3680,
+    "dimensions": [
+      83.184,
+      65.964,
+      130.09
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -6.16,
+          -1.62,
+          10.43
+        ],
+        "volume_estimate": 78880.0,
+        "n_nearby_residues": 17,
+        "hydrophobic_ratio": 0.471,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -4.87,
+      "center_y": -1.85,
+      "center_z": 8.44,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "ftsZ",
+    "uniprot_id": "P0A9A8",
+    "status": "analyzed",
+    "n_atoms": 2823,
+    "dimensions": [
+      114.533,
+      85.75999999999999,
+      63.714999999999996
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -11.95,
+          -0.37,
+          -3.88
+        ],
+        "volume_estimate": 53568.0,
+        "n_nearby_residues": 23,
+        "hydrophobic_ratio": 0.609,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -13.13,
+      "center_y": 0.35,
+      "center_z": -3.04,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "fabH",
+    "uniprot_id": "P0A6R2",
+    "status": "analyzed",
+    "n_atoms": 2351,
+    "dimensions": [
+      56.206,
+      42.549,
+      59.983000000000004
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -3.76,
+          2.6,
+          -2.83
+        ],
+        "volume_estimate": 41392.0,
+        "n_nearby_residues": 34,
+        "hydrophobic_ratio": 0.471,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -3.99,
+      "center_y": 2.24,
+      "center_z": -2.13,
+      "size_x": 30,
+      "size_y": 26,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "dnaE",
+    "uniprot_id": "Q8X8X5",
+    "status": "analyzed",
+    "n_atoms": 9135,
+    "dimensions": [
+      100.047,
+      97.326,
+      113.555
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -8.21,
+          6.1,
+          3.21
+        ],
+        "volume_estimate": 175232.0,
+        "n_nearby_residues": 0,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -7.67,
+      "center_y": 5.29,
+      "center_z": 1.84,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "murF",
+    "uniprot_id": "P11880",
+    "status": "analyzed",
+    "n_atoms": 3333,
+    "dimensions": [
+      73.186,
+      55.622,
+      59.592999999999996
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -0.25,
+          0.87,
+          -0.96
+        ],
+        "volume_estimate": 60408.0,
+        "n_nearby_residues": 25,
+        "hydrophobic_ratio": 0.24,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 0.22,
+      "center_y": 1.34,
+      "center_z": -0.58,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "dnaN",
+    "uniprot_id": "P0A988",
+    "status": "analyzed",
+    "n_atoms": 2844,
+    "dimensions": [
+      78.696,
+      43.352000000000004,
+      63.43899999999999
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -0.86,
+          0.21,
+          -0.65
+        ],
+        "volume_estimate": 55400.0,
+        "n_nearby_residues": 25,
+        "hydrophobic_ratio": 0.56,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -0.7,
+      "center_y": -0.18,
+      "center_z": -0.74,
+      "size_x": 30,
+      "size_y": 26,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "IL7R",
+    "uniprot_id": "B8YG18",
+    "status": "analyzed",
+    "n_atoms": 1431,
+    "dimensions": [
+      108.82300000000001,
+      80.227,
+      64.03399999999999
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -6.33,
+          8.12,
+          1.14
+        ],
+        "volume_estimate": 34360.0,
+        "n_nearby_residues": 12,
+        "hydrophobic_ratio": 0.333,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -7.03,
+      "center_y": 8.44,
+      "center_z": 1.34,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "IL6R",
+    "uniprot_id": "A0A087WTB5",
+    "status": "analyzed",
+    "n_atoms": 2734,
+    "dimensions": [
+      146.329,
+      63.623000000000005,
+      102.643
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -7.73,
+          -3.88,
+          2.39
+        ],
+        "volume_estimate": 62168.0,
+        "n_nearby_residues": 1,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -6.82,
+      "center_y": -3.6,
+      "center_z": 2.48,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "DOK2",
+    "uniprot_id": "O60496",
+    "status": "analyzed",
+    "n_atoms": 3203,
+    "dimensions": [
+      93.657,
+      83.162,
+      144.228
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -5.12,
+          1.3,
+          -9.16
+        ],
+        "volume_estimate": 77680.0,
+        "n_nearby_residues": 9,
+        "hydrophobic_ratio": 0.444,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -6.27,
+      "center_y": 1.55,
+      "center_z": -8.15,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "TESPA1",
+    "uniprot_id": "H0YDP3",
+    "status": "no_structure",
+    "pockets": []
+  },
+  {
+    "gene": "PRKCQ",
+    "uniprot_id": "Q04759",
+    "status": "analyzed",
+    "n_atoms": 5739,
+    "dimensions": [
+      75.682,
+      115.64699999999999,
+      86.732
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -5.54,
+          0.0,
+          6.68
+        ],
+        "volume_estimate": 118528.0,
+        "n_nearby_residues": 19,
+        "hydrophobic_ratio": 0.316,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -5.26,
+      "center_y": 0.73,
+      "center_z": 5.7,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "CYP24A1",
+    "uniprot_id": "Q07973",
+    "status": "analyzed",
+    "n_atoms": 4137,
+    "dimensions": [
+      91.19900000000001,
+      72.60900000000001,
+      66.44800000000001
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -2.95,
+          -1.28,
+          -0.06
+        ],
+        "volume_estimate": 81184.0,
+        "n_nearby_residues": 24,
+        "hydrophobic_ratio": 0.5,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -1.98,
+      "center_y": -1.3,
+      "center_z": 0.98,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "NLRP10",
+    "uniprot_id": "E9PPY0",
+    "status": "analyzed",
+    "n_atoms": 522,
+    "dimensions": [
+      36.822,
+      24.572,
+      43.166
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          0.65,
+          1.55,
+          -1.61
+        ],
+        "volume_estimate": 13008.0,
+        "n_nearby_residues": 21,
+        "hydrophobic_ratio": 0.81,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 1.05,
+      "center_y": 1.79,
+      "center_z": -1.76,
+      "size_x": 22,
+      "size_y": 15,
+      "size_z": 26
+    }
+  },
+  {
+    "gene": "TAGAP",
+    "uniprot_id": "A0A2R8YEB9",
+    "status": "analyzed",
+    "n_atoms": 438,
+    "dimensions": [
+      49.622,
+      36.091,
+      40.762
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -5.09,
+          0.45,
+          -0.88
+        ],
+        "volume_estimate": 13296.0,
+        "n_nearby_residues": 0,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -6.03,
+      "center_y": 0.85,
+      "center_z": -2.46,
+      "size_x": 30,
+      "size_y": 22,
+      "size_z": 24
+    }
+  },
+  {
+    "gene": "BACH2",
+    "uniprot_id": "Q9BYV9",
+    "status": "analyzed",
+    "n_atoms": 6460,
+    "dimensions": [
+      132.413,
+      139.414,
+      149.702
+    ],
+    "n_pockets": 3,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -2.84,
+          -2.28,
+          -11.8
+        ],
+        "volume_estimate": 131272.0,
+        "n_nearby_residues": 1,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      },
+      {
+        "rank": 2,
+        "center": [
+          -17.85,
+          -16.6,
+          41.81
+        ],
+        "volume_estimate": 24.0,
+        "n_nearby_residues": 6,
+        "hydrophobic_ratio": 0.833,
+        "druggability_score": 0.574,
+        "type": "cavity"
+      },
+      {
+        "rank": 3,
+        "center": [
+          -6.51,
+          60.07,
+          -49.53
+        ],
+        "volume_estimate": 24.0,
+        "n_nearby_residues": 5,
+        "hydrophobic_ratio": 0.6,
+        "druggability_score": 0.504,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -5.6,
+      "center_y": -1.86,
+      "center_z": -11.14,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "MMP12",
+    "uniprot_id": "P39900",
+    "status": "analyzed",
+    "n_atoms": 3824,
+    "dimensions": [
+      74.992,
+      59.356,
+      121.47
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          1.87,
+          -3.32,
+          -3.07
+        ],
+        "volume_estimate": 75752.0,
+        "n_nearby_residues": 23,
+        "hydrophobic_ratio": 0.478,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 0.58,
+      "center_y": -3.1,
+      "center_z": -1.47,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "CSF2RB",
+    "uniprot_id": "B0QY07",
+    "status": "analyzed",
+    "n_atoms": 1796,
+    "dimensions": [
+      75.908,
+      65.684,
+      90.94500000000001
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -1.21,
+          -3.79,
+          -0.9
+        ],
+        "volume_estimate": 42408.0,
+        "n_nearby_residues": 10,
+        "hydrophobic_ratio": 0.6,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -1.01,
+      "center_y": -3.41,
+      "center_z": -0.6,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "IL18R1",
+    "uniprot_id": "B7ZKV7",
+    "status": "analyzed",
+    "n_atoms": 4379,
+    "dimensions": [
+      119.623,
+      84.84700000000001,
+      170.387
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -10.13,
+          -4.79,
+          21.81
+        ],
+        "volume_estimate": 100512.0,
+        "n_nearby_residues": 0,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -9.7,
+      "center_y": -5.03,
+      "center_z": 22.1,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "SERPINB7",
+    "uniprot_id": "A0A1B0GX82",
+    "status": "analyzed",
+    "n_atoms": 993,
+    "dimensions": [
+      51.762,
+      39.813,
+      53.856
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -0.57,
+          0.91,
+          2.51
+        ],
+        "volume_estimate": 24072.0,
+        "n_nearby_residues": 21,
+        "hydrophobic_ratio": 0.667,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -0.71,
+      "center_y": 0.78,
+      "center_z": 2.35,
+      "size_x": 30,
+      "size_y": 24,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "SATB1",
+    "uniprot_id": "C9JP21",
+    "status": "analyzed",
+    "n_atoms": 1733,
+    "dimensions": [
+      121.702,
+      88.554,
+      76.873
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -2.1,
+          5.3,
+          -0.86
+        ],
+        "volume_estimate": 37736.0,
+        "n_nearby_residues": 26,
+        "hydrophobic_ratio": 0.615,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -2.83,
+      "center_y": 10.13,
+      "center_z": -0.17,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "NFILZ",
+    "uniprot_id": "A0A5F9ZHS7",
+    "status": "analyzed",
+    "n_atoms": 2180,
+    "dimensions": [
+      70.453,
+      93.459,
+      124.295
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -5.7,
+          0.17,
+          -3.98
+        ],
+        "volume_estimate": 58328.0,
+        "n_nearby_residues": 10,
+        "hydrophobic_ratio": 0.4,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -5.61,
+      "center_y": 1.38,
+      "center_z": -6.52,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "TRAF3",
+    "uniprot_id": "H0YL26",
+    "status": "analyzed",
+    "n_atoms": 2354,
+    "dimensions": [
+      119.03200000000001,
+      71.68299999999999,
+      138.107
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -0.01,
+          -3.73,
+          -6.12
+        ],
+        "volume_estimate": 65264.0,
+        "n_nearby_residues": 0,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 0.46,
+      "center_y": -4.18,
+      "center_z": -7.75,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "ZNF652",
+    "uniprot_id": "Q9Y2D9",
+    "status": "analyzed",
+    "n_atoms": 4886,
+    "dimensions": [
+      118.23,
+      121.408,
+      147.288
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -2.49,
+          6.92,
+          -8.3
+        ],
+        "volume_estimate": 114464.0,
+        "n_nearby_residues": 0,
+        "hydrophobic_ratio": 0.0,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -2.02,
+      "center_y": 8.23,
+      "center_z": -7.33,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "PRR5L",
+    "uniprot_id": "E9PP62",
+    "status": "analyzed",
+    "n_atoms": 628,
+    "dimensions": [
+      78.102,
+      60.312,
+      66.79599999999999
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          18.28,
+          -3.6,
+          -9.15
+        ],
+        "volume_estimate": 18216.0,
+        "n_nearby_residues": 10,
+        "hydrophobic_ratio": 0.6,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 19.66,
+      "center_y": -3.32,
+      "center_z": -10.18,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "BLTP1",
+    "uniprot_id": "A0A8I5KWM3",
+    "status": "analyzed",
+    "n_atoms": 2366,
+    "dimensions": [
+      88.28399999999999,
+      121.91300000000001,
+      102.759
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          4.08,
+          2.32,
+          2.27
+        ],
+        "volume_estimate": 60120.0,
+        "n_nearby_residues": 8,
+        "hydrophobic_ratio": 0.75,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": 4.06,
+      "center_y": 2.04,
+      "center_z": 2.46,
+      "size_x": 30,
+      "size_y": 30,
+      "size_z": 30
+    }
+  },
+  {
+    "gene": "CREB5",
+    "uniprot_id": "H0YFV2",
+    "status": "analyzed",
+    "n_atoms": 310,
+    "dimensions": [
+      32.451,
+      17.584,
+      32.703
+    ],
+    "n_pockets": 1,
+    "top_pocket_score": 1.0,
+    "pockets": [
+      {
+        "rank": 1,
+        "center": [
+          -0.76,
+          -2.4,
+          -4.67
+        ],
+        "volume_estimate": 8592.0,
+        "n_nearby_residues": 17,
+        "hydrophobic_ratio": 0.471,
+        "druggability_score": 1.0,
+        "type": "cavity"
+      }
+    ],
+    "docking_box": {
+      "center_x": -1.2,
+      "center_y": -2.12,
+      "center_z": -4.03,
+      "size_x": 19,
+      "size_y": 11,
+      "size_z": 20
+    }
+  }
+]

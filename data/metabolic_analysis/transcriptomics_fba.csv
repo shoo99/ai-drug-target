@@ -1,0 +1,5 @@
+antibiotic,mechanism,n_upregulated,n_downregulated,n_constraints_applied,wt_growth,stress_growth,growth_impact,growth_reduction_pct
+ciprofloxacin,"SOS response, DNA damage repair",9,4,286,0.877,0.877,1.0,-0.0
+trimethoprim,Folate pathway stress response,4,2,7,0.877,0.877,1.0,-0.0
+rifampin,Transcription inhibition response,3,1,0,0.877,0.877,1.0,-0.0
+fosfomycin,"Cell wall stress, transporter upregulation",3,0,6,0.877,0.877,1.0,-0.0

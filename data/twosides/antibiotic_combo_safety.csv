@@ -1,0 +1,13 @@
+drug_a,drug_b,total_reports,kidney_events,liver_events,heart_events,gi_events,top_event
+azithromycin,trimethoprim,0,0,0,0,0,No data
+azithromycin,vancomycin,0,0,0,0,0,No data
+isoniazid,trimethoprim,0,0,0,0,0,No data
+ciprofloxacin,vancomycin,0,0,0,0,0,No data
+ciprofloxacin,gentamicin,0,0,0,0,0,No data
+vancomycin,gentamicin,0,0,0,0,0,No data
+meropenem,vancomycin,0,0,0,0,0,No data
+trimethoprim,sulfamethoxazole,0,0,0,0,0,No data
+amoxicillin,gentamicin,0,0,0,0,0,No data
+doxycycline,rifampin,0,0,0,0,0,No data
+vancomycin,meropenem,0,0,0,0,0,No data
+ciprofloxacin,metronidazole,0,0,0,0,0,No data

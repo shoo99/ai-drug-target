@@ -1,0 +1,21 @@
+gene,recent_papers,validated,sample_titles
+OX40,0,False,[]
+CRISPR,10,True,"['VDAC2 loss elicits tumour destruction and inflammation for cancer therapy.', 'Carbapenem Resistance in ']"
+RESULTS,10,True,"['Post-translational modifications in drug resistance.', 'Antibacterial and antifungal drug concentrations in intra-abdominal abscesses: a prospective clinical study.']"
+IL,10,True,"['Emergency medicine updates: Management of sepsis and septic shock.', 'A broad-spectrum lasso peptide antibiotic targeting the bacterial ribosome.']"
+BP,10,True,"['Leishmaniases: Strategies in treatment development.', 'Autocrine interferon poisoning mediates ADAR1-dependent synthetic lethality in BRCA1/2-mutant cancers.']"
+CCL17,2,True,"['Anti-Inflammatory Activity of Compounds Isolated from ', ""Computational and Experimental Biology Reveals Dihydroartemisinin's Efficacy Against Steroid-Induced Osteonecrosis of the Femoral Head Adjusting Ferroptosis via CCL17-PRDX6.""]"
+EMA,10,True,"['New drugs approved by European medicines agency during 2024.', 'Bulevirtide Monotherapy or in Combination for Chronic Hepatitis Delta: 2025 Update.']"
+GYRA,10,True,"['A review of recently discovered mechanisms of cephalosporin resistance in Pseudomonas aeruginosa.', 'Clinical evaluation of personalized ']"
+VCM,10,True,"['Targeting the SARS-CoV-2 reservoir in long COVID.', 'Multifunctional hyaluronic acid-based biomimetic/pH-responsive hybrid nanostructured lipid carriers for treating bacterial sepsis.']"
+JAK,10,True,"['Loss-of-function mutations in PLD4 lead to systemic lupus erythematosus.', 'Dual role of interferon-gamma in the response of melanoma patients to immunotherapy with immune checkpoint inhibitors.']"
+LPS,10,True,"['IL-10 targets IRF transcription factors to suppress IFN and inflammatory response genes by epigenetic mechanisms.', 'Baicalin inhibits PANoptosis by blocking mitochondrial Z-DNA formation and ZBP1-PANoptosome assembly in macrophages.']"
+TRPV4,4,True,"['Discovery of TRPV4-Targeting Small Molecules with Anti-Influenza Effects Through Machine Learning and Experimental Validation.', 'Capsaicin inhibits porcine enteric coronaviruses replication through blocking TRPV4-mediated calcium ion influx.']"
+GRP,2,True,"['Unveiling the Broad-Spectrum Efficacy of Volatile Terpenes to Fight Against SARS-COV-2-Associated Mucormycosis.', 'WGS analysis and functional studies illustrate promising gene-signatures for probiotic attributes and molecular-targeted therapeutic prospects of Lactiplantibacillus plantarum LP-ARP2.']"
+PCG,5,True,"['Targeting STING to generate therapeutic anti-tumor immunity.', 'EZH2 crosstalk with RNA methylation promotes prostate cancer progression through modulation of m6A autoregulation pathway.']"
+TNF,10,True,"['IL-10 targets IRF transcription factors to suppress IFN and inflammatory response genes by epigenetic mechanisms.', 'Baicalin inhibits PANoptosis by blocking mitochondrial Z-DNA formation and ZBP1-PANoptosome assembly in macrophages.']"
+PARE,10,True,"['Blood proteomic signatures associated with disease activity in inflammatory bowel diseases.', 'Broken beyond repair: TA system ParE toxins mediate effective gyrase inhibition without driving resistance.']"
+LEV,10,True,"['Phage therapy with nebulized cocktail BX004-A for chronic Pseudomonas aeruginosa infections in cystic fibrosis: a randomized first-in-human trial.', 'GrcC1 mediates low-level resistance to multiple drugs in ']"
+TS,10,True,"['Advancing the chemotherapy of tuberculous meningitis: a consensus view.', 'Recapitulating dengue virus infection with human pluripotent stem cell-derived liver organoids for antiviral screening.']"
+OX40L,0,False,[]
+CGRP,9,True,"['Antimicrobial Neuropeptides and Their Receptors: Immunoregulator and Therapeutic Targets for Immune Disorders.', 'Calcitonin Gene-Related Peptide Regulates Specific Interferon-Stimulating Genes to Inhibit Apoptosis of Corneal Epithelial Cells in Dry Eye Disease.']"

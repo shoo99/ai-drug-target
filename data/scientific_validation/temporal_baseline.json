@@ -1,0 +1,10 @@
+{
+  "our_precision": 1.0,
+  "our_recall": 0.35,
+  "our_f1": 0.519,
+  "random_precision": 0.605,
+  "random_f1": 0.603,
+  "random_f1_std": 0.085,
+  "f1_zscore": -0.99,
+  "significant": false
+}

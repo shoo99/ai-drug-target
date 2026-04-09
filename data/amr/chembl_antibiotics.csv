@@ -1,0 +1,1001 @@
+drug_chembl_id,drug_name,target_chembl_id,target_name,mechanism,action_type
+CHEMBL19,,CHEMBL2326,,Carbonic anhydrase VII inhibitor,INHIBITOR
+CHEMBL1201117,,CHEMBL261,,Carbonic anhydrase I inhibitor,INHIBITOR
+CHEMBL1200814,,CHEMBL261,,Carbonic anhydrase I inhibitor,INHIBITOR
+CHEMBL17,,CHEMBL261,,Carbonic anhydrase I inhibitor,INHIBITOR
+CHEMBL20,,CHEMBL261,,Carbonic anhydrase I inhibitor,INHIBITOR
+CHEMBL19,,CHEMBL261,,Carbonic anhydrase I inhibitor,INHIBITOR
+CHEMBL1450,,CHEMBL1777,,Cytochrome b inhibitor,INHIBITOR
+CHEMBL1200771,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1722209,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1240,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200906,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1724,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1626570,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200880,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200479,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1768,,CHEMBL245,,Muscarinic acetylcholine receptor M3 agonist,AGONIST
+CHEMBL1578,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL2146146,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL517712,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200604,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200803,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200935,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL551466,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200764,,CHEMBL245,,Muscarinic acetylcholine receptor M3 agonist,AGONIST
+CHEMBL3545181,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1201765,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200473,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1184,,CHEMBL245,,Muscarinic acetylcholine receptor M3 agonist,AGONIST
+CHEMBL14,,CHEMBL245,,Muscarinic acetylcholine receptor M3 agonist,AGONIST
+CHEMBL550,,CHEMBL245,,Muscarinic acetylcholine receptor M3 agonist,AGONIST
+CHEMBL1200330,,CHEMBL245,,Muscarinic acetylcholine receptor M3 agonist,AGONIST
+CHEMBL2218917,,CHEMBL245,,Muscarinic acetylcholine receptor M3 agonist,AGONIST
+CHEMBL1200950,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL2134724,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1354199,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1231,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1133,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200891,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1201027,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL1200347,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL3084748,,CHEMBL245,,Muscarinic acetylcholine receptor M3 antagonist,ANTAGONIST
+CHEMBL3989514,,CHEMBL1781,,DNA topoisomerase I inhibitor,INHIBITOR
+CHEMBL1201421,,CHEMBL1783,,Vascular endothelial growth factor A antagonist,ANTAGONIST
+CHEMBL1201825,,CHEMBL1783,,Vascular endothelial growth factor A inhibitor,INHIBITOR
+CHEMBL1742982,,CHEMBL1783,,Vascular endothelial growth factor A inhibitor,INHIBITOR
+CHEMBL1201583,,CHEMBL1783,,Vascular endothelial growth factor A inhibitor,INHIBITOR
+CHEMBL4084119,,CHEMBL1784,,Glucagon-like peptide 1 receptor agonist,AGONIST
+CHEMBL414357,,CHEMBL1784,,Glucagon-like peptide 1 receptor agonist,AGONIST
+CHEMBL1200826,,CHEMBL1786,,Inositol-1(or 4)-monophosphatase 1 inhibitor,INHIBITOR
+CHEMBL2103738,,CHEMBL1786,,Inositol-1(or 4)-monophosphatase 1 inhibitor,INHIBITOR
+CHEMBL1201528,,CHEMBL1790,,Vasopressin V2 receptor agonist,AGONIST
+CHEMBL344159,,CHEMBL1790,,Vasopressin V2 receptor antagonist,ANTAGONIST
+CHEMBL1201108,,CHEMBL1790,,Vasopressin V2 receptor antagonist,ANTAGONIST
+CHEMBL5314380,,CHEMBL1792,,Somatostatin receptor 5 agonist,AGONIST
+CHEMBL1201184,,CHEMBL1792,,Somatostatin receptor 5 agonist,AGONIST
+CHEMBL525610,,CHEMBL1793,,Parathyroid hormone receptor agonist,AGONIST
+CHEMBL1201549,,CHEMBL1793,,Parathyroid hormone receptor agonist,AGONIST
+CHEMBL175247,,CHEMBL1796,,Gastric lipase inhibitor,INHIBITOR
+CHEMBL603,,CHEMBL1798,,Cysteinyl leukotriene receptor 1 antagonist,ANTAGONIST
+CHEMBL1200681,,CHEMBL1798,,Cysteinyl leukotriene receptor 1 antagonist,ANTAGONIST
+CHEMBL1201662,,CHEMBL204,,Thrombin inhibitor,INHIBITOR
+CHEMBL5314348,,CHEMBL204,,Thrombin inhibitor,INHIBITOR
+CHEMBL1201666,,CHEMBL204,,Thrombin inhibitor,INHIBITOR
+CHEMBL1615369,,CHEMBL204,,Thrombin inhibitor,INHIBITOR
+CHEMBL1166,,CHEMBL204,,Thrombin inhibitor,INHIBITOR
+CHEMBL2108791,,CHEMBL1873,,Tissue-type plasminogen activator exogenous protein,EXOGENOUS PROTEIN
+CHEMBL2108147,,CHEMBL1801,,Plasminogen activator,ACTIVATOR
+CHEMBL2107885,,CHEMBL1873,,Tissue-type plasminogen activator exogenous protein,EXOGENOUS PROTEIN
+CHEMBL1201420,,CHEMBL3286,,Urokinase-type plasminogen activator exogenous protein,EXOGENOUS PROTEIN
+CHEMBL1201619,,CHEMBL1801,,Plasminogen inhibitor,INHIBITOR
+CHEMBL1201593,,CHEMBL1873,,Tissue-type plasminogen activator exogenous protein,EXOGENOUS PROTEIN
+CHEMBL877,,CHEMBL1801,,Plasminogen inhibitor,INHIBITOR
+CHEMBL1046,,CHEMBL1801,,Plasminogen inhibitor,INHIBITOR
+CHEMBL220491,,CHEMBL205,,Carbonic anhydrase II inhibitor,INHIBITOR
+CHEMBL1201162,,CHEMBL205,,Carbonic anhydrase II inhibitor,INHIBITOR
+CHEMBL17,,CHEMBL205,,Carbonic anhydrase II inhibitor,INHIBITOR
+CHEMBL19,,CHEMBL205,,Carbonic anhydrase II inhibitor,INHIBITOR
+CHEMBL220492,,CHEMBL205,,Carbonic anhydrase II inhibitor,INHIBITOR
+CHEMBL20,,CHEMBL205,,Carbonic anhydrase II inhibitor,INHIBITOR
+CHEMBL1200814,,CHEMBL205,,Carbonic anhydrase II inhibitor,INHIBITOR
+CHEMBL5314380,,CHEMBL1804,,Somatostatin receptor 2 agonist,AGONIST
+CHEMBL1201184,,CHEMBL1804,,Somatostatin receptor 2 agonist,AGONIST
+CHEMBL1201003,,CHEMBL1805,,Serotonin 1f (5-HT1f) receptor agonist,AGONIST
+CHEMBL1200521,,CHEMBL1805,,Serotonin 1f (5-HT1f) receptor agonist,AGONIST
+CHEMBL1200645,,CHEMBL1806,,DNA topoisomerase II alpha inhibitor,INHIBITOR
+CHEMBL1200475,,CHEMBL1806,,DNA topoisomerase II alpha inhibitor,INHIBITOR
+CHEMBL1563,,CHEMBL1806,,DNA topoisomerase II alpha inhibitor,INHIBITOR
+CHEMBL359744,,CHEMBL1806,,DNA topoisomerase II alpha inhibitor,INHIBITOR
+CHEMBL1417019,,CHEMBL1806,,DNA topoisomerase II alpha inhibitor,INHIBITOR
+CHEMBL1096885,,CHEMBL1806,,DNA topoisomerase II alpha inhibitor,INHIBITOR
+CHEMBL1200976,,CHEMBL1806,,DNA topoisomerase II alpha inhibitor,INHIBITOR
+CHEMBL1201011,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1519,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1200534,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL3989406,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1168,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL3039596,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1694,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1560,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1200343,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL419213,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1200659,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1200831,,CHEMBL1808,,Angiotensin-converting enzyme inhibitor,INHIBITOR
+CHEMBL1472,,CHEMBL1810,,Thyrotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL495,,CHEMBL1811,,Prostanoid EP1 receptor agonist,AGONIST
+CHEMBL98,,CHEMBL325,,Histone deacetylase 1 inhibitor,INHIBITOR
+CHEMBL175247,,CHEMBL1812,,Pancreatic lipase inhibitor,INHIBITOR
+CHEMBL1963684,,CHEMBL1817,,Erythropoietin receptor agonist,AGONIST
+CHEMBL1201565,,CHEMBL1817,,Erythropoietin receptor agonist,AGONIST
+CHEMBL1201566,,CHEMBL1817,,Erythropoietin receptor agonist,AGONIST
+CHEMBL1643,,CHEMBL1822,,Inosine-5'-monophosphate dehydrogenase 1 inhibitor,INHIBITOR
+CHEMBL1201585,,CHEMBL1824,,Receptor protein-tyrosine kinase erbB-2 inhibitor,INHIBITOR
+CHEMBL2007641,,CHEMBL1824,,Receptor protein-tyrosine kinase erbB-2 inhibitor,INHIBITOR
+CHEMBL1743082,,CHEMBL1824,,Receptor protein-tyrosine kinase erbB-2 binding agent,BINDING AGENT
+CHEMBL1201179,,CHEMBL1824,,Receptor protein-tyrosine kinase erbB-2 inhibitor,INHIBITOR
+CHEMBL1201659,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL3989885,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200491,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200497,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200618,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1716,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL3544908,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200638,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200750,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200809,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200961,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201006,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1607273,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1719,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200532,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200927,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL998,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1659,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200795,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1237102,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200967,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201068,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL3989555,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL3989520,,CHEMBL231,,Histamine H1 receptor agonist,AGONIST
+CHEMBL1200974,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201747,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1224,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL3188034,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200769,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL3186993,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1172,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1620,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1653,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200392,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200446,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200550,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201190,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201759,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1564,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1633,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL2360580,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200406,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL2103739,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200959,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201089,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201023,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1200395,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1689,,CHEMBL231,,Histamine H1 receptor agonist,AGONIST
+CHEMBL1200948,,CHEMBL231,,Histamine H1 receptor antagonist,ANTAGONIST
+CHEMBL1201581,,CHEMBL1825,,TNF-alpha inhibitor,INHIBITOR
+CHEMBL1201831,,CHEMBL1825,,TNF-alpha inhibitor,INHIBITOR
+CHEMBL1201580,,CHEMBL1825,,TNF-alpha inhibitor,INHIBITOR
+CHEMBL1201572,,CHEMBL1825,,TNF-alpha inhibitor,INHIBITOR
+CHEMBL1201833,,CHEMBL1825,,TNF-alpha inhibitor,INHIBITOR
+CHEMBL779,,CHEMBL1827,,Phosphodiesterase 5A inhibitor,INHIBITOR
+CHEMBL1339,,CHEMBL1827,,Phosphodiesterase 5A inhibitor,INHIBITOR
+CHEMBL1737,,CHEMBL1827,,Phosphodiesterase 5A inhibitor,INHIBITOR
+CHEMBL1963681,,CHEMBL1827,,Phosphodiesterase 5A inhibitor,INHIBITOR
+CHEMBL98,,CHEMBL1829,,Histone deacetylase 3 inhibitor,INHIBITOR
+CHEMBL2359670,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL3989478,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1200951,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL567,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1200707,,CHEMBL217,,Dopamine D2 receptor modulator,MODULATOR
+CHEMBL728,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1448187,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1201087,,CHEMBL217,,Dopamine D2 receptor agonist,AGONIST
+CHEMBL1314751,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1200854,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL2360079,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL908,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1201102,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL3544974,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1112,,CHEMBL217,,Dopamine D2 receptor partial agonist,PARTIAL AGONIST
+CHEMBL2107360,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL14376,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1201052,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1200940,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1200419,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1621,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1201,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL3989824,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL570,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL1200948,,CHEMBL217,,Dopamine D2 receptor antagonist,ANTAGONIST
+CHEMBL4594248,,CHEMBL1832,,Calcitonin receptor agonist,AGONIST
+CHEMBL3989767,,CHEMBL1832,,Calcitonin receptor agonist,AGONIST
+CHEMBL2103795,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL995,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1513,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1069,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1200670,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1200692,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1014,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1200987,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1017,,CHEMBL227,,Type-1 angiotensin II receptor antagonist,ANTAGONIST
+CHEMBL1200843,,CHEMBL1833,,Serotonin 2b (5-HT2b) receptor partial agonist,PARTIAL AGONIST
+CHEMBL1200938,,CHEMBL1833,,Serotonin 2b (5-HT2b) receptor antagonist,ANTAGONIST
+CHEMBL1201589,,CHEMBL1834,,Ig epsilon chain C region inhibitor,INHIBITOR
+CHEMBL1515,,CHEMBL1839,,Thyroid peroxidase inhibitor,INHIBITOR
+CHEMBL1518,,CHEMBL1839,,Thyroid peroxidase inhibitor,INHIBITOR
+CHEMBL1201506,,CHEMBL1842,,Myeloid cell surface antigen CD33 binding agent,BINDING AGENT
+CHEMBL1200748,,CHEMBL1843,,DOPA decarboxylase inhibitor,INHIBITOR
+CHEMBL1201733,,CHEMBL1844,,Macrophage colony stimulating factor receptor inhibitor,INHIBITOR
+CHEMBL1567,,CHEMBL1844,,Macrophage colony stimulating factor receptor inhibitor,INHIBITOR
+CHEMBL1201535,,CHEMBL229,,Alpha-1a adrenergic receptor agonist,AGONIST
+CHEMBL24778,,CHEMBL229,,Alpha-1a adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1201044,,CHEMBL229,,Alpha-1a adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1200695,,CHEMBL229,,Alpha-1a adrenergic receptor agonist,AGONIST
+CHEMBL1201827,,CHEMBL203,,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+CHEMBL1201577,,CHEMBL203,,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+CHEMBL1079742,,CHEMBL203,,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+CHEMBL939,,CHEMBL203,,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+CHEMBL1201179,,CHEMBL203,,Epidermal growth factor receptor erbB1 inhibitor,INHIBITOR
+CHEMBL1009,,CHEMBL234,,Dopamine D3 receptor agonist,AGONIST
+CHEMBL908,,CHEMBL234,,Dopamine D3 receptor antagonist,ANTAGONIST
+CHEMBL928,,CHEMBL1846,,Ryanodine receptor 1 antagonist,ANTAGONIST
+CHEMBL64,,CHEMBL1849,,Enoyl-[acyl-carrier-protein] reductase inhibitor,INHIBITOR
+CHEMBL1441,,CHEMBL1849,,Enoyl-[acyl-carrier-protein] reductase inhibitor,INHIBITOR
+CHEMBL1201419,,CHEMBL1854,,Luteinizing hormone/Choriogonadotropin receptor agonist,AGONIST
+CHEMBL1201464,,CHEMBL1854,,Luteinizing hormone/Choriogonadotropin receptor agonist,AGONIST
+CHEMBL1201509,,CHEMBL1854,,Luteinizing hormone/Choriogonadotropin receptor agonist,AGONIST
+CHEMBL1201697,,CHEMBL1854,,Luteinizing hormone/Choriogonadotropin receptor agonist,AGONIST
+CHEMBL2103735,,CHEMBL1855,,Gonadotropin-releasing hormone receptor antagonist,ANTAGONIST
+CHEMBL1200671,,CHEMBL1855,,Gonadotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL1200511,,CHEMBL1855,,Gonadotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL1252,,CHEMBL1855,,Gonadotropin-releasing hormone receptor antagonist,ANTAGONIST
+CHEMBL2028987,,CHEMBL1855,,Gonadotropin-releasing hormone receptor antagonist,ANTAGONIST
+CHEMBL1200501,,CHEMBL1855,,Gonadotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL1200509,,CHEMBL1855,,Gonadotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL1200516,,CHEMBL1855,,Gonadotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL1200554,,CHEMBL1855,,Gonadotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL5314377,,CHEMBL1855,,Gonadotropin-releasing hormone receptor antagonist,ANTAGONIST
+CHEMBL1200775,,CHEMBL1855,,Gonadotropin-releasing hormone receptor agonist,AGONIST
+CHEMBL710,,CHEMBL1856,,Steroid 5-alpha-reductase 2 inhibitor,INHIBITOR
+CHEMBL93,,CHEMBL215,,Arachidonate 5-lipoxygenase inhibitor,INHIBITOR
+CHEMBL1200760,,CHEMBL215,,Arachidonate 5-lipoxygenase inhibitor,INHIBITOR
+CHEMBL1562610,,CHEMBL215,,Arachidonate 5-lipoxygenase inhibitor,INHIBITOR
+CHEMBL704,,CHEMBL215,,Arachidonate 5-lipoxygenase inhibitor,INHIBITOR
+CHEMBL1201013,,CHEMBL215,,Arachidonate 5-lipoxygenase inhibitor,INHIBITOR
+CHEMBL421,,CHEMBL215,,Arachidonate 5-lipoxygenase inhibitor,INHIBITOR
+CHEMBL1200906,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200347,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL2218917,,CHEMBL216,,Muscarinic acetylcholine receptor M1 agonist,AGONIST
+CHEMBL1200880,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1240,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1724,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1578,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1092,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200828,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1201035,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1626570,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1201067,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200479,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200771,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL2146146,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1761,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL517712,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1529,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL569713,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200426,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200970,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200950,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1354199,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200383,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1201027,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1200891,,CHEMBL216,,Muscarinic acetylcholine receptor M1 antagonist,ANTAGONIST
+CHEMBL1201740,,CHEMBL1862,,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+CHEMBL1421,,CHEMBL1862,,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+CHEMBL288441,,CHEMBL1862,,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+CHEMBL1946170,,CHEMBL1862,,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+CHEMBL1642,,CHEMBL1862,,Tyrosine-protein kinase ABL inhibitor,INHIBITOR
+CHEMBL1201832,,CHEMBL1864,,Thrombopoietin receptor agonist,AGONIST
+CHEMBL3989691,,CHEMBL1864,,Thrombopoietin receptor agonist,AGONIST
+CHEMBL98,,CHEMBL1865,,Histone deacetylase 6 inhibitor,INHIBITOR
+CHEMBL24,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1200837,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1200813,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1201115,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1200745,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1472989,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1201177,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL500,,CHEMBL213,,Beta-1 adrenergic receptor partial agonist,PARTIAL AGONIST
+CHEMBL1200947,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1200418,,CHEMBL213,,Beta-1 adrenergic receptor agonist,AGONIST
+CHEMBL1557,,CHEMBL213,,Beta-1 adrenergic receptor agonist,AGONIST
+CHEMBL521606,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1671,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL2361370,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1700,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL3989566,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1691,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1200870,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL2356097,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL2062335,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1201731,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1201063,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL499,,CHEMBL213,,Beta-1 adrenergic receptor antagonist,ANTAGONIST
+CHEMBL1201461,,CHEMBL287,,Sigma opioid receptor agonist,AGONIST
+CHEMBL3989509,,CHEMBL287,,Sigma opioid receptor modulator,MODULATOR
+CHEMBL3989510,,CHEMBL287,,Sigma opioid receptor modulator,MODULATOR
+CHEMBL1256818,,CHEMBL287,,Sigma opioid receptor agonist,AGONIST
+CHEMBL1046,,CHEMBL1873,,Tissue-type plasminogen activator inhibitor,INHIBITOR
+CHEMBL1072,,CHEMBL1874,,Sodium-(potassium)-chloride cotransporter 2 inhibitor,INHIBITOR
+CHEMBL456,,CHEMBL1874,,Sodium-(potassium)-chloride cotransporter 2 inhibitor,INHIBITOR
+CHEMBL1148,,CHEMBL1874,,Sodium-(potassium)-chloride cotransporter 2 inhibitor,INHIBITOR
+CHEMBL35,,CHEMBL1874,,Sodium-(potassium)-chloride cotransporter 2 inhibitor,INHIBITOR
+CHEMBL1200487,,CHEMBL1874,,Sodium-(potassium)-chloride cotransporter 2 inhibitor,INHIBITOR
+CHEMBL406,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL878,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL61593,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1201039,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL842,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1200616,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1532,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1577,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL435,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1684,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1763,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1054,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1055,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL1587,,CHEMBL1876,,Thiazide-sensitive sodium-chloride cotransporter inhibitor,INHIBITOR
+CHEMBL3140361,,CHEMBL1877,,Arabinosyltransferase A inhibitor,INHIBITOR
+CHEMBL1200776,,CHEMBL1878,,Calcium sensing receptor positive allosteric modulator,POSITIVE ALLOSTERIC MODULATOR
+CHEMBL495,,CHEMBL1881,,Prostanoid EP2 receptor agonist,AGONIST
+CHEMBL1770,,CHEMBL1884,,Nicotinic acetylcholine receptor alpha subunit agonist,AGONIST
+CHEMBL181,,CHEMBL1886,,"Potassium channel, inwardly rectifying, subfamily J, member 11 opener",OPENER
+CHEMBL1201528,,CHEMBL1889,,Vasopressin V1a receptor agonist,AGONIST
+CHEMBL1201108,,CHEMBL1889,,Vasopressin V1a receptor antagonist,ANTAGONIST
+CHEMBL2311030,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL1185,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL1201003,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL2138684,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL1200521,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL1200601,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL1201032,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL128,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL1201150,,CHEMBL1898,,Serotonin 1b (5-HT1b) receptor agonist,AGONIST
+CHEMBL2368924,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL46,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL1237080,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL289469,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL1720,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL3186492,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL1200885,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL1200940,,CHEMBL1899,,Serotonin 3a (5-HT3a) receptor antagonist,ANTAGONIST
+CHEMBL1200755,,CHEMBL1901,,Cholecystokinin A receptor agonist,AGONIST
+CHEMBL1201182,,CHEMBL1902,,FK506-binding protein 1A inhibitor,INHIBITOR
+CHEMBL413,,CHEMBL1902,,FK506-binding protein 1A inhibitor,INHIBITOR
+CHEMBL1908360,,CHEMBL1902,,FK506-binding protein 1A inhibitor,INHIBITOR
+CHEMBL1200686,,CHEMBL1902,,FK506-binding protein 1A inhibitor,INHIBITOR
+CHEMBL3989887,,CHEMBL1902,,FK506-binding protein 1A inhibitor,INHIBITOR
+CHEMBL1946170,,CHEMBL1906,,Serine/threonine-protein kinase RAF inhibitor,INHIBITOR
+CHEMBL1200485,,CHEMBL1906,,Serine/threonine-protein kinase RAF inhibitor,INHIBITOR
+CHEMBL1580,,CHEMBL1910,,Adenosine deaminase inhibitor,INHIBITOR
+CHEMBL2105613,,CHEMBL1911,,Succinate semialdehyde dehydrogenase inhibitor,INHIBITOR
+CHEMBL433,,CHEMBL1911,,Succinate semialdehyde dehydrogenase inhibitor,INHIBITOR
+CHEMBL109,,CHEMBL1911,,Succinate semialdehyde dehydrogenase inhibitor,INHIBITOR
+CHEMBL1118,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL6067650,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200322,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200710,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200781,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1409,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1709,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200609,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1201082,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200595,,CHEMBL228,,Serotonin transporter substrate,SUBSTRATE
+CHEMBL1615374,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200798,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1201066,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200964,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1113,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1201728,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200328,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1692,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL3989845,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL4297064,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200492,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1201156,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1200332,,CHEMBL228,,Serotonin transporter inhibitor,INHIBITOR
+CHEMBL1421,,CHEMBL1913,,Platelet-derived growth factor receptor beta inhibitor,INHIBITOR
+CHEMBL1200485,,CHEMBL1913,,Platelet-derived growth factor receptor beta inhibitor,INHIBITOR
+CHEMBL1642,,CHEMBL1913,,Platelet-derived growth factor receptor beta inhibitor,INHIBITOR
+CHEMBL5314380,,CHEMBL1917,,Somatostatin receptor 1 agonist,AGONIST
+CHEMBL1201528,,CHEMBL1921,,Vasopressin V1b receptor agonist,AGONIST
+CHEMBL1715,,CHEMBL235,,Peroxisome proliferator-activated receptor gamma agonist,AGONIST
+CHEMBL843,,CHEMBL235,,Peroxisome proliferator-activated receptor gamma agonist,AGONIST
+CHEMBL408,,CHEMBL235,,Peroxisome proliferator-activated receptor gamma agonist,AGONIST
+CHEMBL1200760,,CHEMBL235,,Peroxisome proliferator-activated receptor gamma agonist,AGONIST
+CHEMBL704,,CHEMBL235,,Peroxisome proliferator-activated receptor gamma agonist,AGONIST
+CHEMBL1201013,,CHEMBL235,,Peroxisome proliferator-activated receptor gamma agonist,AGONIST
+CHEMBL1201488,,CHEMBL1925,,Secretin receptor agonist,AGONIST
+CHEMBL1201616,,CHEMBL1925,,Secretin receptor agonist,AGONIST
+CHEMBL6067494,,CHEMBL1925,,Secretin receptor agonist,AGONIST
+CHEMBL1201745,,CHEMBL239,,Peroxisome proliferator-activated receptor alpha agonist,AGONIST
+CHEMBL457,,CHEMBL239,,Peroxisome proliferator-activated receptor alpha agonist,AGONIST
+CHEMBL672,,CHEMBL239,,Peroxisome proliferator-activated receptor alpha agonist,AGONIST
+CHEMBL565,,CHEMBL239,,Peroxisome proliferator-activated receptor alpha agonist,AGONIST
+CHEMBL981,,CHEMBL239,,Peroxisome proliferator-activated receptor alpha agonist,AGONIST
+CHEMBL5483015,,CHEMBL1927,,Thioredoxin reductase 1 inhibitor,INHIBITOR
+CHEMBL1200477,,CHEMBL1929,,Xanthine dehydrogenase inhibitor,INHIBITOR
+CHEMBL1164729,,CHEMBL1929,,Xanthine dehydrogenase inhibitor,INHIBITOR
+CHEMBL1467,,CHEMBL1929,,Xanthine dehydrogenase inhibitor,INHIBITOR
+CHEMBL1465,,CHEMBL1930,,Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor,INHIBITOR
+CHEMBL711,,CHEMBL1930,,Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor,INHIBITOR
+CHEMBL1466,,CHEMBL1930,,Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor,INHIBITOR
+CHEMBL1200772,,CHEMBL1930,,Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor,INHIBITOR
+CHEMBL1200879,,CHEMBL1930,,Vitamin k epoxide reductase complex subunit 1 isoform 1 inhibitor,INHIBITOR
+CHEMBL964,,CHEMBL1935,,Aldehyde dehydrogenase inhibitor,INHIBITOR
+CHEMBL1421,,CHEMBL1936,,Stem cell growth factor receptor inhibitor,INHIBITOR
+CHEMBL1201733,,CHEMBL1936,,Stem cell growth factor receptor inhibitor,INHIBITOR
+CHEMBL1946170,,CHEMBL1936,,Stem cell growth factor receptor inhibitor,INHIBITOR
+CHEMBL1200485,,CHEMBL1936,,Stem cell growth factor receptor inhibitor,INHIBITOR
+CHEMBL1567,,CHEMBL1936,,Stem cell growth factor receptor inhibitor,INHIBITOR
+CHEMBL1642,,CHEMBL1936,,Stem cell growth factor receptor inhibitor,INHIBITOR
+CHEMBL256907,,CHEMBL274,,C-C chemokine receptor type 5 antagonist,ANTAGONIST
+CHEMBL36,,CHEMBL1939,,Dihydrofolate reductase inhibitor,INHIBITOR
+CHEMBL3989825,,CHEMBL1939,,Dihydrofolate reductase inhibitor,INHIBITOR
+CHEMBL1201059,,CHEMBL1939,,Dihydrofolate reductase inhibitor,INHIBITOR
+CHEMBL902,,CHEMBL1941,,Histamine H2 receptor antagonist,ANTAGONIST
+CHEMBL1201051,,CHEMBL1941,,Histamine H2 receptor antagonist,ANTAGONIST
+CHEMBL1200949,,CHEMBL1941,,Histamine H2 receptor agonist,AGONIST
+CHEMBL3183075,,CHEMBL1941,,Histamine H2 receptor antagonist,ANTAGONIST
+CHEMBL2110372,,CHEMBL1941,,Histamine H2 receptor antagonist,ANTAGONIST
+CHEMBL30,,CHEMBL1941,,Histamine H2 receptor antagonist,ANTAGONIST
+CHEMBL2111286,,CHEMBL1941,,Histamine H2 receptor antagonist,ANTAGONIST
+CHEMBL1200988,,CHEMBL1941,,Histamine H2 receptor antagonist,ANTAGONIST
+CHEMBL1689,,CHEMBL1941,,Histamine H2 receptor agonist,AGONIST
+CHEMBL227529,,CHEMBL284,,Dipeptidyl peptidase IV inhibitor,INHIBITOR
+CHEMBL1201174,,CHEMBL284,,Dipeptidyl peptidase IV inhibitor,INHIBITOR
+CHEMBL237500,,CHEMBL284,,Dipeptidyl peptidase IV inhibitor,INHIBITOR
+CHEMBL1201743,,CHEMBL284,,Dipeptidyl peptidase IV inhibitor,INHIBITOR
+CHEMBL1200399,,CHEMBL214,,Serotonin 1a (5-HT1a) receptor partial agonist,PARTIAL AGONIST
+CHEMBL2311030,,CHEMBL214,,Serotonin 1a (5-HT1a) receptor agonist,AGONIST
+CHEMBL1200938,,CHEMBL214,,Serotonin 1a (5-HT1a) receptor partial agonist,PARTIAL AGONIST
+CHEMBL1112,,CHEMBL214,,Serotonin 1a (5-HT1a) receptor partial agonist,PARTIAL AGONIST
+CHEMBL1615374,,CHEMBL214,,Serotonin 1a (5-HT1a) receptor partial agonist,PARTIAL AGONIST
+CHEMBL160,,CHEMBL1949,,Cyclophilin A modulator,MODULATOR
+CHEMBL1201414,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL1201476,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL1201460,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL1201534,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL1201657,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL1201513,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL1201448,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL1200644,,CHEMBL1950,,Antithrombin-III activator,ACTIVATOR
+CHEMBL917,,CHEMBL1952,,Thymidylate synthase inhibitor,INHIBITOR
+CHEMBL2360464,,CHEMBL1952,,Thymidylate synthase inhibitor,INHIBITOR
+CHEMBL1773,,CHEMBL1952,,Thymidylate synthase inhibitor,INHIBITOR
+CHEMBL185,,CHEMBL1952,,Thymidylate synthase inhibitor,INHIBITOR
+CHEMBL1201717,,CHEMBL1957,,Insulin-like growth factor I receptor agonist,AGONIST
+CHEMBL1201716,,CHEMBL1957,,Insulin-like growth factor I receptor agonist,AGONIST
+CHEMBL1201570,,CHEMBL1959,,Interleukin-1 receptor antagonist,ANTAGONIST
+CHEMBL1201533,,CHEMBL1963,,Thyroid stimulating hormone receptor agonist,AGONIST
+CHEMBL1201532,,CHEMBL1963,,Thyroid stimulating hormone receptor agonist,AGONIST
+CHEMBL1201610,,CHEMBL1965,,Melanocortin receptor 2 agonist,AGONIST
+CHEMBL1201609,,CHEMBL1965,,Melanocortin receptor 2 agonist,AGONIST
+CHEMBL2103784,,CHEMBL1965,,Melanocortin receptor 2 agonist,AGONIST
+CHEMBL1201489,,CHEMBL1965,,Melanocortin receptor 2 agonist,AGONIST
+CHEMBL960,,CHEMBL1966,,Dihydroorotate dehydrogenase inhibitor,INHIBITOR
+CHEMBL973,,CHEMBL1966,,Dihydroorotate dehydrogenase inhibitor,INHIBITOR
+CHEMBL1200862,,CHEMBL1969,,Tyrosine 3-hydroxylase inhibitor,INHIBITOR
+CHEMBL473,,CHEMBL240,,HERG blocker,BLOCKER
+CHEMBL2355456,,CHEMBL240,,HERG blocker,BLOCKER
+CHEMBL1083993,,CHEMBL240,,HERG blocker,BLOCKER
+CHEMBL1700,,CHEMBL240,,HERG blocker,BLOCKER
+CHEMBL1201461,,CHEMBL1972,,Glutamate [NMDA] receptor subunit epsilon 1 antagonist,ANTAGONIST
+CHEMBL1256818,,CHEMBL1972,,Glutamate [NMDA] receptor subunit epsilon 1 antagonist,ANTAGONIST
+CHEMBL1388,,CHEMBL1973,,Tyrosinase inhibitor,INHIBITOR
+CHEMBL544,,CHEMBL1973,,Tyrosinase inhibitor,INHIBITOR
+CHEMBL1200485,,CHEMBL1974,,Tyrosine-protein kinase receptor FLT3 inhibitor,INHIBITOR
+CHEMBL1567,,CHEMBL1974,,Tyrosine-protein kinase receptor FLT3 inhibitor,INHIBITOR
+CHEMBL1201620,,CHEMBL1976,,Growth hormone receptor agonist,AGONIST
+CHEMBL1201621,,CHEMBL1976,,Growth hormone receptor agonist,AGONIST
+CHEMBL1201515,,CHEMBL1976,,Growth hormone receptor antagonist,ANTAGONIST
+CHEMBL1042,,CHEMBL1977,,Vitamin D receptor agonist,AGONIST
+CHEMBL1536,,CHEMBL1977,,Vitamin D receptor agonist,AGONIST
+CHEMBL1200666,,CHEMBL1977,,Vitamin D receptor agonist,AGONIST
+CHEMBL1200622,,CHEMBL1977,,Vitamin D receptor agonist,AGONIST
+CHEMBL846,,CHEMBL1977,,Vitamin D receptor agonist,AGONIST
+CHEMBL3544909,,CHEMBL1977,,Vitamin D receptor agonist,AGONIST
+CHEMBL1200810,,CHEMBL1977,,Vitamin D receptor agonist,AGONIST
+CHEMBL1571,,CHEMBL1978,,Cytochrome P450 19A1 inhibitor,INHIBITOR
+CHEMBL1399,,CHEMBL1978,,Cytochrome P450 19A1 inhibitor,INHIBITOR
+CHEMBL1444,,CHEMBL1978,,Cytochrome P450 19A1 inhibitor,INHIBITOR
+CHEMBL1200374,,CHEMBL1978,,Cytochrome P450 19A1 inhibitor,INHIBITOR
+CHEMBL488,,CHEMBL1978,,Cytochrome P450 19A1 inhibitor,INHIBITOR
+CHEMBL1200822,,CHEMBL1980,,Sodium channel protein type V alpha subunit blocker,BLOCKER
+CHEMBL1200612,,CHEMBL1980,,Sodium channel protein type V alpha subunit blocker,BLOCKER
+CHEMBL1404,,CHEMBL1980,,Sodium channel protein type V alpha subunit blocker,BLOCKER
+CHEMBL1201540,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201629,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201644,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201631,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201630,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201545,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201611,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201538,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201613,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201497,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201539,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201627,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201496,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL1201664,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL2104391,,CHEMBL1981,,Insulin receptor agonist,AGONIST
+CHEMBL719,,CHEMBL1982,,Isoleucyl-tRNA synthetase inhibitor,INHIBITOR
+CHEMBL3989715,,CHEMBL1982,,Isoleucyl-tRNA synthetase inhibitor,INHIBITOR
+CHEMBL1200517,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL2448612,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL1201003,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL1200601,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL1185,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL1200521,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL2138684,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL1201032,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL1201150,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL128,,CHEMBL1983,,Serotonin 1d (5-HT1d) receptor agonist,AGONIST
+CHEMBL831,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL908,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1713,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL42,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200636,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL71,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200798,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL2358147,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1108,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1112,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL3544974,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1201060,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1201155,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1615372,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1201052,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL654,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200419,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200492,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL715,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL3989694,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1621,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL2107360,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200469,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL3188993,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1423,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL85,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL54,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200986,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL4297147,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL14376,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL479,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200916,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1201,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL3989824,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1257040,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1200948,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL1375743,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL3989833,,CHEMBL224,,Serotonin 2a (5-HT2a) receptor antagonist,ANTAGONIST
+CHEMBL831,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL2095211,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor agonist,AGONIST
+CHEMBL1200426,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1200938,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL654,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1200492,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL715,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL3989694,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL3188993,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL85,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL479,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1200916,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1200798,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1257040,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1200948,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1375743,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL3989833,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL2358147,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL908,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1200636,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1201155,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1201060,,CHEMBL225,,Serotonin 2c (5-HT2c) receptor antagonist,ANTAGONIST
+CHEMBL1200331,,CHEMBL1984,,UDP-N-acetylglucosamine 1-carboxyvinyltransferase inhibitor,INHIBITOR
+CHEMBL5314342,,CHEMBL1985,,Glucagon receptor agonist,AGONIST
+CHEMBL5314341,,CHEMBL1985,,Glucagon receptor agonist,AGONIST
+CHEMBL3545059,,CHEMBL286,,Renin inhibitor,INHIBITOR
+CHEMBL1963683,,CHEMBL1987,,Prostanoid FP receptor agonist,AGONIST
+CHEMBL1051,,CHEMBL1987,,Prostanoid FP receptor agonist,AGONIST
+CHEMBL1200799,,CHEMBL1987,,Prostanoid FP receptor agonist,AGONIST
+CHEMBL1200896,,CHEMBL1987,,Prostanoid FP receptor agonist,AGONIST
+CHEMBL1200963,,CHEMBL1987,,Prostanoid FP receptor agonist,AGONIST
+CHEMBL1237105,,CHEMBL1987,,Prostanoid FP receptor agonist,AGONIST
+CHEMBL1200721,,CHEMBL242,,Estrogen receptor beta modulator,MODULATOR
+CHEMBL1200761,,CHEMBL242,,Estrogen receptor beta modulator,MODULATOR
+CHEMBL1116,,CHEMBL242,,Estrogen receptor beta modulator,MODULATOR
+CHEMBL1201668,,CHEMBL1988,,Atrial natriuretic peptide receptor A agonist,AGONIST
+CHEMBL1201057,,CHEMBL1989,,Renal dipeptidase inhibitor,INHIBITOR
+CHEMBL1489,,CHEMBL1992,,DNA (cytosine-5)-methyltransferase 3A inhibitor,INHIBITOR
+CHEMBL1201129,,CHEMBL1992,,DNA (cytosine-5)-methyltransferase 3A inhibitor,INHIBITOR
+CHEMBL1489,,CHEMBL1993,,DNA (cytosine-5)-methyltransferase 1 inhibitor,INHIBITOR
+CHEMBL1201129,,CHEMBL1993,,DNA (cytosine-5)-methyltransferase 1 inhibitor,INHIBITOR
+CHEMBL1095097,,CHEMBL1994,,Mineralocorticoid receptor antagonist,ANTAGONIST
+CHEMBL1200542,,CHEMBL1994,,Mineralocorticoid receptor agonist,AGONIST
+CHEMBL1201010,,CHEMBL1994,,Mineralocorticoid receptor agonist,AGONIST
+CHEMBL1393,,CHEMBL1994,,Mineralocorticoid receptor antagonist,ANTAGONIST
+CHEMBL1200592,,CHEMBL1994,,Mineralocorticoid receptor agonist,AGONIST
+CHEMBL1509,,CHEMBL1994,,Mineralocorticoid receptor antagonist,ANTAGONIST
+CHEMBL1428,,CHEMBL1994,,Mineralocorticoid receptor antagonist,ANTAGONIST
+CHEMBL1480,,CHEMBL1994,,Mineralocorticoid receptor antagonist,ANTAGONIST
+CHEMBL1237119,,CHEMBL1995,,Prostanoid IP receptor agonist,AGONIST
+CHEMBL494,,CHEMBL1995,,Prostanoid IP receptor agonist,AGONIST
+CHEMBL962,,CHEMBL1995,,Prostanoid IP receptor agonist,AGONIST
+CHEMBL3989695,,CHEMBL251,,Adenosine A2a receptor agonist,AGONIST
+CHEMBL1201567,,CHEMBL1996,,Granulocyte colony stimulating factor receptor agonist,AGONIST
+CHEMBL1201568,,CHEMBL1996,,Granulocyte colony stimulating factor receptor agonist,AGONIST
+CHEMBL932,,CHEMBL1997,,Equilibrative nucleoside transporter 1 inhibitor,INHIBITOR
+CHEMBL1286,,CHEMBL1998,,Synaptic vesicle glycoprotein 2A modulator,MODULATOR
+CHEMBL1201837,,CHEMBL2000,,Plasma kallikrein inhibitor,INHIBITOR
+CHEMBL1201619,,CHEMBL2000,,Plasma kallikrein inhibitor,INHIBITOR
+CHEMBL1265,,CHEMBL2363069,,Retinoic acid receptor agonist,AGONIST
+CHEMBL614,,CHEMBL2011,,Fatty acid synthase inhibitor,INHIBITOR
+CHEMBL712,,CHEMBL2012,,Vitamin K-dependent gamma-carboxylase inhibitor,INHIBITOR
+CHEMBL1539,,CHEMBL2013,,Dihydropteroate synthetase inhibitor,INHIBITOR
+CHEMBL1201056,,CHEMBL2013,,Dihydropteroate synthetase inhibitor,INHIBITOR
+CHEMBL288441,,CHEMBL267,,Tyrosine-protein kinase SRC inhibitor,INHIBITOR
+CHEMBL24828,,CHEMBL267,,Tyrosine-protein kinase SRC inhibitor,INHIBITOR
+CHEMBL1373,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL1201192,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL1200377,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL405,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL501,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL1201735,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL1698,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL904,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL1200387,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL612,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL1200782,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL3544971,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL3989844,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL1693,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL1201178,,CHEMBL238,,Dopamine transporter releasing agent,RELEASING AGENT
+CHEMBL1722,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL796,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL2062163,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL1200483,,CHEMBL238,,Dopamine transporter inhibitor,INHIBITOR
+CHEMBL1237055,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL3989826,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1707,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1237065,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1200531,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1200599,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1200665,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1201159,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL688,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1200890,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL2103744,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL3989716,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL270190,,CHEMBL233,,Mu opioid receptor antagonist,ANTAGONIST
+CHEMBL1701,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1200825,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1237104,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL3989768,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL2062266,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1201120,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1201770,,CHEMBL233,,Mu opioid receptor antagonist,ANTAGONIST
+CHEMBL1201163,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL596,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1200817,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL2368861,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1201047,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1685,,CHEMBL233,,Mu opioid receptor partial agonist,PARTIAL AGONIST
+CHEMBL1200543,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL1201777,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL299400,,CHEMBL233,,Mu opioid receptor partial agonist,PARTIAL AGONIST
+CHEMBL511142,,CHEMBL233,,Mu opioid receptor agonist,AGONIST
+CHEMBL2062276,,CHEMBL233,,Mu opioid receptor antagonist,ANTAGONIST
+CHEMBL1324,,CHEMBL2023,,Catechol O-methyltransferase inhibitor,INHIBITOR
+CHEMBL953,,CHEMBL2023,,Catechol O-methyltransferase inhibitor,INHIBITOR
+CHEMBL211471,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1678,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1200933,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL812,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1555,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1025,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1128,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1200367,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1200514,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL1200541,,CHEMBL220,,Acetylcholinesterase inhibitor,INHIBITOR
+CHEMBL748,,CHEMBL220,,Acetylcholinesterase activator,ACTIVATOR
+CHEMBL4297955,,CHEMBL2024,,Follicle stimulating hormone receptor agonist,AGONIST
+CHEMBL1201520,,CHEMBL2024,,Follicle stimulating hormone receptor agonist,AGONIST
+CHEMBL5315126,,CHEMBL2024,,Follicle stimulating hormone receptor agonist,AGONIST
+CHEMBL2103868,,CHEMBL279,,Vascular endothelial growth factor receptor 2 inhibitor,INHIBITOR
+CHEMBL5314380,,CHEMBL2028,,Somatostatin receptor 3 agonist,AGONIST
+CHEMBL771,,CHEMBL2030,,D-alanylalanine synthetase inhibitor,INHIBITOR
+CHEMBL1201490,,CHEMBL2032,,Growth hormone-releasing hormone receptor agonist,AGONIST
+CHEMBL2111290,,CHEMBL2032,,Growth hormone-releasing hormone receptor agonist,AGONIST
+CHEMBL488,,CHEMBL2033,,Cytochrome P450 11A1 inhibitor,INHIBITOR
+CHEMBL1670,,CHEMBL2033,,Cytochrome P450 11A1 inhibitor,INHIBITOR
+CHEMBL635,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200845,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201173,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201749,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL632,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL389621,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1504,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1549,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1159650,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200495,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200600,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200635,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200762,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200865,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200909,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL131,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1512,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200342,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200384,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200538,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL2021430,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201081,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201109,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200386,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200500,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200545,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200877,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200908,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200968,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201064,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL650,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1451,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1501,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1676,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1766,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200376,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200449,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200562,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200732,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200989,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201014,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1091,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1161,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1530428,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1683,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200774,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200878,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200975,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201148,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL2040682,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL989,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1152,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1370,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL384467,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1497,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1650,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200617,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1364144,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1200953,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1201012,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1473,,CHEMBL2034,,Glucocorticoid receptor agonist,AGONIST
+CHEMBL1276308,,CHEMBL2034,,Glucocorticoid receptor antagonist,ANTAGONIST
+CHEMBL853,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL929,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL1460,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL1486,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL885,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL223228,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL129,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL4303288,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL57,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL991,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL1628504,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL308954,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL141,,CHEMBL247,,Human immunodeficiency virus type 1 reverse transcriptase inhibitor,INHIBITOR
+CHEMBL1201142,,CHEMBL2039,,Monoamine oxidase B inhibitor,INHIBITOR
+CHEMBL1200904,,CHEMBL2039,,Monoamine oxidase B inhibitor,INHIBITOR
+CHEMBL972,,CHEMBL2039,,Monoamine oxidase B inhibitor,INHIBITOR
+CHEMBL1201571,,CHEMBL2040,,T-cell surface antigen CD2 inhibitor,INHIBITOR
+CHEMBL1201733,,CHEMBL258,,Tyrosine-protein kinase LCK inhibitor,INHIBITOR
+CHEMBL404271,,CHEMBL2045,,Pancreatic alpha-amylase inhibitor,INHIBITOR
+CHEMBL1551,,CHEMBL2047,,Bile acid receptor FXR agonist,AGONIST
+CHEMBL240597,,CHEMBL2047,,Bile acid receptor FXR agonist,AGONIST
+CHEMBL395429,,CHEMBL2049,,Oxytocin receptor agonist,AGONIST
+CHEMBL1200340,,CHEMBL2051,,Neuraminidase inhibitor,INHIBITOR
+CHEMBL222813,,CHEMBL2051,,Neuraminidase inhibitor,INHIBITOR
+CHEMBL535396,,CHEMBL2052,,Influenza virus A matrix protein M2 inhibitor,INHIBITOR
+CHEMBL1201746,,CHEMBL202,,Dihydrofolate reductase inhibitor,INHIBITOR
+CHEMBL3244648,,CHEMBL202,,Dihydrofolate reductase inhibitor,INHIBITOR
+CHEMBL2360464,,CHEMBL202,,Dihydrofolate reductase inhibitor,INHIBITOR
+CHEMBL1026,,CHEMBL2056,,Dopamine D1 receptor agonist,AGONIST
+CHEMBL1200843,,CHEMBL2056,,Dopamine D1 receptor antagonist,ANTAGONIST
+CHEMBL1029,,CHEMBL2063,,Ceramide glucosyltransferase inhibitor,INHIBITOR
+CHEMBL1421,,CHEMBL2068,,Ephrin type-A receptor 2 inhibitor,INHIBITOR
+CHEMBL1201477,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL786,,CHEMBL206,,Estrogen receptor alpha modulator,MODULATOR
+CHEMBL1405,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL135,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL1200430,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL1511,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL3185958,,CHEMBL206,,Estrogen receptor alpha modulator,MODULATOR
+CHEMBL691,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL1018,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL1200973,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL1200980,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL1201151,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL411,,CHEMBL206,,Estrogen receptor alpha agonist,AGONIST
+CHEMBL1200749,,CHEMBL2072,,Sodium channel protein type IV alpha subunit blocker,BLOCKER
+CHEMBL1098,,CHEMBL2072,,Sodium channel protein type IV alpha subunit blocker,BLOCKER
+CHEMBL1200396,,CHEMBL2072,,Sodium channel protein type IV alpha subunit blocker,BLOCKER
+CHEMBL1404,,CHEMBL2072,,Sodium channel protein type IV alpha subunit blocker,BLOCKER
+CHEMBL1561,,CHEMBL2074,,Maltase-glucoamylase inhibitor,INHIBITOR
+CHEMBL404271,,CHEMBL2074,,Maltase-glucoamylase inhibitor,INHIBITOR
+CHEMBL1201483,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL2110368,,CHEMBL222,,Norepinephrine transporter substrate,SUBSTRATE
+CHEMBL1118,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1201535,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1237135,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL3184143,,CHEMBL222,,Norepinephrine transporter substrate,SUBSTRATE
+CHEMBL1574,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1628234,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1696,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1095292,,CHEMBL222,,Norepinephrine transporter substrate,SUBSTRATE
+CHEMBL1345,,CHEMBL222,,Norepinephrine transporter substrate,SUBSTRATE
+CHEMBL1702,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200912,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL3544906,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1201735,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1201728,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL904,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL612,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1200782,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL3544971,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL3989844,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1693,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200483,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200377,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL3989845,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1113,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL501,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1200328,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL405,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL3989855,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1200964,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200332,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200387,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1698,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL4297064,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL796,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1722,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200492,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1201156,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1201023,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200395,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200724,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL2062163,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1200695,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1201777,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1692,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1201178,,CHEMBL222,,Norepinephrine transporter releasing agent,RELEASING AGENT
+CHEMBL1200948,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL1201066,,CHEMBL222,,Norepinephrine transporter inhibitor,INHIBITOR
+CHEMBL18442,,CHEMBL2107,,C-X-C chemokine receptor type 4 partial agonist,PARTIAL AGONIST
+CHEMBL2109065,,CHEMBL3143,,Coagulation factor VIII inhibitor,INHIBITOR
+CHEMBL2028852,,CHEMBL3157,,Bradykinin B2 receptor antagonist,ANTAGONIST
+CHEMBL288441,,CHEMBL3234,,Tyrosine-protein kinase HCK inhibitor,INHIBITOR
+CHEMBL17,,CHEMBL3242,,Carbonic anhydrase XII inhibitor,INHIBITOR
+CHEMBL20,,CHEMBL3242,,Carbonic anhydrase XII inhibitor,INHIBITOR
+CHEMBL1200814,,CHEMBL3242,,Carbonic anhydrase XII inhibitor,INHIBITOR
+CHEMBL1561,,CHEMBL2608,,Lysosomal alpha-glucosidase inhibitor,INHIBITOR
+CHEMBL1201733,,CHEMBL2742,,Fibroblast growth factor receptor 3 inhibitor,INHIBITOR
+CHEMBL1372,,CHEMBL2755,,Glutathione reductase other,OTHER
+CHEMBL513,,CHEMBL2755,,Glutathione reductase inhibitor,INHIBITOR
+CHEMBL1795071,,CHEMBL2835,,Tyrosine-protein kinase JAK1 inhibitor,INHIBITOR
+CHEMBL2105741,,CHEMBL2964,,Dual specificity mitogen-activated protein kinase kinase 2 inhibitor,INHIBITOR
+CHEMBL1795071,,CHEMBL2971,,Tyrosine-protein kinase JAK2 inhibitor,INHIBITOR
+CHEMBL1201775,,CHEMBL3076,,Phenylalanine-4-hydroxylase activator,ACTIVATOR
+CHEMBL2095222,,CHEMBL3810,,Fibronectin proteolytic enzyme,PROTEOLYTIC ENZYME
+CHEMBL4594217,,CHEMBL3884,,Sodium/glucose cotransporter 2 inhibitor,INHIBITOR
+CHEMBL288441,,CHEMBL3905,,Tyrosine-protein kinase Lyn inhibitor,INHIBITOR
+CHEMBL6067980,,CHEMBL3295,,Pepsin A inhibitor,INHIBITOR
+CHEMBL256087,,CHEMBL1075319,,Transient receptor potential cation channel subfamily M member 8 opener,OPENER
+CHEMBL222813,,CHEMBL3377,,Neuraminidase inhibitor,INHIBITOR
+CHEMBL1200340,,CHEMBL3377,,Neuraminidase inhibitor,INHIBITOR
+CHEMBL204656,,CHEMBL3471,,Human immunodeficiency virus type 1 integrase inhibitor,INHIBITOR
+CHEMBL518520,,CHEMBL3471,,Human immunodeficiency virus type 1 integrase inhibitor,INHIBITOR
+CHEMBL271227,,CHEMBL3522,,Cytochrome P450 17A1 inhibitor,INHIBITOR
+CHEMBL2105741,,CHEMBL3587,,Dual specificity mitogen-activated protein kinase kinase 1 inhibitor,INHIBITOR
+CHEMBL2109065,,CHEMBL3618,,Coagulation factor V inhibitor,INHIBITOR
+CHEMBL1201733,,CHEMBL3650,,Fibroblast growth factor receptor 1 inhibitor,INHIBITOR
+CHEMBL1946170,,CHEMBL3650,,Fibroblast growth factor receptor 1 inhibitor,INHIBITOR
+CHEMBL1200907,,CHEMBL3670,,3-beta-hydroxysteroid dehydrogenase/delta 5-->4-isomerase type II inhibitor,INHIBITOR
+CHEMBL606,,CHEMBL3710,,Prostanoid EP3 receptor agonist,AGONIST
+CHEMBL2103868,,CHEMBL3717,,Hepatocyte growth factor receptor inhibitor,INHIBITOR
+CHEMBL601719,,CHEMBL3717,,Hepatocyte growth factor receptor inhibitor,INHIBITOR
+CHEMBL17,,CHEMBL3729,,Carbonic anhydrase IV inhibitor,INHIBITOR
+CHEMBL19,,CHEMBL3729,,Carbonic anhydrase IV inhibitor,INHIBITOR
+CHEMBL220492,,CHEMBL3729,,Carbonic anhydrase IV inhibitor,INHIBITOR
+CHEMBL20,,CHEMBL3729,,Carbonic anhydrase IV inhibitor,INHIBITOR
+CHEMBL1200814,,CHEMBL3729,,Carbonic anhydrase IV inhibitor,INHIBITOR
+CHEMBL2095212,,CHEMBL246,,Beta-3 adrenergic receptor agonist,AGONIST
+CHEMBL1946170,,CHEMBL3961,,MAP kinase p38 beta inhibitor,INHIBITOR
+CHEMBL2360464,,CHEMBL3972,,GAR transformylase inhibitor,INHIBITOR
+CHEMBL2108184,,CHEMBL4051,,Cystic fibrosis transmembrane conductance regulator inhibitor,INHIBITOR
+CHEMBL2010601,,CHEMBL4051,,Cystic fibrosis transmembrane conductance regulator positive modulator,POSITIVE MODULATOR
+CHEMBL1200699,,CHEMBL4073,,Matrix metalloproteinase 7 inhibitor,INHIBITOR
+CHEMBL2364574,,CHEMBL4073,,Matrix metalloproteinase 7 inhibitor,INHIBITOR
+CHEMBL3989740,,CHEMBL4073,,Matrix metalloproteinase 7 inhibitor,INHIBITOR
+CHEMBL1201821,,CHEMBL4142,,Fibroblast growth factor receptor 2 agonist,AGONIST
+CHEMBL1946170,,CHEMBL4142,,Fibroblast growth factor receptor 2 inhibitor,INHIBITOR
+CHEMBL1946170,,CHEMBL4223,,Tyrosine-protein kinase FRK inhibitor,INHIBITOR
+CHEMBL601719,,CHEMBL4247,,ALK tyrosine kinase receptor inhibitor,INHIBITOR
+CHEMBL1371,,CHEMBL4305,,Intermediate conductance calcium-activated potassium channel protein 4 opener,OPENER
+CHEMBL1463,,CHEMBL4665,,Thymidylate synthase inhibitor,INHIBITOR
+CHEMBL1795072,,CHEMBL4478,,Voltage-gated N-type calcium channel alpha-1B subunit blocker,BLOCKER
+CHEMBL1200699,,CHEMBL4588,,Matrix metalloproteinase 8 inhibitor,INHIBITOR
+CHEMBL2364574,,CHEMBL4588,,Matrix metalloproteinase 8 inhibitor,INHIBITOR
+CHEMBL3989740,,CHEMBL4588,,Matrix metalloproteinase 8 inhibitor,INHIBITOR
+CHEMBL1200699,,CHEMBL280,,Matrix metalloproteinase 13 inhibitor,INHIBITOR
+CHEMBL2364574,,CHEMBL280,,Matrix metalloproteinase 13 inhibitor,INHIBITOR
+CHEMBL3989740,,CHEMBL280,,Matrix metalloproteinase 13 inhibitor,INHIBITOR
+CHEMBL24828,,CHEMBL4601,,Tyrosine-protein kinase BRK inhibitor,INHIBITOR
+CHEMBL181,,CHEMBL4770,,"Potassium channel, inwardly rectifying, subfamily J, member 8 opener",OPENER
+CHEMBL294199,,CHEMBL4794,,Vanilloid receptor opener,OPENER
+CHEMBL1200699,,CHEMBL332,,Matrix metalloproteinase-1 inhibitor,INHIBITOR
+CHEMBL3989740,,CHEMBL332,,Matrix metalloproteinase-1 inhibitor,INHIBITOR
+CHEMBL2364574,,CHEMBL332,,Matrix metalloproteinase-1 inhibitor,INHIBITOR
+CHEMBL1286,,CHEMBL4478,,Voltage-gated N-type calcium channel alpha-1B subunit blocker,BLOCKER
+CHEMBL1946170,,CHEMBL5122,,Discoidin domain-containing receptor 2 inhibitor,INHIBITOR
+CHEMBL2105729,,CHEMBL5145,,Serine/threonine-protein kinase B-raf inhibitor,INHIBITOR
+CHEMBL1946170,,CHEMBL5145,,Serine/threonine-protein kinase B-raf inhibitor,INHIBITOR
+CHEMBL1200485,,CHEMBL5145,,Serine/threonine-protein kinase B-raf inhibitor,INHIBITOR
+CHEMBL1229517,,CHEMBL5145,,Serine/threonine-protein kinase B-raf inhibitor,INHIBITOR
+CHEMBL535650,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL1200901,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL1357648,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL58510,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL566534,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL2359966,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL4297165,,CHEMBL613897,,Ferriprotoporphyrin IX binding agent,BINDING AGENT
+CHEMBL38827,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL1690,,CHEMBL613897,,Ferriprotoporphyrin IX inhibitor,INHIBITOR
+CHEMBL1643,,CHEMBL4296320,,RNA-directed RNA polymerase inhibitor,INHIBITOR
+CHEMBL1200612,,CHEMBL5451,,Sodium channel protein type X alpha subunit blocker,BLOCKER
+CHEMBL2104987,,CHEMBL5844,,Glucagon-like peptide 2 receptor agonist,AGONIST
+CHEMBL1201134,,CHEMBL1628478,,Chloride channel protein 2 opener,OPENER
+CHEMBL1387,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1531,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1201139,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1201146,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL717,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1162,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1200848,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1200853,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL103,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL2107797,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1200934,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1389,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1533,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL260538,,CHEMBL208,,Progesterone receptor modulator,MODULATOR
+CHEMBL1200807,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1200624,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1276308,,CHEMBL208,,Progesterone receptor antagonist,ANTAGONIST
+CHEMBL1509,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL1479,,CHEMBL208,,Progesterone receptor agonist,AGONIST
+CHEMBL473417,,CHEMBL5971,,Smoothened homolog inhibitor,INHIBITOR
+CHEMBL256087,,CHEMBL6007,,Transient receptor potential cation channel subfamily A member 1 opener,OPENER
+CHEMBL832,,CHEMBL6120,,Solute carrier family 22 member 12 inhibitor,INHIBITOR
+CHEMBL1946170,,CHEMBL4128,,Tyrosine-protein kinase TIE-2 inhibitor,INHIBITOR
+CHEMBL24828,,CHEMBL4128,,Tyrosine-protein kinase TIE-2 inhibitor,INHIBITOR
+CHEMBL1742982,,CHEMBL1697671,,Placenta growth factor inhibitor,INHIBITOR
+CHEMBL897,,CHEMBL1641347,,Solute carrier family 22 member 6 inhibitor,INHIBITOR
+CHEMBL897,,CHEMBL1641348,,Solute carrier family 22 member 8 inhibitor,INHIBITOR
+CHEMBL1214124,,CHEMBL2096670,,Glutamate receptor ionotropic AMPA antagonist,ANTAGONIST
+CHEMBL220492,,CHEMBL2096670,,Glutamate receptor ionotropic AMPA antagonist,ANTAGONIST
+CHEMBL957,,CHEMBL2096678,,"Endothelin receptor, ET-A/ET-B antagonist",ANTAGONIST
+CHEMBL1111,,CHEMBL2096678,,"Endothelin receptor, ET-A/ET-B antagonist",ANTAGONIST
+CHEMBL897,,CHEMBL2073677,,Solute carrier family 22 member 11 inhibitor,INHIBITOR
+CHEMBL1201536,,CHEMBL1907589,,Neuronal acetylcholine receptor; alpha4/beta2 agonist,AGONIST
+CHEMBL3,,CHEMBL1907589,,Neuronal acetylcholine receptor; alpha4/beta2 agonist,AGONIST
+CHEMBL6067972,,CHEMBL1907589,,Neuronal acetylcholine receptor; alpha4/beta2 agonist,AGONIST
+CHEMBL3301675,,CHEMBL1795197,,Heat-stable enterotoxin receptor agonist,AGONIST
+CHEMBL675,,CHEMBL1782,,Farnesyl diphosphate synthase inhibitor,INHIBITOR
+CHEMBL1654,,CHEMBL1782,,Farnesyl diphosphate synthase inhibitor,INHIBITOR
+CHEMBL4303669,,CHEMBL1782,,Farnesyl diphosphate synthase inhibitor,INHIBITOR
+CHEMBL3989569,,CHEMBL1782,,Farnesyl diphosphate synthase inhibitor,INHIBITOR
+CHEMBL3989401,,CHEMBL1782,,Farnesyl diphosphate synthase inhibitor,INHIBITOR
+CHEMBL503,,CHEMBL402,,HMG-CoA reductase inhibitor,INHIBITOR
+CHEMBL1200563,,CHEMBL402,,HMG-CoA reductase inhibitor,INHIBITOR
+CHEMBL1237061,,CHEMBL402,,HMG-CoA reductase inhibitor,INHIBITOR
+CHEMBL2218894,,CHEMBL402,,HMG-CoA reductase inhibitor,INHIBITOR

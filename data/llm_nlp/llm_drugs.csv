@@ -1,0 +1,218 @@
+name,target_gene,mechanism,pmid
+"L-161,240",LPXC,inhibitor,38402732
+LpxC inhibitor,LPXC,inhibitor,37666971
+PF-5081090,LPXC,inhibitor,37023679
+CHIR-090,LPXC,inhibitor,37023679
+benzyl ether 17a,LPXC,inhibitor,36587505
+LPC-233,LPXC,inhibitor,37556556
+LpxC-2,LpxC,inhibitor,40712776
+LpxC-4,LpxC,inhibitor,40712776
+CHIR-090,LpxC,inhibitor,40712776
+ZOSURABALPIN,LPXC,inhibitor,40783847
+DAROBACTIN,LPXC,inhibitor,40783847
+POLYMYXINS,,inhibitor,40783847
+OXIRIS,,adjunctive,40783847
+ALTECO,,adjunctive,40783847
+Compound 6i,LPXC,inhibitor,39341094
+LPC-233-A,LPXC,inhibitor,39882860
+a5,LPXC,inhibitor,41747910
+b1,LPXC,inhibitor,41747910
+b2,LPXC,inhibitor,41747910
+TP0586532,LPXC,inhibitor,35131156
+LPC-233,LPXC,inhibitor,39670750
+ceftazidime,,,39670750
+P-2,LPXC,inhibitor,40374903
+Celastrol,FTSZ,inhibitor,36622182
+Vancomycin,,,36622182
+carvacrol,,inhibitor,40107113
+C11,FTSZ,inhibitor,40100965
+methicillin,,,40100965
+PC190723,FTSZ,inhibitor,35453046
+A3,FTSZ,inhibitor,35421657
+Magnolol,FTSZ,inhibitor,39714990
+fascaplysin derivatives,FTSZ,inhibitor,37060755
+B3,FTSZ,inhibitor,37060755
+B6,FTSZ,inhibitor,37060755
+B8,FTSZ,inhibitor,37060755
+B16,FTSZ,inhibitor,37060755
+colistin,,antimicrobial,38491859
+chelerythrine,FTSZ,inhibitor,38491859
+Dacomitinib,FTSZ,inhibitor,35224498
+B6,FTSZ,inhibitor,39895579
+B26,FTSZ,inhibitor,39895579
+T3995,FTSZ,inhibitor,39043879
+Nimbiol,FTSZ,inhibitor,38516734
+compound 11e,XooFtsZ,inhibitor,41016161
+CNP0281420,FTSZ,inhibitor,40879877
+CNP0277831,FTSZ,inhibitor,40879877
+CNP0310586,FTSZ,inhibitor,40879877
+ZINC14708526,FTSZ,inhibitor,38239064
+Benzodioxane-Benzamide Inhibitors,FTSZ,inhibitor,39859428
+TTMB,FTSZ,inhibitor,40049472
+Tacrine-β-carboline hybrids,FTSZ,inhibitor,41886480
+Sorafenib,FTSZ,inhibitor,41109377
+Ponatinib,FTSZ,inhibitor,41109377
+PTB1,BAMA,inhibitor,39379361
+PTB2,BAMA,inhibitor,39379361
+TNA,BAM A,inhibitor,37624881
+darobactin B,BAMA,inhibitor,41504460
+colistin,,inhibitor,41504460
+IMB-H4,,,41027174
+Compound 5,BAMA,inhibitor,41027174
+fosfomycin,MURA,inhibitor,12562791
+β-SITOSTEROL,,inhibitor,34188494
+OCIMUM BASILICUM L.,,inhibitor,34188494
+Castanopsis honey,GLUTATHIONE PEROXIDASE,inhibitor,38219368
+Castanopsis honey,TYROSYL tRNA SYNTHETASE,inhibitor,38219368
+GlmU Inhibitors,GLMU,inhibitor,35980047
+Ciprofloxacin,PBP2A,inhibitor,39344919
+Peptide nucleic acids,bacterial metalloenzymes,inhibitor,36629427
+JELLEINE-IC,Psa membrane,inhibitor,37184207
+JELLEINE-IC,DNA,inhibitor,37184207
+paenimicin,,inhibitor,40745162
+aggregation-prone peptide,SSRA,activator,39939597
+PLEUROMUTILIN,RIBOSOMAL PROTEINS,inhibitor,40398156
+COMPOUND A5,BACTERIAL MEMBRANES,inhibitor,40398156
+VALNEMULIN,,comparison,40398156
+LEFAMULIN,,comparison,40398156
+N-methyl mesoporphyrin IX,DCW,inhibitor,39905515
+lead compound 43,,antibacterial agent,38850855
+bisphenol derivatives,,antibacterial agent,38850855
+Fosfomycin,MURA,inhibitor,40127436
+Glyphosate,AROA,inhibitor,40127436
+POLYMYXINS,Acinetobacter baumannii,combination therapy,39894233
+CARBAPENEMS,Acinetobacter baumannii,combination therapy,39894233
+Canagliflozin,,inhibitor,37570637
+Penicillin,,inhibitor,37570637
+Tetracycline,,,41340492
+9j,PBP2A,inhibitor,41340492
+ORIDONIN (ORI),,inhibitor/agonist,40201151
+GALLIUM-BASED NANO-LIQUID METALS (GNLMs),,antimicrobial/therapeutic,40439153
+Bicycle®,PBP3,inhibitor,40437113
+LC-P5L4,LPS,inhibitor,36870429
+Peptidomimetic antibiotics,LPTD,inhibitor,20167788
+Bicyclic peptide binders,LPTDE,inhibitor,41048016
+beta-lactams,peptidoglycan,inhibitor,29185941
+fluoroquinolones,peptidoglycan,inhibitor,29185941
+aminoglycosides,peptidoglycan,inhibitor,29185941
+MRL-494,BAMA,inhibitor,31591200
+Ana-thanatin,LPS,antibacterial,41096836
+β-hairpin peptidomimetics,LPTD,inhibitor,27240465
+NMe analogues,LPTD,inhibitor,27240465
+compound 2,BAM,inhibitor,34125508
+compound 14,BAM,inhibitor,34125508
+ampicillin,PBPS,inhibitor,41480191
+viriditoxin,FTSZ,inhibitor,12952956
+FtsZ inhibitors,FTSZ,inhibitor,21339840
+VOMG,FTSZ,inhibitor,39069229
+Thiosemicarbazide derivatives,ALPHA-GLUCOSIDASE,inhibitor,28747001
+FtsZ inhibitors,FTSZ,inhibitor,32681661
+Nanobiotics,EFFLUX PUMPS,inhibitor,41334877
+PC-190723,FTSZ,inhibitor,20603653
+FtsZ inhibitors,FTSZ,inhibitor,22639193
+β-lactams,,,40871012
+VANCOMYCIN,,,40871012
+MACROLIDES,,,40871012
+4-hydroxycoumarin,FTSZ,inhibitor,34023403
+SANGUARINE,MRSA,inhibitor,40641276
+trimethoprim,DHFR,inhibitor,40646304
+bacitracin,,inhibitor,32512154
+Berberine,FTSZ,inhibitor,39986228
+Berberine,CASPASE-1,inhibitor,39986228
+Dupilumab,IL-4Rα,inhibitor,40372666
+NEMOLIZUMAB,IL-31RA,inhibitor,41111453
+Rocatinlimab,OX40,inhibitor,40913705
+sonelokimab,IL-17A,inhibitor,40297934
+sonelokimab,IL-17F,inhibitor,40297934
+capsaicin,,anti-inflammatory/analgesic,40487159
+Difelikefalin,,modulates neural transmission/immune response,40487159
+E6795,PAR-2,inhibitor,40914030
+IL-31R antagonists,IL-31R,inhibitor,33881741
+Lebrikizumab,IL-13,inhibitor,37266844
+JAK inhibitors,JAK,inhibitor,35575442
+zabalafin,,therapeutic,40911739
+antibiotics,,,31919924
+immunosuppressants,,,31919924
+retinoids,,,31919924
+steroids,,,31919924
+antihistamines,,,31919924
+Resolvin D3,TRPV1,inhibitor,33204332
+Capsaicin,TRPV1,agonist,33204332
+SC-144,IL6ST,inhibitor,39047422
+bazedoxifene,IL6ST,inhibitor,39047422
+WISIT vaccines,IL-31,inhibitor,39932924
+CCVs,IL-31,inhibitor,39932924
+Nemolizumab,INTERLEUKIN 31 RECEPTOR ALPHA,inhibitor,37556125
+capsaicin,TRPV1,agonist,36080196
+CPIPC,TRPV1,agonist,36080196
+Phosphate-modified compounds,MRGPRX4,agonist,38718132
+bile acids,MRGPRX4,agonist,34161994
+bilirubin,MRGPRX4,agonist,34161994
+ML382,MRGPRX1,agonist,40451369
+BAM8-22,MRGPRX1,agonist,40451369
+citrusinine-II,TRPV3,inhibitor,33501656
+electrophiles,TRPA1,agonist,35322090
+Morphine,IL-31RA,agonist,30176108
+kinase inhibitors,,inhibitor,35337846
+crisaborole,,,31474543
+dupilumab,,,31474543
+METFORMIN,,inhibitor,39230880
+Beta-Alanine,MRGPRD,agonist,41880222
+nemolizumab,IL-31R,inhibitor,33644103
+checkpoint inhibitors,,,38652814
+linperlisib,PI3Kδ,inhibitor,40601335
+chidamide,HDAC,inhibitor,40601335
+Abrocitinib,JAK1,inhibitor,32741227
+JANUS KINASE INHIBITORS,,inhibitor,36119001
+Tiragolumab,TIGIT,inhibitor,37768658
+Atezolizumab,PD-L1,inhibitor,37768658
+Guselkumab,IL-23,inhibitor,38598229
+INCAGN01876,GITR,agonist,40711469
+rilzabrutinib,BTK,inhibitor,40317187
+antihistamines,,inhibitor,39424975
+NMDA receptor antagonists,NMDA,inhibitor,31907139
+Immune checkpoint inhibitors,,inhibitor,38866636
+macrophage-targeting agents,,agent,38866636
+EGFR/MEK inhibitors,EGFR/MEK,inhibitor,38866636
+PHOTOTHERAPY,CYTOKINES,agonist,41212421
+ULTRAVIOLET B PHOTOTHERAPY,CYTOKINES,agonist,41212421
+EGFRIs,EGFR,inhibitor,41351479
+Oxcarbazepine,,anticonvulsant,11460891
+Phenytoin,,anticonvulsant,11460891
+Vaiproic acid,,anticonvulsant,11460891
+UDCA,,,41440960
+Diphenethylamines,KOR,agonist/antagonist,33147885
+CAPSAICIN,PRODYNRPHIN,stimulus,33247430
+HISTAMINE,PRODYNRPHIN,stimulus,33247430
+Cetuximab,EGFR,inhibitor,17010747
+erlotinib,EGFR,inhibitor,17010747
+gefitinib,EGFR,inhibitor,17010747
+Encorafenib,BRAF,inhibitor,39479087
+panitumumab,EGFR,inhibitor,39479087
+Morphine,,Analgesic,35038165
+Normal Saline,,Placebo,35038165
+Crisaborole,PDE4,inhibitor,31419544
+Difelikefalin,,inhibitor,37453613
+JAK inhibitors,JAK1,inhibitor,28890086
+Crisaborole 2% ointment,PDE4,inhibitor,29248522
+antihistamines,,,25861783
+GRPR antagonist,GRPR,inhibitor,17653196
+monoclonal antibodies,IL-31,inhibitor,35742951
+eIL-31,STAT3,agonist,39406262
+dupilumab,IL-4 RECEPTOR ALPHA,inhibitor,31631717
+JAK inhibitors,JAK,inhibitor,33917069
+dupilumab,IL-4Rα,inhibitor,34261335
+DELGOCITINIB,JAK,inhibitor,41291177
+Lokivetmab,CIL-31,inhibitor,38932349
+M1,IL-31,inhibitor,38932349
+GRPR antagonist,GRPR,inhibitor,18280606
+topical calcineurin inhibitors,,inhibitor,29533490
+topical corticosteroids,,anti-inflammatory,29533490
+UV therapy,,,31343082
+Phototherapy,,,31343082
+SC-560,COX-1,inhibitor,17703497
+TACROLIMUS,,,21485793
+PROTOPIC,,,21485793
+DA-0218,NAV1.7,inhibitor,32788559
+Monoclonal antibody,NAV1.7,inhibitor,24856969
+Compound B,MRGPRX2,inhibitor,39493768

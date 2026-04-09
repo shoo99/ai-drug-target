@@ -1,0 +1,11 @@
+drug_a,drug_b,reports_a,reports_b,reports_combo,kidney_events_combo,liver_events_combo,top_combo_event
+azithromycin,trimethoprim,0,0,0,1442,0,DRUG INEFFECTIVE
+azithromycin,vancomycin,0,0,0,1199,0,DRUG INEFFECTIVE
+isoniazid,trimethoprim,0,0,0,40,17,DRUG INEFFECTIVE
+ciprofloxacin,vancomycin,0,0,0,1297,0,DRUG INEFFECTIVE
+ciprofloxacin,gentamicin,0,0,0,703,0,ACUTE KIDNEY INJURY
+meropenem,vancomycin,0,0,0,1243,0,DRUG INEFFECTIVE
+ceftriaxone,metronidazole,0,0,0,166,0,DRUG INEFFECTIVE
+amoxicillin,ciprofloxacin,0,0,0,5291,0,CHRONIC KIDNEY DISEASE
+doxycycline,rifampin,0,0,0,90,14,DRUG INEFFECTIVE
+levofloxacin,metronidazole,0,0,0,773,96,NAUSEA

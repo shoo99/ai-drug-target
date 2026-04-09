@@ -1,0 +1,773 @@
+[
+  {
+    "gene": "IL7R",
+    "disease_context": "pruritus",
+    "total_trials": 24,
+    "active_trials": 6,
+    "completed_trials": 7,
+    "phase_distribution": {
+      "PHASE1": 10,
+      "PHASE2": 8,
+      "PHASE3": 3,
+      "PHASE4": 1
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "GlaxoSmithKline",
+        3
+      ],
+      [
+        "Baylor College of Medicine",
+        3
+      ],
+      [
+        "Revimmune",
+        2
+      ],
+      [
+        "Princess Maxima Center for Pediatric Oncology",
+        1
+      ],
+      [
+        "University of Illinois at Chicago",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 19,
+    "trials_summary": [
+      {
+        "nct_id": "NCT03239600",
+        "title": "A Study to Evaluate the Safety, Tolerability, Pharmacokinetics (PK), Proof of Mechanism of GSK261896",
+        "status": "WITHDRAWN",
+        "phase": "PHASE2",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT05745714",
+        "title": "HEM-iSMART-C: Ruxolitinib + Venetoclax + Dexamethasone + Cyclophosphamide and Cytarabine in Pediatri",
+        "status": "RECRUITING",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "Princess Maxima Center for Pediatric Oncology"
+      },
+      {
+        "nct_id": "NCT04099797",
+        "title": "C7R-GD2.CAR T Cells for Patients With GD2-expressing Brain Tumors (GAIL-B)",
+        "status": "RECRUITING",
+        "phase": "PHASE1",
+        "sponsor": "Baylor College of Medicine"
+      },
+      {
+        "nct_id": "NCT02451748",
+        "title": "IL-7 and IL-7R Expression in RA Patients With Active vs. Inactive Disease Treated With DMARD or CIMZ",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "sponsor": "University of Illinois at Chicago"
+      },
+      {
+        "nct_id": "NCT04307212",
+        "title": "How Exercise Signals Health Responses",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "USDA Grand Forks Human Nutrition Research Center"
+      },
+      {
+        "nct_id": "NCT03652402",
+        "title": "Precision Risk Stratification in Kidney Transplant Patients - EU-TRAIN",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Assistance Publique - Hôpitaux de Paris"
+      },
+      {
+        "nct_id": "NCT04154826",
+        "title": "Recombinant Interleukin-7 (CYT107) to Treat Patients With Refractory Nontuberculous Mycobacterial Lu",
+        "status": "TERMINATED",
+        "phase": "PHASE2",
+        "sponsor": "Revimmune"
+      },
+      {
+        "nct_id": "NCT06338657",
+        "title": "FID-007 Followed by Standard of Care Surgery in Head and Neck Cancer",
+        "status": "TERMINATED",
+        "phase": "PHASE1",
+        "sponsor": "University of Southern California"
+      },
+      {
+        "nct_id": "NCT04724044",
+        "title": "Anti-inflammatory Action of Oral Clarithromycin in Community-acquired Pneumonia",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Hellenic Institute for the Study of Sepsis"
+      },
+      {
+        "nct_id": "NCT06626633",
+        "title": "2321GCCC: CRD3874-SI in Patients With Relapsed/Refractory AML",
+        "status": "SUSPENDED",
+        "phase": "PHASE1",
+        "sponsor": "University of Maryland, Baltimore"
+      }
+    ]
+  },
+  {
+    "gene": "IL6R",
+    "disease_context": "pruritus",
+    "total_trials": 56,
+    "active_trials": 14,
+    "completed_trials": 29,
+    "phase_distribution": {
+      "PHASE1": 11,
+      "PHASE2": 19,
+      "PHASE3": 10,
+      "PHASE4": 5
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "NYU Langone Health",
+        3
+      ],
+      [
+        "Sanofi",
+        2
+      ],
+      [
+        "Beijing VDJBio Co., LTD.",
+        2
+      ],
+      [
+        "Indiana University",
+        2
+      ],
+      [
+        "Capital Medical University",
+        2
+      ]
+    ],
+    "n_unique_sponsors": 49,
+    "trials_summary": [
+      {
+        "nct_id": "NCT02342756",
+        "title": "Esophageal Pressure-Guided Optimal PEEP/mPaw in CMV and HFOV: The EPOCH Study",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "sponsor": "University of Toronto"
+      },
+      {
+        "nct_id": "NCT04690920",
+        "title": "Theranostic Implication of Complementary Medicines Against Interleukin Receptors and Gp-130 Proteins",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "University of Lahore"
+      },
+      {
+        "nct_id": "NCT05657496",
+        "title": "Biological Response to Platelet-rich Plasma and Corticosteroid Injections",
+        "status": "TERMINATED",
+        "phase": "PHASE1, PHASE2",
+        "sponsor": "University of Missouri-Columbia"
+      },
+      {
+        "nct_id": "NCT06746753",
+        "title": "Mechanistic Assessment of Norepinephrine Therapy vs. Angiotensin-II in Septic Shock",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE4",
+        "sponsor": "Wake Forest University Health Sciences"
+      },
+      {
+        "nct_id": "NCT01450137",
+        "title": "Tocilizumab for Patients With Giant Cell Arteritis",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Insel Gruppe AG, University Hospital Bern"
+      },
+      {
+        "nct_id": "NCT00635154",
+        "title": "Anakinra With or Without Dexamethasone in Treating Patients With Smoldering or Indolent Multiple Mye",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Mayo Clinic"
+      },
+      {
+        "nct_id": "NCT04224857",
+        "title": "SAD/MAD Study in Healthy Subjects and Adults With UC to Evaluate Safety, Tolerability, PK, PD of AMT",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Applied Molecular Transport"
+      },
+      {
+        "nct_id": "NCT02622724",
+        "title": "Efficacy and Safety of FP-1201-lyo (Interferon Beta-1a) in Patients Having Acute Respiratory Distres",
+        "status": "TERMINATED",
+        "phase": "PHASE3",
+        "sponsor": "Faron Pharmaceuticals Ltd"
+      },
+      {
+        "nct_id": "NCT00371397",
+        "title": "Yoga, Immune Function, and Health",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Ohio State University"
+      },
+      {
+        "nct_id": "NCT04119687",
+        "title": "Study to Evaluate the Safety and Tolerability of FX201 in Patients with Osteoarthritis of the Knee",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "PHASE1",
+        "sponsor": "Pacira Pharmaceuticals, Inc"
+      }
+    ]
+  },
+  {
+    "gene": "DOK2",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  },
+  {
+    "gene": "TESPA1",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  },
+  {
+    "gene": "PRKCQ",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  },
+  {
+    "gene": "CYP24A1",
+    "disease_context": "pruritus",
+    "total_trials": 9,
+    "active_trials": 0,
+    "completed_trials": 5,
+    "phase_distribution": {
+      "PHASE1": 1,
+      "PHASE2": 3,
+      "PHASE3": 2,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "PHASE3",
+    "competition_level": "high",
+    "top_sponsors": [
+      [
+        "Hospices Civils de Lyon",
+        1
+      ],
+      [
+        "National Jewish Health",
+        1
+      ],
+      [
+        "Martin Blomberg Jensen",
+        1
+      ],
+      [
+        "Chinese University of Hong Kong",
+        1
+      ],
+      [
+        "University Hospital, Caen",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 9,
+    "trials_summary": [
+      {
+        "nct_id": "NCT04495608",
+        "title": "Multicenter, Double-blind, Placebo-controlled Study to Evaluate the Efficacy and Safety of Fluconazo",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Hospices Civils de Lyon"
+      },
+      {
+        "nct_id": "NCT04283539",
+        "title": "Identification of Pathways to Mitigate Immune-Related Adverse Events With Cancer Immunotherapy",
+        "status": "UNKNOWN",
+        "phase": "N/A",
+        "sponsor": "National Jewish Health"
+      },
+      {
+        "nct_id": "NCT02422108",
+        "title": "TNFSF11 Inhibition and Fertility: a Prospective Study",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Martin Blomberg Jensen"
+      },
+      {
+        "nct_id": "NCT03142620",
+        "title": "Effect of Vitamin D on Drug Resistant Helicobacter Pylori (HP) Eradication Study",
+        "status": "UNKNOWN",
+        "phase": "PHASE3",
+        "sponsor": "Chinese University of Hong Kong"
+      },
+      {
+        "nct_id": "NCT02908542",
+        "title": "Search for New Genetic Causes of Hypercalcemia by Massively Parallel Sequencing of a Genes Panel",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "University Hospital, Caen"
+      },
+      {
+        "nct_id": "NCT02281162",
+        "title": "The Influence of Vitamin D on Atypical Antipsychotic-induced Weight Gain",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Creighton University"
+      },
+      {
+        "nct_id": "NCT01409681",
+        "title": "A Multi-Centered Trial Evaluating the Role of Vitamin D Metabolism in Non-Small Cell Lung Cancer",
+        "status": "TERMINATED",
+        "phase": "N/A",
+        "sponsor": "University of Michigan Rogel Cancer Center"
+      },
+      {
+        "nct_id": "NCT03384121",
+        "title": "The Antibiotic Rifampin to Reduce High Levels of Blood and Urine Calcium in IIH",
+        "status": "UNKNOWN",
+        "phase": "PHASE1",
+        "sponsor": "The Hospital for Sick Children"
+      },
+      {
+        "nct_id": "NCT01304927",
+        "title": "Vitamin D Supplementation and Male Infertility: The CBG-study a Randomized Clinical Trial",
+        "status": "COMPLETED",
+        "phase": "PHASE2, PHASE3",
+        "sponsor": "Rigshospitalet, Denmark"
+      }
+    ]
+  },
+  {
+    "gene": "NLRP10",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  },
+  {
+    "gene": "TAGAP",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  },
+  {
+    "gene": "BACH2",
+    "disease_context": "pruritus",
+    "total_trials": 2,
+    "active_trials": 1,
+    "completed_trials": 1,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 1,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "PHASE2",
+    "competition_level": "low",
+    "top_sponsors": [
+      [
+        "The University of Hong Kong",
+        1
+      ],
+      [
+        "Fred Hutchinson Cancer Center",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 2,
+    "trials_summary": [
+      {
+        "nct_id": "NCT06155604",
+        "title": "SGLT2 Inhibitor in Lupus Nephritis Patients With Chronic Kidney Disease",
+        "status": "RECRUITING",
+        "phase": "PHASE2",
+        "sponsor": "The University of Hong Kong"
+      },
+      {
+        "nct_id": "NCT02744040",
+        "title": "Modulating the Impact of Critical Events in Early HIV Infection: Effect of ART Initiation and Alcoho",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Fred Hutchinson Cancer Center"
+      }
+    ]
+  },
+  {
+    "gene": "MMP12",
+    "disease_context": "pruritus",
+    "total_trials": 12,
+    "active_trials": 1,
+    "completed_trials": 10,
+    "phase_distribution": {
+      "PHASE1": 3,
+      "PHASE2": 4,
+      "PHASE3": 0,
+      "PHASE4": 3
+    },
+    "most_advanced_phase": "PHASE4",
+    "competition_level": "high",
+    "top_sponsors": [
+      [
+        "Foresee Pharmaceuticals Co., Ltd.",
+        4
+      ],
+      [
+        "Pfizer",
+        2
+      ],
+      [
+        "University of Alabama at Birmingham",
+        1
+      ],
+      [
+        "Innovaderm Research Inc.",
+        1
+      ],
+      [
+        "University of British Columbia",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 8,
+    "trials_summary": [
+      {
+        "nct_id": "NCT03915496",
+        "title": "Study Evaluating the Mechanism of Action of PF-04965842 Monotherapy for Moderate-to-severe Atopic De",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Pfizer"
+      },
+      {
+        "nct_id": "NCT06334211",
+        "title": "Safety, Tolerability, and Pharmacokinetics, of Single and Multiple Ascending Doses of FP-020 in Heal",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Foresee Pharmaceuticals Co., Ltd."
+      },
+      {
+        "nct_id": "NCT03679598",
+        "title": "Alvelestat (MPH966) for the Treatment of ALpha-1 ANTitrypsin Deficiency",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "University of Alabama at Birmingham"
+      },
+      {
+        "nct_id": "NCT05602207",
+        "title": "Effects of Abrocitinib in Subjects With Atopic Dermatitis With an Unsatisfactory Response After Trea",
+        "status": "COMPLETED",
+        "phase": "PHASE4",
+        "sponsor": "Innovaderm Research Inc."
+      },
+      {
+        "nct_id": "NCT03233529",
+        "title": "Crisaborole Ointment 2% Skin Biomarker Biopsy Study in Atopic Dermatitis",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Pfizer"
+      },
+      {
+        "nct_id": "NCT06552364",
+        "title": "Air Pollution and Inhaled Corticosteroids in COPD",
+        "status": "NOT_YET_RECRUITING",
+        "phase": "PHASE4",
+        "sponsor": "University of British Columbia"
+      },
+      {
+        "nct_id": "NCT04675463",
+        "title": "The Effects of Inhaled Budesonide-formoterol-glycopyrronium in Moderate-to-severe COPD",
+        "status": "UNKNOWN",
+        "phase": "NA",
+        "sponsor": "ShiYue Li"
+      },
+      {
+        "nct_id": "NCT02729220",
+        "title": "Respiratory and Cardiovascular Effects in COPD",
+        "status": "COMPLETED",
+        "phase": "NA",
+        "sponsor": "Dr Annelie F Behndig, MD PhD"
+      },
+      {
+        "nct_id": "NCT03304964",
+        "title": "A Phase 1, Pharmacokinetics of the MMP-12 Inhibitor FP-025 After Multiple Oral Ascending Doses in He",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Foresee Pharmaceuticals Co., Ltd."
+      },
+      {
+        "nct_id": "NCT02238834",
+        "title": "Phase 1 Safety, Tolerability and Pharmacokinetics (PK) Study of FP-025 in Healthy Volunteers",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "Foresee Pharmaceuticals Co., Ltd."
+      }
+    ]
+  },
+  {
+    "gene": "CSF2RB",
+    "disease_context": "pruritus",
+    "total_trials": 16,
+    "active_trials": 7,
+    "completed_trials": 8,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 4,
+      "PHASE3": 3,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "PHASE3",
+    "competition_level": "very_high",
+    "top_sponsors": [
+      [
+        "University of Georgia",
+        4
+      ],
+      [
+        "Institut National de la Santé Et de la Recherche Médicale, France",
+        1
+      ],
+      [
+        "Inventiva Pharma",
+        1
+      ],
+      [
+        "AstraZeneca",
+        1
+      ],
+      [
+        "Wake Forest University Health Sciences",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 13,
+    "trials_summary": [
+      {
+        "nct_id": "NCT04238871",
+        "title": "RaDiCo PID Cohort (RaDiCo-ILD Cohort in English)",
+        "status": "RECRUITING",
+        "phase": "N/A",
+        "sponsor": "Institut National de la Santé Et de la Recherche Médicale, France"
+      },
+      {
+        "nct_id": "NCT02503644",
+        "title": "Proof-of-concept Trial of IVA337 in Diffuse Cutaneous Systemic Sclerosis",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "Inventiva Pharma"
+      },
+      {
+        "nct_id": "NCT00558272",
+        "title": "Study to Evaluate the Safety and Effects AZD0530 on Prostate and Breast Cancer Subjects With Metasta",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "AstraZeneca"
+      },
+      {
+        "nct_id": "NCT04058652",
+        "title": "Use of Transcutaneous Electrical Nerve Stimulation for Reducing Biologic Injection Site Pain(TENS St",
+        "status": "ACTIVE_NOT_RECRUITING",
+        "phase": "NA",
+        "sponsor": "Wake Forest University Health Sciences"
+      },
+      {
+        "nct_id": "NCT00439244",
+        "title": "Efficacy Study of Zoledronic Acid and Teriparatide Combination Therapy in Women With Osteoporosis",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Novartis"
+      },
+      {
+        "nct_id": "NCT02553850",
+        "title": "An Observational Study in Patients With Breast Cancer and Bone Metastases Receiving Ibandronate (Bon",
+        "status": "COMPLETED",
+        "phase": "N/A",
+        "sponsor": "Hoffmann-La Roche"
+      },
+      {
+        "nct_id": "NCT01260688",
+        "title": "Cediranib Maleate With or Without Dasatinib in Patients With HRPC-Resistant to Treatment With Doceta",
+        "status": "COMPLETED",
+        "phase": "PHASE2",
+        "sponsor": "National Cancer Institute (NCI)"
+      },
+      {
+        "nct_id": "NCT02306070",
+        "title": "Improving Fibrosis Outcomes With Metformin",
+        "status": "WITHDRAWN",
+        "phase": "PHASE2",
+        "sponsor": "Ottawa Hospital Research Institute"
+      },
+      {
+        "nct_id": "NCT06275035",
+        "title": "Evaluation of Memantine in the Preservation of Memory and Neurocognition Following CSI",
+        "status": "RECRUITING",
+        "phase": "PHASE3",
+        "sponsor": "Tata Memorial Centre"
+      },
+      {
+        "nct_id": "NCT00439647",
+        "title": "Efficacy in Reducing Fractures and Safety of Zoledronic Acid in Men With Osteoporosis",
+        "status": "COMPLETED",
+        "phase": "PHASE3",
+        "sponsor": "Novartis Pharmaceuticals"
+      }
+    ]
+  },
+  {
+    "gene": "IL18R1",
+    "disease_context": "pruritus",
+    "total_trials": 2,
+    "active_trials": 1,
+    "completed_trials": 1,
+    "phase_distribution": {
+      "PHASE1": 1,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "PHASE1",
+    "competition_level": "low",
+    "top_sponsors": [
+      [
+        "GlaxoSmithKline",
+        1
+      ],
+      [
+        "Beijing Luhe Hospital",
+        1
+      ]
+    ],
+    "n_unique_sponsors": 2,
+    "trials_summary": [
+      {
+        "nct_id": "NCT00500058",
+        "title": "A Phase I, Dose-Escalation Study to Assess the Safety and Biological Activity of Recombinant Human I",
+        "status": "COMPLETED",
+        "phase": "PHASE1",
+        "sponsor": "GlaxoSmithKline"
+      },
+      {
+        "nct_id": "NCT06364124",
+        "title": "Effects of PCSK-9 Inhibitor Treatment Prior to Undergoing Primary Percutaneous Coronary Intervention",
+        "status": "RECRUITING",
+        "phase": "NA",
+        "sponsor": "Beijing Luhe Hospital"
+      }
+    ]
+  },
+  {
+    "gene": "SERPINB7",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  },
+  {
+    "gene": "SATB1",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  },
+  {
+    "gene": "NFILZ",
+    "disease_context": "pruritus",
+    "total_trials": 0,
+    "active_trials": 0,
+    "completed_trials": 0,
+    "phase_distribution": {
+      "PHASE1": 0,
+      "PHASE2": 0,
+      "PHASE3": 0,
+      "PHASE4": 0
+    },
+    "most_advanced_phase": "None",
+    "competition_level": "none",
+    "top_sponsors": [],
+    "n_unique_sponsors": 0,
+    "trials_summary": []
+  }
+]

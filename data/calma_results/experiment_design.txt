@@ -1,0 +1,63 @@
+============================================================
+EXPERIMENTAL VALIDATION PROTOCOL
+Based on CALMA Analysis Results
+============================================================
+
+## 1. In Vitro Validation — Potency
+Organism: E. coli MG1655 (or clinical ESKAPE isolates)
+Method: Checkerboard assay + SynergyFinder+ (Loewe model)
+
+Priority combinations to test:
+
+  1. accA + lpxD
+     Predicted: Potency=0.991 | Toxicity=0.501
+     Interaction: additive
+     Bliss score: 0.0000
+
+  2. accA + lpxA
+     Predicted: Potency=0.991 | Toxicity=0.501
+     Interaction: additive
+     Bliss score: 0.0000
+
+  3. accA + lpxB
+     Predicted: Potency=0.991 | Toxicity=0.501
+     Interaction: additive
+     Bliss score: 0.0000
+
+  4. accA + lptD
+     Predicted: Potency=0.991 | Toxicity=0.501
+     Interaction: additive
+     Bliss score: 0.0000
+
+  5. accA + lpxC
+     Predicted: Potency=0.991 | Toxicity=0.501
+     Interaction: additive
+     Bliss score: 0.0000
+
+
+## 2. In Vitro Validation — Toxicity
+Cell lines: HEK293 (kidney), HEPG2 (liver), HK2 (kidney), HEP3B (liver)
+Method: CellTiter-Glo luminescent viability assay
+Synergy analysis: SynergyFinder+ with Loewe synergy scores
+
+
+## 3. Nucleotide Salvage Pathway Validation
+(Key finding from CALMA: nucleotide salvage modulates toxicity)
+
+Supplements to test:
+  - Guanine (purine) — 100μM
+  - Thymine (pyrimidine) — 100μM
+  - Xanthine (purine analog) — 100μM
+  - Gemcitabine (nucleoside inhibitor) — 1μM
+
+Protocol:
+  1. Treat cells with drug combinations ± nucleotide supplements
+  2. Measure viability at 24h, 48h, 72h
+  3. Calculate Bliss synergy scores for each condition
+  4. If supplement rescues toxicity → pathway-specific mechanism confirmed
+
+
+## 4. EHR Validation (if data access available)
+Database: Hospital EHR or insurance claims data
+Method: Propensity score matching
+Endpoint: Nephrotoxicity/hepatotoxicity codes within 6 months

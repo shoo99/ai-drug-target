@@ -1,0 +1,40 @@
+gene,organism,model,wt_growth,ko_growth,growth_ratio,is_lethal,is_growth_reducing,n_affected_reactions,affected_subsystems,n_flux_changes,toxicity_risk,toxicity_score,selectivity,human_overlap,potency_score,target_quality
+murA,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+murB,Escherichia coli,iML1515,0.876997,-0.0,-0.0,True,True,1,Cell Envelope Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+murC,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+murD,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+murE,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+murF,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+ftsZ,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+ftsA,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+ftsW,Escherichia coli,iML1515,0.876997,-0.0,-0.0,True,True,2,Murein Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+dnaA,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+dnaB,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+dnaE,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+dnaN,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+gyrA,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+gyrB,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+rpoB,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+rpoC,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+infA,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+infB,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+fabI,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,26,"Cofactor and Prosthetic Group Biosynthesis, Cell Envelope Biosynthesis",432.0,low,0.2,0.8,,1.0,0.8
+fabH,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,3,"Membrane Lipid Metabolism, Cofactor and Prosthetic Group Biosynthesis",432.0,low,0.2,0.8,,1.0,0.8
+accA,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Membrane Lipid Metabolism,422.0,low,0.2,0.8,,1.0,0.8
+folA,Escherichia coli,iML1515,0.876997,0.876997,1.0,False,False,1,Cofactor and Prosthetic Group Biosynthesis,0.0,low,0.2,0.8,,0.0,0.0
+folP,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Cofactor and Prosthetic Group Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+walK,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+walR,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+dxr,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Cofactor and Prosthetic Group Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+ispD,Escherichia coli,iML1515,0.876997,-0.0,-0.0,True,True,1,Cofactor and Prosthetic Group Biosynthesis,432.0,low,0.2,0.8,,1.0,0.8
+secA,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+secY,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+lpxC,Escherichia coli,iML1515,0.876997,-0.0,-0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,434.0,low,0.2,0.8,,1.0,0.8
+lpxA,Escherichia coli,iML1515,0.876997,-0.0,-0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,427.0,low,0.2,0.8,,1.0,0.8
+lpxB,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,426.0,low,0.2,0.8,,1.0,0.8
+lpxD,Escherichia coli,iML1515,0.876997,-0.0,-0.0,True,True,1,Lipopolysaccharide Biosynthesis / Recycling,427.0,low,0.2,0.8,,1.0,0.8
+lptD,Escherichia coli,iML1515,0.876997,0.0,0.0,True,True,9,Lipopolysaccharide Biosynthesis / Recycling,434.0,low,0.2,0.8,,1.0,0.8
+bamA,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+bamD,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+parC,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,
+parE,Escherichia coli,iML1515,,,,,,0,,,unknown,,,,,

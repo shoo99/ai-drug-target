@@ -1,0 +1,33 @@
+genetic_evidence,expression_specificity,druggability,novelty,competition,literature_trend,composite_score,tier,gene_id,gene_name,track,is_essential,essential_score,is_novel_target,has_existing_drug,pathway,organism,has_structure,uniprot_id,connections,fba_status
+0.97,0.8,0.55,0.9,0.95,0.85,0.8275,Tier 1 - High Priority,AMR_lpxC_Pseu,lpxC,amr,True,0.97,True,False,lps_synthesis,Pseudomonas aeruginosa,False,B5ATN6,2,lethal
+0.97,0.8,0.55,0.9,0.95,0.85,0.8275,Tier 1 - High Priority,AMR_lpxC_Kleb,lpxC,amr,True,0.97,True,False,lps_synthesis,Klebsiella pneumoniae,False,W1DVV5,2,lethal
+0.96,0.8,0.55,0.9,0.95,0.85,0.825,Tier 1 - High Priority,AMR_lpxC_Ente,lpxC,amr,True,0.96,True,False,lps_synthesis,Enterobacter cloacae,False,A0ABD0BY00,2,lethal
+0.96,0.8,0.55,0.9,0.95,0.85,0.825,Tier 1 - High Priority,AMR_lpxC_Acin,lpxC,amr,True,0.96,True,False,lps_synthesis,Acinetobacter baumannii,False,A0A482KNG5,2,lethal
+0.93,0.8,0.55,0.9,0.95,0.85,0.8175,Tier 1 - High Priority,AMR_lpxA_Pseu,lpxA,amr,True,0.93,True,False,lps_synthesis,Pseudomonas aeruginosa,False,B7V7U4,2,lethal
+0.92,0.8,0.55,0.9,0.95,0.85,0.815,Tier 1 - High Priority,AMR_lpxB_Pseu,lpxB,amr,True,0.92,True,False,lps_synthesis,Pseudomonas aeruginosa,False,A0A0C6ECJ3,2,lethal
+0.92,0.8,0.55,0.9,0.95,0.85,0.815,Tier 1 - High Priority,AMR_lpxA_Kleb,lpxA,amr,True,0.92,True,False,lps_synthesis,Klebsiella pneumoniae,False,W1DM47,2,lethal
+0.91,0.8,0.55,0.9,0.95,0.85,0.8125,Tier 1 - High Priority,AMR_lpxD_Pseu,lpxD,amr,True,0.91,True,False,lps_synthesis,Pseudomonas aeruginosa,False,A0A7M3AW73,2,lethal
+0.93,0.8,0.5,0.9,0.95,0.8,0.8025,Tier 1 - High Priority,AMR_murB_Stap,murB,amr,True,0.93,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,P61431,2,lethal
+0.92,0.8,0.5,0.9,0.95,0.8,0.8,Tier 1 - High Priority,AMR_murC_Stap,murC,amr,True,0.92,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,O31211,2,lethal
+0.91,0.8,0.5,0.9,0.95,0.8,0.7975,Tier 1 - High Priority,AMR_murD_Stap,murD,amr,True,0.91,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,P0A091,2,lethal
+0.9,0.8,0.5,0.9,0.95,0.8,0.795,Tier 1 - High Priority,AMR_murE_Stap,murE,amr,True,0.9,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,A0AAN1ZNV0,2,lethal
+0.9,0.8,0.5,0.9,0.95,0.8,0.795,Tier 1 - High Priority,AMR_murF_Stap,murF,amr,True,0.9,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,K7XML5,2,lethal
+0.88,0.8,0.5,0.9,0.95,0.8,0.79,Tier 1 - High Priority,AMR_fabH_Stap,fabH,amr,True,0.88,True,False,fatty_acid_synthesis,Staphylococcus aureus,False,Q5TKS1,2,lethal
+0.87,0.8,0.5,0.9,0.95,0.8,0.7875,Tier 1 - High Priority,AMR_ispD_Stap,ispD,amr,True,0.87,True,False,isoprenoid_synthesis,Staphylococcus aureus,False,A0A0U1MVX0,2,lethal
+0.87,0.8,0.5,0.9,0.95,0.8,0.7875,Tier 1 - High Priority,AMR_accA_Stap,accA,amr,True,0.87,True,False,fatty_acid_synthesis,Staphylococcus aureus,False,A0A2X2K6W2,2,lethal
+0.9,0.8,0.45,0.9,0.95,0.8,0.785,Tier 1 - High Priority,AMR_ftsW_Stap,ftsW,amr,True,0.9,True,False,cell_division,Staphylococcus aureus,False,A0A380E0F5,2,lethal
+0.94,0.8,0.2,0.9,0.95,0.8,0.745,Tier 1 - High Priority,AMR_lptD_Pseu,lptD,amr,True,0.94,True,False,lps_transport,Pseudomonas aeruginosa,False,A0A643J0Z4,2,lethal
+0.93,0.8,0.2,0.9,0.95,0.8,0.7425,Tier 1 - High Priority,AMR_lptD_Kleb,lptD,amr,True,0.93,True,False,lps_transport,Klebsiella pneumoniae,False,A0A377TML7,2,lethal
+0.95,0.8,0.5,0.2,0.2,0.5,0.5975,Tier 2 - Promising,AMR_murA_Pseu,murA,amr,True,0.95,False,True,peptidoglycan_synthesis,Pseudomonas aeruginosa,False,A0A643IY33,3,lethal
+0.95,0.8,0.5,0.2,0.2,0.5,0.5975,Tier 2 - Promising,AMR_murA_Stap,murA,amr,True,0.95,False,True,peptidoglycan_synthesis,Staphylococcus aureus,False,A0A2L0P0N5,3,lethal
+0.95,0.8,0.5,0.2,0.2,0.5,0.5975,Tier 2 - Promising,AMR_murA_Kleb,murA,amr,True,0.95,False,True,peptidoglycan_synthesis,Klebsiella pneumoniae,False,A0A1S5RKE3,3,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A7T3UX14,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A377LSA5,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A7T3UX14,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A377LSA5,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Acin,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Acinetobacter baumannii,False,A0A6F8TKP1,3,lethal
+0.93,0.8,0.5,0.2,0.2,0.5,0.5925,Tier 2 - Promising,AMR_fabI_Stap,fabI,amr,True,0.93,False,True,fatty_acid_synthesis,Staphylococcus aureus,False,G3G9A5,4,lethal
+0.91,0.8,0.5,0.2,0.2,0.5,0.5875,Tier 2 - Promising,AMR_fabI_Pseu,fabI,amr,True,0.91,False,True,fatty_acid_synthesis,Pseudomonas aeruginosa,False,A0A5E5QU99,4,lethal
+0.9,0.8,0.5,0.2,0.2,0.5,0.585,Tier 2 - Promising,AMR_folP_Stap,folP,amr,True,0.9,False,True,folate_synthesis,Staphylococcus aureus,False,A0A8F2Z1A9,3,lethal
+0.9,0.8,0.5,0.2,0.2,0.5,0.585,Tier 2 - Promising,AMR_fabI_Ente,fabI,amr,True,0.9,False,True,fatty_acid_synthesis,Enterococcus faecium,False,A0A9X1GBX3,4,lethal
+0.89,0.8,0.5,0.2,0.2,0.5,0.5825,Tier 2 - Promising,AMR_dxr_Stap,dxr,amr,True,0.89,False,True,isoprenoid_synthesis,Staphylococcus aureus,False,,2,lethal

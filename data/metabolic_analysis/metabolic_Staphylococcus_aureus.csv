@@ -1,0 +1,31 @@
+gene,organism,model,wt_growth,ko_growth,growth_ratio,is_lethal,is_growth_reducing,n_affected_reactions,affected_subsystems,n_flux_changes,toxicity_risk,toxicity_score,selectivity,human_overlap,potency_score,target_quality
+murA,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,404.0,low,0.2,0.8,,1.0,0.8
+murB,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,405.0,low,0.2,0.8,,1.0,0.8
+murC,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,406.0,low,0.2,0.8,,1.0,0.8
+murD,Staphylococcus aureus,iYS1720,0.488455,-0.0,-0.0,True,True,1,Cell Envelope Biosynthesis,405.0,low,0.2,0.8,,1.0,0.8
+murE,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,1,Cell Envelope Biosynthesis,405.0,low,0.2,0.8,,1.0,0.8
+murF,Staphylococcus aureus,iYS1720,0.488455,-0.0,-0.0,True,True,1,Cell Envelope Biosynthesis,405.0,low,0.2,0.8,,1.0,0.8
+ftsZ,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+ftsA,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+ftsW,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+dnaA,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+dnaB,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+dnaE,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+dnaN,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+gyrA,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+gyrB,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+rpoB,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+rpoC,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+infA,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+infB,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+fabI,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,24,Cell Envelope Biosynthesis,405.0,low,0.2,0.8,,1.0,0.8
+fabH,Staphylococcus aureus,iYS1720,0.488455,0.488455,1.0,False,False,2,Membrane Lipid Metabolism,0.0,low,0.2,0.8,,0.0,0.0
+accA,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,1,Membrane Lipid Metabolism,410.0,low,0.2,0.8,,1.0,0.8
+folA,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,1,Cofactor and Prosthetic Group Biosynthesis,405.0,low,0.2,0.8,,1.0,0.8
+folP,Staphylococcus aureus,iYS1720,0.488455,0.0,0.0,True,True,1,Cofactor and Prosthetic Group Biosynthesis,402.0,low,0.2,0.8,,1.0,0.8
+walK,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+walR,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+dxr,Staphylococcus aureus,iYS1720,0.488455,0.488455,1.0,False,False,1,Cofactor and Prosthetic Group Biosynthesis,0.0,low,0.2,0.8,,0.0,0.0
+ispD,Staphylococcus aureus,iYS1720,0.488455,0.488455,1.0,False,False,1,Cofactor and Prosthetic Group Biosynthesis,0.0,low,0.2,0.8,,0.0,0.0
+secA,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,
+secY,Staphylococcus aureus,iYS1720,,,,,,0,,,unknown,,,,,

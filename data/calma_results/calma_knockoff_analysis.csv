@@ -1,0 +1,41 @@
+pathway,potency_change_pct,toxicity_change_pct,potency_direction,toxicity_direction
+Glycerophospholipid Metabolism,-7.6,-0.0,decreases,decreases
+"Transport, Outer Membrane",-7.59,0.0,decreases,increases
+Inorganic Ion Transport and Metabolism,-6.01,-0.0,decreases,decreases
+Purine and Pyrimidine Biosynthesis,-4.86,0.0,decreases,increases
+Murein Biosynthesis,-4.83,0.0,decreases,increases
+Pentose Phosphate Pathway,-4.55,-0.0,decreases,decreases
+"Transport, Inner Membrane",-3.28,0.0,decreases,increases
+Methionine Metabolism,-2.71,-0.0,decreases,decreases
+Cysteine Metabolism,-2.53,0.0,decreases,increases
+Cofactor and Prosthetic Group Biosynthesis,-2.44,0.0,decreases,increases
+Cell Envelope Biosynthesis,-2.22,0.0,decreases,decreases
+Alanine and Aspartate Metabolism,-1.95,0.0,decreases,increases
+Glycolysis/Gluconeogenesis,1.72,-0.0,increases,decreases
+Citric Acid Cycle,-1.21,-0.0,decreases,decreases
+Glycine and Serine Metabolism,-1.12,-0.0,decreases,decreases
+Oxidative Phosphorylation,-1.06,0.0,decreases,decreases
+"Tyrosine, Tryptophan, and Phenylalanine Metabolism",-1.05,-0.0,decreases,decreases
+Lipopolysaccharide Biosynthesis / Recycling,-0.96,0.0,decreases,increases
+Alternate Carbon Metabolism,-0.9,0.0,decreases,increases
+Anaplerotic Reactions,-0.7,-0.0,decreases,decreases
+Intracellular demand,-0.66,0.0,decreases,increases
+Nucleotide Salvage Pathway,-0.6,-0.0,decreases,decreases
+Biomass and maintenance functions,-0.28,-0.0,decreases,decreases
+Pyruvate Metabolism,0.27,0.0,increases,increases
+Membrane Lipid Metabolism,-0.2,0.0,decreases,increases
+Nitrogen Metabolism,-0.18,0.0,decreases,increases
+Threonine and Lysine Metabolism,-0.14,0.0,decreases,increases
+Extracellular exchange,-0.13,-0.0,decreases,decreases
+"Transport, Outer Membrane Porin",-0.1,0.0,decreases,increases
+Unassigned,0.04,-0.0,increases,decreases
+"Valine, Leucine, and Isoleucine Metabolism",0.03,0.0,increases,increases
+tRNA Charging,-0.02,-0.0,decreases,decreases
+Arginine and Proline Metabolism,-0.01,0.0,decreases,increases
+Glyoxylate Metabolism,-0.01,0.0,decreases,increases
+Folate Metabolism,-0.0,-0.0,decreases,decreases
+Glutamate Metabolism,0.0,0.0,increases,decreases
+Histidine Metabolism,-0.0,0.0,decreases,decreases
+Metabolite Repair,0.0,0.0,decreases,decreases
+Methylglyoxal Metabolism,0.0,0.0,decreases,decreases
+Murein Recycling,0.0,0.0,decreases,decreases

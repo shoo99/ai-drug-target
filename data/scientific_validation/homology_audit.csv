@@ -1,0 +1,16 @@
+gene,function,uniprot_human_hit,literature_homolog,literature_note,corrected_claim
+murA,UDP-N-acetylglucosamine enolpyruvyl transferase,None,No direct homolog,Unique to bacteria. Enolpyruvyl transferase family has no close human member.,No human homolog (literature-confirmed)
+murB,UDP-N-acetylenolpyruvoylglucosamine reductase,None,No direct homolog,Bacterial-specific reductase.,No human homolog (literature-confirmed)
+murC,UDP-N-acetylmuramate-alanine ligase,Q5BKX8,Unknown,,Distant human homolog: unknown
+murD,UDP-N-acetylmuramoylalanine-D-glutamate ligase,None,Unknown,,Distant human homolog: unknown
+murE,UDP-N-acetylmuramoyl-tripeptide ligase,None,Unknown,,Distant human homolog: unknown
+murF,UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine,Q9BYV2,Unknown,,Distant human homolog: unknown
+lpxC,UDP-3-O-acyl-N-acetylglucosamine deacetylase,None,No homolog,LPS pathway is absent in humans. LpxC has no human counterpart.,No human homolog (literature-confirmed)
+lpxA,UDP-N-acetylglucosamine acyltransferase,Q96EK6,Unknown,,Distant human homolog: unknown
+bamA,outer membrane protein assembly,Q9Y624,SAM50/SAMM50,Human mitochondrial SAM50 is a distant homolog (~15% identity). Both are beta-barrel assembly machinery.,Distant human homolog: SAM50/SAMM50
+bamD,outer membrane protein assembly factor,P01031,Unknown,,Distant human homolog: unknown
+ftsZ,cell division protein,Q14683,TUBB (tubulin),FtsZ is ancestrally related to eukaryotic tubulin. ~10-17% sequence identity but structural homology exists.,Distant human homolog: TUBB (tubulin)
+walK,sensor histidine kinase,A4D2B8,No direct homolog,Two-component systems are bacterial-specific.,No human homolog (literature-confirmed)
+dxr,1-deoxy-D-xylulose 5-phosphate reductoisomerase,None,No homolog,MEP pathway (non-mevalonate) is absent in humans. Humans use mevalonate pathway.,No human homolog (literature-confirmed)
+fabI,enoyl-ACP reductase,Q9BV79,HSD17B8/PECR,Human peroxisomal enoyl-CoA reductase has low but detectable homology.,Distant human homolog: HSD17B8/PECR
+accA,acetyl-CoA carboxylase,P46089,ACACA,Human acetyl-CoA carboxylase exists. ~20-25% identity in carboxyltransferase domain.,Distant human homolog: ACACA

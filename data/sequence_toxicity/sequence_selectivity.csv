@@ -1,0 +1,21 @@
+gene,bacterial_uniprot,human_homolog_found,human_gene,human_uniprot,sequence_identity,selectivity_score,toxicity_risk,recommendation,match_method,bacterial_seq_length,human_seq_length
+murA,A0A2L0P0N5,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for murA. Highly selective — excellent drug target candidate.,,,
+murB,P61431,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for murB. Highly selective — excellent drug target candidate.,,,
+murC,O31211,True,CAVIN4,Q5BKX8,0.0349,0.9,low,LOW RISK: Only 3% identity to closest human homolog. Good selectivity for drug development.,gene_name,437.0,364.0
+murD,P0A091,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for murD. Highly selective — excellent drug target candidate.,,,
+murE,A0AAN1ZNV0,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for murE. Highly selective — excellent drug target candidate.,,,
+murF,K7XML5,True,TRIM54,Q9BYV2,0.0409,0.9,low,LOW RISK: Only 4% identity to closest human homolog. Good selectivity for drug development.,gene_name,452.0,358.0
+ftsZ,B5LV61,True,CCT6A,P40227,0.0782,0.9,low,LOW RISK: Only 8% identity to closest human homolog. Good selectivity for drug development.,function_search,390.0,531.0
+ftsA,A0A6G4N246,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for ftsA. Highly selective — excellent drug target candidate.,,,
+ftsW,A0A380E0F5,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for ftsW. Highly selective — excellent drug target candidate.,,,
+dnaA,P68867,True,RPA1,P27694,0.0792,0.9,low,LOW RISK: Only 8% identity to closest human homolog. Good selectivity for drug development.,function_search,453.0,616.0
+dnaB,A0AB37XUJ3,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for dnaB. Highly selective — excellent drug target candidate.,,,
+dnaE,A0AAJ4YVG6,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for dnaE. Highly selective — excellent drug target candidate.,,,
+dnaN,P0A024,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for dnaN. Highly selective — excellent drug target candidate.,,,
+gyrA,P20831,True,TOP2A,P11388,0.1222,0.9,low,LOW RISK: Only 12% identity to closest human homolog. Good selectivity for drug development.,function_search,889.0,1531.0
+gyrB,A0A222UAJ8,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for gyrB. Highly selective — excellent drug target candidate.,,,
+rpoB,A0A0N9LFB6,True,RECQL5,O94762,0.0422,0.9,low,LOW RISK: Only 4% identity to closest human homolog. Good selectivity for drug development.,function_search,226.0,991.0
+rpoC,P95688,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for rpoC. Highly selective — excellent drug target candidate.,,,
+infA,A0A6B0CP17,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for infA. Highly selective — excellent drug target candidate.,,,
+infB,A0A2X2JX14,False,,,0.0,0.95,minimal,MINIMAL RISK: No human homolog found for infB. Highly selective — excellent drug target candidate.,,,
+fabI,G3G9A5,True,PECR,Q9BY49,0.0329,0.9,low,LOW RISK: Only 3% identity to closest human homolog. Good selectivity for drug development.,function_search,164.0,303.0

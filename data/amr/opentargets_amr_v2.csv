@@ -1,0 +1,401 @@
+ensembl_id,symbol,name,biotype,overall_score,genetic_association,known_drug,literature,rna_expression,animal_model,source_disease
+ENSG00000160791,CCR5,C-C motif chemokine receptor 5,protein_coding,0.7979829955696424,0.6389974049543478,0,0.9533675907656354,0,0.0,bacterial infectious disease
+ENSG00000159110,IFNAR2,interferon alpha and beta receptor subunit 2,protein_coding,0.7511859168085423,0.8743629053598029,0,0.8826645608856741,0,0.0,bacterial infectious disease
+ENSG00000010610,CD4,CD4 molecule,protein_coding,0.7470233021390144,0.0,0,0.9967587733311595,0,0.4479690064900633,bacterial infectious disease
+ENSG00000196262,PPIA,peptidylprolyl isomerase A,protein_coding,0.7074288975241908,0.0,0,0.6096525853967039,0,0.3435872885401479,bacterial infectious disease
+ENSG00000130234,ACE2,angiotensin converting enzyme 2,protein_coding,0.7066910429497562,0.7246510464955209,0,0.9903942484776139,0,0.3429489612026557,bacterial infectious disease
+ENSG00000011007,ELOA,elongin A,protein_coding,0.6926636676118046,0.7143232601136588,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000132182,NUP210,nucleoporin 210,protein_coding,0.6824119514029002,0.6023030259892102,0,0.5013793715433421,0,0.0,bacterial infectious disease
+ENSG00000198033,TUBA3C,tubulin alpha 3c,protein_coding,0.6668729173831409,0.46946718929644726,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000105397,TYK2,tyrosine kinase 2,protein_coding,0.6587196798192986,0.9124046234617914,0,0.5052472688596746,0,0.0,bacterial infectious disease
+ENSG00000183454,GRIN2A,glutamate ionotropic receptor NMDA type subunit 2A,protein_coding,0.6543399530172201,0.0,0,0.2217080293761366,0,0.0,bacterial infectious disease
+ENSG00000082898,XPO1,exportin 1,protein_coding,0.6536270917208448,0.0,0,0.1713127899994533,0,0.0,bacterial infectious disease
+ENSG00000179399,GPC5,glypican 5,protein_coding,0.6468028038327156,0.44016049853757466,0,0.08475623869279654,0,0.0,bacterial infectious disease
+ENSG00000144231,POLR2D,RNA polymerase II subunit D,protein_coding,0.6450039319559356,0.2940424930459631,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000140968,IRF8,interferon regulatory factor 8,protein_coding,0.6436248003064107,0.673210009536355,0,0.2353680559107556,0,0.32627645907815706,bacterial infectious disease
+ENSG00000163161,ERCC3,"ERCC excision repair 3, TFIIH core complex helicase subunit",protein_coding,0.6400466957978391,0.0,0,0.0738379774154432,0,0.0,bacterial infectious disease
+ENSG00000184012,TMPRSS2,transmembrane serine protease 2,protein_coding,0.6388731456535796,0.6723384100927634,0,0.781027748587101,0,0.0,bacterial infectious disease
+ENSG00000101162,TUBB1,tubulin beta 1 class VI,protein_coding,0.6387026470022011,0.0,0,0.26212793905351073,0,0.0,bacterial infectious disease
+ENSG00000188229,TUBB4B,tubulin beta 4B class IVb,protein_coding,0.6370540228771315,0.0,0,0.14009417152668657,0,0.0,bacterial infectious disease
+ENSG00000137267,TUBB2A,tubulin beta 2A class IIa,protein_coding,0.6364960043204494,0.0,0,0.09878875461188842,0,0.0,bacterial infectious disease
+ENSG00000123416,TUBA1B,tubulin alpha 1b,protein_coding,0.6362854906947432,0.0,0,0.08320620279184911,0,0.0,bacterial infectious disease
+ENSG00000258947,TUBB3,tubulin beta 3 class III,protein_coding,0.6359503287205985,0.0,0,0.058396982900762735,0,0.0,bacterial infectious disease
+ENSG00000110713,NUP98,nucleoporin 98 and 96 precursor,protein_coding,0.6359457863085919,0.0,0,0.41817858065232005,0,0.0,bacterial infectious disease
+ENSG00000127824,TUBA4A,tubulin alpha 4a,protein_coding,0.6356747157544835,0.0,0,0.037995674850726316,0,0.0,bacterial infectious disease
+ENSG00000261456,TUBB8,tubulin beta 8 class VIII,protein_coding,0.6356313699690574,0.0,0,0.034787151196664985,0,0.0,bacterial infectious disease
+ENSG00000104833,TUBB4A,tubulin beta 4A class IVa,protein_coding,0.635613119112036,0.0,0,0.03343619386863916,0,0.0,bacterial infectious disease
+ENSG00000167553,TUBA1C,tubulin alpha 1c,protein_coding,0.635613119112036,0.0,0,0.03343619386863916,0,0.0,bacterial infectious disease
+ENSG00000137285,TUBB2B,tubulin beta 2B class IIb,protein_coding,0.6354077969705445,0.0,0,0.01823792392834863,0,0.0,bacterial infectious disease
+ENSG00000167552,TUBA1A,tubulin alpha 1a,protein_coding,0.6353667325422462,0.0,0,0.015198269940290528,0,0.0,bacterial infectious disease
+ENSG00000176014,TUBB6,tubulin beta 6 class V,protein_coding,0.6353256681139479,0.0,0,0.012158615952232422,0,0.0,bacterial infectious disease
+ENSG00000152086,TUBA3E,tubulin alpha 3e,protein_coding,0.6351614104007547,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000047410,TPR,"translocated promoter region, nuclear basket protein",protein_coding,0.6341156605372035,0.0,0,0.28270977394598423,0,0.0,bacterial infectious disease
+ENSG00000073756,PTGS2,prostaglandin-endoperoxide synthase 2,protein_coding,0.6323272097541102,0.0,0,0.812152142860325,0,0.2539934872421353,bacterial infectious disease
+ENSG00000168769,TET2,tet methylcytosine dioxygenase 2,protein_coding,0.6303837243972111,0.8982309469740998,0,0.8469912037726886,0,0.4714689092110725,bacterial infectious disease
+ENSG00000163902,RPN1,ribophorin I,protein_coding,0.6295263825494128,0.6770219389582377,0,0.03647584785669726,0,0.0,bacterial infectious disease
+ENSG00000153201,RANBP2,RAN binding protein 2,protein_coding,0.627876176685956,0.24317231904464845,0,0.5047754494217607,0,0.0,bacterial infectious disease
+ENSG00000142166,IFNAR1,interferon alpha and beta receptor subunit 1,protein_coding,0.6261754417756213,0.0,0,0.4970271751053431,0,0.347462847374922,bacterial infectious disease
+ENSG00000166710,B2M,beta-2-microglobulin,protein_coding,0.6261417863644483,0.0,0,0.23685078647703633,0,0.28560588871793957,bacterial infectious disease
+ENSG00000030066,NUP160,nucleoporin 160,protein_coding,0.6219808253986292,0.24317231904464845,0,0.06839221473130737,0,0.0,bacterial infectious disease
+ENSG00000196664,TLR7,toll like receptor 7,protein_coding,0.6208440594279628,0.0,0,0.9268637663709458,0,0.33851106638009093,bacterial infectious disease
+ENSG00000272047,GTF2H5,general transcription factor IIH subunit 5,protein_coding,0.6194217896415931,0.17152832170368038,0,0.03706689168770857,0,0.0,bacterial infectious disease
+ENSG00000095303,PTGS1,prostaglandin-endoperoxide synthase 1,protein_coding,0.6162738210892623,0.0,0,0.39724204540295616,0,0.0,bacterial infectious disease
+ENSG00000160868,CYP3A4,cytochrome P450 family 3 subfamily A member 4,protein_coding,0.6156054505375044,0.0,0,0.30595426552797067,0,0.0,bacterial infectious disease
+ENSG00000171873,ADRA1D,adrenoceptor alpha 1D,protein_coding,0.6137477367633617,0.0,0,0.2958126458966193,0,0.0,bacterial infectious disease
+ENSG00000146648,EGFR,epidermal growth factor receptor,protein_coding,0.6137353620735992,0.0,0,0.751397893079389,0,0.25818820974565543,bacterial infectious disease
+ENSG00000143947,RPS27A,ribosomal protein S27a,protein_coding,0.6134523068837543,0.0,0,0.2722225106390605,0,0.0,bacterial infectious disease
+ENSG00000110768,GTF2H1,general transcription factor IIH subunit 1,protein_coding,0.6124358814393751,0.0,0,0.6442900119824203,0,0.0,bacterial infectious disease
+ENSG00000106258,CYP3A5,cytochrome P450 family 3 subfamily A member 5,protein_coding,0.6123611860772851,0.0,0,0.1992228917280217,0,0.0,bacterial infectious disease
+ENSG00000120907,ADRA1A,adrenoceptor alpha 1A,protein_coding,0.6115518652842815,0.0,0,0.2235718090215303,0,0.0,bacterial infectious disease
+ENSG00000113580,NR3C1,nuclear receptor subfamily 3 group C member 1,protein_coding,0.6110842495857041,0.0,0,0.4395012657079845,0,0.24955559241957043,bacterial infectious disease
+ENSG00000196689,TRPV1,transient receptor potential cation channel subfamily V member 1,protein_coding,0.6109263520605566,0.0,0,0.2531386589899089,0,0.0,bacterial infectious disease
+ENSG00000196639,HRH1,histamine receptor H1,protein_coding,0.6105125401227117,0.0,0,0.22436302063043076,0,0.0,bacterial infectious disease
+ENSG00000206503,HLA-A,"major histocompatibility complex, class I, A",protein_coding,0.6100852312115786,0.0,0,0.9401081942844178,0,0.0,bacterial infectious disease
+ENSG00000147955,SIGMAR1,sigma non-opioid intracellular receptor 1,protein_coding,0.6099195583579377,0.0,0,0.19383230333152188,0,0.0,bacterial infectious disease
+ENSG00000126883,NUP214,nucleoporin 214,protein_coding,0.609476720497578,0.0,0,0.16870179679674926,0,0.0,bacterial infectious disease
+ENSG00000106348,IMPDH1,inosine monophosphate dehydrogenase 1,protein_coding,0.6083797418781884,0.0,0,0.06839221473130737,0,0.0,bacterial infectious disease
+ENSG00000021461,CYP3A43,cytochrome P450 family 3 subfamily A member 43,protein_coding,0.6083381887045154,0.0,0,0.06687238773727831,0,0.0,bacterial infectious disease
+ENSG00000273079,GRIN2B,glutamate ionotropic receptor NMDA type subunit 2B,protein_coding,0.6075358736929106,0.0,0,0.30353862246049945,0,0.0,bacterial infectious disease
+ENSG00000147257,GPC3,glypican 3,protein_coding,0.607388334120533,0.0,0,0.18217580866404867,0,0.0,bacterial infectious disease
+ENSG00000133661,SFTPD,surfactant protein D,protein_coding,0.6068941198844157,0.7885267955770007,0,0.6894235237647439,0,0.35752410207539437,bacterial infectious disease
+ENSG00000160870,CYP3A7,cytochrome P450 family 3 subfamily A member 7,protein_coding,0.6066750793584342,0.0,0,0.012158615952232422,0,0.0,bacterial infectious disease
+ENSG00000104321,TRPA1,transient receptor potential cation channel subfamily A member 1,protein_coding,0.6054320437977302,0.0,0,0.4805762460288652,0,0.0,bacterial infectious disease
+ENSG00000073849,ST6GAL1,"ST6 beta-galactoside alpha-2,6-sialyltransferase 1",protein_coding,0.6053296253789656,0.6279168923502682,0,0.3587408695337307,0,0.26469306928009984,bacterial infectious disease
+ENSG00000272391,POM121C,POM121 transmembrane nucleoporin C,protein_coding,0.6050408544898371,0.13779176365905257,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000131759,RARA,retinoic acid receptor alpha,protein_coding,0.6048483751988148,0.0,0,0.1507372669428902,0,0.0,bacterial infectious disease
+ENSG00000170214,ADRA1B,adrenoceptor alpha 1B,protein_coding,0.6047560558751849,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000136937,NCBP1,nuclear cap binding protein subunit 1,protein_coding,0.6044335434812782,0.0,0,0.07644188899233188,0,0.0,bacterial infectious disease
+ENSG00000213024,NUP62,nucleoporin 62,protein_coding,0.6036904826303097,0.0,0,0.6445336348752857,0,0.0,bacterial infectious disease
+ENSG00000117480,FAAH,fatty acid amide hydrolase,protein_coding,0.6036891684884761,0.0,0,0.024148362238461615,0,0.0,bacterial infectious disease
+ENSG00000114503,NCBP2,nuclear cap binding protein subunit 2,protein_coding,0.6035651038934482,0.0,0,0.012158615952232422,0,0.0,bacterial infectious disease
+ENSG00000181222,POLR2A,RNA polymerase II subunit A,protein_coding,0.6033929788605824,0.0,0,0.10127530136741017,0,0.0,bacterial infectious disease
+ENSG00000157020,SEC13,"SEC13 homolog, nuclear pore and COPII component",protein_coding,0.6033020028901874,0.0,0,0.6317532413946965,0,0.0,bacterial infectious disease
+ENSG00000243646,IL10RB,interleukin 10 receptor subunit beta,protein_coding,0.6030606583081615,0.8068943500187691,0,0.7666122245623431,0,0.2721098250109616,bacterial infectious disease
+ENSG00000163002,NUP35,nucleoporin 35,protein_coding,0.6028088704368603,0.0,0,0.6155299325817664,0,0.0,bacterial infectious disease
+ENSG00000103546,SLC6A2,solute carrier family 6 member 2,protein_coding,0.6026236604992299,0.0,0,0.1462625626592838,0,0.0,bacterial infectious disease
+ENSG00000099817,POLR2E,"RNA polymerase II, I and III subunit E",protein_coding,0.6021624593970736,0.0,0,0.06079307976116211,0,0.0,bacterial infectious disease
+ENSG00000047315,POLR2B,RNA polymerase II subunit B,protein_coding,0.601986212861185,0.0,0,0.05499483638934985,0,0.0,bacterial infectious disease
+ENSG00000150991,UBC,ubiquitin C,protein_coding,0.6019328998261576,0.0,0,0.44007892140903565,0,0.3299240438638268,bacterial infectious disease
+ENSG00000198785,GRIN3A,glutamate ionotropic receptor NMDA type subunit 3A,protein_coding,0.6014873772865342,0.0,0,0.1045522763125786,0,0.0,bacterial infectious disease
+ENSG00000164985,PSIP1,PC4 and SRSF1 interacting protein 1,protein_coding,0.6014831670342341,0.0,0,0.6879883519101558,0,0.0,bacterial infectious disease
+ENSG00000177700,POLR2L,"RNA polymerase II, I and III subunit L",protein_coding,0.601330904724033,0.0,0,0.03343619386863916,0,0.0,bacterial infectious disease
+ENSG00000005075,POLR2J,RNA polymerase II subunit J,protein_coding,0.601330904724033,0.0,0,0.03343619386863916,0,0.0,bacterial infectious disease
+ENSG00000102978,POLR2C,RNA polymerase II subunit C,protein_coding,0.6012385097603619,0.0,0,0.030396539880581056,0,0.0,bacterial infectious disease
+ENSG00000100142,POLR2F,"RNA polymerase II, I and III subunit F",protein_coding,0.6012385097603619,0.0,0,0.030396539880581056,0,0.0,bacterial infectious disease
+ENSG00000204356,NELFE,negative elongation factor complex member E,protein_coding,0.601084030645644,0.0,0,0.29194006874390327,0,0.0,bacterial infectious disease
+ENSG00000176884,GRIN1,glutamate ionotropic receptor NMDA type subunit 1,protein_coding,0.6009116349504015,0.0,0,0.08561122781183886,0,0.0,bacterial infectious disease
+ENSG00000168002,POLR2G,RNA polymerase II subunit G,protein_coding,0.6008689299056771,0.0,0,0.01823792392834863,0,0.0,bacterial infectious disease
+ENSG00000125651,GTF2F1,general transcription factor IIF subunit 1,protein_coding,0.6006841399783348,0.0,0,0.012158615952232422,0,0.0,bacterial infectious disease
+ENSG00000188342,GTF2F2,general transcription factor IIF subunit 2,protein_coding,0.6003145601236501,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000147669,POLR2K,"RNA polymerase II, I and III subunit K",protein_coding,0.6003145601236501,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000163882,POLR2H,"RNA polymerase II, I and III subunit H",protein_coding,0.6003145601236501,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000105258,POLR2I,RNA polymerase II subunit I,protein_coding,0.6003145601236501,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000105464,GRIN2D,glutamate ionotropic receptor NMDA type subunit 2D,protein_coding,0.5993718919322119,0.0,0,0.03495602086266821,0,0.0,bacterial infectious disease
+ENSG00000116032,GRIN3B,glutamate ionotropic receptor NMDA type subunit 3B,protein_coding,0.5992332994867051,0.0,0,0.030396539880581056,0,0.0,bacterial infectious disease
+ENSG00000060069,CTDP1,CTD phosphatase subunit 1,protein_coding,0.598540883896087,0.03354238181798349,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000161509,GRIN2C,glutamate ionotropic receptor NMDA type subunit 2C,protein_coding,0.5983093498499934,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000134058,CDK7,cyclin dependent kinase 7,protein_coding,0.5981333750614669,0.0,0,0.17375927282268608,0,0.0,bacterial infectious disease
+ENSG00000020426,MNAT1,MNAT1 component of CDK activating kinase,protein_coding,0.5975887350037511,0.0,0,0.1558414420480156,0,0.0,bacterial infectious disease
+ENSG00000136807,CDK9,cyclin dependent kinase 9,protein_coding,0.5972091245398615,0.0,0,0.2125668010142102,0,0.0,bacterial infectious disease
+ENSG00000129315,CCNT1,cyclin T1,protein_coding,0.5971555096772886,0.0,0,0.21080295345841937,0,0.0,bacterial infectious disease
+ENSG00000104884,ERCC2,"ERCC excision repair 2, TFIIH core complex helicase subunit",protein_coding,0.5971114883623081,0.0,0,0.14014075232089826,0,0.0,bacterial infectious disease
+ENSG00000196235,SUPT5H,"SPT5 homolog, DSIF elongation factor subunit",protein_coding,0.5969078333006559,0.0,0,0.11398702455217895,0,0.0,bacterial infectious disease
+ENSG00000134480,CCNH,cyclin H,protein_coding,0.596825134132479,0.0,0,0.13072013303481572,0,0.0,bacterial infectious disease
+ENSG00000101158,NELFCD,negative elongation factor complex member C/D,protein_coding,0.5967251458928398,0.0,0,0.14853938004943218,0,0.0,bacterial infectious disease
+ENSG00000274286,ADRA2B,adrenoceptor alpha 2B,protein_coding,0.5962932775030025,0.0,0,0.2235718090215303,0,0.0,bacterial infectious disease
+ENSG00000213780,GTF2H4,general transcription factor IIH subunit 4,protein_coding,0.5962134430906487,0.0,0,0.11059642671056219,0,0.0,bacterial infectious disease
+ENSG00000112592,TBP,TATA-box binding protein,protein_coding,0.5954176494285908,0.10571061005397023,0,0.07162527819618492,0,0.0,bacterial infectious disease
+ENSG00000221983,UBA52,ubiquitin A-52 residue ribosomal protein fusion product 1,protein_coding,0.5953635758901143,0.0,0,0.28102511984173256,0,0.0,bacterial infectious disease
+ENSG00000103363,ELOB,elongin B,protein_coding,0.5947633591281476,0.0,0,0.22375230745427718,0,0.0,bacterial infectious disease
+ENSG00000188986,NELFB,negative elongation factor complex member B,protein_coding,0.5946225978658555,0.0,0,0.0793687430215172,0,0.0,bacterial infectious disease
+ENSG00000111358,GTF2H3,general transcription factor IIH subunit 3,protein_coding,0.5943670969833512,0.0,0,0.04985444375621157,0,0.0,bacterial infectious disease
+ENSG00000145736,GTF2H2,general transcription factor IIH subunit 2,protein_coding,0.594182558005293,0.0,0,0.04378339163043331,0,0.0,bacterial infectious disease
+ENSG00000124789,NUP153,nucleoporin 153,protein_coding,0.5939658908474998,0.0,0,0.3246093335891907,0,0.0,bacterial infectious disease
+ENSG00000144481,TRPM8,transient receptor potential cation channel subfamily M member 8,protein_coding,0.5936236535078198,0.0,0,0.09209813844484054,0,0.0,bacterial infectious disease
+ENSG00000069248,NUP133,nucleoporin 133,protein_coding,0.5933757552903163,0.0,0,0.030396539880581056,0,0.29168519669405574,bacterial infectious disease
+ENSG00000213246,SUPT4H1,"SPT4 homolog, DSIF elongation factor subunit",protein_coding,0.5928516943954913,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000170315,UBB,ubiquitin B,protein_coding,0.5923065671645582,0.0,0,0.2700201043722915,0,0.0,bacterial infectious disease
+ENSG00000185049,NELFA,negative elongation factor complex member A,protein_coding,0.5922100627033303,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000137309,HMGA1,high mobility group AT-hook 1,protein_coding,0.5916877811448631,0.0,0,0.3657350320305195,0,0.0,bacterial infectious disease
+ENSG00000154582,ELOC,elongin C,protein_coding,0.5909001203749144,0.0,0,0.0966576194269277,0,0.0,bacterial infectious disease
+ENSG00000150594,ADRA2A,adrenoceptor alpha 2A,protein_coding,0.5907486498936197,0.0,0,0.04116198108828684,0,0.0,bacterial infectious disease
+ENSG00000184160,ADRA2C,adrenoceptor alpha 2C,protein_coding,0.590051837875933,0.0,0,0.01823792392834863,0,0.0,bacterial infectious disease
+ENSG00000118137,APOA1,apolipoprotein A1,protein_coding,0.5896016023289836,0.0,0,0.6755528121600133,0,0.0,bacterial infectious disease
+ENSG00000196313,POM121,POM121 transmembrane nucleoporin,protein_coding,0.5893654032227041,0.0,0,0.173260277319312,0,0.0,bacterial infectious disease
+ENSG00000101146,RAE1,ribonucleic acid export 1,protein_coding,0.5888164318796086,0.0,0,0.15519995383340432,0,0.0,bacterial infectious disease
+ENSG00000088888,MAVS,mitochondrial antiviral signaling protein,protein_coding,0.5886434385901704,0.0,0,0.8381309754477634,0,0.32846500994955885,bacterial infectious disease
+ENSG00000090659,CD209,CD209 molecule,protein_coding,0.5885275000713132,0.3742151798631534,0,0.8145275844044971,0,0.3890453139315569,bacterial infectious disease
+ENSG00000120656,TAF12,TATA-box binding protein associated factor 12,protein_coding,0.5885269577243719,0.0,0,0.0,0,0.3336932148090188,bacterial infectious disease
+ENSG00000108424,KPNB1,karyopherin subunit beta 1,protein_coding,0.5880208679983362,0.0,0,0.1830654034532358,0,0.0,bacterial infectious disease
+ENSG00000102900,NUP93,nucleoporin 93,protein_coding,0.5880191541287939,0.0,0,0.12897072662705394,0,0.0,bacterial infectious disease
+ENSG00000120253,NUP43,nucleoporin 43,protein_coding,0.5878584248834873,0.0,0,0.12368297854986698,0,0.0,bacterial infectious disease
+ENSG00000175334,BANF1,barrier to autointegration nuclear assembly factor 1,protein_coding,0.5878436019304081,0.0,0,0.2392673738839779,0,0.0,bacterial infectious disease
+ENSG00000092201,SUPT16H,"SPT16 homolog, facilitates chromatin remodeling subunit",protein_coding,0.587659506732704,0.0,0,0.11713887347853778,0,0.0,bacterial infectious disease
+ENSG00000121966,CXCR4,C-X-C motif chemokine receptor 4,protein_coding,0.5874377281502962,0.0,0,0.7121030913321036,0,0.2894358527428928,bacterial infectious disease
+ENSG00000111581,NUP107,nucleoporin 107,protein_coding,0.5872422696186114,0.0,0,0.10341240606705682,0,0.0,bacterial infectious disease
+ENSG00000155561,NUP205,nucleoporin 205,protein_coding,0.5872230206678465,0.0,0,0.1027791448195447,0,0.0,bacterial infectious disease
+ENSG00000136243,NUP42,nucleoporin 42,protein_coding,0.5869783545148611,0.0,0,0.09472999995152077,0,0.0,bacterial infectious disease
+ENSG00000108559,NUP88,nucleoporin 88,protein_coding,0.5867453387056666,0.0,0,0.0870641337012843,0,0.0,bacterial infectious disease
+ENSG00000139496,NUP58,nucleoporin 58,protein_coding,0.586557622937808,0.0,0,0.08088857001554625,0,0.0,bacterial infectious disease
+ENSG00000149136,SSRP1,structure specific recognition protein 1,protein_coding,0.5864546947969638,0.0,0,0.07750239049483217,0,0.0,bacterial infectious disease
+ENSG00000125450,NUP85,nucleoporin 85,protein_coding,0.5864107149455707,0.0,0,0.07605552017453386,0,0.0,bacterial infectious disease
+ENSG00000113569,NUP155,nucleoporin 155,protein_coding,0.5863991655751118,0.0,0,0.07567556342602659,0,0.0,bacterial infectious disease
+ENSG00000152056,AP1S3,adaptor related protein complex 1 subunit sigma 3,protein_coding,0.5862332830564457,0.5384751724370276,0,0.10030858160591748,0,0.0,bacterial infectious disease
+ENSG00000085415,SEH1L,SEH1 like nucleoporin,protein_coding,0.5859467895668707,0.0,0,0.06079307976116211,0,0.0,bacterial infectious disease
+ENSG00000075188,NUP37,nucleoporin 37,protein_coding,0.5852844941915364,0.0,0,0.039004567715504174,0,0.0,bacterial infectious disease
+ENSG00000138750,NUP54,nucleoporin 54,protein_coding,0.5852486942857996,0.0,0,0.03782680518472309,0,0.0,bacterial infectious disease
+ENSG00000105656,ELL,elongation factor for RNA polymerase II,protein_coding,0.5851614323756658,0.0,0,0.03495602086266821,0,0.0,bacterial infectious disease
+ENSG00000187735,TCEA1,transcription elongation factor A1,protein_coding,0.585022839930159,0.0,0,0.030396539880581056,0,0.0,bacterial infectious disease
+ENSG00000095319,NUP188,nucleoporin 188,protein_coding,0.584971509394786,0.0,0,0.02870784322054877,0,0.0,bacterial infectious disease
+ENSG00000093000,NUP50,nucleoporin 50,protein_coding,0.5847867194674438,0.0,0,0.02262853524443256,0,0.0,bacterial infectious disease
+ENSG00000115884,SDC1,syndecan 1,protein_coding,0.584733065036064,0.0,0,0.8554700729199926,0,0.0,bacterial infectious disease
+ENSG00000206181,ELOA2,elongin A2,protein_coding,0.5840988902934472,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000094914,AAAS,aladin WD repeat nucleoporin,protein_coding,0.5840988902934472,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000058804,NDC1,NDC1 transmembrane nucleoporin,protein_coding,0.5840988902934472,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000197265,GTF2E2,general transcription factor IIE subunit 2,protein_coding,0.5836992977889985,0.0,0,0.10292606142896753,0,0.0,bacterial infectious disease
+ENSG00000153767,GTF2E1,general transcription factor IIE subunit 1,protein_coding,0.5836761990480808,0.0,0,0.102166147931953,0,0.0,bacterial infectious disease
+ENSG00000162434,JAK1,Janus kinase 1,protein_coding,0.5830485209315158,0.7337155078632043,0,0.2849960905087357,0,0.2847547856012833,bacterial infectious disease
+ENSG00000137413,TAF8,TATA-box binding protein associated factor 8,protein_coding,0.5823036714710306,0.0,0,0.1289565481426564,0,0.0,bacterial infectious disease
+ENSG00000124145,SDC4,syndecan 4,protein_coding,0.5818977657030835,0.0,0,0.641390426454318,0,0.27180585961215575,bacterial infectious disease
+ENSG00000113249,HAVCR1,hepatitis A virus cellular receptor 1,protein_coding,0.5813493428724685,0.0,0,0.7441507524680858,0,0.0,bacterial infectious disease
+ENSG00000147133,TAF1,TATA-box binding protein associated factor 1,protein_coding,0.581140841984055,0.0,0,0.0907012239661569,0,0.0,bacterial infectious disease
+ENSG00000100387,RBX1,ring-box 1,protein_coding,0.5807262673234593,0.0,0,0.16139789641601063,0,0.0,bacterial infectious disease
+ENSG00000270647,TAF15,TATA-box binding protein associated factor 15,protein_coding,0.5802317378859737,0.0,0,0.06079307976116211,0,0.0,bacterial infectious disease
+ENSG00000148835,TAF5,TATA-box binding protein associated factor 5,protein_coding,0.5799930508964899,0.0,0,0.052940640292012,0,0.0,bacterial infectious disease
+ENSG00000132341,RAN,"RAN, member RAS oncogene family",protein_coding,0.5791770500040156,0.0,0,0.3326008720404184,0,0.0,bacterial infectious disease
+ENSG00000273841,TAF9,TATA-box binding protein associated factor 9,protein_coding,0.5791229983219196,0.0,0,0.024317231904464845,0,0.0,bacterial infectious disease
+ENSG00000169439,SDC2,syndecan 2,protein_coding,0.5790667551318821,0.0,0,0.6690570822821371,0,0.0,bacterial infectious disease
+ENSG00000165417,GTF2A1,general transcription factor IIA subunit 1,protein_coding,0.5788458134309061,0.0,0,0.015198269940290528,0,0.0,bacterial infectious disease
+ENSG00000140307,GTF2A2,general transcription factor IIA subunit 2,protein_coding,0.5788458134309061,0.0,0,0.015198269940290528,0,0.0,bacterial infectious disease
+ENSG00000130699,TAF4,TATA-box binding protein associated factor 4,protein_coding,0.5788458134309061,0.0,0,0.015198269940290528,0,0.0,bacterial infectious disease
+ENSG00000064313,TAF2,TATA-box binding protein associated factor 2,protein_coding,0.5787534184672349,0.0,0,0.012158615952232422,0,0.0,bacterial infectious disease
+ENSG00000178913,TAF7,TATA-box binding protein associated factor 7,protein_coding,0.5787534184672349,0.0,0,0.012158615952232422,0,0.0,bacterial infectious disease
+ENSG00000137947,GTF2B,general transcription factor IIB,protein_coding,0.5785443744254447,0.0,0,0.08971621744619951,0,0.0,bacterial infectious disease
+ENSG00000102387,TAF7L,TATA-box binding protein associated factor 7 like,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000165632,TAF3,TATA-box binding protein associated factor 3,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000122728,TAF1L,TATA-box binding protein associated factor 1 like,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000197780,TAF13,TATA-box binding protein associated factor 13,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000166337,TAF10,TATA-box binding protein associated factor 10,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000106290,TAF6,TATA-box binding protein associated factor 6,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000064995,TAF11,TATA-box binding protein associated factor 11,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000187325,TAF9B,TATA-box binding protein associated factor 9b,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000141384,TAF4B,TATA-box binding protein associated factor 4b,protein_coding,0.5783838386125503,0.0,0,0.0,0,0.0,bacterial infectious disease
+ENSG00000140941,MAP1LC3B,microtubule associated protein 1 light chain 3 beta,protein_coding,0.5769551707143543,0.0,0,0.5995891617285617,0,0.0,bacterial infectious disease
+ENSG00000131747,TOP2A,DNA topoisomerase II alpha,protein_coding,0.5762223027754725,0.0,0,0.20138722883060362,0,0.0,bacterial infectious disease
+ENSG00000089127,OAS1,2'-5'-oligoadenylate synthetase 1,protein_coding,0.5758243476957545,0.9128672343816079,0,0.6864018689824036,0,0.0,bacterial infectious disease
+ENSG00000150093,ITGB1,integrin subunit beta 1,protein_coding,0.5747372388281284,0.31018257705885377,0,0.09074146550700825,0,0.0,bacterial infectious disease
+ENSG00000140564,FURIN,"furin, paired basic amino acid cleaving enzyme",protein_coding,0.5741751995724114,0.0,0,0.7562673524285888,0,0.0,bacterial infectious disease
+ENSG00000074319,TSG101,tumor susceptibility 101,protein_coding,0.5738577560721105,0.0,0,0.26489739468938023,0,0.0,bacterial infectious disease
+ENSG00000114030,KPNA1,karyopherin subunit alpha 1,protein_coding,0.5738254749617886,0.0,0,0.03495602086266821,0,0.0,bacterial infectious disease
+ENSG00000161203,AP2M1,adaptor related protein complex 2 subunit mu 1,protein_coding,0.5735238329288359,0.0,0,0.14661861559315323,0,0.0,bacterial infectious disease
+ENSG00000175164,ABO,"ABO, alpha 1-3-N-acetylgalactosaminyltransferase and alpha 1-3-galactosyltransferase",protein_coding,0.5730627640522745,0.9035165346541163,0,0.78256395557398,0,0.0,bacterial infectious disease
+ENSG00000184584,STING1,stimulator of interferon response cGAMP interactor 1,protein_coding,0.5726823473291821,0.0,0,0.9125813520639755,0,0.2977037115904108,bacterial infectious disease
+ENSG00000181163,NPM1,nucleophosmin 1,protein_coding,0.571532613955571,0.0,0,0.5351802361560253,0,0.3018376410141699,bacterial infectious disease
+ENSG00000063660,GPC1,glypican 1,protein_coding,0.5712639484184245,0.0,0,0.4123565912357085,0,0.0,bacterial infectious disease
+ENSG00000168028,RPSA,ribosomal protein SA,protein_coding,0.5701164783102817,0.0,0,0.6222572357035334,0,0.0,bacterial infectious disease
+ENSG00000182481,KPNA2,karyopherin subunit alpha 2,protein_coding,0.5697708390738282,0.0,0,0.3632355613269611,0,0.0,bacterial infectious disease
+ENSG00000142798,HSPG2,heparan sulfate proteoglycan 2,protein_coding,0.5694743870872246,0.0,0,0.35348274117808437,0,0.0,bacterial infectious disease
+ENSG00000100985,MMP9,matrix metallopeptidase 9,protein_coding,0.5684772019440288,0.35535519278519273,0,0.9541533409054344,0,0.3594086875479903,bacterial infectious disease
+ENSG00000239713,APOBEC3G,apolipoprotein B mRNA editing enzyme catalytic subunit 3G,protein_coding,0.5671973317843113,0.0,0,0.278571079789675,0,0.0,bacterial infectious disease
+ENSG00000198382,UVRAG,UV radiation resistance associated,protein_coding,0.5657025499968799,0.39374884916985975,0,0.20876235692811373,0,0.0,bacterial infectious disease
+ENSG00000153208,MERTK,"MER proto-oncogene, tyrosine kinase",protein_coding,0.5654498802751922,0.39640603456460327,0,0.16016600845911957,0,0.0,bacterial infectious disease
+ENSG00000169083,AR,androgen receptor,protein_coding,0.9304463812314243,0.9587267956287597,0,0.9983607692307401,0,0.8258034528822035,bacterial infection
+ENSG00000139618,BRCA2,BRCA2 DNA repair associated,protein_coding,0.9301647004446024,0.9770378212058323,0,0.9860305656283822,0,0.6378770509034871,bacterial infection
+ENSG00000149311,ATM,ATM serine/threonine kinase,protein_coding,0.9279781675633588,0.9670420916851853,0,0.9836639208351923,0,0.7029726796399473,bacterial infection
+ENSG00000012048,BRCA1,BRCA1 DNA repair associated,protein_coding,0.9230732693384539,0.9504133702718981,0,0.9984062125898403,0,0.8421409109836401,bacterial infection
+ENSG00000121879,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",protein_coding,0.9064278046092695,0.9263547734409581,0,0.9950217976585568,0,0.4597016487098026,bacterial infection
+ENSG00000183765,CHEK2,checkpoint kinase 2,protein_coding,0.9002545057087468,0.959900222277316,0,0.9832425923807184,0,0.0,bacterial infection
+ENSG00000116062,MSH6,mutS homolog 6,protein_coding,0.8985373163671395,0.9596962528108066,0,0.633703799630563,0,0.5840664747776061,bacterial infection
+ENSG00000184937,WT1,WT1 transcription factor,protein_coding,0.8962129460972705,0.9545697124494001,0,0.9683331913390255,0,0.7098607593119166,bacterial infection
+ENSG00000091831,ESR1,estrogen receptor 1,protein_coding,0.8959527980740452,0.8338503897823659,0,0.9993665268251786,0,0.8215702966552983,bacterial infection
+ENSG00000077782,FGFR1,fibroblast growth factor receptor 1,protein_coding,0.8949447368027073,0.932246957177102,0,0.97775904404513,0,0.5203870004627817,bacterial infection
+ENSG00000171316,CHD7,chromodomain helicase DNA binding protein 7,protein_coding,0.8936773784122192,0.9560630507579305,0,0.855230364955234,0,0.5625899671712573,bacterial infection
+ENSG00000083093,PALB2,partner and localizer of BRCA2,protein_coding,0.8931642359122889,0.971726862609806,0,0.972606394750054,0,0.0,bacterial infection
+ENSG00000141510,TP53,tumor protein p53,protein_coding,0.8922032269802329,0.8798726549567968,0,0.9974240901881343,0,0.7900012325521097,bacterial infection
+ENSG00000171862,PTEN,phosphatase and tensin homolog,protein_coding,0.8912527819972536,0.7977349346657421,0,0.9951213490319438,0,0.7554809683568904,bacterial infection
+ENSG00000085224,ATRX,ATRX chromatin remodeler,protein_coding,0.8889420010486652,0.9627629338001288,0,0.7605181237914772,0,0.0,bacterial infection
+ENSG00000277893,SRD5A2,steroid 5 alpha-reductase 2,protein_coding,0.8863555222401935,0.9168498624659845,0,0.8603459575648765,0,0.4714024927714335,bacterial infection
+ENSG00000095015,MAP3K1,mitogen-activated protein kinase kinase kinase 1,protein_coding,0.8844272963164433,0.8754583686210319,0,0.8820017874951028,0,0.26122786373371354,bacterial infection
+ENSG00000148795,CYP17A1,cytochrome P450 family 17 subfamily A member 1,protein_coding,0.884106698064017,0.9355740722659994,0,0.9385525207013042,0,0.7309340209889479,bacterial infection
+ENSG00000170820,FSHR,follicle stimulating hormone receptor,protein_coding,0.8808724146628336,0.9264286306843049,0,0.9449354132179143,0,0.8021706916119786,bacterial infection
+ENSG00000137869,CYP19A1,cytochrome P450 family 19 subfamily A member 1,protein_coding,0.8805701730317088,0.8817605909125042,0,0.9922793243212668,0,0.627169448504061,bacterial infection
+ENSG00000183770,FOXL2,forkhead box L2,protein_coding,0.8779524309529801,0.9519108413549443,0,0.6497273747929531,0,0.767515268009328,bacterial infection
+ENSG00000141736,ERBB2,erb-b2 receptor tyrosine kinase 2,protein_coding,0.8762999635424281,0.5493344977046918,0,0.9997091014600781,0,0.0,bacterial infection
+ENSG00000169297,NR0B1,nuclear receptor subfamily 0 group B member 1,protein_coding,0.8760403404941021,0.9492826687888274,0,0.8506149247759022,0,0.85143540406319,bacterial infection
+ENSG00000109163,GNRHR,gonadotropin releasing hormone receptor,protein_coding,0.8749532967057078,0.9291956829714162,0,0.8973599002441781,0,0.7709251551193467,bacterial infection
+ENSG00000142208,AKT1,AKT serine/threonine kinase 1,protein_coding,0.8747449929424731,0.5093895451111974,0,0.9941192387064799,0,0.6452066007832435,bacterial infection
+ENSG00000136931,NR5A1,nuclear receptor subfamily 5 group A member 1,protein_coding,0.867715996741203,0.966431385600639,0,0.9350790047940533,0,0.811080284004342,bacterial infection
+ENSG00000112964,GHR,growth hormone receptor,protein_coding,0.8664869265323144,0.8182001927386459,0,0.8473142638748917,0,0.6388337672533346,bacterial infection
+ENSG00000163666,HESX1,HESX homeobox 1,protein_coding,0.8654466799534173,0.8719228927947937,0,0.22748573805199582,0,0.5326540851468095,bacterial infection
+ENSG00000138039,LHCGR,luteinizing hormone/choriogonadotropin receptor,protein_coding,0.8617832860303568,0.9073679841685246,0,0.8623932278250311,0,0.7895607363749209,bacterial infection
+ENSG00000160882,CYP11B1,cytochrome P450 family 11 subfamily B member 1,protein_coding,0.8616694172917112,0.9483297733135263,0,0.12338414284955668,0,0.6213483487767366,bacterial infection
+ENSG00000213930,GALT,galactose-1-phosphate uridylyltransferase,protein_coding,0.8599971359719736,0.9550458139700239,0,0.2292820617755471,0,0.0,bacterial infection
+ENSG00000184895,SRY,sex determining region Y,protein_coding,0.8595812231295418,0.9541409740042167,0,0.3478700577735447,0,0.9367337373833473,bacterial infection
+ENSG00000064835,POU1F1,POU class 1 homeobox 1,protein_coding,0.8595680249095687,0.928228825557205,0,0.7852062458276441,0,0.5136978939006666,bacterial infection
+ENSG00000136492,BRIP1,BRCA1 interacting DNA helicase 1,protein_coding,0.857308502708096,0.9050661474257401,0,0.9271844691694735,0,0.488220216051735,bacterial infection
+ENSG00000001626,CFTR,CF transmembrane conductance regulator,protein_coding,0.8561201457626542,0.9284823683242766,0,0.945975288083826,0,0.7690990387789439,bacterial infection
+ENSG00000039068,CDH1,cadherin 1,protein_coding,0.8548128467453538,0.9406673326410446,0,0.9961922499370297,0,0.44986203544595943,bacterial infection
+ENSG00000066468,FGFR2,fibroblast growth factor receptor 2,protein_coding,0.8537866173208184,0.7758745783289369,0,0.9678302477953191,0,0.5810760205794,bacterial infection
+ENSG00000261456,TUBB8,tubulin beta 8 class VIII,protein_coding,0.8527871247099985,0.8820172015577064,0,0.32800059099523865,0,0.0,bacterial infection
+ENSG00000133703,KRAS,"KRAS proto-oncogene, GTPase",protein_coding,0.8518664305411626,0.7565495445573869,0,0.9746266185711577,0,0.6175633683545765,bacterial infection
+ENSG00000101292,PROKR2,prokineticin receptor 2,protein_coding,0.8509363612010544,0.9419009519876348,0,0.24796744976115892,0,0.6023178246526637,bacterial infection
+ENSG00000013503,POLR3B,RNA polymerase III subunit B,protein_coding,0.8475532635808951,0.8899583998821572,0,0.1013990212120863,0,0.0,bacterial infection
+ENSG00000108384,RAD51C,RAD51 paralog C,protein_coding,0.8472749502947022,0.8793293293376342,0,0.9150770976961324,0,0.7746698787869005,bacterial infection
+ENSG00000175325,PROP1,PROP paired-like homeobox 1,protein_coding,0.8466231310653397,0.9268279423776206,0,0.23777886741830825,0,0.930983573774675,bacterial infection
+ENSG00000168036,CTNNB1,catenin beta 1,protein_coding,0.8454763908559291,0.7855118291035528,0,0.9123836694044382,0,0.4066225015177347,bacterial infection
+ENSG00000095002,MSH2,mutS homolog 2,protein_coding,0.8438769076696627,0.8484086881791097,0,0.6470158918840988,0,0.6175941103759489,bacterial infection
+ENSG00000106031,HOXA13,homeobox A13,protein_coding,0.8435109482344227,0.8361859015285378,0,0.2507667463324492,0,0.6531214924875481,bacterial infection
+ENSG00000032444,PNPLA6,"patatin like domain 6, lysophospholipase ",protein_coding,0.8423319520322788,0.9300303074989921,0,0.16493246155950245,0,0.0,bacterial infection
+ENSG00000140459,CYP11A1,cytochrome P450 family 11 subfamily A member 1,protein_coding,0.8419525499303239,0.9256415577351282,0,0.8320370600888369,0,0.630343432039803,bacterial infection
+ENSG00000011201,ANOS1,anosmin 1,protein_coding,0.839724502795129,0.8906267214687482,0,0.23695572959756228,0,0.0,bacterial infection
+ENSG00000152422,XRCC4,X-ray repair cross complementing 4,protein_coding,0.8370942204403233,0.8823095230837089,0,0.8905483281691983,0,0.0,bacterial infection
+ENSG00000231852,CYP21A2,cytochrome P450 family 21 subfamily A member 2,protein_coding,0.8358642743023526,0.9285534832784788,0,0.4360098139710822,0,0.0,bacterial infection
+ENSG00000160789,LMNA,lamin A/C,protein_coding,0.8340062365668992,0.8765033013158015,0,0.7084246268336702,0,0.7386918692819411,bacterial infection
+ENSG00000125656,CLPP,caseinolytic mitochondrial matrix peptidase proteolytic subunit,protein_coding,0.832308033212308,0.86232538203534,0,0.8756987275869202,0,0.43876092063814887,bacterial infection
+ENSG00000011376,LARS2,"leucyl-tRNA synthetase 2, mitochondrial",protein_coding,0.8322881522411635,0.8454158676347329,0,0.19639692888571997,0,0.0,bacterial infection
+ENSG00000135409,AMHR2,anti-Mullerian hormone receptor type 2,protein_coding,0.8313153194954798,0.9113401241401519,0,0.77883089270189,0,0.8491760152941827,bacterial infection
+ENSG00000147465,STAR,steroidogenic acute regulatory protein,protein_coding,0.8304483550701419,0.9223576757500379,0,0.9134825453089468,0,0.5953945658830035,bacterial infection
+ENSG00000259384,GH1,growth hormone 1,protein_coding,0.828763794192839,0.8792656033115669,0,0.9815454442016828,0,0.5879386763220125,bacterial infection
+ENSG00000104899,AMH,anti-Mullerian hormone,protein_coding,0.8282984901242212,0.9370889461298615,0,0.9954104449299038,0,0.8782644440052223,bacterial infection
+ENSG00000146648,EGFR,epidermal growth factor receptor,protein_coding,0.8260706788571212,0.6653301273528658,0,0.9963164257788,0,0.35070514496218397,bacterial infection
+ENSG00000117724,CENPF,centromere protein F,protein_coding,0.8259870507639854,0.8505197915807148,0,0.9322408182261086,0,0.0,bacterial infection
+ENSG00000131808,FSHB,follicle stimulating hormone subunit beta,protein_coding,0.8254587987477452,0.8805036005685043,0,0.6616757571588588,0,0.8041058139290658,bacterial infection
+ENSG00000107815,TWNK,twinkle mtDNA helicase,protein_coding,0.8246294670669596,0.8606949644477003,0,0.1765143836988782,0,0.0,bacterial infection
+ENSG00000177084,POLE,"DNA polymerase epsilon, catalytic subunit",protein_coding,0.8242571846165043,0.5628160601706933,0,0.8883695608059633,0,0.0,bacterial infection
+ENSG00000011275,RNF216,ring finger protein 216,protein_coding,0.8242124389378085,0.8808054180264514,0,0.3059352514676266,0,0.8156910556685387,bacterial infection
+ENSG00000130948,HSD17B3,hydroxysteroid 17-beta dehydrogenase 3,protein_coding,0.8237684804590738,0.9277927958236287,0,0.5057429714484813,0,0.6188520571334373,bacterial infection
+ENSG00000254585,MAGEL2,MAGE family member L2,protein_coding,0.8228500326522885,0.9025470581795263,0,0.46114157840000775,0,0.6127916018564632,bacterial infection
+ENSG00000130385,BMP15,bone morphogenetic protein 15,protein_coding,0.8221320281915627,0.9253390253016484,0,0.8656875023167118,0,0.6491773603113227,bacterial infection
+ENSG00000185379,RAD51D,RAD51 paralog D,protein_coding,0.8218906924541619,0.805293123820116,0,0.48103933504408475,0,0.0,bacterial infection
+ENSG00000130675,MNX1,motor neuron and pancreas homeobox 1,protein_coding,0.8206054224908383,0.8515255062684447,0,0.9436297095219062,0,0.0,bacterial infection
+ENSG00000127948,POR,cytochrome p450 oxidoreductase,protein_coding,0.8190295095374391,0.8910733375712242,0,0.39543924786291473,0,0.0,bacterial infection
+ENSG00000167634,NLRP7,NLR family pyrin domain containing 7,protein_coding,0.81774467466453,0.9276191718594184,0,0.3264990174478327,0,0.5816893918094039,bacterial infection
+ENSG00000110092,CCND1,cyclin D1,protein_coding,0.8163130982319177,0.672338688123207,0,0.9797301063553422,0,0.0,bacterial infection
+ENSG00000203859,HSD3B2,"hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2",protein_coding,0.81591192757719,0.9388882673622514,0,0.33642118570396995,0,0.0,bacterial infection
+ENSG00000133835,HSD17B4,hydroxysteroid 17-beta dehydrogenase 4,protein_coding,0.8157612230082756,0.8608712849493749,0,0.42467421757934143,0,0.4836541424498406,bacterial infection
+ENSG00000054392,HHAT,hedgehog acyltransferase,protein_coding,0.8139041222598975,0.8123687868911007,0,0.6450470067708274,0,0.37215117037042894,bacterial infection
+ENSG00000057468,MSH4,mutS homolog 4,protein_coding,0.8134926887205395,0.8854040629485532,0,0.20277054141780854,0,0.8179679704632323,bacterial infection
+ENSG00000169836,TACR3,tachykinin receptor 3,protein_coding,0.8134861096046577,0.8824377416345325,0,0.4688715614791281,0,0.579072462324926,bacterial infection
+ENSG00000178568,ERBB4,erb-b2 receptor tyrosine kinase 4,protein_coding,0.8094858974713951,0.7229083961046694,0,0.9439944601254968,0,0.0,bacterial infection
+ENSG00000145675,PIK3R1,phosphoinositide-3-kinase regulatory subunit 1,protein_coding,0.8092380076403694,0.4925645143892995,0,0.9178853942072576,0,0.4477452541826091,bacterial infection
+ENSG00000062822,POLD1,"DNA polymerase delta 1, catalytic subunit",protein_coding,0.8084453109422636,0.2669322810513026,0,0.8615068353298888,0,0.5364407026314177,bacterial infection
+ENSG00000138081,FBXO11,F-box protein 11,protein_coding,0.807426695664993,0.8663946901953065,0,0.747404958475876,0,0.34853348105738247,bacterial infection
+ENSG00000162552,WNT4,Wnt family member 4,protein_coding,0.8057910804456052,0.8764249251787949,0,0.5789681913536474,0,0.7915347603919097,bacterial infection
+ENSG00000116014,KISS1R,KISS1 receptor,protein_coding,0.8056144292317559,0.8941091935818657,0,0.8647306274965253,0,0.7258600554744393,bacterial infection
+ENSG00000138376,BARD1,BRCA1 associated RING domain 1,protein_coding,0.805451075084451,0.7800870590474657,0,0.9517563043989201,0,0.7016047690432325,bacterial infection
+ENSG00000010671,BTK,Bruton tyrosine kinase,protein_coding,0.8045982340297584,0.8701711981837704,0,0.8792527842289528,0,0.5500040440133314,bacterial infection
+ENSG00000163421,PROK2,prokineticin 2,protein_coding,0.8041372950248171,0.8734682910439463,0,0.7442664370458313,0,0.0,bacterial infection
+ENSG00000117713,ARID1A,AT-rich interaction domain 1A,protein_coding,0.8039140731477267,0.5592963338026914,0,0.9656749148611163,0,0.0,bacterial infection
+ENSG00000076242,MLH1,mutL homolog 1,protein_coding,0.8036128974456369,0.7831193543197509,0,0.9134828336688916,0,0.7167021578481755,bacterial infection
+ENSG00000107831,FGF8,fibroblast growth factor 8,protein_coding,0.803499861986974,0.8849930598234625,0,0.7189099931693596,0,0.0,bacterial infection
+ENSG00000150990,DHX37,DEAH-box helicase 37,protein_coding,0.8027189018201263,0.9160243962085148,0,0.32198964514630907,0,0.0,bacterial infection
+ENSG00000118873,RAB3GAP2,RAB3 GTPase activating non-catalytic protein subunit 2,protein_coding,0.8023923304070085,0.775806732431166,0,0.49209974446907384,0,0.0,bacterial infection
+ENSG00000114841,DNAH1,dynein axonemal heavy chain 1,protein_coding,0.8016820639830203,0.9186691701048143,0,0.27529788067998584,0,0.8745722292864732,bacterial infection
+ENSG00000128052,KDR,kinase insert domain receptor,protein_coding,0.7995228012605328,0.8369813309941279,0,0.9573956962538808,0,0.0,bacterial infection
+ENSG00000118046,STK11,serine/threonine kinase 11,protein_coding,0.7994933449075448,0.7627617351715956,0,0.9600715179917192,0,0.720055516227738,bacterial infection
+ENSG00000110711,AIP,AHR interacting HSP90 co-chaperone,protein_coding,0.7986608240068759,0.8768374295575949,0,0.571708811416025,0,0.6333845054813212,bacterial infection
+ENSG00000120008,WDR11,WD repeat domain 11,protein_coding,0.7982183792668008,0.8755804163357161,0,0.16529230368526085,0,0.46476440757775145,bacterial infection
+ENSG00000160791,CCR5,C-C motif chemokine receptor 5,protein_coding,0.7974724238875516,0.7866928486493182,0,0.9505566500620063,0,0.2704684118574102,bacterial infection
+ENSG00000107187,LHX3,LIM homeobox 3,protein_coding,0.7959750966227128,0.8626021499888332,0,0.2943473107752746,0,0.8626970014112667,bacterial infection
+ENSG00000140836,ZFHX3,zinc finger homeobox 3,protein_coding,0.7944987104279613,0.702394785863441,0,0.887852710683024,0,0.0,bacterial infection
+ENSG00000163161,ERCC3,"ERCC excision repair 3, TFIIH core complex helicase subunit",protein_coding,0.7912755134632303,0.4448700227700023,0,0.5406819051737131,0,0.0,bacterial infection
+ENSG00000087460,GNAS,GNAS complex locus,protein_coding,0.7909459848536949,0.736752680248472,0,0.669332475474925,0,0.41532270048415426,bacterial infection
+ENSG00000169218,RSPO1,R-spondin 1,protein_coding,0.7908933826477358,0.7405414458123253,0,0.5652379646976693,0,0.7244966991734371,bacterial infection
+ENSG00000068078,FGFR3,fibroblast growth factor receptor 3,protein_coding,0.7908070313845046,0.8139354661701182,0,0.931276612465131,0,0.40574738513457276,bacterial infection
+ENSG00000121454,LHX4,LIM homeobox 4,protein_coding,0.7893616404837401,0.8531461373081732,0,0.6956470956505842,0,0.44567648256530323,bacterial infection
+ENSG00000106410,NOBOX,NOBOX oogenesis homeobox,protein_coding,0.7881658926743763,0.8600762778082787,0,0.18125729668437285,0,0.6533980635508315,bacterial infection
+ENSG00000135111,TBX3,T-box transcription factor 3,protein_coding,0.7863581272949625,0.7010020663485329,0,0.9112282898584313,0,0.5918520337129625,bacterial infection
+ENSG00000101200,AVP,arginine vasopressin,protein_coding,0.7856797643268635,0.9682557992941332,0,0.8821985740190034,0,0.4360569402501956,bacterial infection
+ENSG00000147889,CDKN2A,cyclin dependent kinase inhibitor 2A,protein_coding,0.7842043057274763,0.7909339618728891,0,0.9825149634132727,0,0.9243660298604569,bacterial infection
+ENSG00000175426,PCSK1,proprotein convertase subtilisin/kexin type 1,protein_coding,0.783963325118633,0.8467533390563088,0,0.25350157596147743,0,0.5310020189988138,bacterial infection
+ENSG00000115827,DCAF17,DDB1 and CUL4 associated factor 17,protein_coding,0.7837534524436288,0.7587313669563434,0,0.275270284418859,0,0.9334176802124232,bacterial infection
+ENSG00000111276,CDKN1B,cyclin dependent kinase inhibitor 1B,protein_coding,0.7827825509912213,0.7508866327171105,0,0.9594390231716761,0,0.6238994745139587,bacterial infection
+ENSG00000179532,DNHD1,dynein heavy chain domain 1,protein_coding,0.7826832564528982,0.9122726188808261,0,0.0475368109799087,0,0.9362948914347147,bacterial infection
+ENSG00000065361,ERBB3,erb-b2 receptor tyrosine kinase 3,protein_coding,0.7820221429158173,0.28659740152429797,0,0.9844131439519629,0,0.0,bacterial infection
+ENSG00000187790,FANCM,FA complementation group M,protein_coding,0.7800078070004905,0.888514703401794,0,0.5568869523072115,0,0.7323643457998561,bacterial infection
+ENSG00000139549,DHH,desert hedgehog signaling molecule,protein_coding,0.7798490692113407,0.8392513131460929,0,0.2125629830548105,0,0.9104085702551337,bacterial infection
+ENSG00000139687,RB1,RB transcriptional corepressor 1,protein_coding,0.7794409809993523,0.5819838700406336,0,0.9833733794049773,0,0.6660145259034199,bacterial infection
+ENSG00000104320,NBN,nibrin,protein_coding,0.7780503418972624,0.776524021977851,0,0.8370941388720827,0,0.5588296838341743,bacterial infection
+ENSG00000187678,SPRY4,sprouty RTK signaling antagonist 4,protein_coding,0.7776638524056765,0.8703628544955745,0,0.9315605290224168,0,0.0,bacterial infection
+ENSG00000196712,NF1,neurofibromin 1,protein_coding,0.7775673647874322,0.5537013157551314,0,0.9636470503473492,0,0.7912896665579181,bacterial infection
+ENSG00000055609,KMT2C,lysine methyltransferase 2C,protein_coding,0.7766790706750399,0.3684193655493552,0,0.801665570418165,0,0.5284077225291455,bacterial infection
+ENSG00000135446,CDK4,cyclin dependent kinase 4,protein_coding,0.7759512702475171,0.012158615952232422,0,0.9831596733399828,0,0.741388313906729,bacterial infection
+ENSG00000104884,ERCC2,"ERCC excision repair 2, TFIIH core complex helicase subunit",protein_coding,0.7750513969343346,0.596532095156403,0,0.8755312944149606,0,0.33265973245307906,bacterial infection
+ENSG00000129514,FOXA1,forkhead box A1,protein_coding,0.7736603382075222,0.2683647219489403,0,0.9829545944823687,0,0.7514427790823115,bacterial infection
+ENSG00000165588,OTX2,orthodenticle homeobox 2,protein_coding,0.7732355350327592,0.7548039350313582,0,0.22611105068760823,0,0.5759746720821248,bacterial infection
+ENSG00000160007,ARHGAP35,Rho GTPase activating protein 35,protein_coding,0.7729063625883763,0.5707780497217636,0,0.7870530965819285,0,0.0,bacterial infection
+ENSG00000157404,KIT,"KIT proto-oncogene, receptor tyrosine kinase",protein_coding,0.7720523630889027,0.5309858262951495,0,0.9574951298858593,0,0.8361613044426012,bacterial infection
+ENSG00000167548,KMT2D,lysine methyltransferase 2D,protein_coding,0.771743367909372,0.4996887830452811,0,0.797080180882574,0,0.0,bacterial infection
+ENSG00000157764,BRAF,"B-Raf proto-oncogene, serine/threonine kinase",protein_coding,0.7711440384353976,0.7501802256788392,0,0.8943010823215944,0,0.0,bacterial infection
+ENSG00000144730,IL17RD,interleukin 17 receptor D,protein_coding,0.7696212186970005,0.8389596496763196,0,0.8212381705620027,0,0.0,bacterial infection
+ENSG00000066923,STAG3,STAG3 cohesin complex component,protein_coding,0.768731107341179,0.8665689677311343,0,0.2514587112999618,0,0.8606544252220197,bacterial infection
+ENSG00000112855,HARS2,"histidyl-tRNA synthetase 2, mitochondrial",protein_coding,0.7667331917695154,0.8605329535064362,0,0.179421364297088,0,0.0,bacterial infection
+ENSG00000198056,PRIM1,DNA primase subunit 1,protein_coding,0.7667136672381958,0.6855222303827662,0,0.1449046736683976,0,0.0,bacterial infection
+ENSG00000107485,GATA3,GATA binding protein 3,protein_coding,0.7663089311135249,0.35050420607532823,0,0.9860226024373285,0,0.40944647516837357,bacterial infection
+ENSG00000101986,ABCD1,ATP binding cassette subfamily D member 1,protein_coding,0.7660076951147846,0.0,0,0.6588862228151875,0,0.0,bacterial infection
+ENSG00000276747,PADI6,peptidyl arginine deiminase 6,protein_coding,0.7656016806754901,0.8478509121202832,0,0.14844544242742036,0,0.7682081207356762,bacterial infection
+ENSG00000109670,FBXW7,F-box and WD repeat domain containing 7,protein_coding,0.7641675271453637,0.3531962869745103,0,0.945640369219283,0,0.0,bacterial infection
+ENSG00000106128,GHRHR,growth hormone releasing hormone receptor,protein_coding,0.7636929838459688,0.8702050662936219,0,0.44179797242606317,0,0.5131179458484475,bacterial infection
+ENSG00000164985,PSIP1,PC4 and SRSF1 interacting protein 1,protein_coding,0.7628036307926299,0.41238243887675247,0,0.8989796410886465,0,0.37004528120053565,bacterial infection
+ENSG00000167258,CDK12,cyclin dependent kinase 12,protein_coding,0.7625590229869031,0.2947517098297378,0,0.884481046134824,0,0.0,bacterial infection
+ENSG00000170836,PPM1D,"protein phosphatase, Mg2+/Mn2+ dependent 1D",protein_coding,0.7598617089052769,0.7212837539264406,0,0.8039454785908762,0,0.36425862435560313,bacterial infection
+ENSG00000073282,TP63,tumor protein p63,protein_coding,0.7597188724058175,0.7822493394905817,0,0.94988726325668,0,0.5480009834652675,bacterial infection
+ENSG00000116678,LEPR,leptin receptor,protein_coding,0.7596265212980525,0.8146919903187168,0,0.9666439409138998,0,0.9361086478471548,bacterial infection
+ENSG00000137309,HMGA1,high mobility group AT-hook 1,protein_coding,0.758451210766241,0.6386482075862062,0,0.9677605997056627,0,0.8601234465201553,bacterial infection
+ENSG00000229474,PATL2,PAT1 homolog 2,protein_coding,0.7581989222803399,0.8839317311745121,0,0.2514501173201331,0,0.5822167553729511,bacterial infection
+ENSG00000197748,CFAP43,cilia and flagella associated protein 43,protein_coding,0.7581400983270646,0.8622621452205156,0,0.27667617429858243,0,0.964852873443468,bacterial infection
+ENSG00000065559,MAP2K4,mitogen-activated protein kinase kinase 4,protein_coding,0.7576194836099635,0.47649873244122726,0,0.7442382331208186,0,0.0,bacterial infection
+ENSG00000105810,CDK6,cyclin dependent kinase 6,protein_coding,0.756803353389443,0.0,0,0.7581163031235816,0,0.49417807972102157,bacterial infection
+ENSG00000143178,TBX19,T-box transcription factor 19,protein_coding,0.7567621496742221,0.8012001583283263,0,0.6959979584829884,0,0.5574056537978825,bacterial infection
+ENSG00000169946,ZFPM2,"zinc finger protein, FOG family member 2",protein_coding,0.7567326205949817,0.8472461168614119,0,0.7615279108407008,0,0.8521649015622864,bacterial infection
+ENSG00000134982,APC,APC regulator of Wnt signaling pathway,protein_coding,0.7553726500333968,0.7908413659396345,0,0.936531090331504,0,0.6033662591915798,bacterial infection
+ENSG00000153201,RANBP2,RAN binding protein 2,protein_coding,0.7549373456188345,0.4965679073306192,0,0.483778504904588,0,0.7139405874504892,bacterial infection
+ENSG00000120498,TEX11,testis expressed 11,protein_coding,0.7545734682535248,0.8500195343604248,0,0.6228562930774254,0,0.766674343377339,bacterial infection
+ENSG00000166863,TAC3,tachykinin precursor 3,protein_coding,0.7543266606915668,0.7368595396610577,0,0.570659445357874,0,0.6578827272446667,bacterial infection
+ENSG00000105656,ELL,elongation factor for RNA polymerase II,protein_coding,0.7538266435881222,0.25004617657720885,0,0.10147751048019511,0,0.0,bacterial infection
+ENSG00000184012,TMPRSS2,transmembrane serine protease 2,protein_coding,0.7537206995275751,0.6921059638327265,0,0.9386723973146293,0,0.6594266598250663,bacterial infection
+ENSG00000197653,DNAH10,dynein axonemal heavy chain 10,protein_coding,0.7535356701208137,0.832408970295911,0,0.20565541707288784,0,0.9720714776603591,bacterial infection
+ENSG00000006744,ELAC2,elaC ribonuclease Z 2,protein_coding,0.7530457531825203,0.867234443209197,0,0.6617874814307867,0,0.6963810426528615,bacterial infection
+ENSG00000121067,SPOP,speckle type BTB/POZ protein,protein_coding,0.7519250929743434,0.0,0,0.9750811804924061,0,0.0,bacterial infection
+ENSG00000133818,RRAS2,RAS related 2,protein_coding,0.7516402885145246,0.35964631635744254,0,0.8776660780689488,0,0.5334812711079729,bacterial infection
+ENSG00000122512,PMS2,"PMS1 homolog 2, mismatch repair system component",protein_coding,0.7513944491762077,0.9055680972908761,0,0.7522923620440077,0,0.7443523548218423,bacterial infection
+ENSG00000125885,MCM8,minichromosome maintenance 8 homologous recombination repair factor,protein_coding,0.7511553487339421,0.8573126531769326,0,0.729866490015832,0,0.5703630840407691,bacterial infection
+ENSG00000148606,POLR3A,RNA polymerase III subunit A,protein_coding,0.7505623726260396,0.6840044899516096,0,0.11565008847047623,0,0.0,bacterial infection
+ENSG00000140009,ESR2,estrogen receptor 2,protein_coding,0.750335267208771,0.5599361545567755,0,0.9889834766763367,0,0.7819492130868563,bacterial infection
+ENSG00000185946,RNPC3,"RNA binding region (RNP1, RRM) containing 3",protein_coding,0.7499569756682077,0.772269337844093,0,0.21286318550348135,0,0.0,bacterial infection
+ENSG00000177990,DPY19L2,dpy-19 like 2,protein_coding,0.7484987569248097,0.8549663439964411,0,0.09647772684872633,0,0.8662923853283268,bacterial infection
+ENSG00000141384,TAF4B,TATA-box binding protein associated factor 4b,protein_coding,0.7480977668357859,0.5886540895933408,0,0.1460809261416981,0,0.810104583644918,bacterial infection
+ENSG00000225830,ERCC6,"ERCC excision repair 6, chromatin remodeling factor",protein_coding,0.7480599766883559,0.8113907380943599,0,0.6995206546261188,0,0.0,bacterial infection
+ENSG00000164404,GDF9,growth differentiation factor 9,protein_coding,0.7473755466829527,0.8334908169037786,0,0.879313016747553,0,0.8020165186785505,bacterial infection
+ENSG00000100697,DICER1,"dicer 1, ribonuclease III",protein_coding,0.746813432636672,0.5814474024127634,0,0.9482961285176347,0,0.6508862012396587,bacterial infection
+ENSG00000049239,H6PD,hexose-6-phosphate dehydrogenase/glucose 1-dehydrogenase,protein_coding,0.7467607925334276,0.8407059142871647,0,0.5996291393547046,0,0.42063238495746075,bacterial infection
+ENSG00000147050,KDM6A,lysine demethylase 6A,protein_coding,0.7464994173960304,0.4711463681490063,0,0.8406429659733569,0,0.0,bacterial infection
+ENSG00000010610,CD4,CD4 molecule,protein_coding,0.7458632269947396,0.0,0,0.9944712975502283,0,0.49981030525639425,bacterial infection
+ENSG00000104953,TLE6,"TLE family member 6, subcortical maternal complex member",protein_coding,0.7447938407992346,0.8685177766979482,0,0.15516362117680849,0,0.5153028223459232,bacterial infection
+ENSG00000107736,CDH23,cadherin related 23,protein_coding,0.7447597757827948,0.8496223094269811,0,0.17337831659427771,0,0.25751948586828266,bacterial infection
+ENSG00000119535,CSF3R,colony stimulating factor 3 receptor,protein_coding,0.7446560786884213,0.3820555796850645,0,0.6646064210573749,0,0.671543222738635,bacterial infection
+ENSG00000167098,SUN5,Sad1 and UNC84 domain containing 5,protein_coding,0.7437880821882793,0.9133104971018072,0,0.2644326541969033,0,0.973877444117049,bacterial infection
+ENSG00000082898,XPO1,exportin 1,protein_coding,0.7428338305557706,0.0,0,0.9069412844172605,0,0.0,bacterial infection
+ENSG00000187775,DNAH17,dynein axonemal heavy chain 17,protein_coding,0.7428107137895351,0.8475866636847983,0,0.15360259209610067,0,0.9481929445093427,bacterial infection
+ENSG00000082175,PGR,progesterone receptor,protein_coding,0.7416759619973778,0.6229122476206712,0,0.9947295645887582,0,0.9663824670192414,bacterial infection
+ENSG00000166323,C11orf65,chromosome 11 open reading frame 65,protein_coding,0.7414358757151872,0.9014145712395599,0,0.0,0,0.0,bacterial infection
+ENSG00000133863,TEX15,"testis expressed 15, meiosis and synapsis associated",protein_coding,0.7412223445530168,0.8250722891252129,0,0.469625550745595,0,0.7681118091978896,bacterial infection
+ENSG00000178691,SUZ12,SUZ12 polycomb repressive complex 2 subunit,protein_coding,0.7398757067406881,0.04081479347063864,0,0.2446941845064465,0,0.6358196229520543,bacterial infection
+ENSG00000064012,CASP8,caspase 8,protein_coding,0.7393513554826138,0.6842557658409792,0,0.947941547622835,0,0.0,bacterial infection
+ENSG00000164362,TERT,telomerase reverse transcriptase,protein_coding,0.7374491415192632,0.7216084736136368,0,0.9526631297341268,0,0.40327089459566884,bacterial infection
+ENSG00000204410,MSH5,mutS homolog 5,protein_coding,0.7370342225930456,0.8446307912461853,0,0.3398493264380142,0,0.7447853568238764,bacterial infection
+ENSG00000175595,ERCC4,"ERCC excision repair 4, endonuclease catalytic subunit",protein_coding,0.7350158562831007,0.5488779682325413,0,0.5976739919055043,0,0.0,bacterial infection
+ENSG00000182185,RAD51B,RAD51 paralog B,protein_coding,0.7347529544699278,0.7151553414894525,0,0.8363936046606291,0,0.0,bacterial infection
+ENSG00000159184,HOXB13,homeobox B13,protein_coding,0.7343410570018892,0.8186141952164161,0,0.9328770774428816,0,0.0,bacterial infection
+ENSG00000124721,DNAH8,dynein axonemal heavy chain 8,protein_coding,0.7339930933279414,0.8271268923431288,0,0.7100743292282736,0,0.930327865776811,bacterial infection
+ENSG00000172680,MOS,"MOS proto-oncogene, serine/threonine kinase",protein_coding,0.7335829999303078,0.9035873996241328,0,0.1444772674829218,0,0.6800318065163558,bacterial infection
+ENSG00000114861,FOXP1,forkhead box P1,protein_coding,0.7334034301181247,0.6485953128939904,0,0.8835008068360429,0,0.0,bacterial infection
+ENSG00000111581,NUP107,nucleoporin 107,protein_coding,0.7333551635417157,0.6910819602676035,0,0.1368947095384785,0,0.7493627065336994,bacterial infection
+ENSG00000136720,HS6ST1,heparan sulfate 6-O-sulfotransferase 1,protein_coding,0.7326262673822859,0.8185960118108417,0,0.15296269679150035,0,0.0,bacterial infection
+ENSG00000157388,CACNA1D,calcium voltage-gated channel subunit alpha1 D,protein_coding,0.7325104613298737,0.4384481743189549,0,0.541663642493613,0,0.2713195149740665,bacterial infection
+ENSG00000141027,NCOR1,nuclear receptor corepressor 1,protein_coding,0.7324424649796664,0.2279740491043579,0,0.7844778624807693,0,0.0,bacterial infection
+ENSG00000113522,RAD50,RAD50 double strand break repair protein,protein_coding,0.7319361189333501,0.7271044985197976,0,0.7993937647403215,0,0.5038588629120243,bacterial infection
+ENSG00000117399,CDC20,cell division cycle 20,protein_coding,0.7319178304066937,0.8956397532341865,0,0.9544395741524412,0,0.6151502008733676,bacterial infection
+ENSG00000183454,GRIN2A,glutamate ionotropic receptor NMDA type subunit 2A,protein_coding,0.7310907542837595,0.5883124831449708,0,0.11987713443071378,0,0.0,bacterial infection
+ENSG00000144554,FANCD2,FA complementation group D2,protein_coding,0.7305677538778689,0.8538095066223373,0,0.6177644199533694,0,0.7230178771516205,bacterial infection
+ENSG00000139318,DUSP6,dual specificity phosphatase 6,protein_coding,0.7294053458944572,0.8034844147974607,0,0.8983440848946759,0,0.0,bacterial infection

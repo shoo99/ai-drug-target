@@ -1,0 +1,54 @@
+ensembl_id,symbol,name,biotype,overall_score,genetic_association,known_drug,literature,rna_expression,animal_model,source_disease,source_efo_id
+ENSG00000135472,FAIM2,Fas apoptotic inhibitory molecule 2,protein_coding,0.3912951506951935,0.6436508106390982,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000138031,ADCY3,adenylate cyclase 3,protein_coding,0.38216514565904075,0.6286326456242285,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000140718,FTO,FTO alpha-ketoglutarate dependent dioxygenase,protein_coding,0.37202413453995065,0.6119514523717545,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000124762,CDKN1A,cyclin dependent kinase inhibitor 1A,protein_coding,0.3447269262432895,0.5670496174854421,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000120341,SEC16B,"SEC16 homolog B, endoplasmic reticulum export factor",protein_coding,0.3278537534943833,0.5392945295458348,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000144712,CAND2,cullin associated and neddylation dissociated 2 (putative),protein_coding,0.3234456832638077,0.5320435887349833,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000138821,SLC39A8,solute carrier family 39 member 8,protein_coding,0.32310538427766067,0.531483822742729,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000198729,PPP1R14C,protein phosphatase 1 regulatory inhibitor subunit 14C,protein_coding,0.3000773113523292,0.49360439137356343,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000172260,NEGR1,neuronal growth regulator 1,protein_coding,0.2753429632735806,0.4529182669397916,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000164093,PITX2,paired like homeodomain 2,protein_coding,0.25834900729441523,0.42496449975785316,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000154229,PRKCA,protein kinase C alpha,protein_coding,0.2501970974993237,0.4115552271447236,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000163281,GNPDA2,glucosamine-6-phosphate deaminase 2,protein_coding,0.24268386235260006,0.39919652583161214,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000168944,CEP120,centrosomal protein 120,protein_coding,0.2399397749711932,0.39468271045626424,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000137473,TTC29,tetratricopeptide repeat domain 29,protein_coding,0.2076174291731155,0.34151490595439893,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000185104,FAF1,Fas associated factor 1,protein_coding,0.20441593561060237,0.3362486921434013,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000148053,NTRK2,neurotrophic receptor tyrosine kinase 2,protein_coding,0.18525418168809454,0.3047290619522864,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000115808,STRN,striatin,protein_coding,0.1845174876924821,0.30351725626896403,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000151353,TMEM18,transmembrane protein 18,protein_coding,0.18266056943854928,0.30046276674280725,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000055332,EIF2AK2,eukaryotic translation initiation factor 2 alpha kinase 2,protein_coding,0.16886971511524165,0.2777778585633109,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000091583,APOH,apolipoprotein H,protein_coding,0.12589691202360928,0.20709086053580558,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000106355,LSM5,"LSM5 homolog, U6 small nuclear RNA and mRNA degradation associated",protein_coding,0.11770177095195682,0.1936104757554182,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000166603,MC4R,melanocortin 4 receptor,protein_coding,0.10258175863965271,0.16873920361111144,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000123080,CDKN2C,cyclin dependent kinase inhibitor 2C,protein_coding,0.0985384970508081,0.16208834531485572,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000105778,AVL9,AVL9 cell migration associated,protein_coding,0.09703432398493662,0.1596140948380236,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000154240,CEP112,centrosomal protein 112,protein_coding,0.09467808173314035,0.15573825525060142,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000103494,RPGRIP1L,RPGRIP1 like,protein_coding,0.08438676482763514,0.13880982039265916,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000142700,DMRTA2,DMRT like family A2,protein_coding,0.07130373454330922,0.11728922901001289,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000065060,BLTP3A,bridge-like lipid transfer protein family member 3A,protein_coding,0.05744933850421051,0.09449979953295974,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000196821,ILRUN,inflammation and lipid regulator with UBA-like and NBR1-like domains,protein_coding,0.054089254996331104,0.08897271730406103,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000124562,SNRPC,small nuclear ribonucleoprotein polypeptide C,protein_coding,0.05266754077172676,0.08663410535975777,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000138068,SULT6B1,sulfotransferase family 6B member 1,protein_coding,0.050380815514074286,0.08287261594906113,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000189292,ALKAL2,ALK and LTK ligand 2,protein_coding,0.049058430654537695,0.08069739326790755,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000035115,SH3YL1,SH3 and SYLF domain containing 1,protein_coding,0.048627597940593945,0.07998870616793438,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000151617,EDNRA,endothelin receptor type A,protein_coding,0.04408961565876431,0.07252406989739502,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000135049,AGTPBP1,ATP/GTP binding carboxypeptidase 1,protein_coding,0.038961348157281764,0.06408845926271425,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000151806,GUF1,GTP binding elongation factor GUF1,protein_coding,0.03651181308602542,0.060059160071293395,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000115828,QPCT,glutaminyl-peptide cyclotransferase,protein_coding,0.03425819830512499,0.05635213488067267,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000204006,C1orf185,chromosome 1 open reading frame 185,protein_coding,0.031868665216792304,0.05242153439502455,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000075391,RASAL2,RAS protein activator like 2,protein_coding,0.03163020479958351,0.05202928511575522,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000177200,CHD9,chromodomain helicase DNA binding protein 9,protein_coding,0.02990381058105854,0.049189497716749506,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000115137,DNAJC27,DnaJ heat shock protein family (Hsp40) member C27,protein_coding,0.02974138351569938,0.04892231752782457,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000152133,GPATCH11,G-patch domain containing 11,protein_coding,0.026656719036111623,0.04384827868704452,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000218739,CEBPZOS,CEBPZ opposite strand,protein_coding,0.0256112160466293,0.042128505657630995,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000186666,BCDIN3D,BCDIN3 domain containing RNA methyltransferase,protein_coding,0.023791975089332337,0.03913599242348622,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000141682,PMAIP1,phorbol-12-myristate-13-acetate-induced protein 1,protein_coding,0.02284272364584924,0.03757454587856298,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000164168,TMEM184C,transmembrane protein 184C,protein_coding,0.022460327859952958,0.036945533847261715,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000154678,PDE1C,phosphodiesterase 1C,protein_coding,0.02190402118456392,0.036030451608338135,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000162374,ELAVL4,ELAV like RNA binding protein 4,protein_coding,0.020816117124245692,0.03424093203704437,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000150938,CRIM1,cysteine rich transmembrane BMP regulator 1,protein_coding,0.020639668806641413,0.03395068795285339,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000164169,PRMT9,protein arginine methyltransferase 9,protein_coding,0.019929917258513716,0.03278320054981985,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000167566,NCKAP5L,NCK associated protein 5 like,protein_coding,0.019815364013172937,0.0325947691596175,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000153064,BANK1,B cell scaffold protein with ankyrin repeats 1,protein_coding,0.01945637782585518,0.03200426414041448,0,0,0,0,bacterial infectious disease,EFO_0007041
+ENSG00000109323,MANBA,mannosidase beta,protein_coding,0.019375181503078688,0.0318707023549358,0,0,0,0,bacterial infectious disease,EFO_0007041

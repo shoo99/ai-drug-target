@@ -1,0 +1,242 @@
+genetic_evidence,expression_specificity,druggability,novelty,competition,literature_trend,composite_score,tier,gene_id,gene_name,track,is_essential,essential_score,is_novel_target,has_existing_drug,pathway,organism,has_structure,uniprot_id,connections,fba_status
+0.97,0.8,0.55,0.9,0.95,0.85,0.8275,Tier 1 - High Priority,AMR_lpxC_Pseu,lpxC,amr,True,0.97,True,False,lps_synthesis,Pseudomonas aeruginosa,False,B5ATN6,2,lethal
+0.97,0.8,0.55,0.9,0.95,0.85,0.8275,Tier 1 - High Priority,AMR_lpxC_Kleb,lpxC,amr,True,0.97,True,False,lps_synthesis,Klebsiella pneumoniae,False,W1DVV5,2,lethal
+0.96,0.8,0.55,0.9,0.95,0.85,0.825,Tier 1 - High Priority,AMR_lpxC_Ente,lpxC,amr,True,0.96,True,False,lps_synthesis,Enterobacter cloacae,False,A0ABD0BY00,2,lethal
+0.96,0.8,0.55,0.9,0.95,0.85,0.825,Tier 1 - High Priority,AMR_lpxC_Acin,lpxC,amr,True,0.96,True,False,lps_synthesis,Acinetobacter baumannii,False,A0A482KNG5,2,lethal
+0.93,0.8,0.55,0.9,0.95,0.85,0.8175,Tier 1 - High Priority,AMR_lpxA_Pseu,lpxA,amr,True,0.93,True,False,lps_synthesis,Pseudomonas aeruginosa,False,B7V7U4,2,lethal
+0.92,0.8,0.55,0.9,0.95,0.85,0.815,Tier 1 - High Priority,AMR_lpxB_Pseu,lpxB,amr,True,0.92,True,False,lps_synthesis,Pseudomonas aeruginosa,False,A0A0C6ECJ3,2,lethal
+0.96,0.8,0.5,0.9,0.95,0.85,0.815,Tier 1 - High Priority,AMR_bamA_Pseu,bamA,amr,True,0.96,True,False,outer_membrane,Pseudomonas aeruginosa,False,A0A6A9K1A9,2,unmapped
+0.92,0.8,0.55,0.9,0.95,0.85,0.815,Tier 1 - High Priority,AMR_lpxA_Kleb,lpxA,amr,True,0.92,True,False,lps_synthesis,Klebsiella pneumoniae,False,W1DM47,2,lethal
+0.91,0.8,0.55,0.9,0.95,0.85,0.8125,Tier 1 - High Priority,AMR_lpxD_Pseu,lpxD,amr,True,0.91,True,False,lps_synthesis,Pseudomonas aeruginosa,False,A0A7M3AW73,2,lethal
+0.95,0.8,0.5,0.9,0.95,0.85,0.8125,Tier 1 - High Priority,AMR_bamA_Acin,bamA,amr,True,0.95,True,False,outer_membrane,Acinetobacter baumannii,False,A0A9P2QHL4,2,unmapped
+0.95,0.8,0.5,0.9,0.95,0.85,0.8125,Tier 1 - High Priority,AMR_bamA_Kleb,bamA,amr,True,0.95,True,False,outer_membrane,Klebsiella pneumoniae,False,A0A8D6Q4R0,2,unmapped
+0.94,0.8,0.5,0.9,0.95,0.85,0.81,Tier 1 - High Priority,AMR_bamA_Ente,bamA,amr,True,0.94,True,False,outer_membrane,Enterobacter cloacae,False,A0A330G972,2,unmapped
+0.93,0.8,0.5,0.9,0.95,0.85,0.8075,Tier 1 - High Priority,AMR_bamD_Pseu,bamD,amr,True,0.93,True,False,outer_membrane,Pseudomonas aeruginosa,False,A0A6A9K6M3,2,unmapped
+0.98,0.8,0.45,0.9,0.95,0.8,0.805,Tier 1 - High Priority,AMR_ftsZ_Stap,ftsZ,amr,True,0.98,True,False,cell_division,Staphylococcus aureus,False,B5LV61,2,unmapped
+0.98,0.8,0.45,0.9,0.95,0.8,0.805,Tier 1 - High Priority,AMR_ftsZ_Pseu,ftsZ,amr,True,0.98,True,False,cell_division,Pseudomonas aeruginosa,False,A0ABD7K1P1,2,unmapped
+0.98,0.8,0.45,0.9,0.95,0.8,0.805,Tier 1 - High Priority,AMR_ftsZ_Kleb,ftsZ,amr,True,0.98,True,False,cell_division,Klebsiella pneumoniae,False,A0A3S4IU78,2,unmapped
+0.97,0.8,0.45,0.9,0.95,0.8,0.8025,Tier 1 - High Priority,AMR_ftsZ_Ente,ftsZ,amr,True,0.97,True,False,cell_division,Enterobacter cloacae,False,A0A377M997,4,unmapped
+0.97,0.8,0.45,0.9,0.95,0.8,0.8025,Tier 1 - High Priority,AMR_ftsZ_Ente,ftsZ,amr,True,0.97,True,False,cell_division,Enterobacter cloacae,False,A0AAV3GRU7,4,unmapped
+0.93,0.8,0.5,0.9,0.95,0.8,0.8025,Tier 1 - High Priority,AMR_murB_Stap,murB,amr,True,0.93,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,P61431,2,lethal
+0.97,0.8,0.45,0.9,0.95,0.8,0.8025,Tier 1 - High Priority,AMR_ftsZ_Ente,ftsZ,amr,True,0.97,True,False,cell_division,Enterobacter cloacae,False,A0AAV3GRU7,4,unmapped
+0.97,0.8,0.45,0.9,0.95,0.8,0.8025,Tier 1 - High Priority,AMR_ftsZ_Acin,ftsZ,amr,True,0.97,True,False,cell_division,Acinetobacter baumannii,False,A0A482KP32,2,unmapped
+0.97,0.8,0.45,0.9,0.95,0.8,0.8025,Tier 1 - High Priority,AMR_ftsZ_Ente,ftsZ,amr,True,0.97,True,False,cell_division,Enterobacter cloacae,False,A0A377M997,4,unmapped
+0.92,0.8,0.5,0.9,0.95,0.8,0.8,Tier 1 - High Priority,AMR_murC_Stap,murC,amr,True,0.92,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,O31211,2,lethal
+0.96,0.8,0.45,0.9,0.95,0.8,0.8,Tier 1 - High Priority,AMR_walK_Stap,walK,amr,True,0.96,True,False,signal_transduction,Staphylococcus aureus,False,A0A1L6C0D8,2,unmapped
+0.96,0.8,0.45,0.9,0.95,0.8,0.8,Tier 1 - High Priority,AMR_walR_Stap,walR,amr,True,0.96,True,False,signal_transduction,Staphylococcus aureus,False,A0A1L6C155,2,unmapped
+0.91,0.8,0.5,0.9,0.95,0.8,0.7975,Tier 1 - High Priority,AMR_murD_Stap,murD,amr,True,0.91,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,P0A091,2,lethal
+0.9,0.8,0.5,0.9,0.95,0.8,0.795,Tier 1 - High Priority,AMR_murE_Stap,murE,amr,True,0.9,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,A0AAN1ZNV0,2,lethal
+0.9,0.8,0.5,0.9,0.95,0.8,0.795,Tier 1 - High Priority,AMR_murF_Stap,murF,amr,True,0.9,True,False,peptidoglycan_synthesis,Staphylococcus aureus,False,K7XML5,2,lethal
+0.88,0.8,0.5,0.9,0.95,0.8,0.79,Tier 1 - High Priority,AMR_fabH_Stap,fabH,amr,True,0.88,True,False,fatty_acid_synthesis,Staphylococcus aureus,False,Q5TKS1,2,lethal
+0.92,0.8,0.45,0.9,0.95,0.8,0.79,Tier 1 - High Priority,AMR_ftsA_Stap,ftsA,amr,True,0.92,True,False,cell_division,Staphylococcus aureus,False,A0A6G4N246,2,unmapped
+0.87,0.8,0.5,0.9,0.95,0.8,0.7875,Tier 1 - High Priority,AMR_ispD_Stap,ispD,amr,True,0.87,True,False,isoprenoid_synthesis,Staphylococcus aureus,False,A0A0U1MVX0,2,lethal
+0.95,0.8,0.4,0.9,0.95,0.8,0.7875,Tier 1 - High Priority,AMR_secY_Stap,secY,amr,True,0.95,True,False,protein_secretion,Staphylococcus aureus,False,A0A380DUL2,2,unmapped
+0.87,0.8,0.5,0.9,0.95,0.8,0.7875,Tier 1 - High Priority,AMR_accA_Stap,accA,amr,True,0.87,True,False,fatty_acid_synthesis,Staphylococcus aureus,False,A0A2X2K6W2,2,lethal
+0.94,0.8,0.4,0.9,0.95,0.8,0.785,Tier 1 - High Priority,AMR_secA_Stap,secA,amr,True,0.94,True,False,protein_secretion,Staphylococcus aureus,False,A0A380DZT4,2,unmapped
+0.9,0.8,0.45,0.9,0.95,0.8,0.785,Tier 1 - High Priority,AMR_ftsW_Stap,ftsW,amr,True,0.9,True,False,cell_division,Staphylococcus aureus,False,A0A380E0F5,2,lethal
+0.94,0.8,0.4,0.9,0.95,0.8,0.785,Tier 1 - High Priority,AMR_secA_Pseu,secA,amr,True,0.94,True,False,protein_secretion,Pseudomonas aeruginosa,False,A0A0C6F116,2,unmapped
+0.99,0.8,0.2,0.9,0.95,0.8,0.7575,Tier 1 - High Priority,AMR_rpoC_Stap,rpoC,amr,True,0.99,True,False,transcription,Staphylococcus aureus,False,P95688,2,unmapped
+0.97,0.8,0.2,0.9,0.95,0.8,0.7525,Tier 1 - High Priority,AMR_dnaA_Stap,dnaA,amr,True,0.97,True,False,dna_replication,Staphylococcus aureus,False,P68867,2,unmapped
+0.97,0.8,0.2,0.9,0.95,0.8,0.7525,Tier 1 - High Priority,AMR_dnaE_Stap,dnaE,amr,True,0.97,True,False,dna_replication,Staphylococcus aureus,False,A0AAJ4YVG6,2,unmapped
+0.97,0.8,0.2,0.9,0.95,0.8,0.7525,Tier 1 - High Priority,AMR_dnaA_Pseu,dnaA,amr,True,0.97,True,False,dna_replication,Pseudomonas aeruginosa,False,A0ABD7KA18,2,unmapped
+0.96,0.8,0.2,0.9,0.95,0.8,0.75,Tier 1 - High Priority,AMR_dnaB_Stap,dnaB,amr,True,0.96,True,False,dna_replication,Staphylococcus aureus,False,A0AB37XUJ3,2,unmapped
+0.96,0.8,0.2,0.9,0.95,0.8,0.75,Tier 1 - High Priority,AMR_dnaA_Acin,dnaA,amr,True,0.96,True,False,dna_replication,Acinetobacter baumannii,False,A0A3R9RY11,2,unmapped
+0.96,0.8,0.2,0.9,0.95,0.8,0.75,Tier 1 - High Priority,AMR_dnaA_Ente,dnaA,amr,True,0.96,True,False,dna_replication,Enterococcus faecium,False,A0A829F6Y4,2,unmapped
+0.95,0.8,0.2,0.9,0.95,0.8,0.7475,Tier 1 - High Priority,AMR_dnaN_Stap,dnaN,amr,True,0.95,True,False,dna_replication,Staphylococcus aureus,False,P0A024,2,unmapped
+0.95,0.8,0.2,0.9,0.95,0.8,0.7475,Tier 1 - High Priority,AMR_infB_Stap,infB,amr,True,0.95,True,False,translation,Staphylococcus aureus,False,A0A2X2JX14,2,unmapped
+0.94,0.8,0.2,0.9,0.95,0.8,0.745,Tier 1 - High Priority,AMR_infA_Stap,infA,amr,True,0.94,True,False,translation,Staphylococcus aureus,False,A0A6B0CP17,2,unmapped
+0.94,0.8,0.2,0.9,0.95,0.8,0.745,Tier 1 - High Priority,AMR_lptD_Pseu,lptD,amr,True,0.94,True,False,lps_transport,Pseudomonas aeruginosa,False,A0A643J0Z4,2,lethal
+0.93,0.8,0.2,0.9,0.95,0.8,0.7425,Tier 1 - High Priority,AMR_lptD_Kleb,lptD,amr,True,0.93,True,False,lps_transport,Klebsiella pneumoniae,False,A0A377TML7,2,lethal
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Ente,gyrA,amr,True,0.98,False,True,dna_topology,Enterobacter cloacae,False,O69048,7,unmapped
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Ente,gyrA,amr,True,0.98,False,True,dna_topology,Enterobacter cloacae,False,O69048,7,unmapped
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Ente,gyrA,amr,True,0.98,False,True,dna_topology,Enterobacter cloacae,False,Q9F5X0,7,unmapped
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Pseu,gyrA,amr,True,0.98,False,True,dna_topology,Pseudomonas aeruginosa,False,A0A089VME6,5,unmapped
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Ente,gyrA,amr,True,0.98,False,True,dna_topology,Enterobacter cloacae,False,Q9F5X0,7,unmapped
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Stap,gyrA,amr,True,0.98,False,True,dna_topology,Staphylococcus aureus,False,P20831,5,unmapped
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Kleb,gyrA,amr,True,0.98,False,True,dna_topology,Klebsiella pneumoniae,False,A0A160DSH6,5,unmapped
+0.98,0.8,0.5,0.2,0.2,0.5,0.605,Tier 2 - Promising,AMR_gyrA_Acin,gyrA,amr,True,0.98,False,True,dna_topology,Acinetobacter baumannii,False,X5CLP4,5,unmapped
+0.97,0.8,0.5,0.2,0.2,0.5,0.6025,Tier 2 - Promising,AMR_gyrB_Stap,gyrB,amr,True,0.97,False,True,dna_topology,Staphylococcus aureus,False,A0A222UAJ8,4,unmapped
+0.97,0.8,0.5,0.2,0.2,0.5,0.6025,Tier 2 - Promising,AMR_gyrB_Pseu,gyrB,amr,True,0.97,False,True,dna_topology,Pseudomonas aeruginosa,False,A0A223FPW4,4,unmapped
+0.96,0.8,0.5,0.2,0.2,0.5,0.6,Tier 2 - Promising,AMR_gyrB_Ente,gyrB,amr,True,0.96,False,True,dna_topology,Enterococcus faecium,False,C3RSA9,4,unmapped
+0.95,0.8,0.5,0.2,0.2,0.5,0.5975,Tier 2 - Promising,AMR_murA_Pseu,murA,amr,True,0.95,False,True,peptidoglycan_synthesis,Pseudomonas aeruginosa,False,A0A643IY33,3,lethal
+0.95,0.8,0.5,0.2,0.2,0.5,0.5975,Tier 2 - Promising,AMR_parC_Pseu,parC,amr,True,0.95,False,True,dna_topology,Pseudomonas aeruginosa,False,A0A089VLC7,3,unmapped
+0.95,0.8,0.5,0.2,0.2,0.5,0.5975,Tier 2 - Promising,AMR_murA_Stap,murA,amr,True,0.95,False,True,peptidoglycan_synthesis,Staphylococcus aureus,False,A0A2L0P0N5,3,lethal
+0.95,0.8,0.5,0.2,0.2,0.5,0.5975,Tier 2 - Promising,AMR_murA_Kleb,murA,amr,True,0.95,False,True,peptidoglycan_synthesis,Klebsiella pneumoniae,False,A0A1S5RKE3,3,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A7T3UX14,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A377LSA5,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A7T3UX14,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Ente,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Enterobacter cloacae,False,A0A377LSA5,5,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_murA_Acin,murA,amr,True,0.94,False,True,peptidoglycan_synthesis,Acinetobacter baumannii,False,A0A6F8TKP1,3,lethal
+0.94,0.8,0.5,0.2,0.2,0.5,0.595,Tier 2 - Promising,AMR_parE_Pseu,parE,amr,True,0.94,False,True,dna_topology,Pseudomonas aeruginosa,False,I6UGE4,3,unmapped
+0.93,0.8,0.5,0.2,0.2,0.5,0.5925,Tier 2 - Promising,AMR_fabI_Stap,fabI,amr,True,0.93,False,True,fatty_acid_synthesis,Staphylococcus aureus,False,G3G9A5,4,lethal
+0.92,0.8,0.5,0.2,0.2,0.5,0.59,Tier 2 - Promising,AMR_folA_Stap,folA,amr,True,0.92,False,True,folate_synthesis,Staphylococcus aureus,False,P0A017,3,mapped
+0.91,0.8,0.5,0.2,0.2,0.5,0.5875,Tier 2 - Promising,AMR_fabI_Pseu,fabI,amr,True,0.91,False,True,fatty_acid_synthesis,Pseudomonas aeruginosa,False,A0A5E5QU99,4,lethal
+0.91,0.8,0.5,0.2,0.2,0.5,0.5875,Tier 2 - Promising,AMR_folA_Kleb,folA,amr,True,0.91,False,True,folate_synthesis,Klebsiella pneumoniae,False,A0A858C9F1,3,mapped
+0.9,0.8,0.5,0.2,0.2,0.5,0.585,Tier 2 - Promising,AMR_folA_Pseu,folA,amr,True,0.9,False,True,folate_synthesis,Pseudomonas aeruginosa,False,A0A2R4KRQ2,3,mapped
+0.9,0.8,0.5,0.2,0.2,0.5,0.585,Tier 2 - Promising,AMR_folP_Stap,folP,amr,True,0.9,False,True,folate_synthesis,Staphylococcus aureus,False,A0A8F2Z1A9,3,lethal
+0.9,0.8,0.5,0.2,0.2,0.5,0.585,Tier 2 - Promising,AMR_fabI_Ente,fabI,amr,True,0.9,False,True,fatty_acid_synthesis,Enterococcus faecium,False,A0A9X1GBX3,4,lethal
+0.89,0.8,0.5,0.2,0.2,0.5,0.5825,Tier 2 - Promising,AMR_dxr_Stap,dxr,amr,True,0.89,False,True,isoprenoid_synthesis,Staphylococcus aureus,False,,2,lethal
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Ente,rpoB,amr,True,0.99,False,True,transcription,Enterobacter cloacae,False,A0A4Y5UGY1,5,unmapped
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Acin,rpoB,amr,True,0.99,False,True,transcription,Acinetobacter baumannii,False,A0A060GUH1,3,unmapped
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Ente,rpoB,amr,True,0.99,False,True,transcription,Enterobacter cloacae,False,A0A4Y5UGY1,5,unmapped
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Ente,rpoB,amr,True,0.99,False,True,transcription,Enterobacter cloacae,False,A0A482JL52,5,unmapped
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Ente,rpoB,amr,True,0.99,False,True,transcription,Enterobacter cloacae,False,A0A482JL52,5,unmapped
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Stap,rpoB,amr,True,0.99,False,True,transcription,Staphylococcus aureus,False,A0A0N9LFB6,3,unmapped
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Pseu,rpoB,amr,True,0.99,False,True,transcription,Pseudomonas aeruginosa,False,G3M0Q8,3,unmapped
+0.99,0.8,0.2,0.2,0.2,0.5,0.5475,Tier 2 - Promising,AMR_rpoB_Kleb,rpoB,amr,True,0.99,False,True,transcription,Klebsiella pneumoniae,False,A0A161HU07,3,unmapped
+0.0,0.9,0.2,0.7,0.7,0.5,0.445,Tier 3 - Exploratory,LLM_LPXC,LPXC,both,False,0.0,False,False,,,False,,18,unmapped
+0.0,0.9,0.2,0.7,0.7,0.5,0.445,Tier 3 - Exploratory,LLM_NAN,NAN,both,False,0.0,False,False,,,False,,53,unmapped
+0.0,0.9,0.2,0.7,0.7,0.5,0.445,Tier 3 - Exploratory,LLM_FTSZ,FTSZ,both,False,0.0,False,False,,,False,,32,unmapped
+0.0,0.4,0.2,0.7,0.7,0.5,0.345,Tier 3 - Exploratory,LLM_TRPV1,TRPV1,both,False,0.0,False,False,,,False,,6,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAM,BAM,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_H4R,H4R,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_H1R,H1R,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_KOR,KOR,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPV3,TRPV3,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL31,IL31,both,False,0.0,False,False,,,False,,3,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAMA,BAMA,both,False,0.0,False,False,,,False,,5,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL4,IL4,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPA1,TRPA1,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURA,MURA,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_EGFR,EGFR,both,False,0.0,False,False,,,False,,5,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL17A,IL17A,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPV4,TRPV4,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_JAK,JAK,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TUBULIN,TUBULIN,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURB,MURB,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL31R,IL31R,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NK1R,NK1R,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_OX40,OX40,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAM A,BAM A,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PAR-2,PAR-2,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-31R,IL-31R,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DEPOLYMERASES,DEPOLYMERASES,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL13,IL13,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CRISPRCAS,CRISPRCAS,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBP2A,PBP2A,both,False,0.0,False,False,,,False,,3,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL33,IL33,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURC,MURC,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DCW,DCW,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURD,MURD,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURE,MURE,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURF,MURF,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPS,LPS,both,False,0.0,False,False,,,False,,4,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_H2R,H2R,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL4RΑ,IL4RΑ,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SP,SP,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPTD,LPTD,both,False,0.0,False,False,,,False,,5,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MOR,MOR,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL31RA,IL31RA,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_XOOFTSZ,XOOFTSZ,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PLN,PLN,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GRPR,GRPR,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NGF,NGF,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TLN,TLN,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CHEMOKINES,CHEMOKINES,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL17,IL17,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PDL1,PDL1,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL23,IL23,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CYTOKINES,CYTOKINES,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPV2,TRPV2,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NAV1.7,NAV1.7,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL6,IL6,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_STAT3,STAT3,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BDNF,BDNF,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRX2,MRGPRX2,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SALMONELLA,SALMONELLA,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SSRA,SSRA,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRP,TRP,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PA4735,PA4735,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_COX-1,COX-1,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-17A,IL-17A,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURG,MURG,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_OMPS,OMPS,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAMD,BAMD,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ECOLI,ECOLI,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRX4,MRGPRX4,both,False,0.0,False,False,,,False,,3,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_WALR,WALR,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_WALK,WALK,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRAY,MRAY,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MREB,MREB,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MUR,MUR,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBP,PBP,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SORTASES,SORTASES,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GLMU,GLMU,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-17F,IL-17F,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IMP,IMP,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-31RA,IL-31RA,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SURA,SURA,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NRPS,NRPS,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_EFFLUX PUMPS,EFFLUX PUMPS,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PG HYDROLASE,PG HYDROLASE,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBP3,PBP3,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LCP5L4,LCP5L4,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CRISPR/CAS9,CRISPR/CAS9,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPTDE,LPTDE,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ENDOLYSINS,ENDOLYSINS,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-4RΑ,IL-4RΑ,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDES,PEPTIDES,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PKS,PKS,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAMAE470K,BAMAE470K,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_OMP,OMP,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ΣE,ΣE,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_RCS,RCS,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBPS,PBPS,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LTA,LTA,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_WTA,WTA,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDOMIMETIC ANTIBIOTICS,PEPTIDOMIMETIC ANTIBIOTICS,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_RVD3,RVD3,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PTPS,PTPS,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ELSL,ELSL,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SLAYER PROTEINS,SLAYER PROTEINS,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DHFR,DHFR,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CASPASE1,CASPASE1,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPC233,LPC233,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PC190723,PC190723,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NFΚB,NFΚB,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BENZODIOXANEBENZAMIDE INHIBITORS,BENZODIOXANEBENZAMIDE INHIBITORS,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDOMIMETICS,PEPTIDOMIMETICS,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_9J,9J,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PERIOSTIN,PERIOSTIN,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL33R,IL33R,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CAPSAICIN,CAPSAICIN,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BICYCLE®,BICYCLE®,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_FTSQ,FTSQ,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CLPP,CLPP,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PG SYNTHASES,PG SYNTHASES,both,False,0.0,False,False,,,False,,0,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PDE4,PDE4,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CIL-31,CIL-31,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_INTERLEUKIN 31 RECEPTOR ALPHA,INTERLEUKIN 31 RECEPTOR ALPHA,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-31,IL-31,both,False,0.0,False,False,,,False,,4,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL6ST,IL6ST,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ALPHA-GLUCOSIDASE,ALPHA-GLUCOSIDASE,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BACTERIAL METALLOENZYMES,BACTERIAL METALLOENZYMES,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PSA MEMBRANE,PSA MEMBRANE,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DNA,DNA,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_RIBOSOMAL PROTEINS,RIBOSOMAL PROTEINS,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BACTERIAL MEMBRANES,BACTERIAL MEMBRANES,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ACINETOBACTER BAUMANNII,ACINETOBACTER BAUMANNII,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDOGLYCAN,PEPTIDOGLYCAN,both,False,0.0,False,False,,,False,,3,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRSA,MRSA,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-13,IL-13,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CASPASE-1,CASPASE-1,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_AROA,AROA,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BRAF,BRAF,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ΔNP63,ΔNP63,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PRODYNRPHIN,PRODYNRPHIN,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-4 RECEPTOR ALPHA,IL-4 RECEPTOR ALPHA,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GLUTATHIONE PEROXIDASE,GLUTATHIONE PEROXIDASE,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TYROSYL TRNA SYNTHETASE,TYROSYL TRNA SYNTHETASE,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRX1,MRGPRX1,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRD,MRGPRD,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PI3KΔ,PI3KΔ,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_HDAC,HDAC,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_JAK1,JAK1,both,False,0.0,False,False,,,False,,2,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TIGIT,TIGIT,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PD-L1,PD-L1,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-23,IL-23,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GITR,GITR,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BTK,BTK,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NMDA,NMDA,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_EGFR/MEK,EGFR/MEK,both,False,0.0,False,False,,,False,,1,unmapped
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_FLG,FLG,both,False,0.0,False,False,,,False,,0,unmapped

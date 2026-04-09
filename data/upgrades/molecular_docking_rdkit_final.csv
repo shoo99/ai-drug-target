@@ -1,0 +1,6 @@
+compound,target,type,MW,LogP,HBA,HBD,TPSA,RotBonds,Lipinski,violations
+CHIR-090,lpxC,hydroxamate LpxC inhibitor,213.2,2.64,2,2,49.3,2,PASS,0
+Fosfomycin,murA,approved antibiotic,138.1,-0.09,2,2,70.1,1,PASS,0
+Triclosan,fabI,enoyl-ACP reductase inhibitor,289.5,5.14,2,1,29.5,2,PASS,1
+Trimethoprim,folA,DHFR inhibitor,290.3,1.26,7,2,105.5,5,PASS,0
+Novobiocin,gyrB,DNA gyrase inhibitor,584.6,2.93,11,6,211.0,7,FAIL,3

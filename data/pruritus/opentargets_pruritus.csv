@@ -1,0 +1,790 @@
+ensembl_id,symbol,name,biotype,overall_score,genetic_association,known_drug,literature,rna_expression,animal_model,source_disease,source_efo_id
+ENSG00000196639,HRH1,histamine receptor H1,protein_coding,0.5997282021125234,0.0,0,0.07888764078038195,0,0.0,pruritus,HP_0000989
+ENSG00000196876,SCN8A,sodium voltage-gated channel alpha subunit 8,protein_coding,0.5959520284928246,0.0,0,0.19453785523571876,0,0.0,pruritus,HP_0000989
+ENSG00000168356,SCN11A,sodium voltage-gated channel alpha subunit 11,protein_coding,0.5928285654153851,0.0,0,0.09178066347275446,0,0.0,pruritus,HP_0000989
+ENSG00000185313,SCN10A,sodium voltage-gated channel alpha subunit 10,protein_coding,0.5920204740658003,0.0,0,0.037995674850726316,0,0.0,pruritus,HP_0000989
+ENSG00000183873,SCN5A,sodium voltage-gated channel alpha subunit 5,protein_coding,0.5908655370199106,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000136546,SCN7A,sodium voltage-gated channel alpha subunit 7,protein_coding,0.5907779105272388,0.0,0,0.024317231904464845,0,0.0,pruritus,HP_0000989
+ENSG00000169432,SCN9A,sodium voltage-gated channel alpha subunit 9,protein_coding,0.5905931205998964,0.0,0,0.01823792392834863,0,0.0,pruritus,HP_0000989
+ENSG00000120907,ADRA1A,adrenoceptor alpha 1A,protein_coding,0.5902607779393171,0.0,0,0.04194384764188179,0,0.0,pruritus,HP_0000989
+ENSG00000153253,SCN3A,sodium voltage-gated channel alpha subunit 3,protein_coding,0.5900387508178694,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000144285,SCN1A,sodium voltage-gated channel alpha subunit 1,protein_coding,0.5900387508178694,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000136531,SCN2A,sodium voltage-gated channel alpha subunit 2,protein_coding,0.5900387508178694,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000007314,SCN4A,sodium voltage-gated channel alpha subunit 4,protein_coding,0.5900387508178694,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000171873,ADRA1D,adrenoceptor alpha 1D,protein_coding,0.5889858301017256,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000170214,ADRA1B,adrenoceptor alpha 1B,protein_coding,0.5889858301017256,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000104321,TRPA1,transient receptor potential cation channel subfamily A member 1,protein_coding,0.5835448658618302,0.0,0,0.16978995864516674,0,0.0,pruritus,HP_0000989
+ENSG00000144481,TRPM8,transient receptor potential cation channel subfamily M member 8,protein_coding,0.5807660453712841,0.0,0,0.07837098459537788,0,0.0,pruritus,HP_0000989
+ENSG00000082556,OPRK1,opioid receptor kappa 1,protein_coding,0.573990014479935,0.0,0,0.19777360524882379,0,0.0,pruritus,HP_0000989
+ENSG00000125255,SLC10A2,solute carrier family 10 member 2,protein_coding,0.5566140944063063,0.0,0,0.195004121564062,0,0.0,pruritus,HP_0000989
+ENSG00000113580,NR3C1,nuclear receptor subfamily 3 group C member 1,protein_coding,0.5030392466541774,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000103546,SLC6A2,solute carrier family 6 member 2,protein_coding,0.3788193510518193,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000112038,OPRM1,opioid receptor mu 1,protein_coding,0.37815797146912045,0.0,0,0.19867473478621236,0,0.0,pruritus,HP_0000989
+ENSG00000164509,IL31RA,interleukin 31 receptor A,protein_coding,0.37120810370454843,0.0,0,0.05356691999298338,0,0.0,pruritus,HP_0000989
+ENSG00000274286,ADRA2B,adrenoceptor alpha 2B,protein_coding,0.37085480252229325,0.0,0,0.04194384764188179,0,0.0,pruritus,HP_0000989
+ENSG00000204539,CDSN,corneodesmosin,protein_coding,0.36994943453938645,0.0,0,0.012158615952232422,0,0.0,pruritus,HP_0000989
+ENSG00000150594,ADRA2A,adrenoceptor alpha 2A,protein_coding,0.3695798546847018,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000184160,ADRA2C,adrenoceptor alpha 2C,protein_coding,0.3695798546847018,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000116329,OPRD1,opioid receptor delta 1,protein_coding,0.3676530478076668,0.0,0,0.012158615952232422,0,0.0,pruritus,HP_0000989
+ENSG00000073734,ABCB11,ATP binding cassette subfamily B member 11,protein_coding,0.34746176060726097,0.5592963338026914,0,0.2450375709405551,0,0.0,pruritus,HP_0000989
+ENSG00000115353,TACR1,tachykinin receptor 1,protein_coding,0.3471586127472973,0.0,0,0.1703977236068042,0,0.0,pruritus,HP_0000989
+ENSG00000149294,NCAM1,neural cell adhesion molecule 1,protein_coding,0.3096766153010192,0.5093945174642349,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000077238,IL4R,interleukin 4 receptor,protein_coding,0.2869451508066041,0.0,0,0.050906259051093236,0,0.0,pruritus,HP_0000989
+ENSG00000163285,GABRG1,gamma-aminobutyric acid type A receptor subunit gamma1,protein_coding,0.2642495960995617,0.0,0,0.030396539880581056,0,0.0,pruritus,HP_0000989
+ENSG00000102287,GABRE,gamma-aminobutyric acid type A receptor subunit epsilon,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000113327,GABRG2,gamma-aminobutyric acid type A receptor subunit gamma2,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000268089,GABRQ,gamma-aminobutyric acid type A receptor subunit theta,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000145864,GABRB2,gamma-aminobutyric acid type A receptor subunit beta2,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000145863,GABRA6,gamma-aminobutyric acid type A receptor subunit alpha6,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000151834,GABRA2,gamma-aminobutyric acid type A receptor subunit alpha2,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000094755,GABRP,gamma-aminobutyric acid type A receptor subunit pi,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000109158,GABRA4,gamma-aminobutyric acid type A receptor subunit alpha4,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000011677,GABRA3,gamma-aminobutyric acid type A receptor subunit alpha3,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000022355,GABRA1,gamma-aminobutyric acid type A receptor subunit alpha1,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000187730,GABRD,gamma-aminobutyric acid type A receptor subunit delta,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000163288,GABRB1,gamma-aminobutyric acid type A receptor subunit beta1,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000182256,GABRG3,gamma-aminobutyric acid type A receptor subunit gamma3,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000186297,GABRA5,gamma-aminobutyric acid type A receptor subunit alpha5,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000166206,GABRB3,gamma-aminobutyric acid type A receptor subunit beta3,protein_coding,0.26332564646285,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000186153,WWOX,WW domain containing oxidoreductase,protein_coding,0.2591257384085752,0.4262421634610436,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000185420,SMYD3,SET and MYND domain containing 3,protein_coding,0.2347105638157331,0.38608105517575514,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000114062,UBE3A,ubiquitin protein ligase E3A,protein_coding,0.20087392277518276,0.33042234998515707,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000158113,LRRC43,leucine rich repeat containing 43,protein_coding,0.17851182628848045,0.2936383992878798,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000196689,TRPV1,transient receptor potential cation channel subfamily V member 1,protein_coding,0.1062116592623062,0.0,0,0.13791767830110382,0,0.0,pruritus,HP_0000989
+ENSG00000204671,IL31,interleukin 31,protein_coding,0.10532419633366936,0.11846715450154616,0,0.7181675837529091,0,0.0,pruritus,HP_0000989
+ENSG00000265681,RPL17,ribosomal protein L17,protein_coding,0.09524322283641579,0.0,0,0.7833393472628629,0,0.0,pruritus,HP_0000989
+ENSG00000076382,SPAG5,sperm associated antigen 5,protein_coding,0.09239496367117545,0.15198269940290526,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000196557,CACNA1H,calcium voltage-gated channel subunit alpha1 H,protein_coding,0.08721057959851505,0.0,0,0.11989746286229193,0,0.0,pruritus,HP_0000989
+ENSG00000188389,PDCD1,programmed cell death 1,protein_coding,0.08560363467376338,0.0,0,0.7040573944441911,0,0.0,pruritus,HP_0000989
+ENSG00000158480,SPATA2,spermatogenesis associated 2,protein_coding,0.0856019450499778,0.0,0,0.7040434979300466,0,0.0,pruritus,HP_0000989
+ENSG00000215472,RPL17-C18orf32,RPL17-C18orf32 readthrough,protein_coding,0.0856019450499778,0.0,0,0.7040434979300466,0,0.0,pruritus,HP_0000989
+ENSG00000145335,SNCA,synuclein alpha,protein_coding,0.0856019450499778,0.0,0,0.7040434979300466,0,0.0,pruritus,HP_0000989
+ENSG00000100346,CACNA1I,calcium voltage-gated channel subunit alpha1 I,protein_coding,0.08449006122375267,0.0,0,0.030396539880581056,0,0.0,pruritus,HP_0000989
+ENSG00000006283,CACNA1G,calcium voltage-gated channel subunit alpha1 G,protein_coding,0.08449006122375267,0.0,0,0.030396539880581056,0,0.0,pruritus,HP_0000989
+ENSG00000166862,CACNG2,calcium voltage-gated channel auxiliary subunit gamma 2,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000167535,CACNB3,calcium voltage-gated channel auxiliary subunit beta 3,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000151067,CACNA1C,calcium voltage-gated channel subunit alpha1 C,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000157445,CACNA2D3,calcium voltage-gated channel auxiliary subunit alpha2delta 3,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000153956,CACNA2D1,calcium voltage-gated channel auxiliary subunit alpha2delta 1,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000148408,CACNA1B,calcium voltage-gated channel subunit alpha1 B,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000075429,CACNG5,calcium voltage-gated channel auxiliary subunit gamma 5,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000142408,CACNG8,calcium voltage-gated channel auxiliary subunit gamma 8,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000007402,CACNA2D2,calcium voltage-gated channel auxiliary subunit alpha2delta 2,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000182389,CACNB4,calcium voltage-gated channel auxiliary subunit beta 4,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000075461,CACNG4,calcium voltage-gated channel auxiliary subunit gamma 4,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000157388,CACNA1D,calcium voltage-gated channel subunit alpha1 D,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000105605,CACNG7,calcium voltage-gated channel auxiliary subunit gamma 7,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000141837,CACNA1A,calcium voltage-gated channel subunit alpha1 A,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000067191,CACNB1,calcium voltage-gated channel auxiliary subunit beta 1,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000130433,CACNG6,calcium voltage-gated channel auxiliary subunit gamma 6,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000006116,CACNG3,calcium voltage-gated channel auxiliary subunit gamma 3,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000108878,CACNG1,calcium voltage-gated channel auxiliary subunit gamma 1,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000102001,CACNA1F,calcium voltage-gated channel subunit alpha1 F,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000151062,CACNA2D4,calcium voltage-gated channel auxiliary subunit alpha2delta 4,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000165995,CACNB2,calcium voltage-gated channel auxiliary subunit beta 2,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000198216,CACNA1E,calcium voltage-gated channel subunit alpha1 E,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000081248,CACNA1S,calcium voltage-gated channel subunit alpha1 S,protein_coding,0.08356611158704091,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000108576,SLC6A4,solute carrier family 6 member 4,protein_coding,0.0831554673040579,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000162434,JAK1,Janus kinase 1,protein_coding,0.07689158514732784,0.0,0,0.09789318856941522,0,0.0,pruritus,HP_0000989
+ENSG00000198400,NTRK1,neurotrophic receptor tyrosine kinase 1,protein_coding,0.07566479185967265,0.0,0,0.05753355248995042,0,0.0,pruritus,HP_0000989
+ENSG00000065989,PDE4A,phosphodiesterase 4A,protein_coding,0.07489320166936916,0.0,0,0.032149407013694564,0,0.0,pruritus,HP_0000989
+ENSG00000184588,PDE4B,phosphodiesterase 4B,protein_coding,0.07428555079162506,0.0,0,0.012158615952232422,0,0.0,pruritus,HP_0000989
+ENSG00000105650,PDE4C,phosphodiesterase 4C,protein_coding,0.07391597093694036,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000113448,PDE4D,phosphodiesterase 4D,protein_coding,0.07391597093694036,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000136960,ENPP2,ectonucleotide pyrophosphatase/phosphodiesterase 2,protein_coding,0.06912171279912452,0.0,0,0.5684998446425409,0,0.0,pruritus,HP_0000989
+ENSG00000122585,NPY,neuropeptide Y,protein_coding,0.05914442413649562,0.0,0,0.4864404334247947,0,0.0,pruritus,HP_0000989
+ENSG00000157106,SMG1,SMG1 nonsense mediated mRNA decay associated PI3K related kinase,protein_coding,0.058451878486634364,0.0,0,0.48074450839038235,0,0.0,pruritus,HP_0000989
+ENSG00000197587,DMBX1,diencephalon/mesencephalon homeobox 1,protein_coding,0.058451878486634364,0.0,0,0.48074450839038235,0,0.0,pruritus,HP_0000989
+ENSG00000064989,CALCRL,calcitonin receptor like receptor,protein_coding,0.05673050769410173,0.0,0,0.46658688716691915,0,0.0,pruritus,HP_0000989
+ENSG00000073756,PTGS2,prostaglandin-endoperoxide synthase 2,protein_coding,0.056171004858537384,0.0,0,0.024148362238461615,0,0.0,pruritus,HP_0000989
+ENSG00000117480,FAAH,fatty acid amide hydrolase,protein_coding,0.05599134798473232,0.0,0,0.01823792392834863,0,0.0,pruritus,HP_0000989
+ENSG00000095303,PTGS1,prostaglandin-endoperoxide synthase 1,protein_coding,0.05543697820270527,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000164850,GPER1,G protein-coupled estrogen receptor 1,protein_coding,0.05469781849333586,0.0,0,0.44986879023259957,0,0.0,pruritus,HP_0000989
+ENSG00000206190,ATP10A,ATPase phospholipid transporting 10A (putative),protein_coding,0.05283405553326775,0.08690800949851037,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000006128,TAC1,tachykinin precursor 1,protein_coding,0.050383162723959575,0.0,0,0.41438238465545757,0,0.0,pruritus,HP_0000989
+ENSG00000167723,TRPV3,transient receptor potential cation channel subfamily V member 3,protein_coding,0.05010562537660312,0.0,0,0.4120997453448088,0,0.0,pruritus,HP_0000989
+ENSG00000184584,STING1,stimulator of interferon response cGAMP interactor 1,protein_coding,0.048784540818380635,0.0,0,0.4012343264236699,0,0.0,pruritus,HP_0000989
+ENSG00000225950,NTF4,neurotrophin 4,protein_coding,0.04764253906740491,0.0,0,0.3918417956005704,0,0.0,pruritus,HP_0000989
+ENSG00000172179,PRL,prolactin,protein_coding,0.045458322126218316,0.0,0,0.37387744053114697,0,0.0,pruritus,HP_0000989
+ENSG00000153310,CYRIB,CYFIP related Rac1 interactor B,protein_coding,0.045088742271533616,0.0,0,0.37083778654308885,0,0.0,pruritus,HP_0000989
+ENSG00000240864,IGKV1-16,immunoglobulin kappa variable 1-16,IG_V_gene,0.045088742271533616,0.0,0,0.37083778654308885,0,0.0,pruritus,HP_0000989
+ENSG00000163599,CTLA4,cytotoxic T-lymphocyte associated protein 4,protein_coding,0.04426084886116384,0.0,0,0.36402867756537033,0,0.0,pruritus,HP_0000989
+ENSG00000102970,CCL17,C-C motif chemokine ligand 17,protein_coding,0.0413309982777792,0.0,0,0.33993176888024407,0,0.0,pruritus,HP_0000989
+ENSG00000163631,ALB,albumin,protein_coding,0.040546786041371956,0.0,0,0.33348192097413215,0,0.0,pruritus,HP_0000989
+ENSG00000145623,OSMR,oncostatin M receptor,protein_coding,0.039970719947141346,0.0,0,0.06871784914222531,0,0.0,pruritus,HP_0000989
+ENSG00000166736,HTR3A,5-hydroxytryptamine receptor 3A,protein_coding,0.03923079323801909,0.0,0,0.07477192399128624,0,0.0,pruritus,HP_0000989
+ENSG00000178473,UCN3,urocortin 3,protein_coding,0.038230982745717484,0.0,0,0.3144353180980107,0,0.0,pruritus,HP_0000989
+ENSG00000112715,VEGFA,vascular endothelial growth factor A,protein_coding,0.03770809580285867,0.0,0,0.3101347715151342,0,0.0,pruritus,HP_0000989
+ENSG00000273079,GRIN2B,glutamate ionotropic receptor NMDA type subunit 2B,protein_coding,0.03751235525049724,0.0,0,0.01823792392834863,0,0.0,pruritus,HP_0000989
+ENSG00000176884,GRIN1,glutamate ionotropic receptor NMDA type subunit 1,protein_coding,0.037327565323154885,0.0,0,0.012158615952232422,0,0.0,pruritus,HP_0000989
+ENSG00000166292,TMEM100,transmembrane protein 100,protein_coding,0.03695798546847018,0.0,0,0.3039653988058105,0,0.0,pruritus,HP_0000989
+ENSG00000116032,GRIN3B,glutamate ionotropic receptor NMDA type subunit 3B,protein_coding,0.03695798546847018,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000183454,GRIN2A,glutamate ionotropic receptor NMDA type subunit 2A,protein_coding,0.03695798546847018,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000198785,GRIN3A,glutamate ionotropic receptor NMDA type subunit 3A,protein_coding,0.03695798546847018,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000105464,GRIN2D,glutamate ionotropic receptor NMDA type subunit 2D,protein_coding,0.03695798546847018,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000161509,GRIN2C,glutamate ionotropic receptor NMDA type subunit 2C,protein_coding,0.03695798546847018,0.0,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000109471,IL2,interleukin 2,protein_coding,0.035588207107753546,0.0,0,0.29269949184651445,0,0.0,pruritus,HP_0000989
+ENSG00000126010,GRPR,gastrin releasing peptide receptor,protein_coding,0.034260371023630436,0.0,0,0.28177854418816434,0,0.0,pruritus,HP_0000989
+ENSG00000213927,CCL27,C-C motif chemokine ligand 27,protein_coding,0.03339545054789119,0.0,0,0.2746649016556815,0,0.0,pruritus,HP_0000989
+ENSG00000107518,ATRNL1,attractin like 1,protein_coding,0.033318630104575746,0.0,0,0.2740330826754847,0,0.0,pruritus,HP_0000989
+ENSG00000135372,NAT10,N-acetyltransferase 10,protein_coding,0.033318630104575746,0.0,0,0.2740330826754847,0,0.0,pruritus,HP_0000989
+ENSG00000154553,PDLIM3,PDZ and LIM domain 3,protein_coding,0.033318630104575746,0.0,0,0.2740330826754847,0,0.0,pruritus,HP_0000989
+ENSG00000162174,ASRGL1,asparaginase and isoaspartyl peptidase 1,protein_coding,0.033318630104575746,0.0,0,0.2740330826754847,0,0.0,pruritus,HP_0000989
+ENSG00000163283,ALPP,"alkaline phosphatase, placental",protein_coding,0.033318630104575746,0.0,0,0.2740330826754847,0,0.0,pruritus,HP_0000989
+ENSG00000124107,SLPI,secretory leukocyte peptidase inhibitor,protein_coding,0.033318630104575746,0.0,0,0.2740330826754847,0,0.0,pruritus,HP_0000989
+ENSG00000145777,TSLP,thymic stromal lymphopoietin,protein_coding,0.0329727975128195,0.0,0,0.2711887409089965,0,0.0,pruritus,HP_0000989
+ENSG00000136244,IL6,interleukin 6,protein_coding,0.031750450781550886,0.0,0,0.2611354031272058,0,0.0,pruritus,HP_0000989
+ENSG00000176697,BDNF,brain derived neurotrophic factor,protein_coding,0.03141531336140913,0.0,0,0.258379025086659,0,0.0,pruritus,HP_0000989
+ENSG00000111199,TRPV4,transient receptor potential cation channel subfamily V member 4,protein_coding,0.030823517857898913,0.0,0,0.2535117317546284,0,0.0,pruritus,HP_0000989
+ENSG00000132693,CRP,C-reactive protein,protein_coding,0.02893676748178865,0.0,0,0.23799392624516294,0,0.0,pruritus,HP_0000989
+ENSG00000213199,ASIC3,acid sensing ion channel subunit 3,protein_coding,0.02843711659657289,0.0,0,0.2338844874144709,0,0.0,pruritus,HP_0000989
+ENSG00000113520,IL4,interleukin 4,protein_coding,0.028397719923078994,0.0,0,0.2335604647325417,0,0.0,pruritus,HP_0000989
+ENSG00000211891,IGHE,immunoglobulin heavy constant epsilon,IG_C_gene,0.027469029894291164,0.0,0,0.22592234183733412,0,0.0,pruritus,HP_0000989
+ENSG00000165462,PHOX2A,paired like homeobox 2A,protein_coding,0.02716411931932558,0.0,0,0.22341456812227073,0,0.0,pruritus,HP_0000989
+ENSG00000149295,DRD2,dopamine receptor D2,protein_coding,0.027023044902899012,0.04445085692165046,0,0.0,0,0.0,pruritus,HP_0000989
+ENSG00000197635,DPP4,dipeptidyl peptidase 4,protein_coding,0.02602971448758504,0.0,0,0.21408451907559242,0,0.0,pruritus,HP_0000989
+ENSG00000146648,EGFR,epidermal growth factor receptor,protein_coding,0.02581727812765537,0.0,0,0.21233731066992956,0,0.0,pruritus,HP_0000989
+ENSG00000169194,IL13,interleukin 13,protein_coding,0.024323828915497635,0.0,0,0.2000542579110872,0,0.0,pruritus,HP_0000989
+ENSG00000164251,F2RL1,F2R like trypsin receptor 1,protein_coding,0.02429133881983705,0.0,0,0.19978703920964755,0,0.0,pruritus,HP_0000989
+ENSG00000100031,GGT1,gamma-glutamyltransferase 1,protein_coding,0.02397229447805712,0.0,0,0.19716302062863997,0,0.0,pruritus,HP_0000989
+ENSG00000274252,GGTLC3,gamma-glutamyltransferase light chain family member 3,protein_coding,0.02397229447805712,0.0,0,0.19716302062863997,0,0.0,pruritus,HP_0000989
+ENSG00000276160,GGTLC5P,gamma-glutamyltransferase light chain 5 pseudogene,unprocessed_pseudogene,0.02397229447805712,0.0,0,0.19716302062863997,0,0.0,pruritus,HP_0000989
+ENSG00000230712,GGTLC4P,gamma-glutamyltransferase light chain 4 pseudogene,transcribed_unprocessed_pseudogene,0.02397229447805712,0.0,0,0.19716302062863997,0,0.0,pruritus,HP_0000989
+ENSG00000144852,NR1I2,nuclear receptor subfamily 1 group I member 2,protein_coding,0.023945000739298793,0.0,0,0.19693853998984395,0,0.0,pruritus,HP_0000989
+ENSG00000132517,SLC52A1,solute carrier family 52 member 1,protein_coding,0.02393319541650606,0.0,0,0.1968414456919476,0,0.0,pruritus,HP_0000989
+ENSG00000115138,POMC,proopiomelanocortin,protein_coding,0.023719314519708566,0.0,0,0.19508235651898773,0,0.0,pruritus,HP_0000989
+ENSG00000183840,GPR39,G protein-coupled receptor 39,protein_coding,0.022913950990451508,0.0,0,0.18845854725960254,0,0.0,pruritus,HP_0000989
+ENSG00000100030,MAPK1,mitogen-activated protein kinase 1,protein_coding,0.022229212584190354,0.0,0,0.18282683383965992,0,0.0,pruritus,HP_0000989
+ENSG00000133216,EPHB2,EPH receptor B2,protein_coding,0.022189445968747855,0.0,0,0.18249976852565766,0,0.0,pruritus,HP_0000989
+ENSG00000106178,CCL24,C-C motif chemokine ligand 24,protein_coding,0.022174791281082105,0.0,0,0.18237923928348632,0,0.0,pruritus,HP_0000989
+ENSG00000232810,TNF,tumor necrosis factor,protein_coding,0.02153911672693184,0.0,0,0.17715105741930343,0,0.0,pruritus,HP_0000989
+ENSG00000152266,PTH,parathyroid hormone,protein_coding,0.021342338501567013,0.0,0,0.17553263122558274,0,0.0,pruritus,HP_0000989
+ENSG00000101327,PDYN,prodynorphin,protein_coding,0.020938059817316463,0.0,0,0.1722075925382943,0,0.0,pruritus,HP_0000989
+ENSG00000157368,IL34,interleukin 34,protein_coding,0.020696471862343302,0.0,0,0.17022062333125393,0,0.0,pruritus,HP_0000989
+ENSG00000170255,MRGPRX1,MAS related GPR family member X1,protein_coding,0.0205523975588393,0.0,0,0.16903566688497726,0,0.0,pruritus,HP_0000989
+ENSG00000167701,GPT,glutamic--pyruvic transaminase,protein_coding,0.020245782848602848,0.0,0,0.16651387730431239,0,0.0,pruritus,HP_0000989
+ENSG00000240972,MIF,macrophage migration inhibitory factor,protein_coding,0.0199573121529739,0.0,0,0.1641413153551377,0,0.0,pruritus,HP_0000989
+ENSG00000169245,CXCL10,C-X-C motif chemokine ligand 10,protein_coding,0.019834118868079,0.0,0,0.16312809735911835,0,0.0,pruritus,HP_0000989
+ENSG00000078401,EDN1,endothelin 1,protein_coding,0.019730442122238793,0.0,0,0.16227539548706713,0,0.0,pruritus,HP_0000989
+ENSG00000007306,CEACAM7,CEA cell adhesion molecule 7,protein_coding,0.018756177625248612,0.0,0,0.15426243989394883,0,0.0,pruritus,HP_0000989
+ENSG00000105388,CEACAM5,CEA cell adhesion molecule 5,protein_coding,0.018756177625248612,0.0,0,0.15426243989394883,0,0.0,pruritus,HP_0000989
+ENSG00000170956,CEACAM3,CEA cell adhesion molecule 3,protein_coding,0.018756177625248612,0.0,0,0.15426243989394883,0,0.0,pruritus,HP_0000989
+ENSG00000242221,PSG2,pregnancy specific beta-1-glycoprotein 2,protein_coding,0.018756177625248612,0.0,0,0.15426243989394883,0,0.0,pruritus,HP_0000989
+ENSG00000120217,CD274,CD274 molecule,protein_coding,0.018646773107301524,0.0,0,0.15336262927095595,0,0.0,pruritus,HP_0000989
+ENSG00000179817,MRGPRX4,MAS related GPR family member X4,protein_coding,0.01857610335061626,0.0,0,0.1527813973530888,0,0.0,pruritus,HP_0000989
+ENSG00000136869,TLR4,toll like receptor 4,protein_coding,0.0184069237650736,0.0,0,0.15138995949365386,0,0.0,pruritus,HP_0000989
+ENSG00000012504,NR1H4,nuclear receptor subfamily 1 group H member 4,protein_coding,0.018210892329175398,0.0,0,0.149777675359766,0,0.0,pruritus,HP_0000989
+ENSG00000197919,IFNA1,interferon alpha 1,protein_coding,0.018154583750678518,0.0,0,0.14931455868005428,0,0.0,pruritus,HP_0000989
+ENSG00000134489,HRH4,histamine receptor H4,protein_coding,0.01778000934855449,0.0,0,0.1462338264355651,0,0.0,pruritus,HP_0000989
+ENSG00000091592,NLRP1,NLR family pyrin domain containing 1,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,pruritus,HP_0000989
+ENSG00000096717,SIRT1,sirtuin 1,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,pruritus,HP_0000989
+ENSG00000168542,COL3A1,collagen type III alpha 1 chain,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,pruritus,HP_0000989
+ENSG00000120937,NPPB,natriuretic peptide B,protein_coding,0.017383666386134044,0.0,0,0.14297405604740943,0,0.0,pruritus,HP_0000989
+ENSG00000180871,CXCR2,C-X-C motif chemokine receptor 2,protein_coding,0.017370253170180986,0.0,0,0.14286373743873096,0,0.0,pruritus,HP_0000989
+ENSG00000065618,COL17A1,collagen type XVII alpha 1 chain,protein_coding,0.01707860357747997,0.0,0,0.1404650302680561,0,0.0,pruritus,HP_0000989
+ENSG00000115085,ZAP70,zeta chain of T cell receptor associated protein kinase 70,protein_coding,0.016631093460811583,0.0,0,0.13678442946261474,0,0.0,pruritus,HP_0000989
+ENSG00000170345,FOS,"Fos proto-oncogene, AP-1 transcription factor subunit",protein_coding,0.01652367435532103,0.0,0,0.13590094810328432,0,0.0,pruritus,HP_0000989
+ENSG00000134443,GRP,gastrin releasing peptide,protein_coding,0.016207291577655058,0.0,0,0.13329881987660994,0,0.0,pruritus,HP_0000989
+ENSG00000092009,CMA1,chymase 1,protein_coding,0.01605619146463538,0.0,0,0.13205607881452436,0,0.0,pruritus,HP_0000989
+ENSG00000134259,NGF,nerve growth factor,protein_coding,0.01598399758791303,0.0,0,0.131462311588008,0,0.0,pruritus,HP_0000989
+ENSG00000117298,ECE1,endothelin converting enzyme 1,protein_coding,0.015522353896757475,0.0,0,0.12766546749844043,0,0.0,pruritus,HP_0000989
+ENSG00000145451,GLRA3,glycine receptor alpha 3,protein_coding,0.015522353896757475,0.0,0,0.12766546749844043,0,0.0,pruritus,HP_0000989
+ENSG00000112115,IL17A,interleukin 17A,protein_coding,0.015327866753607134,0.0,0,0.12606588458608903,0,0.0,pruritus,HP_0000989
+ENSG00000164128,NPY1R,neuropeptide Y receptor Y1,protein_coding,0.015152774042072777,0.0,0,0.12462581351038234,0,0.0,pruritus,HP_0000989
+ENSG00000106236,NPTX2,neuronal pentraxin 2,protein_coding,0.014967984114730425,0.0,0,0.12310598651635328,0,0.0,pruritus,HP_0000989
+ENSG00000131471,AOC3,amine oxidase copper containing 3,protein_coding,0.014783194187388075,0.0,0,0.12158615952232422,0,0.0,pruritus,HP_0000989
+ENSG00000100884,CPNE6,copine 6,protein_coding,0.014783194187388075,0.0,0,0.12158615952232422,0,0.0,pruritus,HP_0000989
+ENSG00000152128,TMEM163,transmembrane protein 163,protein_coding,0.014783194187388075,0.0,0,0.12158615952232422,0,0.0,pruritus,HP_0000989
+ENSG00000148346,LCN2,lipocalin 2,protein_coding,0.014652403983257987,0.0,0,0.12051045974988364,0,0.0,pruritus,HP_0000989
+ENSG00000179921,GPBAR1,G protein-coupled bile acid receptor 1,protein_coding,0.01445964673422656,0.0,0,0.11892510455987919,0,0.0,pruritus,HP_0000989
+ENSG00000010671,BTK,Bruton tyrosine kinase,protein_coding,0.014413614332703372,0.0,0,0.11854650553426611,0,0.0,pruritus,HP_0000989
+ENSG00000168610,STAT3,signal transducer and activator of transcription 3,protein_coding,0.014409415738090459,0.0,0,0.11851197368763647,0,0.0,pruritus,HP_0000989
+ENSG00000164400,CSF2,colony stimulating factor 2,protein_coding,0.014393082118554222,0.0,0,0.11837763586826287,0,0.0,pruritus,HP_0000989
+ENSG00000127318,IL22,interleukin 22,protein_coding,0.01435680193933326,0.0,0,0.11807924516850318,0,0.0,pruritus,HP_0000989
+ENSG00000168811,IL12A,interleukin 12A,protein_coding,0.01404403447801867,0.0,0,0.115506851546208,0,0.0,pruritus,HP_0000989
+ENSG00000134757,DSG3,desmoglein 3,protein_coding,0.01404403447801867,0.0,0,0.115506851546208,0,0.0,pruritus,HP_0000989
+ENSG00000126233,SLURP1,secreted LY6/PLAUR domain containing 1,protein_coding,0.01404403447801867,0.0,0,0.115506851546208,0,0.0,pruritus,HP_0000989
+ENSG00000197272,IL27,interleukin 27,protein_coding,0.013653922409184815,0.0,0,0.11229832789214667,0,0.0,pruritus,HP_0000989
+ENSG00000081923,ATP8B1,ATPase phospholipid transporting 8B1,protein_coding,0.013500739520888797,0.0,0,0.11103845679417114,0,0.0,pruritus,HP_0000989
+ENSG00000179520,SLC17A8,solute carrier family 17 member 8,protein_coding,0.013304874768649264,0.0,0,0.1094275435700918,0,0.0,pruritus,HP_0000989
+ENSG00000083067,TRPM3,transient receptor potential cation channel subfamily M member 3,protein_coding,0.013304874768649264,0.0,0,0.1094275435700918,0,0.0,pruritus,HP_0000989
+ENSG00000168267,PTF1A,pancreas associated transcription factor 1a,protein_coding,0.013304874768649264,0.0,0,0.1094275435700918,0,0.0,pruritus,HP_0000989
+ENSG00000205755,CRLF2,cytokine receptor like factor 2,protein_coding,0.013030359065475125,0.0,0,0.10716975613562862,0,0.0,pruritus,HP_0000989
+ENSG00000292363,CRLF2,cytokine receptor like factor 2 ,protein_coding,0.01298416158363954,0.0,0,0.10678979938712137,0,0.0,pruritus,HP_0000989
+ENSG00000148680,HTR7,5-hydroxytryptamine receptor 7,protein_coding,0.01291476269981541,0.0,0,0.10621901991603044,0,0.0,pruritus,HP_0000989
+ENSG00000275302,CCL4,C-C motif chemokine ligand 4,protein_coding,0.012729972772473059,0.0,0,0.10469919292200139,0,0.0,pruritus,HP_0000989
+ENSG00000137033,IL33,interleukin 33,protein_coding,0.01269351508713924,0.0,0,0.10439934230185637,0,0.0,pruritus,HP_0000989
+ENSG00000146469,VIP,vasoactive intestinal peptide,protein_coding,0.01269094899484632,0.0,0,0.10437823716700384,0,0.0,pruritus,HP_0000989
+ENSG00000162344,FGF19,fibroblast growth factor 19,protein_coding,0.012578650354193826,0.0,0,0.1034546234835576,0,0.0,pruritus,HP_0000989
+ENSG00000185238,PRMT3,protein arginine methyltransferase 3,protein_coding,0.012565715059279862,0.0,0,0.10334823559397559,0,0.0,pruritus,HP_0000989
+ENSG00000102081,FMR1,fragile X messenger ribonucleoprotein 1,protein_coding,0.012565715059279862,0.0,0,0.10334823559397559,0,0.0,pruritus,HP_0000989
+ENSG00000125538,IL1B,interleukin 1 beta,protein_coding,0.012487504968575583,0.0,0,0.10270498729160676,0,0.0,pruritus,HP_0000989
+ENSG00000104826,LHB,luteinizing hormone subunit beta,protein_coding,0.01238092513193751,0.0,0,0.10182840859994653,0,0.0,pruritus,HP_0000989
+ENSG00000078098,FAP,fibroblast activation protein alpha,protein_coding,0.01225773184704261,0.0,0,0.10081519060392716,0,0.0,pruritus,HP_0000989
+ENSG00000172236,TPSAB1,tryptase alpha/beta 1,protein_coding,0.012196135204595159,0.0,0,0.10030858160591748,0,0.0,pruritus,HP_0000989
+ENSG00000168329,CX3CR1,C-X3-C motif chemokine receptor 1,protein_coding,0.011826555349910457,0.0,0,0.09726892761785938,0,0.0,pruritus,HP_0000989
+ENSG00000133048,CHI3L1,chitinase 3 like 1,protein_coding,0.011826555349910457,0.0,0,0.09726892761785938,0,0.0,pruritus,HP_0000989
+ENSG00000107562,CXCL12,C-X-C motif chemokine ligand 12,protein_coding,0.011826555349910457,0.0,0,0.09726892761785938,0,0.0,pruritus,HP_0000989
+ENSG00000095917,TPSD1,tryptase delta 1,protein_coding,0.011826555349910457,0.0,0,0.09726892761785938,0,0.0,pruritus,HP_0000989
+ENSG00000152207,CYSLTR2,cysteinyl leukotriene receptor 2,protein_coding,0.011600700994269809,0.0,0,0.09541136129182388,0,0.0,pruritus,HP_0000989
+ENSG00000111537,IFNG,interferon gamma,protein_coding,0.01149350013364619,0.0,0,0.09452967491366392,0,0.0,pruritus,HP_0000989
+ENSG00000135094,SDS,serine dehydratase,protein_coding,0.011456975495225754,0.0,0,0.09422927362980127,0,0.0,pruritus,HP_0000989
+ENSG00000008311,AASS,aminoadipate-semialdehyde synthase,protein_coding,0.011456975495225754,0.0,0,0.09422927362980127,0,0.0,pruritus,HP_0000989
+ENSG00000123453,SARDH,sarcosine dehydrogenase,protein_coding,0.011456975495225754,0.0,0,0.09422927362980127,0,0.0,pruritus,HP_0000989
+ENSG00000006210,CX3CL1,C-X3-C motif chemokine ligand 1,protein_coding,0.011456975495225754,0.0,0,0.09422927362980127,0,0.0,pruritus,HP_0000989
+ENSG00000117118,SDHB,succinate dehydrogenase complex iron sulfur subunit B,protein_coding,0.011456975495225754,0.0,0,0.09422927362980127,0,0.0,pruritus,HP_0000989
+ENSG00000140263,SORD,sorbitol dehydrogenase,protein_coding,0.011456975495225754,0.0,0,0.09422927362980127,0,0.0,pruritus,HP_0000989
+ENSG00000105329,TGFB1,transforming growth factor beta 1,protein_coding,0.011326336372807493,0.0,0,0.09315481644707994,0,0.0,pruritus,HP_0000989
+ENSG00000119899,SLC17A5,solute carrier family 17 member 5,protein_coding,0.0112971158529252,0.0,0,0.09291448876507162,0,0.0,pruritus,HP_0000989
+ENSG00000120053,GOT1,glutamic-oxaloacetic transaminase 1,protein_coding,0.0112971158529252,0.0,0,0.09291448876507162,0,0.0,pruritus,HP_0000989
+ENSG00000171885,AQP4,aquaporin 4,protein_coding,0.011148992282988506,0.0,0,0.09169622863975285,0,0.0,pruritus,HP_0000989
+ENSG00000188419,CHM,CHM Rab escort protein,protein_coding,0.011087395640541052,0.0,0,0.09118961964174316,0,0.0,pruritus,HP_0000989
+ENSG00000163131,CTSS,cathepsin S,protein_coding,0.011056597319317329,0.0,0,0.09093631514273832,0,0.0,pruritus,HP_0000989
+ENSG00000091664,SLC17A6,solute carrier family 17 member 6,protein_coding,0.010974468462720726,0.0,0,0.09026083647872539,0,0.0,pruritus,HP_0000989
+ENSG00000183695,MRGPRX2,MAS related GPR family member X2,protein_coding,0.010710924923373031,0.0,0,0.08809329092598255,0,0.0,pruritus,HP_0000989
+ENSG00000141736,ERBB2,erb-b2 receptor tyrosine kinase 2,protein_coding,0.010607763118016908,0.0,0,0.08724482424390775,0,0.0,pruritus,HP_0000989
+ENSG00000100453,GZMB,granzyme B,protein_coding,0.010604888608036026,0.0,0,0.0872211824906673,0,0.0,pruritus,HP_0000989
+ENSG00000178623,GPR35,G protein-coupled receptor 35,protein_coding,0.010533025858514003,0.0,0,0.086630138659656,0,0.0,pruritus,HP_0000989
+ENSG00000137462,TLR2,toll like receptor 2,protein_coding,0.010510735835418816,0.0,0,0.08644681168245108,0,0.0,pruritus,HP_0000989
+ENSG00000078053,AMPH,amphiphysin,protein_coding,0.010348235931171651,0.0,0,0.08511031166562696,0,0.0,pruritus,HP_0000989
+ENSG00000160181,TFF2,trefoil factor 2,protein_coding,0.010271719323915372,0.0,0,0.0844809916216607,0,0.0,pruritus,HP_0000989
+ENSG00000133110,POSTN,periostin,protein_coding,0.010242151660776655,0.0,0,0.08423780881816662,0,0.0,pruritus,HP_0000989
+ENSG00000100097,LGALS1,galectin 1,protein_coding,0.010163446003829301,0.0,0,0.08359048467159791,0,0.0,pruritus,HP_0000989
+ENSG00000084754,HADHA,hydroxyacyl-CoA dehydrogenase trifunctional multienzyme complex subunit alpha,protein_coding,0.010163446003829301,0.0,0,0.08359048467159791,0,0.0,pruritus,HP_0000989
+ENSG00000033800,PIAS1,protein inhibitor of activated STAT 1,protein_coding,0.010163446003829301,0.0,0,0.08359048467159791,0,0.0,pruritus,HP_0000989
+ENSG00000006118,TMEM132A,transmembrane protein 132A,protein_coding,0.010163446003829301,0.0,0,0.08359048467159791,0,0.0,pruritus,HP_0000989
+ENSG00000103335,PIEZO1,piezo type mechanosensitive ion channel component 1 (Er blood group),protein_coding,0.01014291378968015,0.0,0,0.08342161500559467,0,0.0,pruritus,HP_0000989
+ENSG00000188379,IFNA2,interferon alpha 2,protein_coding,0.00999939361277759,0.0,0,0.0822412160402321,0,0.0,pruritus,HP_0000989
+ENSG00000169429,CXCL8,C-X-C motif chemokine ligand 8,protein_coding,0.009935519570658698,0.0,0,0.08171587629457493,0,0.0,pruritus,HP_0000989
+ENSG00000234829,IFNA17,interferon alpha 17,protein_coding,0.0098349305774429,0.0,0,0.08088857001554625,0,0.0,pruritus,HP_0000989
+ENSG00000130427,EPO,erythropoietin,protein_coding,0.009811305960428018,0.0,0,0.0806942665100511,0,0.0,pruritus,HP_0000989
+ENSG00000134760,DSG1,desmoglein 1,protein_coding,0.009793866149144598,0.0,0,0.0805508306835398,0,0.0,pruritus,HP_0000989
+ENSG00000271503,CCL5,C-C motif chemokine ligand 5,protein_coding,0.009776003122834838,0.0,0,0.08040391407411698,0,0.0,pruritus,HP_0000989
+ENSG00000166888,STAT6,signal transducer and activator of transcription 6,protein_coding,0.009650140650100548,0.0,0,0.0793687430215172,0,0.0,pruritus,HP_0000989
+ENSG00000277632,CCL3,C-C motif chemokine ligand 3,protein_coding,0.009526947365205644,0.0,0,0.07835552502549782,0,0.0,pruritus,HP_0000989
+ENSG00000102962,CCL22,C-C motif chemokine ligand 22,protein_coding,0.009496957761804531,0.0,0,0.0781088719235417,0,0.0,pruritus,HP_0000989
+ENSG00000106546,AHR,aryl hydrocarbon receptor,protein_coding,0.009475616829832771,0.0,0,0.07793335086048976,0,0.0,pruritus,HP_0000989
+ENSG00000254647,INS,insulin,protein_coding,0.009462646999042775,0.0,0,0.07782667892643945,0,0.0,pruritus,HP_0000989
+ENSG00000108691,CCL2,C-C motif chemokine ligand 2,protein_coding,0.009455084615683623,0.0,0,0.07776448119448653,0,0.0,pruritus,HP_0000989
+ENSG00000142224,IL19,interleukin 19,protein_coding,0.009403754080310744,0.0,0,0.07734230702947845,0,0.0,pruritus,HP_0000989
+ENSG00000138684,IL21,interleukin 21,protein_coding,0.009301093009564996,0.0,0,0.07649795869946231,0,0.0,pruritus,HP_0000989
+ENSG00000134551,PRH2,proline rich protein HaeIII subfamily 2,protein_coding,0.009239496367117545,0.0,0,0.07599134970145263,0,0.0,pruritus,HP_0000989
+ENSG00000082175,PGR,progesterone receptor,protein_coding,0.009239496367117545,0.0,0,0.07599134970145263,0,0.0,pruritus,HP_0000989
+ENSG00000171227,TMEM37,transmembrane protein 37,protein_coding,0.009239496367117545,0.0,0,0.07599134970145263,0,0.0,pruritus,HP_0000989
+ENSG00000164342,TLR3,toll like receptor 3,protein_coding,0.009218964152968395,0.0,0,0.0758224800354494,0,0.0,pruritus,HP_0000989
+ENSG00000113525,IL5,interleukin 5,protein_coding,0.00921378273139837,0.0,0,0.075779864810243,0,0.0,pruritus,HP_0000989
+ENSG00000117407,ARTN,artemin,protein_coding,0.009108706162987458,0.0,0,0.07491564992901206,0,0.0,pruritus,HP_0000989
+ENSG00000125571,IL37,interleukin 37,protein_coding,0.009066066434313338,0.0,0,0.07456495434950172,0,0.0,pruritus,HP_0000989
+ENSG00000110944,IL23A,interleukin 23 subunit alpha,protein_coding,0.009066066434313338,0.0,0,0.07456495434950172,0,0.0,pruritus,HP_0000989
+ENSG00000174804,FZD4,frizzled class receptor 4,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000220349,GPR166P,"G protein-coupled receptor 166, pseudogene",processed_pseudogene,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000171517,LPAR3,lysophosphatidic acid receptor 3,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000162881,OXER1,oxoeicosanoid receptor 1,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000133067,LGR6,leucine rich repeat containing G protein-coupled receptor 6,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000171596,NMUR1,neuromedin U receptor 1,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000173612,GPRC6A,G protein-coupled receptor class C group 6 member A,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000179826,MRGPRX3,MAS related GPR family member X3,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000173250,GPR151,G protein-coupled receptor 151,protein_coding,0.009057375627614583,0.0,0,0.074493475764004,0,0.0,pruritus,HP_0000989
+ENSG00000107165,TYRP1,tyrosinase related protein 1,protein_coding,0.008964980663943408,0.0,0,0.07373356226698947,0,0.0,pruritus,HP_0000989
+ENSG00000028839,TBPL1,TATA-box binding protein like 1,protein_coding,0.008964980663943408,0.0,0,0.07373356226698947,0,0.0,pruritus,HP_0000989
+ENSG00000134460,IL2RA,interleukin 2 receptor subunit alpha,protein_coding,0.008944448449794258,0.0,0,0.07356469260098625,0,0.0,pruritus,HP_0000989
+ENSG00000275385,CCL18,C-C motif chemokine ligand 18,protein_coding,0.008869916512432845,0.0,0,0.07295169571339453,0,0.0,pruritus,HP_0000989
+ENSG00000157404,KIT,"KIT proto-oncogene, receptor tyrosine kinase",protein_coding,0.008869916512432843,0.0,0,0.07295169571339452,0,0.0,pruritus,HP_0000989
+ENSG00000183735,TBK1,TANK binding kinase 1,protein_coding,0.008869916512432843,0.0,0,0.07295169571339452,0,0.0,pruritus,HP_0000989
+ENSG00000066322,ELOVL1,ELOVL fatty acid elongase 1,protein_coding,0.008869916512432843,0.0,0,0.07295169571339452,0,0.0,pruritus,HP_0000989
+ENSG00000150782,IL18,interleukin 18,protein_coding,0.008864783458895555,0.0,0,0.07290947829689372,0,0.0,pruritus,HP_0000989
+ENSG00000179639,FCER1A,Fc epsilon receptor Ia,protein_coding,0.008857186539660371,0.0,0,0.07284699652047254,0,0.0,pruritus,HP_0000989
+ENSG00000110680,CALCA,calcitonin related polypeptide alpha,protein_coding,0.008845892552609525,0.0,0,0.07275410776491667,0,0.0,pruritus,HP_0000989
+ENSG00000186951,PPARA,peroxisome proliferator activated receptor alpha,protein_coding,0.008830289339124983,0.0,0,0.0726257772580083,0,0.0,pruritus,HP_0000989
+ENSG00000143631,FLG,filaggrin,protein_coding,0.008800722950750208,0.0,0,0.07238260493896365,0,0.0,pruritus,HP_0000989
+ENSG00000172183,ISG20,interferon stimulated exonuclease gene 20,protein_coding,0.008746723227537943,0.0,0,0.07193847771737516,0,0.0,pruritus,HP_0000989
+ENSG00000138741,TRPC3,transient receptor potential cation channel subfamily C member 3,protein_coding,0.008700525745702355,0.0,0,0.07155852096886789,0,0.0,pruritus,HP_0000989
+ENSG00000088832,FKBP1A,FKBP prolyl isomerase 1A,protein_coding,0.6003711615915147,0.0,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000096968,JAK2,Janus kinase 2,protein_coding,0.5711540014568087,0.0,0,0.09271336275338282,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000105397,TYK2,tyrosine kinase 2,protein_coding,0.5625207476552148,0.0,0,0.08622937366149681,0,0.28901030118456467,atopic dermatitis,EFO_0000274
+ENSG00000105639,JAK3,Janus kinase 3,protein_coding,0.5553863119539271,0.0,0,0.08495326287624394,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000117586,TNFSF4,TNF superfamily member 4,protein_coding,0.5446383229255105,0.7318022248553581,0,0.2020759815361159,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000168685,IL7R,interleukin 7 receptor,protein_coding,0.5407131404427233,0.8826506419818105,0,0.11922333017758968,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000160712,IL6R,interleukin 6 receptor,protein_coding,0.5404885566151909,0.877257479348036,0,0.23610310622769598,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000147443,DOK2,docking protein 2,protein_coding,0.5241642203028327,0.8616024101854703,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000135426,TESPA1,"thymocyte expressed, positive selection associated 1",protein_coding,0.5162055851932771,0.8491189905517125,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000019186,CYP24A1,cytochrome P450 family 24 subfamily A member 1,protein_coding,0.5095424431925857,0.8309204518545512,0,0.14476352118126726,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000065675,PRKCQ,protein kinase C theta,protein_coding,0.5076783238282127,0.8332707730976876,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000182261,NLRP10,NLR family pyrin domain containing 10,protein_coding,0.4936785423942707,0.8096902577093843,0,0.04746915972391598,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164691,TAGAP,T cell activation RhoGTPase activating protein,protein_coding,0.4894325409185622,0.801431780894432,0,0.07295169571339452,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000112182,BACH2,BACH transcriptional regulator 2,protein_coding,0.48468090751217796,0.7843751566234962,0,0.0,0,0.25776265818732735,atopic dermatitis,EFO_0000274
+ENSG00000262406,MMP12,matrix metallopeptidase 12,protein_coding,0.4801426081170028,0.7842218048805001,0,0.04255515583281347,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000166396,SERPINB7,serpin family B member 7,protein_coding,0.47738786673548367,0.778764284744725,0,0.07784891602748814,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000100368,CSF2RB,colony stimulating factor 2 receptor subunit beta,protein_coding,0.4761259000687214,0.7801512979085693,0,0.06079307976116211,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115604,IL18R1,interleukin 18 receptor 1,protein_coding,0.47600227942768647,0.7786373036590041,0,0.08700603340038998,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000182568,SATB1,SATB homeobox 1,protein_coding,0.47557290884109205,0.7784817558324436,0,0.07599134970145263,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000131323,TRAF3,TNF receptor associated factor 3,protein_coding,0.46883921927783534,0.7681652613078357,0,0.06079307976116211,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000198740,ZNF652,zinc finger protein 652,protein_coding,0.4688288528882793,0.7675402785865564,0,0.07295169571339452,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000268480,NFILZ,NFIL3 like basic leucine zipper,protein_coding,0.4679358685720723,0.7697189719791346,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000135362,PRR5L,proline rich 5 like,protein_coding,0.4658333419945458,0.766260475410468,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000138688,BLTP1,bridge-like lipid transfer protein family member 1,protein_coding,0.4651051232282808,0.7650626108358718,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000091986,CCDC80,coiled-coil domain containing 80,protein_coding,0.4642398387365107,0.760918534193765,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115602,IL1RL1,interleukin 1 receptor like 1,protein_coding,0.46359761289505863,0.7301149189058291,0,0.09321354095609553,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000146592,CREB5,cAMP responsive element binding protein 5,protein_coding,0.46342354078676534,0.7615921286993382,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115607,IL18RAP,interleukin 18 receptor accessory protein,protein_coding,0.4599654937760627,0.754656267381932,0,0.03495602086266821,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000114861,FOXP1,forkhead box P1,protein_coding,0.4483787052417165,0.736940992539161,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000123908,AGO2,argonaute RISC catalytic component 2,protein_coding,0.44295958952798137,0.7238889517925643,0,0.09491875370757727,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000020633,RUNX3,RUNX family transcription factor 3,protein_coding,0.4425352029022024,0.7248971517154715,0,0.06079307976116211,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000197070,ARRDC1,arrestin domain containing 1,protein_coding,0.4423391265734396,0.7210816054629282,0,0.115506851546208,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000181915,ADO,2-aminoethanethiol dioxygenase,protein_coding,0.44188281535655477,0.7168328195681574,0,0.20061716321183495,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000153093,ACOXL,acyl-CoA oxidase like,protein_coding,0.44181966538159634,0.726759800815116,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000168918,INPP5D,inositol polyphosphate-5-phosphatase D,protein_coding,0.43978059800288993,0.6930091499292736,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000180902,D2HGDH,D-2-hydroxyglutarate dehydrogenase,protein_coding,0.4397225215801863,0.7198905477678649,0,0.06839221473130737,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000171940,ZNF217,zinc finger protein 217,protein_coding,0.4388626743655572,0.7218957751272314,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000197915,HRNR,hornerin,protein_coding,0.43735456624068114,0.6873733995267292,0,0.6408330450081746,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000130876,SLC7A10,solute carrier family 7 member 10,protein_coding,0.4362498254217576,0.7175978370164058,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000134954,ETS1,"ETS proto-oncogene 1, transcription factor",protein_coding,0.4344070715563673,0.7113750101463945,0,0.06383273374922022,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000134107,BHLHE40,basic helix-loop-helix family member e40,protein_coding,0.43096898884038254,0.7089112618303453,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000170266,GLB1,galactosidase beta 1,protein_coding,0.4299311314516733,0.7050847509253086,0,0.04238628616681025,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000181786,ACTL9,actin like 9,protein_coding,0.42813490444441793,0.7003485189151277,0,0.07801778569349137,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000075426,FOSL2,"FOS like 2, AP-1 transcription factor subunit",protein_coding,0.4265075093359799,0.7009645360219686,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000136240,KDELR2,KDEL endoplasmic reticulum protein retention receptor 2,protein_coding,0.42350908236456053,0.6966402821314556,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000198286,CARD11,caspase recruitment domain family member 11,protein_coding,0.4227930671860951,0.6708945995797677,0,0.02598049472500521,0,0.4798109525028657,atopic dermatitis,EFO_0000274
+ENSG00000163606,CD200R1,CD200 receptor 1,protein_coding,0.4186418842135947,0.6880261799569577,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000205189,ZBTB10,zinc finger and BTB domain containing 10,protein_coding,0.41725783173805014,0.686357449527696,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000120337,TNFSF18,TNF superfamily member 18,protein_coding,0.4148279696284817,0.6745713975200237,0,0.1557822668879779,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000243509,TNFRSF6B,TNF receptor superfamily member 6b,protein_coding,0.4145328106301918,0.6798738911824358,0,0.04002211084276505,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000136040,PLXNC1,plexin C1,protein_coding,0.4112125542889727,0.6764134271606312,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000141655,TNFRSF11A,TNF receptor superfamily member 11a,protein_coding,0.40919747564885467,0.6730987758088085,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000186827,TNFRSF4,TNF receptor superfamily member 4,protein_coding,0.4086524074062978,0.0,0,0.24277867284850807,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000172493,AFF1,ALF transcription elongation factor 1,protein_coding,0.4079012422696568,0.6709665703270491,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000169220,RGS14,regulator of G protein signaling 14,protein_coding,0.392552799352724,0.6433370083218755,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000123685,BATF3,basic leucine zipper ATF-like transcription factor 3,protein_coding,0.3902315676699214,0.6419012973236837,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000138685,FGF2,fibroblast growth factor 2,protein_coding,0.38615362468437076,0.6351933907633126,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000116031,CD207,CD207 molecule,protein_coding,0.3844094352788036,0.6148801155938362,0,0.11995984124912171,0,0.29174598977381694,atopic dermatitis,EFO_0000274
+ENSG00000180251,SLC9A4,solute carrier family 9 member A4,protein_coding,0.383418313051192,0.6291741838334011,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000221887,HMSD,histocompatibility minor serpin domain containing,protein_coding,0.38087728440052104,0.6265142116452636,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000100890,PRORP,protein only RNase P catalytic subunit,protein_coding,0.3793419846487981,0.6239887601337516,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000133710,SPINK5,serine peptidase inhibitor Kazal type 5,protein_coding,0.37548203799225593,0.0,0,0.18335244854422042,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164485,IL22RA2,interleukin 22 receptor subunit alpha 2,protein_coding,0.3751537036848873,0.6159299335402105,0,0.023388448741447087,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000038532,CLEC16A,C-type lectin domain containing 16A,protein_coding,0.37282391034865675,0.6132670228476181,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000135541,AHI1,Abelson helper integration site 1,protein_coding,0.37058342058233545,0.6095815873093571,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000133019,CHRM3,cholinergic receptor muscarinic 3,protein_coding,0.3695798546847018,0.0,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000107485,GATA3,GATA binding protein 3,protein_coding,0.3685624081180232,0.5943068930776202,0,0.23900564379376496,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000134765,DSC1,desmocollin 1,protein_coding,0.3674657640592667,0.5903776921881302,0,0.0667035180712751,0,0.2518657294504946,atopic dermatitis,EFO_0000274
+ENSG00000196262,PPIA,peptidylprolyl isomerase A,protein_coding,0.36628932491490773,0.0,0,0.06079307976116211,0,0.27277854888833436,atopic dermatitis,EFO_0000274
+ENSG00000181090,EHMT1,euchromatic histone lysine methyltransferase 1,protein_coding,0.36537433610235526,0.6001011426853141,0,0.01823792392834863,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000137265,IRF4,interferon regulatory factor 4,protein_coding,0.3651197826270889,0.5787423929847613,0,0.04255515583281348,0,0.4181250925914778,atopic dermatitis,EFO_0000274
+ENSG00000139531,SUOX,sulfite oxidase,protein_coding,0.3594017273118165,0.5911885509400063,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000159208,CIART,circadian associated repressor of transcription,protein_coding,0.3559332627427167,0.5854831900951102,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164512,ANKRD55,ankyrin repeat domain 55,protein_coding,0.35356358641609237,0.5815852524746868,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000163125,RPRD2,regulation of nuclear pre-mRNA domain containing 2,protein_coding,0.3527362848813211,0.5802244042695597,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115598,IL1RL2,interleukin 1 receptor like 2,protein_coding,0.3470746631362728,0.5319401001491547,0,0.0439061131608393,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000145569,OTULINL,OTU deubiquitinase with linear linkage specificity like,protein_coding,0.34193547445499567,0.5624578912572915,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000005421,PON1,paraoxonase 1,protein_coding,0.34183282558324113,0.561681110860091,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000266472,MRPS21,mitochondrial ribosomal protein S21,protein_coding,0.34150171817625696,0.561744395115226,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000140297,GCNT3,"glucosaminyl (N-acetyl) transferase 3, mucin type",protein_coding,0.3404968514716382,0.5460877797657901,0,0.0,0,0.2800737184596738,atopic dermatitis,EFO_0000274
+ENSG00000119403,PHF19,PHD finger protein 19,protein_coding,0.33923024290438836,0.5580079907731651,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164402,SEPTIN8,septin 8,protein_coding,0.33648311281211524,0.5534891703694846,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000174125,TLR1,toll like receptor 1,protein_coding,0.33168688392860396,0.5430105162283612,0,0.05178443640566625,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000156127,BATF,basic leucine zipper ATF-like transcription factor,protein_coding,0.32961878000771844,0.5406780371423042,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000155307,SAMSN1,"SAM domain, SH3 domain and nuclear localization signals 1",protein_coding,0.3278257363249893,0.524575126222196,0,0.0,0,0.282019097012031,atopic dermatitis,EFO_0000274
+ENSG00000162924,REL,"REL proto-oncogene, NF-kB subunit",protein_coding,0.32610324861193707,0.5201083890341328,0,0.0667035180712751,0,0.2964878499951876,atopic dermatitis,EFO_0000274
+ENSG00000130787,HIP1R,huntingtin interacting protein 1 related,protein_coding,0.32604753423816,0.536323436021178,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000163754,GYG1,glycogenin 1,protein_coding,0.3247977593365505,0.5342676512073151,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000126804,ZBTB1,zinc finger and BTB domain containing 1,protein_coding,0.324501387292551,0.5307404877113265,0,0.06079307976116211,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000228716,DHFR,dihydrofolate reductase,protein_coding,0.324024004541275,0.0,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000143365,RORC,RAR related orphan receptor C,protein_coding,0.32240549776273375,0.5277163456674183,0,0.04103532883878443,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000142599,RERE,arginine-glutamic acid dipeptide repeats,protein_coding,0.31924374673503453,0.5126448236282828,0,0.0,0,0.24973797165885395,atopic dermatitis,EFO_0000274
+ENSG00000072682,P4HA2,prolyl 4-hydroxylase subunit alpha 2,protein_coding,0.3189016756434592,0.523049214246074,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000162739,SLAMF6,SLAM family member 6,protein_coding,0.3176621021207195,0.5225300369198587,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000180228,PRKRA,protein activator of interferon induced protein kinase EIF2AK2,protein_coding,0.31627360509813074,0.5193341685541685,0,0.01823792392834863,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000131437,KIF3A,kinesin family member 3A,protein_coding,0.3153307592915728,0.5126072069966334,0,0.12175895990742387,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000100365,NCF4,neutrophil cytosolic factor 4,protein_coding,0.3138575180710568,0.5144479926591965,0,0.03647584785669727,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000169189,NSMCE1,NSE1 component of SMC5/6 complex,protein_coding,0.31293538342101423,0.5147549435732556,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000158985,CDC42SE2,CDC42 small effector 2,protein_coding,0.3120555085388658,0.5133076162037503,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000073861,TBX21,T-box transcription factor 21,protein_coding,0.31143176685824053,0.5051510868547759,0,0.1426104329397261,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000177311,ZBTB38,zinc finger and BTB domain containing 38,protein_coding,0.3058756601379469,0.5025343040416846,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000183484,GPR132,G protein-coupled receptor 132,protein_coding,0.30508098326599437,0.48885572919820597,0,0.0,0,0.2595864505801622,atopic dermatitis,EFO_0000274
+ENSG00000198821,CD247,CD247 molecule,protein_coding,0.3021125847811286,0.49695226161931416,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000198796,ALPK2,alpha kinase 2,protein_coding,0.3008780757519557,0.4949215880064244,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000118292,C1orf54,chromosome 1 open reading frame 54,protein_coding,0.29946976727620866,0.4926050275010513,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000182898,TCHHL1,trichohyalin like 1,protein_coding,0.29792121239821273,0.48701811832526504,0,0.06079307976116211,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000117560,FASLG,Fas ligand,protein_coding,0.29778757768637193,0.4694387847735278,0,0.15795410017353878,0,0.33778154942295696,atopic dermatitis,EFO_0000274
+ENSG00000111540,RAB5B,"RAB5B, member RAS oncogene family",protein_coding,0.2973995182386136,0.4891996250346383,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000117090,SLAMF1,signaling lymphocytic activation molecule family member 1,protein_coding,0.2973309391800909,0.4782611214595155,0,0.20365681719989306,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000197375,SLC22A5,solute carrier family 22 member 5,protein_coding,0.2967878572867293,0.4881934892141019,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000186207,LCE5A,late cornified envelope 5A,protein_coding,0.2952969864587103,0.48574111990845686,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000162927,PUS10,pseudouridine synthase 10,protein_coding,0.2949125806891623,0.48510880160667297,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000165272,AQP3,aquaporin 3 (Gill blood group),protein_coding,0.29449759853407537,0.47685258343703996,0,0.15147208070794313,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000123384,LRP1,LDL receptor related protein 1,protein_coding,0.29424694952555247,0.48249406189194455,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000120129,DUSP1,dual specificity phosphatase 1,protein_coding,0.29408409605723196,0.469499740098358,0,0.2849253439639466,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000111424,VDR,vitamin D receptor,protein_coding,0.29315424497973036,0.0,0,0.239336053160249,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000204381,LAYN,layilin,protein_coding,0.2914579319059517,0.47790633968646,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000173334,TRIB1,tribbles pseudokinase 1,protein_coding,0.29004200532739305,0.4740574209863989,0,0.06079307976116211,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164398,ACSL6,acyl-CoA synthetase long chain family member 6,protein_coding,0.28986783021311086,0.47681057013711947,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000109472,CPE,carboxypeptidase E,protein_coding,0.28877801306840556,0.47390010665502386,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000166949,SMAD3,SMAD family member 3,protein_coding,0.2854375870279562,0.465304538938387,0,0.08437235122519282,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000100362,PVALB,parvalbumin,protein_coding,0.28490951058112607,0.4686545108430937,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000158636,EMSY,"EMSY transcriptional repressor, BRCA2 interacting",protein_coding,0.28407743883980296,0.4647503395460674,0,0.05070952928675998,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000116688,MFN2,mitofusin 2,protein_coding,0.2828552172263628,0.46527535426337446,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000143520,FLG2,filaggrin 2,protein_coding,0.27996390853233466,0.4265239556150369,0,0.6571539741532277,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000135040,NAA35,"N-alpha-acetyltransferase 35, NatC auxiliary subunit",protein_coding,0.27933905320645286,0.45949153144386295,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000145423,SFRP2,secreted frizzled related protein 2,protein_coding,0.27926150932313365,0.457929382836142,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000092020,PPP2R3C,protein phosphatase 2 regulatory subunit B''gamma,protein_coding,0.2792182819066084,0.4592928718261582,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000140945,CDH13,cadherin 13,protein_coding,0.277867603738712,0.45707110880115137,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000101246,ARFRP1,ARF related protein 1,protein_coding,0.27503908736396754,0.45241841414271844,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000184361,SPATA32,spermatogenesis associated 32,protein_coding,0.27428228527995,0.45117353218083933,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000116128,BCL9,BCL9 transcription coactivator,protein_coding,0.2726758193036988,0.44853101763385045,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000155052,CNTNAP5,contactin associated protein family member 5,protein_coding,0.27179373880037033,0.44708006218498375,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000137507,LRRC32,leucine rich repeat containing 32,protein_coding,0.26897342601419,0.43741552842060455,0,0.10050666772420727,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000123360,PDE1B,phosphodiesterase 1B,protein_coding,0.26834103847802415,0.44140063232896926,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115738,ID2,inhibitor of DNA binding 2,protein_coding,0.26795795429600433,0.44077048793831675,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115594,IL1R1,interleukin 1 receptor type 1,protein_coding,0.2670219673006803,0.04578528806383722,0,0.10048410266896941,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000144642,RBMS3,RNA binding motif single stranded interacting protein 3,protein_coding,0.26686120260523266,0.4353188299010854,0,0.07295169571339452,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000263001,GTF2I,general transcription factor IIi,protein_coding,0.2662523455100348,0.43796489099756236,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000106069,CHN2,chimerin 2,protein_coding,0.265097844631929,0.436065824717911,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000163602,RYBP,RING1 and YY1 binding protein,protein_coding,0.2628799975368176,0.432417634654462,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000113749,HRH2,histamine receptor H2,protein_coding,0.2611753396716155,0.0,0,0.07166490885844992,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000176771,NCKAP5,NCK associated protein 5,protein_coding,0.25888681538917135,0.42584915323629025,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000187486,KCNJ11,potassium inwardly rectifying channel subfamily J member 11,protein_coding,0.25870589827929125,0.42555155832813474,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000089775,ZBTB25,zinc finger and BTB domain containing 25,protein_coding,0.2568399989341717,0.4224822955889379,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000119383,PTPA,protein phosphatase 2 phosphatase activator,protein_coding,0.25653525698459995,0.4219810182218939,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000134453,RBM17,RNA binding motif protein 17,protein_coding,0.25583496399921024,0.42082908943634634,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000182185,RAD51B,RAD51 paralog B,protein_coding,0.25443592141253996,0.4185277706149168,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000198758,EPS8L3,EPS8 signaling adaptor L3,protein_coding,0.25367857553322004,0.41728199415105727,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000138795,LEF1,lymphoid enhancer binding factor 1,protein_coding,0.24883200247909174,0.4093097494923411,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000160584,SIK3,SIK family kinase 3,protein_coding,0.24524952296594343,0.4034168427219936,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000185811,IKZF1,IKAROS family zinc finger 1,protein_coding,0.2447175971985857,0.40086550122052905,0,0.03352728009868947,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164136,IL15,interleukin 15,protein_coding,0.24334497625295384,0.39602893172401615,0,0.08510152546497741,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000162928,PEX13,peroxisomal biogenesis factor 13,protein_coding,0.24176898508993075,0.3976916222039894,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000160953,PWWP3A,"PWWP domain containing 3A, DNA repair factor",protein_coding,0.24172213717135765,0.39761456093524444,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000155093,PTPRN2,protein tyrosine phosphatase receptor type N2,protein_coding,0.23918817857629746,0.39344639145770627,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000060237,WNK1,WNK lysine deficient protein kinase 1,protein_coding,0.2389829726846426,0.39055132001045434,0,0.05115046674799063,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164113,ADAD1,adenosine deaminase domain containing 1,protein_coding,0.23769572114801224,0.3909914123150988,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000116017,ARID3A,AT-rich interaction domain 3A,protein_coding,0.237396875831478,0.3904998344616519,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164399,IL3,interleukin 3,protein_coding,0.234194191641279,0.3794147947792393,0,0.11633734758559452,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000006062,MAP3K14,mitogen-activated protein kinase kinase kinase 14,protein_coding,0.23389333116238517,0.3803792385753667,0,0.0697431720593332,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000258366,RTEL1,regulator of telomere elongation helicase 1,protein_coding,0.23094088738879323,0.3781324226535293,0,0.03495602086266821,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000147408,CSGALNACT1,chondroitin sulfate N-acetylgalactosaminyltransferase 1,protein_coding,0.22699649598391566,0.3733919993455131,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000203896,LIME1,Lck interacting transmembrane adaptor 1,protein_coding,0.22408690225376687,0.3686059385938951,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000137825,ITPKA,inositol-trisphosphate 3-kinase A,protein_coding,0.22406407795590388,0.3685683943570302,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000206557,TRIM71,tripartite motif containing 71,protein_coding,0.22014579804878773,0.36212312143697106,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000176399,DMRTA1,DMRT like family A1,protein_coding,0.21763677591490818,0.3579959705445722,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000105538,RASIP1,Ras interacting protein 1,protein_coding,0.21650815873104906,0.3561394809765274,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000198604,BAZ1A,bromodomain adjacent to zinc finger domain 1A,protein_coding,0.21511722407392234,0.3538514990835368,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000164209,SLC25A46,solute carrier family 25 member 46,protein_coding,0.21262092941388222,0.34883338772274985,0,0.01823792392834863,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000116691,MIIP,migration and invasion inhibitory protein,protein_coding,0.2123182292998371,0.3492473652165216,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000172818,OVOL1,ovo like transcriptional repressor 1,protein_coding,0.21176470303848371,0.342091729052855,0,0.12490254989412414,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000165269,AQP7,aquaporin 7,protein_coding,0.21107760976071738,0.34720664027875936,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000293584,ENSG00000293584,novel protein,protein_coding,0.21041044053965466,0.34610919757033953,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000073584,SMARCE1,SWI/SNF related BAF chromatin remodeling complex subunit E1,protein_coding,0.2098137248763488,0.34360781862064355,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000149403,GRIK4,glutamate ionotropic receptor kainate type subunit 4,protein_coding,0.20873712474321296,0.3433567201452516,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000119508,NR4A3,nuclear receptor subfamily 4 group A member 3,protein_coding,0.20633478463819815,0.3382919032390281,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000095261,PSMD5,"proteasome 26S subunit, non-ATPase 5",protein_coding,0.20383393799188126,0.3352913502534895,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000184408,KCND2,potassium voltage-gated channel subfamily D member 2,protein_coding,0.2034071764526124,0.33458935992671957,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000146243,IRAK1BP1,interleukin 1 receptor associated kinase 1 binding protein 1,protein_coding,0.20265423630848337,0.3333508305627079,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000122877,EGR2,early growth response 2,protein_coding,0.20256305719297618,0.3332008478412116,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000137806,NDUFAF1,NADH:ubiquinone oxidoreductase complex assembly factor 1,protein_coding,0.20219599579127534,0.3325970597075245,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000171621,SPSB1,splA/ryanodine receptor domain and SOCS box containing 1,protein_coding,0.20186759229014387,0.3320568608848597,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000169223,LMAN2,"lectin, mannose binding 2",protein_coding,0.20145470806775137,0.3307697668929921,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000136542,GALNT5,polypeptide N-acetylgalactosaminyltransferase 5,protein_coding,0.19969351617415432,0.3284806707583999,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000144619,CNTN4,contactin 4,protein_coding,0.19951752908195283,0.3281911853549742,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000266338,NBPF15,NBPF member 15,protein_coding,0.19711094029126228,0.32423252953403975,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000168672,LRATD2,LRAT domain containing 2,protein_coding,0.1965214969800685,0.3232629400453849,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000151327,FAM177A1,family with sequence similarity 177 member A1,protein_coding,0.1960221803904713,0.32244160217015494,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000069667,RORA,RAR related orphan receptor A,protein_coding,0.193129607820816,0.31251925946282255,0,0.0870933948702812,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000091428,RAPGEF4,Rap guanine nucleotide exchange factor 4,protein_coding,0.19032557940901573,0.31307112611624255,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000143536,CRNN,cornulin,protein_coding,0.19009319497005364,0.30432982289266136,0,0.16718096934319582,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000054598,FOXC1,forkhead box C1,protein_coding,0.1895826182550942,0.3118490114333865,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000112679,DUSP22,dual specificity phosphatase 22,protein_coding,0.18860093233985242,0.3102342126452703,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000067533,RRP15,ribosomal RNA processing 15 homolog,protein_coding,0.18832046323759818,0.30977286226895095,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000170683,OR10A3,olfactory receptor family 10 subfamily A member 3,protein_coding,0.18808995115829472,0.3078738604079649,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000138386,NAB1,NGFI-A binding protein 1,protein_coding,0.18747740378013883,0.30838609347754986,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000118503,TNFAIP3,TNF alpha induced protein 3,protein_coding,0.18683259229077503,0.297884774031652,0,0.18881307016861787,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000143376,SNX27,sorting nexin 27,protein_coding,0.18594497434804805,0.30586536342388054,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000138311,ZNF365,zinc finger protein 365,protein_coding,0.18398204426568013,0.29944485580229396,0,0.06383273374922022,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000293137,MSL3B,MSL complex subunit 3B ,protein_coding,0.18370305449942578,0.3021775755088249,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000126353,CCR7,C-C motif chemokine receptor 7,protein_coding,0.18169772229488,0.2960163520395008,0,0.04059289031385596,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000181733,OR2Z1,olfactory receptor family 2 subfamily Z member 1,protein_coding,0.17863542735353885,0.29384171365448863,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000143458,GABPB2,GA binding protein transcription factor subunit beta 2,protein_coding,0.17731404851374752,0.27781644257584504,0,0.0,0,0.2770340644716157,atopic dermatitis,EFO_0000274
+ENSG00000149968,MMP3,matrix metallopeptidase 3,protein_coding,0.17212198667703882,0.28225750587595905,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000143434,SEMA6C,semaphorin 6C,protein_coding,0.16875213292695712,0.2775844447919631,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000187045,TMPRSS6,transmembrane serine protease 6,protein_coding,0.1683160904311501,0.27686718799641974,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000125520,SLC2A4RG,SLC2A4 regulator,protein_coding,0.1670589234536226,0.2747992437789751,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000205133,TRIQK,triple QxxK/R motif containing,protein_coding,0.16574944128097324,0.2726452450380099,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000171316,CHD7,chromodomain helicase DNA binding protein 7,protein_coding,0.16416599710681753,0.2700405996073514,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000178279,TNP2,transition protein 2,protein_coding,0.16362278567615474,0.2691470580516399,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000138468,SENP7,SUMO specific peptidase 7,protein_coding,0.1622178149662662,0.26683598791765717,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000100906,NFKBIA,NFKB inhibitor alpha,protein_coding,0.1620130421495332,0.26301009896593686,0,0.0697810643445925,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000100902,PSMA6,proteasome 20S subunit alpha 6,protein_coding,0.16053333225328273,0.2611774704741414,0,0.057753425773104,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000095321,CRAT,carnitine O-acetyltransferase,protein_coding,0.16013458118460355,0.26216542230203593,0,0.01823792392834863,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000113522,RAD50,RAD50 double strand break repair protein,protein_coding,0.15981200608126678,0.26029490909251457,0,0.051674117796987794,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000198914,POU3F3,POU class 3 homeobox 3,protein_coding,0.15916291122789317,0.2618109032363499,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000273213,H3-7,H3.7 histone (putative),protein_coding,0.158285691107151,0.26036794274777375,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000154252,GAL3ST2,galactose-3-O-sulfotransferase 2,protein_coding,0.15642724426962573,0.2573109388176775,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000105852,PON3,paraoxonase 3,protein_coding,0.15291912709881708,0.2505001370906868,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000110442,COMMD9,COMM domain containing 9,protein_coding,0.15113084356502507,0.2485987618307431,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000134250,NOTCH2,notch receptor 2,protein_coding,0.15017728495361757,0.2459663514258205,0,0.021277577916406734,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000110367,DDX6,DEAD-box helicase 6,protein_coding,0.1484750403637873,0.2411905132400236,0,0.06079307976116211,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000156966,B3GNT7,"UDP-GlcNAc:betaGal beta-1,3-N-acetylglucosaminyltransferase 7",protein_coding,0.14799034127120003,0.24343287402548114,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000171954,CYP4F22,cytochrome P450 family 4 subfamily F member 22,protein_coding,0.1478319418738807,0.24317231904464845,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000072041,SLC6A15,solute carrier family 6 member 15,protein_coding,0.1475622800400498,0.24272874580425605,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000128311,TST,thiosulfate sulfurtransferase,protein_coding,0.14657419329649324,0.2398875565443735,0,0.024317231904464845,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000002016,RAD52,RAD52 DNA repair protein,protein_coding,0.14592987805144647,0.24004356848634986,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000169509,CRCT1,cysteine rich C-terminal 1,protein_coding,0.14430356336516323,0.23250315253052517,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000116035,VAX2,ventral anterior homeobox 2,protein_coding,0.14313936217592693,0.23545338176364616,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000162929,SANBR,SANT and BTB domain regulator of CSR,protein_coding,0.14303593853666993,0.23528325773034614,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000198502,HLA-DRB5,"major histocompatibility complex, class II, DR beta 5",protein_coding,0.14252520901599258,0.23444314645010855,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000128915,ICE2,interactor of little elongation complex ELL subunit 2,protein_coding,0.14118911974226617,0.23224538104823136,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000167916,KRT24,keratin 24,protein_coding,0.1407684518854832,0.2315534143664386,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000154114,TBCEL,tubulin folding cofactor E like,protein_coding,0.13603537883062658,0.22376786858811734,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000143374,TARS2,"threonyl-tRNA synthetase 2, mitochondrial",protein_coding,0.1353140030255561,0.2225812601650788,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000197114,ZGPAT,zinc finger CCCH-type and G-patch domain containing,protein_coding,0.13097256208702135,0.2143760405844454,0,0.021277577916406734,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000067208,EVI5,ecotropic viral integration site 5,protein_coding,0.12848456551630885,0.2113473540427404,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000113719,ERGIC1,endoplasmic reticulum-golgi intermediate compartment 1,protein_coding,0.12616269901333976,0.2075280599518817,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000170145,SIK2,salt inducible kinase 2,protein_coding,0.12560520829661817,0.206611030054874,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000182134,TDRKH,tudor and KH domain containing,protein_coding,0.12424195955478963,0.2043685893902715,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000111328,CDK2AP1,cyclin dependent kinase 2 associated protein 1,protein_coding,0.12133373788563714,0.1995847855748076,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000213347,MXD3,MAX dimerization protein 3,protein_coding,0.12062117630453299,0.1984126758809023,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000091106,NLRC4,NLR family CARD domain containing 4,protein_coding,0.11916127134136126,0.19453785523571876,0,0.029467756717563298,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000162676,GFI1,growth factor independent 1 transcriptional repressor,protein_coding,0.1189313675863919,0.19563306885197757,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000153107,ANAPC1,anaphase promoting complex subunit 1,protein_coding,0.1184351966152716,0.1948169052802855,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000101132,PFDN4,prefoldin subunit 4,protein_coding,0.11731968204087982,0.1923740377122811,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000145901,TNIP1,TNFAIP3 interacting protein 1,protein_coding,0.11626934528366953,0.19125424429960966,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000255690,TRIL,TLR4 interactor with leucine rich repeats,protein_coding,0.11618417456094524,0.19111414492800535,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000185338,SOCS1,suppressor of cytokine signaling 1,protein_coding,0.11614391433999662,0.18105183492444776,0,0.18664496650354348,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000163191,S100A11,S100 calcium binding protein A11,protein_coding,0.11529343563972187,0.18904101624155042,0,0.012158615952232422,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000137815,RTF1,"RTF1 homolog, Paf1/RNA polymerase II complex component",protein_coding,0.11499303898354947,0.18915481734980832,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000186952,TMEM232,transmembrane protein 232,protein_coding,0.11457751684937521,0.1827057839901614,0,0.1153106200162949,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000106066,CPVL,carboxypeptidase vitellogenic like,protein_coding,0.1142840410853788,0.18798856964372712,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000116014,KISS1R,KISS1 receptor,protein_coding,0.11391566470682603,0.18738261847296883,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000182264,IZUMO1,izumo sperm-oocyte fusion 1,protein_coding,0.11371418408800302,0.18705119815405333,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000203786,KPRP,keratinocyte proline rich protein,protein_coding,0.11327579220282052,0.17191367340468816,0,0.07903100368951074,0,0.25320317720524016,atopic dermatitis,EFO_0000274
+ENSG00000183813,CCR4,C-C motif chemokine receptor 4,protein_coding,0.11266701102740416,0.17393890679362725,0,0.22779542381679016,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115008,IL1A,interleukin 1 alpha,protein_coding,0.11170131147510112,0.0,0,0.13056696091406267,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000115419,GLS,glutaminase,protein_coding,0.11084625975113278,0.1823336803902923,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000065361,ERBB3,erb-b2 receptor tyrosine kinase 3,protein_coding,0.11009873866128864,0.18110406495909365,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000165025,SYK,spleen associated tyrosine kinase,protein_coding,0.1073700313997873,0.0,0,0.09783970708895028,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000100883,SRP54,signal recognition particle 54,protein_coding,0.10684306920499669,0.1757487359165735,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000188483,IER5L,immediate early response 5 like,protein_coding,0.10539266587919113,0.1733629325792467,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000175354,PTPN2,protein tyrosine phosphatase non-receptor type 2,protein_coding,0.10411615780251844,0.1712631737223378,0,0.0,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000183134,PTGDR2,prostaglandin D2 receptor 2,protein_coding,0.10345437438193615,0.0,0,0.14428785072222133,0,0.29970988322252917,atopic dermatitis,EFO_0000274
+ENSG00000196083,IL1RAP,interleukin 1 receptor accessory protein,protein_coding,0.10254814356793016,0.0,0,0.06383273374922022,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000163216,SPRR2D,small proline rich protein 2D,protein_coding,0.1022332796351201,0.16664615511571795,0,0.030396539880581056,0,0.0,atopic dermatitis,EFO_0000274
+ENSG00000104921,FCER2,Fc epsilon receptor II,protein_coding,0.10142386245735663,0.0,0,0.7139780880949574,0,0.4807786938978304,atopic dermatitis,EFO_0000274
+ENSG00000134987,WDR36,WD repeat domain 36,protein_coding,0.43297753305316145,0.7114552510483599,0,0.015198269940290528,0,0.0,eczema,EFO_0004232
+ENSG00000214711,CAPN14,calpain 14,protein_coding,0.41974245608181454,0.6708074813872623,0,0.3927397304138582,0,0.0,eczema,EFO_0004232
+ENSG00000132561,MATN2,matrilin 2,protein_coding,0.29804675206018405,0.49026427552465,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000115825,PRKD3,protein kinase D3,protein_coding,0.2781804109372676,0.4575856528903545,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000169926,KLF13,KLF transcription factor 13,protein_coding,0.2676626863733011,0.43830901953384144,0,0.03951550184475537,0,0.0,eczema,EFO_0004232
+ENSG00000185532,PRKG1,protein kinase cGMP-dependent 1,protein_coding,0.2519541707794922,0.4144454792705767,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000177105,RHOG,ras homolog family member G,protein_coding,0.2514802458450045,0.4136659087399346,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000162105,SHANK2,SH3 and multiple ankyrin repeat domains 2,protein_coding,0.24879893743648385,0.40925536000798235,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000153904,DDAH1,dimethylarginine dimethylaminohydrolase 1,protein_coding,0.2383149722589913,0.3892743447817495,0,0.0547137717850459,0,0.0,eczema,EFO_0004232
+ENSG00000105186,ANKRD27,ankyrin repeat domain 27,protein_coding,0.19678279635646717,0.32180141741905244,0,0.03782680518472309,0,0.0,eczema,EFO_0004232
+ENSG00000105835,NAMPT,nicotinamide phosphoribosyltransferase,protein_coding,0.18896991266209234,0.3108411572575346,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000105366,SIGLEC8,sialic acid binding Ig like lectin 8,protein_coding,0.18610331311696762,0.0,0,0.04320839739577769,0,0.0,eczema,EFO_0004232
+ENSG00000142871,CCN1,cellular communication network factor 1,protein_coding,0.17488723345407592,0.2876762193018609,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000132975,GPR12,G protein-coupled receptor 12,protein_coding,0.16416019346856503,0.27003105306311426,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000135953,SLC67A2,solute carrier family 67 member 2,protein_coding,0.14145321878470163,0.23267980391917825,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000170417,TMEM182,transmembrane protein 182,protein_coding,0.14110348601807707,0.2321045200743746,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000091181,IL5RA,interleukin 5 receptor subunit alpha,protein_coding,0.1340049408420326,0.0,0,0.15304346220534532,0,0.0,eczema,EFO_0004232
+ENSG00000106608,URGCP,upregulator of cell proliferation,protein_coding,0.12380401157851254,0.20364819822404392,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000107984,DKK1,dickkopf Wnt signaling pathway inhibitor 1,protein_coding,0.11607581235107019,0.1909358973210396,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000158089,GALNT14,polypeptide N-acetylgalactosaminyltransferase 14,protein_coding,0.10539830782084311,0.17337221314485407,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000105675,ATP4A,ATPase H+/K+ transporting subunit alpha,protein_coding,0.10294306572724889,0.0,0,0.33350696536242275,0,0.0,eczema,EFO_0004232
+ENSG00000006606,CCL26,C-C motif chemokine ligand 26,protein_coding,0.10010997657226228,0.0,0,0.8233665490016672,0,0.0,eczema,EFO_0004232
+ENSG00000010610,CD4,CD4 molecule,protein_coding,0.09405041813881825,0.0,0,0.7735289814919256,0,0.0,eczema,EFO_0004232
+ENSG00000186009,ATP4B,ATPase H+/K+ transporting subunit beta,protein_coding,0.09280560795415844,0.0,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000132170,PPARG,peroxisome proliferator activated receptor gamma,protein_coding,0.08712075116161253,0.0,0,0.43441721579330417,0,0.0,eczema,EFO_0004232
+ENSG00000111206,FOXM1,forkhead box M1,protein_coding,0.08283721798474607,0.0,0,0.6813046674900237,0,0.0,eczema,EFO_0004232
+ENSG00000136634,IL10,interleukin 10,protein_coding,0.08014793902422929,0.0,0,0.659186369066238,0,0.0,eczema,EFO_0004232
+ENSG00000074800,ENO1,enolase 1,protein_coding,0.07993184371431737,0.0,0,0.6574090671861481,0,0.0,eczema,EFO_0004232
+ENSG00000135318,NT5E,5'-nucleotidase ecto,protein_coding,0.07992164357556675,0.0,0,0.6573251749175651,0,0.0,eczema,EFO_0004232
+ENSG00000181449,SOX2,SRY-box transcription factor 2,protein_coding,0.07809694570413181,0.0,0,0.6423177276998585,0,0.0,eczema,EFO_0004232
+ENSG00000096696,DSP,desmoplakin,protein_coding,0.07605912344982864,0.0,0,0.6255574133490379,0,0.0,eczema,EFO_0004232
+ENSG00000170989,S1PR1,sphingosine-1-phosphate receptor 1,protein_coding,0.07585626517403506,0.0,0,0.06383273374922022,0,0.0,eczema,EFO_0004232
+ENSG00000144891,AGTR1,angiotensin II receptor type 1,protein_coding,0.07557908028302153,0.0,0,0.0547137717850459,0,0.0,eczema,EFO_0004232
+ENSG00000103599,IQCH,IQ motif containing H,protein_coding,0.0751943346542038,0.12368897076710035,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000162891,IL20,interleukin 20,protein_coding,0.07505304495652029,0.0,0,0.6172827997148799,0,0.0,eczema,EFO_0004232
+ENSG00000118898,PPL,periplakin,protein_coding,0.07491178332317414,0.0,0,0.6161209764127775,0,0.0,eczema,EFO_0004232
+ENSG00000102554,KLF5,KLF transcription factor 5,protein_coding,0.07480912225242839,0.0,0,0.6152766280827615,0,0.0,eczema,EFO_0004232
+ENSG00000012779,ALOX5,arachidonate 5-lipoxygenase,protein_coding,0.07465513064630977,0.0,0,0.024317231904464845,0,0.0,eczema,EFO_0004232
+ENSG00000125910,S1PR4,sphingosine-1-phosphate receptor 4,protein_coding,0.07428555079162506,0.0,0,0.012158615952232422,0,0.0,eczema,EFO_0004232
+ENSG00000074416,MGLL,monoglyceride lipase,protein_coding,0.07391597093694036,0.0,0,0.607930797611621,0,0.0,eczema,EFO_0004232
+ENSG00000132514,CLEC10A,C-type lectin domain containing 10A,protein_coding,0.07391597093694036,0.0,0,0.607930797611621,0,0.0,eczema,EFO_0004232
+ENSG00000162711,NLRP3,NLR family pyrin domain containing 3,protein_coding,0.07391597093694036,0.0,0,0.607930797611621,0,0.0,eczema,EFO_0004232
+ENSG00000180739,S1PR5,sphingosine-1-phosphate receptor 5,protein_coding,0.07391597093694036,0.0,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000181072,CHRM2,cholinergic receptor muscarinic 2,protein_coding,0.07391597093694036,0.0,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000278910,BANCR,BRAF-activated non-protein coding RNA,lncRNA,0.07075400995797124,0.0,0,0.5819248690471239,0,0.0,eczema,EFO_0004232
+ENSG00000182108,DEXI,Dexi homolog,protein_coding,0.06894751018981217,0.11341341886393383,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000109321,AREG,amphiregulin,protein_coding,0.06851599861571389,0.0,0,0.5635180754527721,0,0.0,eczema,EFO_0004232
+ENSG00000085733,CTTN,cortactin,protein_coding,0.06516228287355427,0.10718700735274057,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000167323,STIM1,stromal interaction molecule 1,protein_coding,0.06411322225290528,0.10546138229019984,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000161921,CXCL16,C-X-C motif chemokine ligand 16,protein_coding,0.06380652465632332,0.0,0,0.5247844401616116,0,0.0,eczema,EFO_0004232
+ENSG00000125735,TNFSF14,TNF superfamily member 14,protein_coding,0.06055333499931668,0.0,0,0.4980281903566383,0,0.0,eczema,EFO_0004232
+ENSG00000071054,MAP4K4,mitogen-activated protein kinase kinase kinase kinase 4,protein_coding,0.05931756667689464,0.0,0,0.4878644650833259,0,0.0,eczema,EFO_0004232
+ENSG00000105205,CLC,Charcot-Leyden crystal galectin,protein_coding,0.05721520564523003,0.0,0,0.4705733437918552,0,0.0,eczema,EFO_0004232
+ENSG00000104365,IKBKB,inhibitor of nuclear factor kappa B kinase subunit beta,protein_coding,0.05701795869218982,0.0,0,0.4689510624909643,0,0.0,eczema,EFO_0004232
+ENSG00000090339,ICAM1,intercellular adhesion molecule 1,protein_coding,0.0563412265746829,0.0,0,0.46338519775631354,0,0.0,eczema,EFO_0004232
+ENSG00000169397,RNASE3,ribonuclease A family member 3,protein_coding,0.05587777378493988,0.0,0,0.4595734745177165,0,0.0,eczema,EFO_0004232
+ENSG00000134160,TRPM1,transient receptor potential cation channel subfamily M member 1,protein_coding,0.05536556343812798,0.09107214777675811,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000153563,CD8A,CD8 subunit alpha,protein_coding,0.05439127172576077,0.0,0,0.4473475594545289,0,0.0,eczema,EFO_0004232
+ENSG00000013016,EHD3,EH domain containing 3,protein_coding,0.052798475167712744,0.0868494824988999,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000131724,IL13RA1,interleukin 13 receptor subunit alpha 1,protein_coding,0.05039385576339102,0.0,0,0.4144703308450029,0,0.0,eczema,EFO_0004232
+ENSG00000132470,ITGB4,integrin subunit beta 4,protein_coding,0.05026286023711945,0.0,0,0.41339294237590235,0,0.0,eczema,EFO_0004232
+ENSG00000181885,CLDN7,claudin 7,protein_coding,0.04914015876744391,0.0,0,0.40415914903884576,0,0.0,eczema,EFO_0004232
+ENSG00000121053,EPX,eosinophil peroxidase,protein_coding,0.048411887383871366,0.0,0,0.398169393408487,0,0.0,eczema,EFO_0004232
+ENSG00000113083,LOX,lysyl oxidase,protein_coding,0.04832807516196899,0.0,0,0.3974800697039498,0,0.0,eczema,EFO_0004232
+ENSG00000004468,CD38,CD38 molecule,protein_coding,0.04794025617256758,0.0,0,0.39429040575761715,0,0.0,eczema,EFO_0004232
+ENSG00000039068,CDH1,cadherin 1,protein_coding,0.04769485090350916,0.0,0,0.392272040591528,0,0.0,eczema,EFO_0004232
+ENSG00000158473,CD1D,CD1d molecule,protein_coding,0.047123757292612,0.0,0,0.3875750124664451,0,0.0,eczema,EFO_0004232
+ENSG00000109320,NFKB1,nuclear factor kappa B subunit 1,protein_coding,0.04585935141448476,0.0,0,0.3771757541701497,0,0.0,eczema,EFO_0004232
+ENSG00000197971,MBP,myelin basic protein,protein_coding,0.04544216561020296,0.0,0,0.37374455932099243,0,0.0,eczema,EFO_0004232
+ENSG00000154165,GPR15,G protein-coupled receptor 15,protein_coding,0.044816164557960295,0.0,0,0.3685959383373046,0,0.0,eczema,EFO_0004232
+ENSG00000131620,ANO1,anoctamin 1,protein_coding,0.04472347141640036,0.0,0,0.36783357244036285,0,0.0,eczema,EFO_0004232
+ENSG00000152495,CAMK4,calcium/calmodulin dependent protein kinase IV,protein_coding,0.04440890961399246,0.07304928420876493,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000114248,LRRC31,leucine rich repeat containing 31,protein_coding,0.04324351218594951,0.0,0,0.3556614696593788,0,0.0,eczema,EFO_0004232
+ENSG00000075673,ATP12A,ATPase H+/K+ transporting non-gastric alpha2 subunit,protein_coding,0.042087896353270614,0.0,0,0.3461569681830679,0,0.0,eczema,EFO_0004232
+ENSG00000049130,KITLG,KIT ligand,protein_coding,0.04194731350671365,0.0,0,0.34500072764459494,0,0.0,eczema,EFO_0004232
+ENSG00000139725,RHOF,"ras homolog family member F, filopodia associated",protein_coding,0.041023363870001904,0.0,0,0.33740159267444975,0,0.0,eczema,EFO_0004232
+ENSG00000186652,PRG2,"proteoglycan 2, pro eosinophil major basic protein",protein_coding,0.0406445462592971,0.0,0,0.3342859616503836,0,0.0,eczema,EFO_0004232
+ENSG00000172638,EFEMP2,EGF-like fibulin extracellular matrix protein 2,protein_coding,0.04061482902200205,0.0,0,0.33404154865624186,0,0.0,eczema,EFO_0004232
+ENSG00000165471,MBL2,mannose binding lectin 2,protein_coding,0.04061482902200205,0.0,0,0.33404154865624186,0,0.0,eczema,EFO_0004232
+ENSG00000095951,HIVEP1,HIVEP zinc finger 1,protein_coding,0.04061482902200205,0.0,0,0.33404154865624186,0,0.0,eczema,EFO_0004232
+ENSG00000102678,FGF9,fibroblast growth factor 9,protein_coding,0.039003609964150004,0.0,0,0.32078988362971217,0,0.0,eczema,EFO_0004232
+ENSG00000175387,SMAD2,SMAD family member 2,protein_coding,0.03831311160231409,0.0,0,0.3151107967620236,0,0.0,eczema,EFO_0004232
+ENSG00000124215,CDH26,cadherin 26,protein_coding,0.038013151426537065,0.0,0,0.3126437382007904,0,0.0,eczema,EFO_0004232
+ENSG00000173198,CYSLTR1,cysteinyl leukotriene receptor 1,protein_coding,0.03788193510518194,0.0,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000121858,TNFSF10,TNF superfamily member 10,protein_coding,0.03730671255505014,0.0,0,0.30683354669328394,0,0.0,eczema,EFO_0004232
+ENSG00000172156,CCL11,C-C motif chemokine ligand 11,protein_coding,0.0370610044474993,0.0,0,0.304812690795572,0,0.0,eczema,EFO_0004232
+ENSG00000184012,TMPRSS2,transmembrane serine protease 2,protein_coding,0.03654734118548717,0.0,0,0.30058800548574593,0,0.0,eczema,EFO_0004232
+ENSG00000125384,PTGER2,prostaglandin E receptor 2,protein_coding,0.03635228515107025,0.0,0,0.29898374365871533,0,0.0,eczema,EFO_0004232
+ENSG00000103591,AAGAB,alpha and gamma adaptin binding protein,protein_coding,0.035912722591555764,0.05907370169869029,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000169918,OTUD7A,OTU deubiquitinase 7A,protein_coding,0.034370467452127726,0.0565368091025476,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000198523,PLN,phospholamban,protein_coding,0.03418100350479763,0.0,0,0.28112577647887393,0,0.0,eczema,EFO_0004232
+ENSG00000130234,ACE2,angiotensin converting enzyme 2,protein_coding,0.03405267716636544,0.0,0,0.28007034106635376,0,0.0,eczema,EFO_0004232
+ENSG00000100644,HIF1A,hypoxia inducible factor 1 subunit alpha,protein_coding,0.03401742903478502,0.0,0,0.27978043856660456,0,0.0,eczema,EFO_0004232
+ENSG00000164871,SPAG11B,sperm associated antigen 11B,protein_coding,0.03400134663099257,0.0,0,0.2796481669013457,0,0.0,eczema,EFO_0004232
+ENSG00000178287,SPAG11A,sperm associated antigen 11A,protein_coding,0.03400134663099257,0.0,0,0.2796481669013457,0,0.0,eczema,EFO_0004232
+ENSG00000105369,CD79A,CD79a molecule,protein_coding,0.03327389028368818,0.0,0,0.2736651146348513,0,0.0,eczema,EFO_0004232
+ENSG00000174564,IL20RB,interleukin 20 receptor subunit beta,protein_coding,0.033262186921623166,0.0,0,0.2735688589252295,0,0.0,eczema,EFO_0004232
+ENSG00000066230,SLC9A3,solute carrier family 9 member A3,protein_coding,0.03263862357791348,0.0,0,0.2684402871687115,0,0.0,eczema,EFO_0004232
+ENSG00000122691,TWIST1,twist family bHLH transcription factor 1,protein_coding,0.03252302721225376,0.0,0,0.26748955094911325,0,0.0,eczema,EFO_0004232
+ENSG00000121879,PIK3CA,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha",protein_coding,0.03220991094647922,0.0,0,0.26491428854256405,0,0.0,eczema,EFO_0004232
+ENSG00000183625,CCR3,C-C motif chemokine receptor 3,protein_coding,0.032076102750049795,0.0,0,0.263813766929289,0,0.0,eczema,EFO_0004232
+ENSG00000123700,KCNJ2,potassium inwardly rectifying channel subfamily J member 2,protein_coding,0.03179926666349622,0.0,0,0.2615368952224995,0,0.0,eczema,EFO_0004232
+ENSG00000182718,ANXA2,annexin A2,protein_coding,0.03176800518201765,0.05225595628124891,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000161905,ALOX15,arachidonate 15-lipoxygenase,protein_coding,0.031222487220329716,0.0,0,0.25679310328571575,0,0.0,eczema,EFO_0004232
+ENSG00000161544,CYGB,cytoglobin,protein_coding,0.030305548084145546,0.0,0,0.24925162702076462,0,0.0,eczema,EFO_0004232
+ENSG00000005961,ITGA2B,integrin subunit alpha 2b,protein_coding,0.030305548084145546,0.0,0,0.24925162702076462,0,0.0,eczema,EFO_0004232
+ENSG00000111676,ATN1,atrophin 1,protein_coding,0.030305548084145546,0.0,0,0.24925162702076462,0,0.0,eczema,EFO_0004232
+ENSG00000171522,PTGER4,prostaglandin E receptor 4,protein_coding,0.02956638837477615,0.0,0,0.24317231904464845,0,0.0,eczema,EFO_0004232
+ENSG00000170558,CDH2,cadherin 2,protein_coding,0.02956638837477615,0.0,0,0.24317231904464845,0,0.0,eczema,EFO_0004232
+ENSG00000131626,PPFIA1,PPFI scaffold protein A1,protein_coding,0.028670186829300486,0.04716028031798538,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000198959,TGM2,transglutaminase 2,protein_coding,0.027718489101352637,0.0,0,0.2279740491043579,0,0.0,eczema,EFO_0004232
+ENSG00000109861,CTSC,cathepsin C,protein_coding,0.027133320998101857,0.0,0,0.22316126362326588,0,0.0,eczema,EFO_0004232
+ENSG00000253276,CCDC71L,coiled-coil domain containing 71 like,protein_coding,0.027105600119623454,0.044586653984488495,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000178445,GLDC,glycine decarboxylase,protein_coding,0.02704092603443068,0.0,0,0.22240135012625137,0,0.0,eczema,EFO_0004232
+ENSG00000051382,PIK3CB,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit beta",protein_coding,0.026424959609956174,0.0,0,0.21733526014615454,0,0.0,eczema,EFO_0004232
+ENSG00000105851,PIK3CG,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit gamma",protein_coding,0.026424959609956174,0.0,0,0.21733526014615454,0,0.0,eczema,EFO_0004232
+ENSG00000171608,PIK3CD,"phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta",protein_coding,0.026424959609956174,0.0,0,0.21733526014615454,0,0.0,eczema,EFO_0004232
+ENSG00000140443,IGF1R,insulin like growth factor 1 receptor,protein_coding,0.025131430118559724,0.0,0,0.20669647118795118,0,0.0,eczema,EFO_0004232
+ENSG00000188822,CNR2,cannabinoid receptor 2,protein_coding,0.025131430118559724,0.0,0,0.20669647118795118,0,0.0,eczema,EFO_0004232
+ENSG00000123610,TNFAIP6,TNF alpha induced protein 6,protein_coding,0.024750557546092983,0.0,0,0.20356393888359126,0,0.0,eczema,EFO_0004232
+ENSG00000166912,MTMR10,myotubularin related protein 10,protein_coding,0.024502000619117222,0.040303930505541555,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000176165,FOXG1,forkhead box G1,protein_coding,0.024392270409190318,0.0,0,0.20061716321183495,0,0.0,eczema,EFO_0004232
+ENSG00000074181,NOTCH3,notch receptor 3,protein_coding,0.024392270409190318,0.0,0,0.20061716321183495,0,0.0,eczema,EFO_0004232
+ENSG00000165841,CYP2C19,cytochrome P450 family 2 subfamily C member 19,protein_coding,0.024349389852074757,0.0,0,0.20026448690982798,0,0.0,eczema,EFO_0004232
+ENSG00000146085,MMUT,methylmalonyl-CoA mutase,protein_coding,0.023653110699820915,0.0,0,0.19453785523571876,0,0.0,eczema,EFO_0004232
+ENSG00000091513,TF,transferrin,protein_coding,0.02309874091779386,0.0,0,0.1899783742536316,0,0.0,eczema,EFO_0004232
+ENSG00000130300,PLVAP,plasmalemma vesicle associated protein,protein_coding,0.022913950990451508,0.0,0,0.18845854725960254,0,0.0,eczema,EFO_0004232
+ENSG00000106366,SERPINE1,serpin family E member 1,protein_coding,0.022896794020893604,0.0,0,0.18831743769889836,0,0.0,eczema,EFO_0004232
+ENSG00000145839,IL9,interleukin 9,protein_coding,0.022730249513639653,0.0,0,0.18694767235793963,0,0.0,eczema,EFO_0004232
+ENSG00000172215,CXCR6,C-X-C motif chemokine receptor 6,protein_coding,0.022576606711980973,0.0,0,0.18568401864716946,0,0.0,eczema,EFO_0004232
+ENSG00000142611,PRDM16,PR/SET domain 16,protein_coding,0.022174791281082105,0.0,0,0.18237923928348632,0,0.0,eczema,EFO_0004232
+ENSG00000177575,CD163,CD163 molecule,protein_coding,0.022174791281082105,0.0,0,0.18237923928348632,0,0.0,eczema,EFO_0004232
+ENSG00000170423,KRT78,keratin 78,protein_coding,0.022123460745709235,0.0,0,0.18195706511847826,0,0.0,eczema,EFO_0004232
+ENSG00000100294,MCAT,malonyl-CoA-acyl carrier protein transacylase,protein_coding,0.02203106578203806,0.0,0,0.18119715162146374,0,0.0,eczema,EFO_0004232
+ENSG00000115415,STAT1,signal transducer and activator of transcription 1,protein_coding,0.021539101360281063,0.0,0,0.17715093103443494,0,0.0,eczema,EFO_0004232
+ENSG00000164171,ITGA2,integrin subunit alpha 2,protein_coding,0.021435631571712705,0.0,0,0.1762999313073701,0,0.0,eczema,EFO_0004232
+ENSG00000139187,KLRG1,killer cell lectin like receptor G1,protein_coding,0.021435631571712705,0.0,0,0.1762999313073701,0,0.0,eczema,EFO_0004232
+ENSG00000111321,LTBR,lymphotoxin beta receptor,protein_coding,0.021250841644370355,0.0,0,0.17478010431334107,0,0.0,eczema,EFO_0004232
+ENSG00000062582,MRPS24,mitochondrial ribosomal protein S24,protein_coding,0.021188485732205883,0.03485345012203548,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000213316,LTC4S,leukotriene C4 synthase,protein_coding,0.020696471862343302,0.0,0,0.17022062333125393,0,0.0,eczema,EFO_0004232
+ENSG00000101871,MID1,midline 1,protein_coding,0.020675939648194155,0.0,0,0.1700517536652507,0,0.0,eczema,EFO_0004232
+ENSG00000148773,MKI67,marker of proliferation Ki-67,protein_coding,0.020669779983949404,0.0,0,0.1700010927654497,0,0.0,eczema,EFO_0004232
+ENSG00000215182,MUC5AC,"mucin 5AC, oligomeric mucus/gel-forming",protein_coding,0.02052152482704919,0.0,0,0.16878175038731497,0,0.0,eczema,EFO_0004232
+ENSG00000172062,SMN1,"survival of motor neuron 1, telomeric",protein_coding,0.020296093686434875,0.0,0,0.16692766484419097,0,0.0,eczema,EFO_0004232
+ENSG00000145879,SPINK7,serine peptidase inhibitor Kazal type 7,protein_coding,0.020072971397634275,0.0,0,0.16509256873064332,0,0.0,eczema,EFO_0004232
+ENSG00000123496,IL13RA2,interleukin 13 receptor subunit alpha 2,protein_coding,0.019544910061044855,0.0,0,0.1607494647238714,0,0.0,eczema,EFO_0004232
+ENSG00000169385,RNASE2,ribonuclease A family member 2,protein_coding,0.019498345295925472,0.0,0,0.1603664872097997,0,0.0,eczema,EFO_0004232
+ENSG00000102245,CD40LG,CD40 ligand,protein_coding,0.019228633533669617,0.0,0,0.15814821036549875,0,0.0,eczema,EFO_0004232
+ENSG00000134216,CHIA,chitinase acidic,protein_coding,0.019218152443604492,0.0,0,0.15806200737902149,0,0.0,eczema,EFO_0004232
+ENSG00000143632,ACTA1,"actin alpha 1, skeletal muscle",protein_coding,0.019197620229455346,0.0,0,0.15789313771301827,0,0.0,eczema,EFO_0004232
+ENSG00000049768,FOXP3,forkhead box P3,protein_coding,0.01865552266929839,0.0,0,0.15343459109647328,0,0.0,eczema,EFO_0004232
+ENSG00000162747,FCGR3B,Fc gamma receptor IIIb,protein_coding,0.018520057162533386,0.0,0,0.15232043873491172,0,0.0,eczema,EFO_0004232
+ENSG00000203747,FCGR3A,Fc gamma receptor IIIa,protein_coding,0.018520057162533386,0.0,0,0.15232043873491172,0,0.0,eczema,EFO_0004232
+ENSG00000162892,IL24,interleukin 24,protein_coding,0.01847899273423509,0.0,0,0.15198269940290526,0,0.0,eczema,EFO_0004232
+ENSG00000016402,IL20RA,interleukin 20 receptor subunit alpha,protein_coding,0.01847899273423509,0.0,0,0.15198269940290526,0,0.0,eczema,EFO_0004232
+ENSG00000256713,PGA5,pepsinogen A5,protein_coding,0.01847899273423509,0.0,0,0.0,0,0.0,eczema,EFO_0004232
+ENSG00000104332,SFRP1,secreted frizzled related protein 1,protein_coding,0.01847899273423509,0.0,0,0.15198269940290526,0,0.0,eczema,EFO_0004232
+ENSG00000026025,VIM,vimentin,protein_coding,0.018322537262418566,0.0,0,0.15069591254796066,0,0.0,eczema,EFO_0004232
+ENSG00000047457,CP,ceruloplasmin,protein_coding,0.01810941287955039,0.0,0,0.14894304541484715,0,0.0,eczema,EFO_0004232
+ENSG00000197822,OCLN,occludin,protein_coding,0.01791948989867075,0.0,0,0.14738100100431728,0,0.0,eczema,EFO_0004232
+ENSG00000007171,NOS2,nitric oxide synthase 2,protein_coding,0.017904090738058886,0.0,0,0.14725434875481486,0,0.0,eczema,EFO_0004232
+ENSG00000073282,TP63,tumor protein p63,protein_coding,0.017780897453163986,0.0,0,0.14624113075879552,0,0.0,eczema,EFO_0004232
+ENSG00000125144,MT1G,metallothionein 1G,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000205362,MT1A,metallothionein 1A,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000169715,MT1E,metallothionein 1E,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000205364,MT1M,metallothionein 1M,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000205358,MT1H,metallothionein 1H,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000187193,MT1X,metallothionein 1X,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000101180,HRH3,histamine receptor H3,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000198417,MT1F,metallothionein 1F,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000125148,MT2A,metallothionein 2A,protein_coding,0.017739833024865686,0.0,0,0.14590339142678904,0,0.0,eczema,EFO_0004232
+ENSG00000105398,SULT2A1,sulfotransferase family 2A member 1,protein_coding,0.01726419710123097,0.0,0,0.14199146653744846,0,0.0,eczema,EFO_0004232
+ENSG00000125775,SDCBP2,syndecan binding protein 2,protein_coding,0.01726419710123097,0.0,0,0.14199146653744846,0,0.0,eczema,EFO_0004232
+ENSG00000181192,DHTKD1,dehydrogenase E1 and transketolase domain containing 1,protein_coding,0.01721612351867698,0.0,0,0.14159607957282305,0,0.0,eczema,EFO_0004232
+ENSG00000134057,CCNB1,cyclin B1,protein_coding,0.017062269957943733,0.0,0,0.14033069244868254,0,0.0,eczema,EFO_0004232
+ENSG00000026103,FAS,Fas cell surface death receptor,protein_coding,0.017000673315496286,0.0,0,0.13982408345067285,0,0.0,eczema,EFO_0004232
+ENSG00000171791,BCL2,BCL2 apoptosis regulator,protein_coding,0.017000673315496286,0.0,0,0.13982408345067285,0,0.0,eczema,EFO_0004232
+ENSG00000165060,FXN,frataxin,protein_coding,0.017000673315496286,0.0,0,0.13982408345067285,0,0.0,eczema,EFO_0004232
+ENSG00000187741,FANCA,FA complementation group A,protein_coding,0.017000673315496286,0.0,0,0.13982408345067285,0,0.0,eczema,EFO_0004232
+ENSG00000145824,CXCL14,C-X-C motif chemokine ligand 14,protein_coding,0.017000673315496286,0.0,0,0.13982408345067285,0,0.0,eczema,EFO_0004232
+ENSG00000141510,TP53,tumor protein p53,protein_coding,0.016815883388153933,0.0,0,0.1383042564566438,0,0.0,eczema,EFO_0004232
+ENSG00000166090,IL25,interleukin 25,protein_coding,0.016659427916337406,0.0,0,0.1370174696016992,0,0.0,eczema,EFO_0004232
+ENSG00000120738,EGR1,early growth response 1,protein_coding,0.016631093460811583,0.0,0,0.13678442946261474,0,0.0,eczema,EFO_0004232
+ENSG00000168229,PTGDR,prostaglandin D2 receptor,protein_coding,0.01626151360612688,0.0,0,0.13374477547455663,0,0.0,eczema,EFO_0004232
+ENSG00000164458,TBXT,T-box transcription factor T,protein_coding,0.01613832032123198,0.0,0,0.13273155747853727,0,0.0,eczema,EFO_0004232
+ENSG00000156234,CXCL13,C-X-C motif chemokine ligand 13,protein_coding,0.01605619146463538,0.0,0,0.13205607881452436,0,0.0,eczema,EFO_0004232
+ENSG00000164305,CASP3,caspase 3,protein_coding,0.01595353039388963,0.0,0,0.13121173048450824,0,0.0,eczema,EFO_0004232
+ENSG00000149534,MS4A2,membrane spanning 4-domains A2,protein_coding,0.015933806897563085,0.0,0,0.13104951221555367,0,0.0,eczema,EFO_0004232
+ENSG00000125730,C3,complement C3,protein_coding,0.01574820825239813,0.0,0,0.12952303382447594,0,0.0,eczema,EFO_0004232
+ENSG00000137752,CASP1,caspase 1,protein_coding,0.015522353896757475,0.0,0,0.12766546749844043,0,0.0,eczema,EFO_0004232
+ENSG00000118432,CNR1,cannabinoid receptor 1,protein_coding,0.015522353896757475,0.0,0,0.12766546749844043,0,0.0,eczema,EFO_0004232
+ENSG00000167754,KLK5,kallikrein related peptidase 5,protein_coding,0.015388894504788002,0.0,0,0.12656781466941947,0,0.0,eczema,EFO_0004232
+ENSG00000087245,MMP2,matrix metallopeptidase 2,protein_coding,0.014967984114730425,0.0,0,0.12310598651635328,0,0.0,eczema,EFO_0004232
+ENSG00000229453,SPINK8,serine peptidase inhibitor Kazal type 8 (putative),protein_coding,0.014783194187388075,0.0,0,0.12158615952232422,0,0.0,eczema,EFO_0004232
+ENSG00000172172,MRPL13,mitochondrial ribosomal protein L13,protein_coding,0.014783194187388075,0.0,0,0.12158615952232422,0,0.0,eczema,EFO_0004232
+ENSG00000198176,TFDP1,transcription factor Dp-1,protein_coding,0.014783194187388075,0.0,0,0.12158615952232422,0,0.0,eczema,EFO_0004232
+ENSG00000129625,REEP5,receptor accessory protein 5,protein_coding,0.014783194187388075,0.0,0,0.12158615952232422,0,0.0,eczema,EFO_0004232
+ENSG00000172724,CCL19,C-C motif chemokine ligand 19,protein_coding,0.014670267009567747,0.0,0,0.12065737635930646,0,0.0,eczema,EFO_0004232
+ENSG00000171862,PTEN,phosphatase and tensin homolog,protein_coding,0.014598404260045723,0.0,0,0.12006633252829517,0,0.0,eczema,EFO_0004232
+ENSG00000163347,CLDN1,claudin 1,protein_coding,0.014570275126661385,0.0,0,0.11983498108587073,0,0.0,eczema,EFO_0004232
+ENSG00000106025,TSPAN12,tetraspanin 12,protein_coding,0.014441948788229197,0.0,0,0.11877954567335056,0,0.0,eczema,EFO_0004232
+ENSG00000171992,SYNPO,synaptopodin,protein_coding,0.014413614332703372,0.0,0,0.11854650553426611,0,0.0,eczema,EFO_0004232
+ENSG00000156738,MS4A1,membrane spanning 4-domains A1,protein_coding,0.014038901424481382,0.0,0,0.11546463412970721,0,0.0,eczema,EFO_0004232
+ENSG00000171431,KRT20,keratin 20,protein_coding,0.014038901424481382,0.0,0,0.11546463412970721,0,0.0,eczema,EFO_0004232
+ENSG00000134982,APC,APC regulator of Wnt signaling pathway,protein_coding,0.013838712336527167,0.0,0,0.11381815488617571,0,0.0,eczema,EFO_0004232
+ENSG00000114126,TFDP2,transcription factor Dp-2,protein_coding,0.013838712336527167,0.0,0,0.11381815488617571,0,0.0,eczema,EFO_0004232
+ENSG00000118785,SPP1,secreted phosphoprotein 1,protein_coding,0.013759252667769955,0.0,0,0.11316462927874321,0,0.0,eczema,EFO_0004232
+ENSG00000142541,RPL13A,ribosomal protein L13a,protein_coding,0.013304874768649264,0.0,0,0.1094275435700918,0,0.0,eczema,EFO_0004232
+ENSG00000197444,OGDHL,oxoglutarate dehydrogenase L,protein_coding,0.01296362936949039,0.0,0,0.10662092972111814,0,0.0,eczema,EFO_0004232
+ENSG00000091831,ESR1,estrogen receptor 1,protein_coding,0.012914762699815412,0.0,0,0.10621901991603046,0,0.0,eczema,EFO_0004232
+ENSG00000171860,C3AR1,complement C3a receptor 1,protein_coding,0.012750504986622214,0.0,0,0.10486806258800464,0,0.0,eczema,EFO_0004232
+ENSG00000106258,CYP3A5,cytochrome P450 family 3 subfamily A member 5,protein_coding,0.012565715059279862,0.0,0,0.10334823559397559,0,0.0,eczema,EFO_0004232
+ENSG00000137801,THBS1,thrombospondin 1,protein_coding,0.012534916738056135,0.0,0,0.10309493109497073,0,0.0,eczema,EFO_0004232
+ENSG00000179526,SHARPIN,SHANK associated RH domain interactor,protein_coding,0.012524650630981562,0.0,0,0.10301049626196913,0,0.0,eczema,EFO_0004232
+ENSG00000177243,DEFB103B,defensin beta 103B,protein_coding,0.01244252177438496,0.0,0,0.1023350175979562,0,0.0,eczema,EFO_0004232
+ENSG00000176797,DEFB103A,defensin beta 103A,protein_coding,0.01244252177438496,0.0,0,0.1023350175979562,0,0.0,eczema,EFO_0004232
+ENSG00000142208,AKT1,AKT serine/threonine kinase 1,protein_coding,0.01238092513193751,0.0,0,0.10182840859994653,0,0.0,eczema,EFO_0004232
+ENSG00000081237,PTPRC,protein tyrosine phosphatase receptor type C,protein_coding,0.012287503557558876,0.0,0,0.10106005161963183,0,0.0,eczema,EFO_0004232
+ENSG00000102882,MAPK3,mitogen-activated protein kinase 3,protein_coding,0.012196135204595159,0.0,0,0.10030858160591748,0,0.0,eczema,EFO_0004232
+ENSG00000181374,CCL13,C-C motif chemokine ligand 13,protein_coding,0.012011345277252809,0.0,0,0.09878875461188842,0,0.0,eczema,EFO_0004232

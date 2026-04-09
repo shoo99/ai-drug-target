@@ -1,0 +1,16 @@
+drug_a,drug_b,gene_a,gene_b,growth_a,growth_b,growth_combo,bliss_expected,bliss_score,potency
+trimethoprim,sulfamethoxazole,folA,folP,1.0,0.0,0.11608038918751824,0.0,-0.11608038918751824,0.8839196108124817
+trimethoprim,triclosan,folA,fabI,1.0,0.0,0.013331542691119256,0.0,-0.013331542691119256,0.9866684573088808
+trimethoprim,isoniazid,folA,fabI,1.0,0.0,0.06049466898573413,0.0,-0.06049466898573413,0.9395053310142659
+trimethoprim,fosfomycin,folA,murA,1.0,0.0,0.035843909689207976,0.0,-0.035843909689207976,0.964156090310792
+trimethoprim,fosmidomycin,folA,dxr,1.0,0.0,0.0,0.0,0.0,1.0
+sulfamethoxazole,triclosan,folP,fabI,0.0,0.0,0.03951477709640053,0.0,-0.03951477709640053,0.9604852229035995
+sulfamethoxazole,isoniazid,folP,fabI,0.0,0.0,0.006344959884187609,0.0,-0.006344959884187609,0.9936550401158124
+sulfamethoxazole,fosfomycin,folP,murA,0.0,0.0,0.0,0.0,0.0,1.0
+sulfamethoxazole,fosmidomycin,folP,dxr,0.0,0.0,0.0019653636384214072,0.0,-0.0019653636384214072,0.9980346363615786
+triclosan,isoniazid,fabI,fabI,0.0,0.0,0.0,0.0,0.0,1.0
+triclosan,fosfomycin,fabI,murA,0.0,0.0,0.0,0.0,0.0,1.0
+triclosan,fosmidomycin,fabI,dxr,0.0,0.0,0.04678871682754711,0.0,-0.04678871682754711,0.9532112831724529
+isoniazid,fosfomycin,fabI,murA,0.0,0.0,0.0,0.0,0.0,1.0
+isoniazid,fosmidomycin,fabI,dxr,0.0,0.0,0.0,0.0,0.0,1.0
+fosfomycin,fosmidomycin,murA,dxr,0.0,0.0,0.0,0.0,0.0,1.0

@@ -1,0 +1,17 @@
+gene,known_drug,total_reports,top_event_1,top_event_1_count,top_event_2,top_event_3,safety_note
+gyrA,ciprofloxacin,0,FATIGUE,5334.0,PAIN,DIARRHOEA,
+gyrA,levofloxacin,0,DYSPNOEA,3271.0,OFF LABEL USE,PNEUMONIA,
+gyrA,moxifloxacin,0,OFF LABEL USE,2257.0,DYSPNOEA,DRUG INEFFECTIVE,
+rpoB,rifampin,0,DRUG INEFFECTIVE,1497.0,OFF LABEL USE,DRUG INTERACTION,
+rpoB,rifampicin,0,DRUG INTERACTION,1015.0,PYREXIA,DRUG REACTION WITH EOSINOPHILIA AND SYSTEMIC SYMPTOMS,
+folA,trimethoprim,0,PYREXIA,6468.0,DRUG INEFFECTIVE,OFF LABEL USE,
+folP,sulfamethoxazole,0,PYREXIA,6799.0,DRUG INEFFECTIVE,OFF LABEL USE,
+fabI,triclosan,0,TYPE 2 DIABETES MELLITUS,223.0,VOMITING,HYPERTENSION,
+fabI,isoniazid,0,DRUG INEFFECTIVE,1290.0,PYREXIA,NAUSEA,
+murA,fosfomycin,0,DIARRHOEA,619.0,OFF LABEL USE,PYREXIA,
+dxr,fosmidomycin,0,,0.0,,,
+lpxC,NONE (novel target),0,,,,,No existing drug — cannot assess from FAERS
+bamA,NONE (novel target),0,,,,,No existing drug — cannot assess from FAERS
+ftsZ,NONE (novel target),0,,,,,No existing drug — cannot assess from FAERS
+walK,NONE (novel target),0,,,,,No existing drug — cannot assess from FAERS
+secA,NONE (novel target),0,,,,,No existing drug — cannot assess from FAERS

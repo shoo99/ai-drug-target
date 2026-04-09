@@ -1,0 +1,78 @@
+gene_name,organism,function,pathway,essential_score,has_existing_drug,existing_drugs,is_novel_target
+murA,Staphylococcus aureus,UDP-N-acetylglucosamine enolpyruvyl transferase,peptidoglycan_synthesis,0.95,True,fosfomycin,False
+murB,Staphylococcus aureus,UDP-N-acetylenolpyruvoylglucosamine reductase,peptidoglycan_synthesis,0.93,False,NONE,True
+murC,Staphylococcus aureus,UDP-N-acetylmuramate-L-alanine ligase,peptidoglycan_synthesis,0.92,False,NONE,True
+murD,Staphylococcus aureus,UDP-N-acetylmuramoylalanine-D-glutamate ligase,peptidoglycan_synthesis,0.91,False,NONE,True
+murE,Staphylococcus aureus,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate-2,6-diaminopimelate ligase",peptidoglycan_synthesis,0.9,False,NONE,True
+murF,Staphylococcus aureus,UDP-N-acetylmuramoyl-tripeptide-D-alanyl-D-alanine ligase,peptidoglycan_synthesis,0.9,False,NONE,True
+ftsZ,Staphylococcus aureus,Cell division protein FtsZ,cell_division,0.98,False,NONE,True
+ftsA,Staphylococcus aureus,Cell division protein FtsA,cell_division,0.92,False,NONE,True
+ftsW,Staphylococcus aureus,Lipid II flippase,cell_division,0.9,False,NONE,True
+dnaA,Staphylococcus aureus,Chromosomal replication initiator,dna_replication,0.97,False,NONE,True
+dnaB,Staphylococcus aureus,Replicative DNA helicase,dna_replication,0.96,False,NONE,True
+dnaE,Staphylococcus aureus,DNA polymerase III alpha subunit,dna_replication,0.97,False,NONE,True
+dnaN,Staphylococcus aureus,DNA polymerase III beta subunit,dna_replication,0.95,False,NONE,True
+gyrA,Staphylococcus aureus,DNA gyrase subunit A,dna_topology,0.98,True,"ciprofloxacin, levofloxacin, moxifloxacin",False
+gyrB,Staphylococcus aureus,DNA gyrase subunit B,dna_topology,0.97,True,"novobiocin, coumermycin",False
+rpoB,Staphylococcus aureus,RNA polymerase beta subunit,transcription,0.99,True,rifampin,False
+rpoC,Staphylococcus aureus,RNA polymerase beta' subunit,transcription,0.99,False,NONE,True
+infA,Staphylococcus aureus,Translation initiation factor IF-1,translation,0.94,False,NONE,True
+infB,Staphylococcus aureus,Translation initiation factor IF-2,translation,0.95,False,NONE,True
+fabI,Staphylococcus aureus,Enoyl-ACP reductase,fatty_acid_synthesis,0.93,True,"triclosan, isoniazid",False
+fabH,Staphylococcus aureus,Beta-ketoacyl-ACP synthase III,fatty_acid_synthesis,0.88,False,NONE,True
+accA,Staphylococcus aureus,Acetyl-CoA carboxylase alpha,fatty_acid_synthesis,0.87,False,NONE,True
+folA,Staphylococcus aureus,Dihydrofolate reductase (DHFR),folate_synthesis,0.92,True,trimethoprim,False
+folP,Staphylococcus aureus,Dihydropteroate synthase (DHPS),folate_synthesis,0.9,True,sulfamethoxazole,False
+walK,Staphylococcus aureus,Sensor histidine kinase WalK,signal_transduction,0.96,False,NONE,True
+walR,Staphylococcus aureus,Response regulator WalR,signal_transduction,0.96,False,NONE,True
+dxr,Staphylococcus aureus,1-deoxy-D-xylulose 5-phosphate reductoisomerase,isoprenoid_synthesis,0.89,True,fosmidomycin,False
+ispD,Staphylococcus aureus,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,isoprenoid_synthesis,0.87,False,NONE,True
+secA,Staphylococcus aureus,Protein translocase SecA,protein_secretion,0.94,False,NONE,True
+secY,Staphylococcus aureus,Protein translocase SecY,protein_secretion,0.95,False,NONE,True
+lpxC,Pseudomonas aeruginosa,UDP-3-O-acyl-N-acetylglucosamine deacetylase,lps_synthesis,0.97,False,NONE,True
+lpxA,Pseudomonas aeruginosa,UDP-N-acetylglucosamine acyltransferase,lps_synthesis,0.93,False,NONE,True
+lpxB,Pseudomonas aeruginosa,Lipid-A-disaccharide synthase,lps_synthesis,0.92,False,NONE,True
+lpxD,Pseudomonas aeruginosa,UDP-3-O-acylglucosamine N-acyltransferase,lps_synthesis,0.91,False,NONE,True
+lptD,Pseudomonas aeruginosa,LPS transport protein LptD,lps_transport,0.94,False,NONE,True
+bamA,Pseudomonas aeruginosa,Outer membrane protein assembly factor BamA,outer_membrane,0.96,False,NONE,True
+bamD,Pseudomonas aeruginosa,Outer membrane protein assembly factor BamD,outer_membrane,0.93,False,NONE,True
+ftsZ,Pseudomonas aeruginosa,Cell division protein FtsZ,cell_division,0.98,False,NONE,True
+murA,Pseudomonas aeruginosa,UDP-N-acetylglucosamine enolpyruvyl transferase,peptidoglycan_synthesis,0.95,True,fosfomycin,False
+gyrA,Pseudomonas aeruginosa,DNA gyrase subunit A,dna_topology,0.98,True,"ciprofloxacin, levofloxacin, moxifloxacin",False
+gyrB,Pseudomonas aeruginosa,DNA gyrase subunit B,dna_topology,0.97,True,"novobiocin, coumermycin",False
+parC,Pseudomonas aeruginosa,DNA topoisomerase IV subunit A,dna_topology,0.95,True,ciprofloxacin,False
+parE,Pseudomonas aeruginosa,DNA topoisomerase IV subunit B,dna_topology,0.94,True,ciprofloxacin,False
+rpoB,Pseudomonas aeruginosa,RNA polymerase beta subunit,transcription,0.99,True,rifampin,False
+dnaA,Pseudomonas aeruginosa,Chromosomal replication initiator,dna_replication,0.97,False,NONE,True
+fabI,Pseudomonas aeruginosa,Enoyl-ACP reductase,fatty_acid_synthesis,0.91,True,"triclosan, isoniazid",False
+folA,Pseudomonas aeruginosa,Dihydrofolate reductase,folate_synthesis,0.9,True,trimethoprim,False
+secA,Pseudomonas aeruginosa,Protein translocase SecA,protein_secretion,0.94,False,NONE,True
+lpxC,Acinetobacter baumannii,UDP-3-O-acyl-N-acetylglucosamine deacetylase,lps_synthesis,0.96,False,NONE,True
+bamA,Acinetobacter baumannii,Outer membrane protein assembly factor BamA,outer_membrane,0.95,False,NONE,True
+ftsZ,Acinetobacter baumannii,Cell division protein FtsZ,cell_division,0.97,False,NONE,True
+murA,Acinetobacter baumannii,UDP-N-acetylglucosamine enolpyruvyl transferase,peptidoglycan_synthesis,0.94,True,fosfomycin,False
+gyrA,Acinetobacter baumannii,DNA gyrase subunit A,dna_topology,0.98,True,"ciprofloxacin, levofloxacin, moxifloxacin",False
+rpoB,Acinetobacter baumannii,RNA polymerase beta subunit,transcription,0.99,True,rifampin,False
+dnaA,Acinetobacter baumannii,Chromosomal replication initiator,dna_replication,0.96,False,NONE,True
+lpxC,Klebsiella pneumoniae,UDP-3-O-acyl-N-acetylglucosamine deacetylase,lps_synthesis,0.97,False,NONE,True
+lpxA,Klebsiella pneumoniae,UDP-N-acetylglucosamine acyltransferase,lps_synthesis,0.92,False,NONE,True
+bamA,Klebsiella pneumoniae,Outer membrane protein assembly factor BamA,outer_membrane,0.95,False,NONE,True
+lptD,Klebsiella pneumoniae,LPS transport protein LptD,lps_transport,0.93,False,NONE,True
+ftsZ,Klebsiella pneumoniae,Cell division protein FtsZ,cell_division,0.98,False,NONE,True
+murA,Klebsiella pneumoniae,UDP-N-acetylglucosamine enolpyruvyl transferase,peptidoglycan_synthesis,0.95,True,fosfomycin,False
+gyrA,Klebsiella pneumoniae,DNA gyrase subunit A,dna_topology,0.98,True,"ciprofloxacin, levofloxacin, moxifloxacin",False
+rpoB,Klebsiella pneumoniae,RNA polymerase beta subunit,transcription,0.99,True,rifampin,False
+folA,Klebsiella pneumoniae,Dihydrofolate reductase,folate_synthesis,0.91,True,trimethoprim,False
+ftsZ,Enterococcus faecium,Cell division protein FtsZ,cell_division,0.97,False,NONE,True
+murA,Enterococcus faecium,UDP-N-acetylglucosamine enolpyruvyl transferase,peptidoglycan_synthesis,0.94,True,fosfomycin,False
+gyrA,Enterococcus faecium,DNA gyrase subunit A,dna_topology,0.97,True,"ciprofloxacin, levofloxacin, moxifloxacin",False
+gyrB,Enterococcus faecium,DNA gyrase subunit B,dna_topology,0.96,True,"novobiocin, coumermycin",False
+rpoB,Enterococcus faecium,RNA polymerase beta subunit,transcription,0.99,True,rifampin,False
+dnaA,Enterococcus faecium,Chromosomal replication initiator,dna_replication,0.96,False,NONE,True
+fabI,Enterococcus faecium,Enoyl-ACP reductase,fatty_acid_synthesis,0.9,True,"triclosan, isoniazid",False
+lpxC,Enterobacter cloacae,UDP-3-O-acyl-N-acetylglucosamine deacetylase,lps_synthesis,0.96,False,NONE,True
+bamA,Enterobacter cloacae,Outer membrane protein assembly factor BamA,outer_membrane,0.94,False,NONE,True
+ftsZ,Enterobacter cloacae,Cell division protein FtsZ,cell_division,0.97,False,NONE,True
+murA,Enterobacter cloacae,UDP-N-acetylglucosamine enolpyruvyl transferase,peptidoglycan_synthesis,0.94,True,fosfomycin,False
+gyrA,Enterobacter cloacae,DNA gyrase subunit A,dna_topology,0.98,True,"ciprofloxacin, levofloxacin, moxifloxacin",False
+rpoB,Enterobacter cloacae,RNA polymerase beta subunit,transcription,0.99,True,rifampin,False

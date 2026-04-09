@@ -1,0 +1,41 @@
+pathway,potency_impact,toxicity_impact,total_impact
+Arginine and Proline Metabolism,0.0029,0.0037,0.0067
+Membrane Lipid Metabolism,0.0014,0.0044,0.0058
+Glyoxylate Metabolism,0.0036,0.0018,0.0054
+"Transport, Inner Membrane",0.0009,0.004,0.0049
+Anaplerotic Reactions,0.0018,0.0027,0.0044
+Extracellular exchange,0.0011,0.0032,0.0043
+"Transport, Outer Membrane",0.0009,0.0033,0.0043
+Histidine Metabolism,0.0014,0.0027,0.0041
+Alanine and Aspartate Metabolism,0.0011,0.0028,0.0038
+Pentose Phosphate Pathway,0.0018,0.0017,0.0035
+Glycine and Serine Metabolism,0.0007,0.0019,0.0027
+"Tyrosine, Tryptophan, and Phenylalanine Metabolism",0.0005,0.0022,0.0027
+Alternate Carbon Metabolism,0.0007,0.0019,0.0026
+Purine and Pyrimidine Biosynthesis,0.0021,0.0,0.0021
+Oxidative Phosphorylation,0.0005,0.0015,0.0019
+Methionine Metabolism,0.0015,0.0003,0.0018
+Citric Acid Cycle,0.0002,0.0013,0.0015
+Cell Envelope Biosynthesis,0.0006,0.0005,0.0011
+Glycerophospholipid Metabolism,0.0004,0.0004,0.0007
+Nucleotide Salvage Pathway,0.0004,0.0002,0.0006
+Cysteine Metabolism,0.0003,0.0002,0.0005
+Murein Biosynthesis,0.0003,0.0001,0.0005
+tRNA Charging,0.0001,0.0004,0.0005
+Lipopolysaccharide Biosynthesis / Recycling,0.0001,0.0003,0.0004
+Threonine and Lysine Metabolism,0.0003,0.0001,0.0004
+"Valine, Leucine, and Isoleucine Metabolism",0.0003,0.0001,0.0004
+Folate Metabolism,0.0003,0.0,0.0003
+Intracellular demand,0.0,0.0003,0.0003
+Pyruvate Metabolism,0.0003,0.0001,0.0003
+Biomass and maintenance functions,0.0001,0.0001,0.0002
+Glutamate Metabolism,0.0,0.0002,0.0002
+Glycolysis/Gluconeogenesis,0.0001,0.0001,0.0002
+Cofactor and Prosthetic Group Biosynthesis,0.0,0.0,0.0
+Inorganic Ion Transport and Metabolism,0.0,0.0,0.0
+Metabolite Repair,0.0,0.0,0.0
+Methylglyoxal Metabolism,0.0,0.0,0.0
+Murein Recycling,0.0,0.0,0.0
+Nitrogen Metabolism,0.0,0.0,0.0
+"Transport, Outer Membrane Porin",0.0,0.0,0.0
+Unassigned,0.0,0.0,0.0

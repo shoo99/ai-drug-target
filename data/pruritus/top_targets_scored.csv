@@ -1,0 +1,945 @@
+genetic_evidence,expression_specificity,druggability,novelty,competition,literature_trend,composite_score,tier,gene_id,gene_name,track,is_essential,essential_score,is_novel_target,has_existing_drug,pathway,organism,has_structure,uniprot_id,connections
+0.6003711615915147,0.3,0.2,0.7,0.7,0.5,0.4751,Tier 3 - Exploratory,HS_FKBP1A,FKBP1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5959520284928246,0.3,0.2,0.7,0.7,0.5,0.474,Tier 3 - Exploratory,HS_SCN8A,SCN8A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5928285654153851,0.3,0.2,0.7,0.7,0.5,0.4732,Tier 3 - Exploratory,HS_SCN11A,SCN11A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5920204740658003,0.3,0.2,0.7,0.7,0.5,0.473,Tier 3 - Exploratory,HS_SCN10A,SCN10A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5907779105272388,0.3,0.2,0.7,0.7,0.5,0.4727,Tier 3 - Exploratory,HS_SCN7A,SCN7A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5908655370199106,0.3,0.2,0.7,0.7,0.5,0.4727,Tier 3 - Exploratory,HS_SCN5A,SCN5A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5902607779393171,0.3,0.2,0.7,0.7,0.5,0.4726,Tier 3 - Exploratory,HS_ADRA1A,ADRA1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5905931205998964,0.3,0.2,0.7,0.7,0.5,0.4726,Tier 3 - Exploratory,HS_SCN9A,SCN9A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5900387508178694,0.3,0.2,0.7,0.7,0.5,0.4725,Tier 3 - Exploratory,HS_SCN4A,SCN4A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5900387508178694,0.3,0.2,0.7,0.7,0.5,0.4725,Tier 3 - Exploratory,HS_SCN2A,SCN2A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5900387508178694,0.3,0.2,0.7,0.7,0.5,0.4725,Tier 3 - Exploratory,HS_SCN1A,SCN1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5900387508178694,0.3,0.2,0.7,0.7,0.5,0.4725,Tier 3 - Exploratory,HS_SCN3A,SCN3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5889858301017256,0.3,0.2,0.7,0.7,0.5,0.4722,Tier 3 - Exploratory,HS_ADRA1B,ADRA1B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5889858301017256,0.3,0.2,0.7,0.7,0.5,0.4722,Tier 3 - Exploratory,HS_ADRA1D,ADRA1D,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5807660453712841,0.3,0.2,0.7,0.7,0.5,0.4702,Tier 3 - Exploratory,HS_TRPM8,TRPM8,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.573990014479935,0.3,0.2,0.7,0.7,0.5,0.4685,Tier 3 - Exploratory,HS_OPRK1,OPRK1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5566140944063063,0.3,0.2,0.7,0.7,0.5,0.4642,Tier 3 - Exploratory,HS_SLC10A2,SLC10A2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5553863119539271,0.3,0.2,0.7,0.7,0.5,0.4638,Tier 3 - Exploratory,HS_JAK3,JAK3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5446383229255105,0.3,0.2,0.7,0.7,0.5,0.4612,Tier 3 - Exploratory,HS_TNFSF4,TNFSF4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5407131404427233,0.3,0.2,0.7,0.7,0.5,0.4602,Tier 3 - Exploratory,HS_IL7R,IL7R,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5404885566151909,0.3,0.2,0.7,0.7,0.5,0.4601,Tier 3 - Exploratory,HS_IL6R,IL6R,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5241642203028327,0.3,0.2,0.7,0.7,0.5,0.456,Tier 3 - Exploratory,HS_DOK2,DOK2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5162055851932771,0.3,0.2,0.7,0.7,0.5,0.4541,Tier 3 - Exploratory,HS_TESPA1,TESPA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5095424431925857,0.3,0.2,0.7,0.7,0.5,0.4524,Tier 3 - Exploratory,HS_CYP24A1,CYP24A1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5076783238282127,0.3,0.2,0.7,0.7,0.5,0.4519,Tier 3 - Exploratory,HS_PRKCQ,PRKCQ,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5030392466541774,0.3,0.2,0.7,0.7,0.5,0.4508,Tier 3 - Exploratory,HS_NR3C1,NR3C1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4936785423942707,0.3,0.2,0.7,0.7,0.5,0.4484,Tier 3 - Exploratory,HS_NLRP10,NLRP10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4894325409185622,0.3,0.2,0.7,0.7,0.5,0.4474,Tier 3 - Exploratory,HS_TAGAP,TAGAP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4846809075121779,0.3,0.2,0.7,0.7,0.5,0.4462,Tier 3 - Exploratory,HS_BACH2,BACH2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0,0.9,0.2,0.7,0.7,0.5,0.445,Tier 3 - Exploratory,LLM_NAN,NAN,both,False,0.0,False,False,,,False,,53
+0.4801426081170028,0.3,0.2,0.7,0.7,0.5,0.445,Tier 3 - Exploratory,HS_MMP12,MMP12,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0,0.9,0.2,0.7,0.7,0.5,0.445,Tier 3 - Exploratory,LLM_FTSZ,FTSZ,both,False,0.0,False,False,,,False,,32
+0.0,0.9,0.2,0.7,0.7,0.5,0.445,Tier 3 - Exploratory,LLM_LPXC,LPXC,both,False,0.0,False,False,,,False,,18
+0.4773878667354836,0.3,0.2,0.7,0.7,0.5,0.4443,Tier 3 - Exploratory,HS_SERPINB7,SERPINB7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4761259000687214,0.3,0.2,0.7,0.7,0.5,0.444,Tier 3 - Exploratory,HS_CSF2RB,CSF2RB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4760022794276864,0.3,0.2,0.7,0.7,0.5,0.444,Tier 3 - Exploratory,HS_IL18R1,IL18R1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.475572908841092,0.3,0.2,0.7,0.7,0.5,0.4439,Tier 3 - Exploratory,HS_SATB1,SATB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4688392192778353,0.3,0.2,0.7,0.7,0.5,0.4422,Tier 3 - Exploratory,HS_TRAF3,TRAF3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4688288528882793,0.3,0.2,0.7,0.7,0.5,0.4422,Tier 3 - Exploratory,HS_ZNF652,ZNF652,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4679358685720723,0.3,0.2,0.7,0.7,0.5,0.442,Tier 3 - Exploratory,HS_NFILZ,NFILZ,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4658333419945458,0.3,0.2,0.7,0.7,0.5,0.4415,Tier 3 - Exploratory,HS_PRR5L,PRR5L,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4651051232282808,0.3,0.2,0.7,0.7,0.5,0.4413,Tier 3 - Exploratory,HS_BLTP1,BLTP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4642398387365107,0.3,0.2,0.7,0.7,0.5,0.4411,Tier 3 - Exploratory,HS_CCDC80,CCDC80,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4635976128950586,0.3,0.2,0.7,0.7,0.5,0.4409,Tier 3 - Exploratory,HS_IL1RL1,IL1RL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4634235407867653,0.3,0.2,0.7,0.7,0.5,0.4409,Tier 3 - Exploratory,HS_CREB5,CREB5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4599654937760627,0.3,0.2,0.7,0.7,0.5,0.44,Tier 3 - Exploratory,HS_IL18RAP,IL18RAP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4483787052417165,0.3,0.2,0.7,0.7,0.5,0.4371,Tier 3 - Exploratory,HS_FOXP1,FOXP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4429595895279813,0.3,0.2,0.7,0.7,0.5,0.4357,Tier 3 - Exploratory,HS_AGO2,AGO2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4425352029022024,0.3,0.2,0.7,0.7,0.5,0.4356,Tier 3 - Exploratory,HS_RUNX3,RUNX3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4423391265734396,0.3,0.2,0.7,0.7,0.5,0.4356,Tier 3 - Exploratory,HS_ARRDC1,ARRDC1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4418196653815963,0.3,0.2,0.7,0.7,0.5,0.4355,Tier 3 - Exploratory,HS_ACOXL,ACOXL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4418828153565547,0.3,0.2,0.7,0.7,0.5,0.4355,Tier 3 - Exploratory,HS_ADO,ADO,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4397225215801863,0.3,0.2,0.7,0.7,0.5,0.4349,Tier 3 - Exploratory,HS_D2HGDH,D2HGDH,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4397805980028899,0.3,0.2,0.7,0.7,0.5,0.4349,Tier 3 - Exploratory,HS_INPP5D,INPP5D,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4388626743655572,0.3,0.2,0.7,0.7,0.5,0.4347,Tier 3 - Exploratory,HS_ZNF217,ZNF217,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4373545662406811,0.3,0.2,0.7,0.7,0.5,0.4343,Tier 3 - Exploratory,HS_HRNR,HRNR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4362498254217576,0.3,0.2,0.7,0.7,0.5,0.4341,Tier 3 - Exploratory,HS_SLC7A10,SLC7A10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4344070715563673,0.3,0.2,0.7,0.7,0.5,0.4336,Tier 3 - Exploratory,HS_ETS1,ETS1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4329775330531614,0.3,0.2,0.7,0.7,0.5,0.4332,Tier 3 - Exploratory,HS_WDR36,WDR36,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4309689888403825,0.3,0.2,0.7,0.7,0.5,0.4327,Tier 3 - Exploratory,HS_BHLHE40,BHLHE40,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4299311314516733,0.3,0.2,0.7,0.7,0.5,0.4325,Tier 3 - Exploratory,HS_GLB1,GLB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4281349044444179,0.3,0.2,0.7,0.7,0.5,0.432,Tier 3 - Exploratory,HS_ACTL9,ACTL9,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4265075093359799,0.3,0.2,0.7,0.7,0.5,0.4316,Tier 3 - Exploratory,HS_FOSL2,FOSL2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4235090823645605,0.3,0.2,0.7,0.7,0.5,0.4309,Tier 3 - Exploratory,HS_KDELR2,KDELR2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4227930671860951,0.3,0.2,0.7,0.7,0.5,0.4307,Tier 3 - Exploratory,HS_CARD11,CARD11,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4197424560818145,0.3,0.2,0.7,0.7,0.5,0.4299,Tier 3 - Exploratory,HS_CAPN14,CAPN14,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4186418842135947,0.3,0.2,0.7,0.7,0.5,0.4297,Tier 3 - Exploratory,HS_CD200R1,CD200R1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4172578317380501,0.3,0.2,0.7,0.7,0.5,0.4293,Tier 3 - Exploratory,HS_ZBTB10,ZBTB10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4148279696284817,0.3,0.2,0.7,0.7,0.5,0.4287,Tier 3 - Exploratory,HS_TNFSF18,TNFSF18,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4145328106301918,0.3,0.2,0.7,0.7,0.5,0.4286,Tier 3 - Exploratory,HS_TNFRSF6B,TNFRSF6B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4112125542889727,0.3,0.2,0.7,0.7,0.5,0.4278,Tier 3 - Exploratory,HS_PLXNC1,PLXNC1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4091974756488546,0.3,0.2,0.7,0.7,0.5,0.4273,Tier 3 - Exploratory,HS_TNFRSF11A,TNFRSF11A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4086524074062978,0.3,0.2,0.7,0.7,0.5,0.4272,Tier 3 - Exploratory,HS_TNFRSF4,TNFRSF4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.4079012422696568,0.3,0.2,0.7,0.7,0.5,0.427,Tier 3 - Exploratory,HS_AFF1,AFF1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.392552799352724,0.3,0.2,0.7,0.7,0.5,0.4231,Tier 3 - Exploratory,HS_RGS14,RGS14,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3902315676699214,0.3,0.2,0.7,0.7,0.5,0.4226,Tier 3 - Exploratory,HS_BATF3,BATF3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3861536246843707,0.3,0.2,0.7,0.7,0.5,0.4215,Tier 3 - Exploratory,HS_FGF2,FGF2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3844094352788036,0.3,0.2,0.7,0.7,0.5,0.4211,Tier 3 - Exploratory,HS_CD207,CD207,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.383418313051192,0.3,0.2,0.7,0.7,0.5,0.4209,Tier 3 - Exploratory,HS_SLC9A4,SLC9A4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.380877284400521,0.3,0.2,0.7,0.7,0.5,0.4202,Tier 3 - Exploratory,HS_HMSD,HMSD,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3793419846487981,0.3,0.2,0.7,0.7,0.5,0.4198,Tier 3 - Exploratory,HS_PRORP,PRORP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3788193510518193,0.3,0.2,0.7,0.7,0.5,0.4197,Tier 3 - Exploratory,HS_SLC6A2,SLC6A2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3781579714691204,0.3,0.2,0.7,0.7,0.5,0.4195,Tier 3 - Exploratory,HS_OPRM1,OPRM1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3754820379922559,0.3,0.2,0.7,0.7,0.5,0.4189,Tier 3 - Exploratory,HS_SPINK5,SPINK5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3751537036848873,0.3,0.2,0.7,0.7,0.5,0.4188,Tier 3 - Exploratory,HS_IL22RA2,IL22RA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3728239103486567,0.3,0.2,0.7,0.7,0.5,0.4182,Tier 3 - Exploratory,HS_CLEC16A,CLEC16A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3708548025222932,0.3,0.2,0.7,0.7,0.5,0.4177,Tier 3 - Exploratory,HS_ADRA2B,ADRA2B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3705834205823354,0.3,0.2,0.7,0.7,0.5,0.4176,Tier 3 - Exploratory,HS_AHI1,AHI1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3699494345393864,0.3,0.2,0.7,0.7,0.5,0.4175,Tier 3 - Exploratory,HS_CDSN,CDSN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3695798546847018,0.3,0.2,0.7,0.7,0.5,0.4174,Tier 3 - Exploratory,HS_CHRM3,CHRM3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3695798546847018,0.3,0.2,0.7,0.7,0.5,0.4174,Tier 3 - Exploratory,HS_ADRA2C,ADRA2C,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3695798546847018,0.3,0.2,0.7,0.7,0.5,0.4174,Tier 3 - Exploratory,HS_ADRA2A,ADRA2A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3685624081180232,0.3,0.2,0.7,0.7,0.5,0.4171,Tier 3 - Exploratory,HS_GATA3,GATA3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3674657640592667,0.3,0.2,0.7,0.7,0.5,0.4169,Tier 3 - Exploratory,HS_DSC1,DSC1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3676530478076668,0.3,0.2,0.7,0.7,0.5,0.4169,Tier 3 - Exploratory,HS_OPRD1,OPRD1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3662893249149077,0.3,0.2,0.7,0.7,0.5,0.4166,Tier 3 - Exploratory,HS_PPIA,PPIA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3651197826270889,0.3,0.2,0.7,0.7,0.5,0.4163,Tier 3 - Exploratory,HS_IRF4,IRF4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3653743361023552,0.3,0.2,0.7,0.7,0.5,0.4163,Tier 3 - Exploratory,HS_EHMT1,EHMT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5997282021125234,0.3,0.2,0.3,0.7,0.5,0.4149,Tier 3 - Exploratory,HS_HRH1,HRH1,pruritus,False,0.0,False,False,,Homo sapiens,False,C9J2E6,2
+0.3594017273118165,0.3,0.2,0.7,0.7,0.5,0.4149,Tier 3 - Exploratory,HS_SUOX,SUOX,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3559332627427167,0.3,0.2,0.7,0.7,0.5,0.414,Tier 3 - Exploratory,HS_CIART,CIART,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3535635864160923,0.3,0.2,0.7,0.7,0.5,0.4134,Tier 3 - Exploratory,HS_ANKRD55,ANKRD55,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3527362848813211,0.3,0.2,0.7,0.7,0.5,0.4132,Tier 3 - Exploratory,HS_RPRD2,RPRD2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3474617606072609,0.3,0.2,0.7,0.7,0.5,0.4119,Tier 3 - Exploratory,HS_ABCB11,ABCB11,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3470746631362728,0.3,0.2,0.7,0.7,0.5,0.4118,Tier 3 - Exploratory,HS_IL1RL2,IL1RL2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5835448658618302,0.3,0.2,0.3,0.7,0.5,0.4109,Tier 3 - Exploratory,HS_TRPA1,TRPA1,pruritus,False,0.0,False,False,,Homo sapiens,False,H0YAW0,2
+0.3419354744549956,0.3,0.2,0.7,0.7,0.5,0.4105,Tier 3 - Exploratory,HS_OTULINL,OTULINL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3418328255832411,0.3,0.2,0.7,0.7,0.5,0.4105,Tier 3 - Exploratory,HS_PON1,PON1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3415017181762569,0.3,0.2,0.7,0.7,0.5,0.4104,Tier 3 - Exploratory,HS_MRPS21,MRPS21,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3404968514716382,0.3,0.2,0.7,0.7,0.5,0.4101,Tier 3 - Exploratory,HS_GCNT3,GCNT3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3392302429043883,0.3,0.2,0.7,0.7,0.5,0.4098,Tier 3 - Exploratory,HS_PHF19,PHF19,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3364831128121152,0.3,0.2,0.7,0.7,0.5,0.4091,Tier 3 - Exploratory,HS_SEPTIN8,SEPTIN8,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3316868839286039,0.3,0.2,0.7,0.7,0.5,0.4079,Tier 3 - Exploratory,HS_TLR1,TLR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5711540014568087,0.3,0.2,0.3,0.7,0.5,0.4078,Tier 3 - Exploratory,HS_JAK2,JAK2,pruritus,False,0.0,False,False,,Homo sapiens,False,Q506Q0,3
+0.3296187800077184,0.3,0.2,0.7,0.7,0.5,0.4074,Tier 3 - Exploratory,HS_BATF,BATF,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3278257363249893,0.3,0.2,0.7,0.7,0.5,0.407,Tier 3 - Exploratory,HS_SAMSN1,SAMSN1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.326103248611937,0.3,0.2,0.7,0.7,0.5,0.4065,Tier 3 - Exploratory,HS_REL,REL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.32604753423816,0.3,0.2,0.7,0.7,0.5,0.4065,Tier 3 - Exploratory,HS_HIP1R,HIP1R,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3247977593365505,0.3,0.2,0.7,0.7,0.5,0.4062,Tier 3 - Exploratory,HS_GYG1,GYG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.324501387292551,0.3,0.2,0.7,0.7,0.5,0.4061,Tier 3 - Exploratory,HS_ZBTB1,ZBTB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.324024004541275,0.3,0.2,0.7,0.7,0.5,0.406,Tier 3 - Exploratory,HS_DHFR,DHFR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3224054977627337,0.3,0.2,0.7,0.7,0.5,0.4056,Tier 3 - Exploratory,HS_RORC,RORC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.5625207476552148,0.3,0.2,0.3,0.7,0.5,0.4056,Tier 3 - Exploratory,HS_TYK2,TYK2,pruritus,False,0.0,False,False,,Homo sapiens,False,A0A8V8TN50,3
+0.3192437467350345,0.3,0.2,0.7,0.7,0.5,0.4048,Tier 3 - Exploratory,HS_RERE,RERE,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3189016756434592,0.3,0.2,0.7,0.7,0.5,0.4047,Tier 3 - Exploratory,HS_P4HA2,P4HA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3176621021207195,0.3,0.2,0.7,0.7,0.5,0.4044,Tier 3 - Exploratory,HS_SLAMF6,SLAMF6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3162736050981307,0.3,0.2,0.7,0.7,0.5,0.4041,Tier 3 - Exploratory,HS_PRKRA,PRKRA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3153307592915728,0.3,0.2,0.7,0.7,0.5,0.4038,Tier 3 - Exploratory,HS_KIF3A,KIF3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3138575180710568,0.3,0.2,0.7,0.7,0.5,0.4035,Tier 3 - Exploratory,HS_NCF4,NCF4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3129353834210142,0.3,0.2,0.7,0.7,0.5,0.4032,Tier 3 - Exploratory,HS_NSMCE1,NSMCE1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3120555085388658,0.3,0.2,0.7,0.7,0.5,0.403,Tier 3 - Exploratory,HS_CDC42SE2,CDC42SE2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3114317668582405,0.3,0.2,0.7,0.7,0.5,0.4029,Tier 3 - Exploratory,HS_TBX21,TBX21,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3096766153010192,0.3,0.2,0.7,0.7,0.5,0.4024,Tier 3 - Exploratory,HS_NCAM1,NCAM1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3058756601379469,0.3,0.2,0.7,0.7,0.5,0.4015,Tier 3 - Exploratory,HS_ZBTB38,ZBTB38,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3050809832659943,0.3,0.2,0.7,0.7,0.5,0.4013,Tier 3 - Exploratory,HS_GPR132,GPR132,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3021125847811286,0.3,0.2,0.7,0.7,0.5,0.4005,Tier 3 - Exploratory,HS_CD247,CD247,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3008780757519557,0.3,0.2,0.7,0.7,0.5,0.4002,Tier 3 - Exploratory,HS_ALPK2,ALPK2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2994697672762086,0.3,0.2,0.7,0.7,0.5,0.3999,Tier 3 - Exploratory,HS_C1orf54,C1orf54,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.298046752060184,0.3,0.2,0.7,0.7,0.5,0.3995,Tier 3 - Exploratory,HS_MATN2,MATN2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2979212123982127,0.3,0.2,0.7,0.7,0.5,0.3995,Tier 3 - Exploratory,HS_TCHHL1,TCHHL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2977875776863719,0.3,0.2,0.7,0.7,0.5,0.3994,Tier 3 - Exploratory,HS_FASLG,FASLG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2973309391800909,0.3,0.2,0.7,0.7,0.5,0.3993,Tier 3 - Exploratory,HS_SLAMF1,SLAMF1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2973995182386136,0.3,0.2,0.7,0.7,0.5,0.3993,Tier 3 - Exploratory,HS_RAB5B,RAB5B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2967878572867293,0.3,0.2,0.7,0.7,0.5,0.3992,Tier 3 - Exploratory,HS_SLC22A5,SLC22A5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2952969864587103,0.3,0.2,0.7,0.7,0.5,0.3988,Tier 3 - Exploratory,HS_LCE5A,LCE5A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2949125806891623,0.3,0.2,0.7,0.7,0.5,0.3987,Tier 3 - Exploratory,HS_PUS10,PUS10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2944975985340753,0.3,0.2,0.7,0.7,0.5,0.3986,Tier 3 - Exploratory,HS_AQP3,AQP3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2942469495255524,0.3,0.2,0.7,0.7,0.5,0.3986,Tier 3 - Exploratory,HS_LRP1,LRP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2940840960572319,0.3,0.2,0.7,0.7,0.5,0.3985,Tier 3 - Exploratory,HS_DUSP1,DUSP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2931542449797303,0.3,0.2,0.7,0.7,0.5,0.3983,Tier 3 - Exploratory,HS_VDR,VDR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2914579319059517,0.3,0.2,0.7,0.7,0.5,0.3979,Tier 3 - Exploratory,HS_LAYN,LAYN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2898678302131108,0.3,0.2,0.7,0.7,0.5,0.3975,Tier 3 - Exploratory,HS_ACSL6,ACSL6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.290042005327393,0.3,0.2,0.7,0.7,0.5,0.3975,Tier 3 - Exploratory,HS_TRIB1,TRIB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2887780130684055,0.3,0.2,0.7,0.7,0.5,0.3972,Tier 3 - Exploratory,HS_CPE,CPE,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2869451508066041,0.3,0.2,0.7,0.7,0.5,0.3967,Tier 3 - Exploratory,HS_IL4R,IL4R,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2854375870279562,0.3,0.2,0.7,0.7,0.5,0.3964,Tier 3 - Exploratory,HS_SMAD3,SMAD3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.284909510581126,0.3,0.2,0.7,0.7,0.5,0.3962,Tier 3 - Exploratory,HS_PVALB,PVALB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2840774388398029,0.3,0.2,0.7,0.7,0.5,0.396,Tier 3 - Exploratory,HS_EMSY,EMSY,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2828552172263628,0.3,0.2,0.7,0.7,0.5,0.3957,Tier 3 - Exploratory,HS_MFN2,MFN2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2799639085323346,0.3,0.2,0.7,0.7,0.5,0.395,Tier 3 - Exploratory,HS_FLG2,FLG2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2792182819066084,0.3,0.2,0.7,0.7,0.5,0.3948,Tier 3 - Exploratory,HS_PPP2R3C,PPP2R3C,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2792615093231336,0.3,0.2,0.7,0.7,0.5,0.3948,Tier 3 - Exploratory,HS_SFRP2,SFRP2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2793390532064528,0.3,0.2,0.7,0.7,0.5,0.3948,Tier 3 - Exploratory,HS_NAA35,NAA35,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2781804109372676,0.3,0.2,0.7,0.7,0.5,0.3945,Tier 3 - Exploratory,HS_PRKD3,PRKD3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.277867603738712,0.3,0.2,0.7,0.7,0.5,0.3945,Tier 3 - Exploratory,HS_CDH13,CDH13,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2750390873639675,0.3,0.2,0.7,0.7,0.5,0.3938,Tier 3 - Exploratory,HS_ARFRP1,ARFRP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.27428228527995,0.3,0.2,0.7,0.7,0.5,0.3936,Tier 3 - Exploratory,HS_SPATA32,SPATA32,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2726758193036988,0.3,0.2,0.7,0.7,0.5,0.3932,Tier 3 - Exploratory,HS_BCL9,BCL9,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2717937388003703,0.3,0.2,0.7,0.7,0.5,0.3929,Tier 3 - Exploratory,HS_CNTNAP5,CNTNAP5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26897342601419,0.3,0.2,0.7,0.7,0.5,0.3922,Tier 3 - Exploratory,HS_LRRC32,LRRC32,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2683410384780241,0.3,0.2,0.7,0.7,0.5,0.3921,Tier 3 - Exploratory,HS_PDE1B,PDE1B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2679579542960043,0.3,0.2,0.7,0.7,0.5,0.392,Tier 3 - Exploratory,HS_ID2,ID2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2676626863733011,0.3,0.2,0.7,0.7,0.5,0.3919,Tier 3 - Exploratory,HS_KLF13,KLF13,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2670219673006803,0.3,0.2,0.7,0.7,0.5,0.3918,Tier 3 - Exploratory,HS_IL1R1,IL1R1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2668612026052326,0.3,0.2,0.7,0.7,0.5,0.3917,Tier 3 - Exploratory,HS_RBMS3,RBMS3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2662523455100348,0.3,0.2,0.7,0.7,0.5,0.3916,Tier 3 - Exploratory,HS_GTF2I,GTF2I,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.265097844631929,0.3,0.2,0.7,0.7,0.5,0.3913,Tier 3 - Exploratory,HS_CHN2,CHN2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2642495960995617,0.3,0.2,0.7,0.7,0.5,0.3911,Tier 3 - Exploratory,HS_GABRG1,GABRG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRG3,GABRG3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRD,GABRD,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRB1,GABRB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRA3,GABRA3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRA5,GABRA5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRB3,GABRB3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRA1,GABRA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRE,GABRE,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRA4,GABRA4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRP,GABRP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRA2,GABRA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRA6,GABRA6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRB2,GABRB2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRQ,GABRQ,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.26332564646285,0.3,0.2,0.7,0.7,0.5,0.3908,Tier 3 - Exploratory,HS_GABRG2,GABRG2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2628799975368176,0.3,0.2,0.7,0.7,0.5,0.3907,Tier 3 - Exploratory,HS_RYBP,RYBP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2611753396716155,0.3,0.2,0.7,0.7,0.5,0.3903,Tier 3 - Exploratory,HS_HRH2,HRH2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2591257384085752,0.3,0.2,0.7,0.7,0.5,0.3898,Tier 3 - Exploratory,HS_WWOX,WWOX,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2588868153891713,0.3,0.2,0.7,0.7,0.5,0.3897,Tier 3 - Exploratory,HS_NCKAP5,NCKAP5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2587058982792912,0.3,0.2,0.7,0.7,0.5,0.3897,Tier 3 - Exploratory,HS_KCNJ11,KCNJ11,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2568399989341717,0.3,0.2,0.7,0.7,0.5,0.3892,Tier 3 - Exploratory,HS_ZBTB25,ZBTB25,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2565352569845999,0.3,0.2,0.7,0.7,0.5,0.3891,Tier 3 - Exploratory,HS_PTPA,PTPA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2558349639992102,0.3,0.2,0.7,0.7,0.5,0.389,Tier 3 - Exploratory,HS_RBM17,RBM17,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2544359214125399,0.3,0.2,0.7,0.7,0.5,0.3886,Tier 3 - Exploratory,HS_RAD51B,RAD51B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.25367857553322,0.3,0.2,0.7,0.7,0.5,0.3884,Tier 3 - Exploratory,HS_EPS8L3,EPS8L3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2519541707794922,0.3,0.2,0.7,0.7,0.5,0.388,Tier 3 - Exploratory,HS_PRKG1,PRKG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2514802458450045,0.3,0.2,0.7,0.7,0.5,0.3879,Tier 3 - Exploratory,HS_RHOG,RHOG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2487989374364838,0.3,0.2,0.7,0.7,0.5,0.3872,Tier 3 - Exploratory,HS_SHANK2,SHANK2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2488320024790917,0.3,0.2,0.7,0.7,0.5,0.3872,Tier 3 - Exploratory,HS_LEF1,LEF1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2452495229659434,0.3,0.2,0.7,0.7,0.5,0.3863,Tier 3 - Exploratory,HS_SIK3,SIK3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2447175971985857,0.3,0.2,0.7,0.7,0.5,0.3862,Tier 3 - Exploratory,HS_IKZF1,IKZF1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2433449762529538,0.3,0.2,0.7,0.7,0.5,0.3858,Tier 3 - Exploratory,HS_IL15,IL15,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2417221371713576,0.3,0.2,0.7,0.7,0.5,0.3854,Tier 3 - Exploratory,HS_PWWP3A,PWWP3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2417689850899307,0.3,0.2,0.7,0.7,0.5,0.3854,Tier 3 - Exploratory,HS_PEX13,PEX13,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2391881785762974,0.3,0.2,0.7,0.7,0.5,0.3848,Tier 3 - Exploratory,HS_PTPRN2,PTPRN2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2389829726846426,0.3,0.2,0.7,0.7,0.5,0.3847,Tier 3 - Exploratory,HS_WNK1,WNK1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2383149722589913,0.3,0.2,0.7,0.7,0.5,0.3846,Tier 3 - Exploratory,HS_DDAH1,DDAH1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2376957211480122,0.3,0.2,0.7,0.7,0.5,0.3844,Tier 3 - Exploratory,HS_ADAD1,ADAD1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.237396875831478,0.3,0.2,0.7,0.7,0.5,0.3843,Tier 3 - Exploratory,HS_ARID3A,ARID3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2347105638157331,0.3,0.2,0.7,0.7,0.5,0.3837,Tier 3 - Exploratory,HS_SMYD3,SMYD3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.234194191641279,0.3,0.2,0.7,0.7,0.5,0.3835,Tier 3 - Exploratory,HS_IL3,IL3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2338933311623851,0.3,0.2,0.7,0.7,0.5,0.3835,Tier 3 - Exploratory,HS_MAP3K14,MAP3K14,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2309408873887932,0.3,0.2,0.7,0.7,0.5,0.3827,Tier 3 - Exploratory,HS_RTEL1,RTEL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2269964959839156,0.3,0.2,0.7,0.7,0.5,0.3817,Tier 3 - Exploratory,HS_CSGALNACT1,CSGALNACT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2240869022537668,0.3,0.2,0.7,0.7,0.5,0.381,Tier 3 - Exploratory,HS_LIME1,LIME1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2240640779559038,0.3,0.2,0.7,0.7,0.5,0.381,Tier 3 - Exploratory,HS_ITPKA,ITPKA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2201457980487877,0.3,0.2,0.7,0.7,0.5,0.38,Tier 3 - Exploratory,HS_TRIM71,TRIM71,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2176367759149081,0.3,0.2,0.7,0.7,0.5,0.3794,Tier 3 - Exploratory,HS_DMRTA1,DMRTA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.216508158731049,0.3,0.2,0.7,0.7,0.5,0.3791,Tier 3 - Exploratory,HS_RASIP1,RASIP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2151172240739223,0.3,0.2,0.7,0.7,0.5,0.3788,Tier 3 - Exploratory,HS_BAZ1A,BAZ1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2126209294138822,0.3,0.2,0.7,0.7,0.5,0.3782,Tier 3 - Exploratory,HS_SLC25A46,SLC25A46,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2123182292998371,0.3,0.2,0.7,0.7,0.5,0.3781,Tier 3 - Exploratory,HS_MIIP,MIIP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2117647030384837,0.3,0.2,0.7,0.7,0.5,0.3779,Tier 3 - Exploratory,HS_OVOL1,OVOL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2110776097607173,0.3,0.2,0.7,0.7,0.5,0.3778,Tier 3 - Exploratory,HS_AQP7,AQP7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2104104405396546,0.3,0.2,0.7,0.7,0.5,0.3776,Tier 3 - Exploratory,HS_ENSG00000293584,ENSG00000293584,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2098137248763488,0.3,0.2,0.7,0.7,0.5,0.3775,Tier 3 - Exploratory,HS_SMARCE1,SMARCE1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2087371247432129,0.3,0.2,0.7,0.7,0.5,0.3772,Tier 3 - Exploratory,HS_GRIK4,GRIK4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2063347846381981,0.3,0.2,0.7,0.7,0.5,0.3766,Tier 3 - Exploratory,HS_NR4A3,NR4A3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2038339379918812,0.3,0.2,0.7,0.7,0.5,0.376,Tier 3 - Exploratory,HS_PSMD5,PSMD5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2034071764526124,0.3,0.2,0.7,0.7,0.5,0.3759,Tier 3 - Exploratory,HS_KCND2,KCND2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2026542363084833,0.3,0.2,0.7,0.7,0.5,0.3757,Tier 3 - Exploratory,HS_IRAK1BP1,IRAK1BP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2025630571929761,0.3,0.2,0.7,0.7,0.5,0.3756,Tier 3 - Exploratory,HS_EGR2,EGR2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2021959957912753,0.3,0.2,0.7,0.7,0.5,0.3755,Tier 3 - Exploratory,HS_NDUFAF1,NDUFAF1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2018675922901438,0.3,0.2,0.7,0.7,0.5,0.3755,Tier 3 - Exploratory,HS_SPSB1,SPSB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2014547080677513,0.3,0.2,0.7,0.7,0.5,0.3754,Tier 3 - Exploratory,HS_LMAN2,LMAN2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.2008739227751827,0.3,0.2,0.7,0.7,0.5,0.3752,Tier 3 - Exploratory,HS_UBE3A,UBE3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1996935161741543,0.3,0.2,0.7,0.7,0.5,0.3749,Tier 3 - Exploratory,HS_GALNT5,GALNT5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1995175290819528,0.3,0.2,0.7,0.7,0.5,0.3749,Tier 3 - Exploratory,HS_CNTN4,CNTN4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1971109402912622,0.3,0.2,0.7,0.7,0.5,0.3743,Tier 3 - Exploratory,HS_NBPF15,NBPF15,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1967827963564671,0.3,0.2,0.7,0.7,0.5,0.3742,Tier 3 - Exploratory,HS_ANKRD27,ANKRD27,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1965214969800685,0.3,0.2,0.7,0.7,0.5,0.3741,Tier 3 - Exploratory,HS_LRATD2,LRATD2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1960221803904713,0.3,0.2,0.7,0.7,0.5,0.374,Tier 3 - Exploratory,HS_FAM177A1,FAM177A1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.193129607820816,0.3,0.2,0.7,0.7,0.5,0.3733,Tier 3 - Exploratory,HS_RORA,RORA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1903255794090157,0.3,0.2,0.7,0.7,0.5,0.3726,Tier 3 - Exploratory,HS_RAPGEF4,RAPGEF4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1900931949700536,0.3,0.2,0.7,0.7,0.5,0.3725,Tier 3 - Exploratory,HS_CRNN,CRNN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1895826182550942,0.3,0.2,0.7,0.7,0.5,0.3724,Tier 3 - Exploratory,HS_FOXC1,FOXC1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1886009323398524,0.3,0.2,0.7,0.7,0.5,0.3722,Tier 3 - Exploratory,HS_DUSP22,DUSP22,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1889699126620923,0.3,0.2,0.7,0.7,0.5,0.3722,Tier 3 - Exploratory,HS_NAMPT,NAMPT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1883204632375981,0.3,0.2,0.7,0.7,0.5,0.3721,Tier 3 - Exploratory,HS_RRP15,RRP15,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1880899511582947,0.3,0.2,0.7,0.7,0.5,0.372,Tier 3 - Exploratory,HS_OR10A3,OR10A3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1874774037801388,0.3,0.2,0.7,0.7,0.5,0.3719,Tier 3 - Exploratory,HS_NAB1,NAB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.186832592290775,0.3,0.2,0.7,0.7,0.5,0.3717,Tier 3 - Exploratory,HS_TNFAIP3,TNFAIP3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.185944974348048,0.3,0.2,0.7,0.7,0.5,0.3715,Tier 3 - Exploratory,HS_SNX27,SNX27,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1861033131169676,0.3,0.2,0.7,0.7,0.5,0.3715,Tier 3 - Exploratory,HS_SIGLEC8,SIGLEC8,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1839820442656801,0.3,0.2,0.7,0.7,0.5,0.371,Tier 3 - Exploratory,HS_ZNF365,ZNF365,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1837030544994257,0.3,0.2,0.7,0.7,0.5,0.3709,Tier 3 - Exploratory,HS_MSL3B,MSL3B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.18169772229488,0.3,0.2,0.7,0.7,0.5,0.3704,Tier 3 - Exploratory,HS_CCR7,CCR7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1786354273535388,0.3,0.2,0.7,0.7,0.5,0.3697,Tier 3 - Exploratory,HS_OR2Z1,OR2Z1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1785118262884804,0.3,0.2,0.7,0.7,0.5,0.3696,Tier 3 - Exploratory,HS_LRRC43,LRRC43,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1773140485137475,0.3,0.2,0.7,0.7,0.5,0.3693,Tier 3 - Exploratory,HS_GABPB2,GABPB2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1748872334540759,0.3,0.2,0.7,0.7,0.5,0.3687,Tier 3 - Exploratory,HS_CCN1,CCN1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1721219866770388,0.3,0.2,0.7,0.7,0.5,0.368,Tier 3 - Exploratory,HS_MMP3,MMP3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1687521329269571,0.3,0.2,0.7,0.7,0.5,0.3672,Tier 3 - Exploratory,HS_SEMA6C,SEMA6C,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1683160904311501,0.3,0.2,0.7,0.7,0.5,0.3671,Tier 3 - Exploratory,HS_TMPRSS6,TMPRSS6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1670589234536226,0.3,0.2,0.7,0.7,0.5,0.3668,Tier 3 - Exploratory,HS_SLC2A4RG,SLC2A4RG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1657494412809732,0.3,0.2,0.7,0.7,0.5,0.3664,Tier 3 - Exploratory,HS_TRIQK,TRIQK,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1641659971068175,0.3,0.2,0.7,0.7,0.5,0.366,Tier 3 - Exploratory,HS_CHD7,CHD7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.164160193468565,0.3,0.2,0.7,0.7,0.5,0.366,Tier 3 - Exploratory,HS_GPR12,GPR12,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1636227856761547,0.3,0.2,0.7,0.7,0.5,0.3659,Tier 3 - Exploratory,HS_TNP2,TNP2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1622178149662662,0.3,0.2,0.7,0.7,0.5,0.3656,Tier 3 - Exploratory,HS_SENP7,SENP7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1620130421495332,0.3,0.2,0.7,0.7,0.5,0.3655,Tier 3 - Exploratory,HS_NFKBIA,NFKBIA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1605333322532827,0.3,0.2,0.7,0.7,0.5,0.3651,Tier 3 - Exploratory,HS_PSMA6,PSMA6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1598120060812667,0.3,0.2,0.7,0.7,0.5,0.365,Tier 3 - Exploratory,HS_RAD50,RAD50,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1601345811846035,0.3,0.2,0.7,0.7,0.5,0.365,Tier 3 - Exploratory,HS_CRAT,CRAT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1591629112278931,0.3,0.2,0.7,0.7,0.5,0.3648,Tier 3 - Exploratory,HS_POU3F3,POU3F3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.158285691107151,0.3,0.2,0.7,0.7,0.5,0.3646,Tier 3 - Exploratory,HS_H3-7,H3-7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1564272442696257,0.3,0.2,0.7,0.7,0.5,0.3641,Tier 3 - Exploratory,HS_GAL3ST2,GAL3ST2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.152919127098817,0.3,0.2,0.7,0.7,0.5,0.3632,Tier 3 - Exploratory,HS_PON3,PON3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.151130843565025,0.3,0.2,0.7,0.7,0.5,0.3628,Tier 3 - Exploratory,HS_COMMD9,COMMD9,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1501772849536175,0.3,0.2,0.7,0.7,0.5,0.3625,Tier 3 - Exploratory,HS_NOTCH2,NOTCH2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1484750403637873,0.3,0.2,0.7,0.7,0.5,0.3621,Tier 3 - Exploratory,HS_DDX6,DDX6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1478319418738807,0.3,0.2,0.7,0.7,0.5,0.362,Tier 3 - Exploratory,HS_CYP4F22,CYP4F22,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1479903412712,0.3,0.2,0.7,0.7,0.5,0.362,Tier 3 - Exploratory,HS_B3GNT7,B3GNT7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1475622800400498,0.3,0.2,0.7,0.7,0.5,0.3619,Tier 3 - Exploratory,HS_SLC6A15,SLC6A15,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1465741932964932,0.3,0.2,0.7,0.7,0.5,0.3616,Tier 3 - Exploratory,HS_TST,TST,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1459298780514464,0.3,0.2,0.7,0.7,0.5,0.3615,Tier 3 - Exploratory,HS_RAD52,RAD52,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1443035633651632,0.3,0.2,0.7,0.7,0.5,0.3611,Tier 3 - Exploratory,HS_CRCT1,CRCT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1431393621759269,0.3,0.2,0.7,0.7,0.5,0.3608,Tier 3 - Exploratory,HS_VAX2,VAX2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1430359385366699,0.3,0.2,0.7,0.7,0.5,0.3608,Tier 3 - Exploratory,HS_SANBR,SANBR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1425252090159925,0.3,0.2,0.7,0.7,0.5,0.3606,Tier 3 - Exploratory,HS_HLA-DRB5,HLA-DRB5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1414532187847016,0.3,0.2,0.7,0.7,0.5,0.3604,Tier 3 - Exploratory,HS_SLC67A2,SLC67A2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.141103486018077,0.3,0.2,0.7,0.7,0.5,0.3603,Tier 3 - Exploratory,HS_TMEM182,TMEM182,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1411891197422661,0.3,0.2,0.7,0.7,0.5,0.3603,Tier 3 - Exploratory,HS_ICE2,ICE2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1407684518854832,0.3,0.2,0.7,0.7,0.5,0.3602,Tier 3 - Exploratory,HS_KRT24,KRT24,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1360353788306265,0.3,0.2,0.7,0.7,0.5,0.359,Tier 3 - Exploratory,HS_TBCEL,TBCEL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1353140030255561,0.3,0.2,0.7,0.7,0.5,0.3588,Tier 3 - Exploratory,HS_TARS2,TARS2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1340049408420326,0.3,0.2,0.7,0.7,0.5,0.3585,Tier 3 - Exploratory,HS_IL5RA,IL5RA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3712081037045484,0.3,0.2,0.3,0.7,0.5,0.3578,Tier 3 - Exploratory,HS_IL31RA,IL31RA,pruritus,False,0.0,False,False,,Homo sapiens,False,A0A494BZY2,2
+0.1309725620870213,0.3,0.2,0.7,0.7,0.5,0.3577,Tier 3 - Exploratory,HS_ZGPAT,ZGPAT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1284845655163088,0.3,0.2,0.7,0.7,0.5,0.3571,Tier 3 - Exploratory,HS_EVI5,EVI5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1261626990133397,0.3,0.2,0.7,0.7,0.5,0.3565,Tier 3 - Exploratory,HS_ERGIC1,ERGIC1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1256052082966181,0.3,0.2,0.7,0.7,0.5,0.3564,Tier 3 - Exploratory,HS_SIK2,SIK2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1242419595547896,0.3,0.2,0.7,0.7,0.5,0.3561,Tier 3 - Exploratory,HS_TDRKH,TDRKH,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1238040115785125,0.3,0.2,0.7,0.7,0.5,0.356,Tier 3 - Exploratory,HS_URGCP,URGCP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1213337378856371,0.3,0.2,0.7,0.7,0.5,0.3553,Tier 3 - Exploratory,HS_CDK2AP1,CDK2AP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1206211763045329,0.3,0.2,0.7,0.7,0.5,0.3552,Tier 3 - Exploratory,HS_MXD3,MXD3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1191612713413612,0.3,0.2,0.7,0.7,0.5,0.3548,Tier 3 - Exploratory,HS_NLRC4,NLRC4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1189313675863919,0.3,0.2,0.7,0.7,0.5,0.3547,Tier 3 - Exploratory,HS_GFI1,GFI1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1184351966152716,0.3,0.2,0.7,0.7,0.5,0.3546,Tier 3 - Exploratory,HS_ANAPC1,ANAPC1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1173196820408798,0.3,0.2,0.7,0.7,0.5,0.3543,Tier 3 - Exploratory,HS_PFDN4,PFDN4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1162693452836695,0.3,0.2,0.7,0.7,0.5,0.3541,Tier 3 - Exploratory,HS_TNIP1,TNIP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1160758123510701,0.3,0.2,0.7,0.7,0.5,0.354,Tier 3 - Exploratory,HS_DKK1,DKK1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1161841745609452,0.3,0.2,0.7,0.7,0.5,0.354,Tier 3 - Exploratory,HS_TRIL,TRIL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1161439143399966,0.3,0.2,0.7,0.7,0.5,0.354,Tier 3 - Exploratory,HS_SOCS1,SOCS1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1152934356397218,0.3,0.2,0.7,0.7,0.5,0.3538,Tier 3 - Exploratory,HS_S100A11,S100A11,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1149930389835494,0.3,0.2,0.7,0.7,0.5,0.3537,Tier 3 - Exploratory,HS_RTF1,RTF1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1145775168493752,0.3,0.2,0.7,0.7,0.5,0.3536,Tier 3 - Exploratory,HS_TMEM232,TMEM232,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1142840410853788,0.3,0.2,0.7,0.7,0.5,0.3536,Tier 3 - Exploratory,HS_CPVL,CPVL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.113915664706826,0.3,0.2,0.7,0.7,0.5,0.3535,Tier 3 - Exploratory,HS_KISS1R,KISS1R,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.113714184088003,0.3,0.2,0.7,0.7,0.5,0.3534,Tier 3 - Exploratory,HS_IZUMO1,IZUMO1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1132757922028205,0.3,0.2,0.7,0.7,0.5,0.3533,Tier 3 - Exploratory,HS_KPRP,KPRP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1126670110274041,0.3,0.2,0.7,0.7,0.5,0.3532,Tier 3 - Exploratory,HS_CCR4,CCR4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1117013114751011,0.3,0.2,0.7,0.7,0.5,0.3529,Tier 3 - Exploratory,HS_IL1A,IL1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1108462597511327,0.3,0.2,0.7,0.7,0.5,0.3527,Tier 3 - Exploratory,HS_GLS,GLS,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1100987386612886,0.3,0.2,0.7,0.7,0.5,0.3525,Tier 3 - Exploratory,HS_ERBB3,ERBB3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1073700313997873,0.3,0.2,0.7,0.7,0.5,0.3518,Tier 3 - Exploratory,HS_SYK,SYK,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.3471586127472973,0.3,0.2,0.3,0.7,0.5,0.3518,Tier 3 - Exploratory,HS_TACR1,TACR1,pruritus,False,0.0,False,False,,Homo sapiens,False,Q53TR1,2
+0.1068430692049966,0.3,0.2,0.7,0.7,0.5,0.3517,Tier 3 - Exploratory,HS_SRP54,SRP54,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1053926658791911,0.3,0.2,0.7,0.7,0.5,0.3513,Tier 3 - Exploratory,HS_IER5L,IER5L,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1053983078208431,0.3,0.2,0.7,0.7,0.5,0.3513,Tier 3 - Exploratory,HS_GALNT14,GALNT14,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1041161578025184,0.3,0.2,0.7,0.7,0.5,0.351,Tier 3 - Exploratory,HS_PTPN2,PTPN2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1034543743819361,0.3,0.2,0.7,0.7,0.5,0.3509,Tier 3 - Exploratory,HS_PTGDR2,PTGDR2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1029430657272488,0.3,0.2,0.7,0.7,0.5,0.3507,Tier 3 - Exploratory,HS_ATP4A,ATP4A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1022332796351201,0.3,0.2,0.7,0.7,0.5,0.3506,Tier 3 - Exploratory,HS_SPRR2D,SPRR2D,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1025481435679301,0.3,0.2,0.7,0.7,0.5,0.3506,Tier 3 - Exploratory,HS_IL1RAP,IL1RAP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1014238624573566,0.3,0.2,0.7,0.7,0.5,0.3504,Tier 3 - Exploratory,HS_FCER2,FCER2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.1001099765722622,0.3,0.2,0.7,0.7,0.5,0.35,Tier 3 - Exploratory,HS_CCL26,CCL26,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0952432228364157,0.3,0.2,0.7,0.7,0.5,0.3488,Tier 3 - Exploratory,HS_RPL17,RPL17,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0940504181388182,0.3,0.2,0.7,0.7,0.5,0.3485,Tier 3 - Exploratory,HS_CD4,CD4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0928056079541584,0.3,0.2,0.7,0.7,0.5,0.3482,Tier 3 - Exploratory,HS_ATP4B,ATP4B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0923949636711754,0.3,0.2,0.7,0.7,0.5,0.3481,Tier 3 - Exploratory,HS_SPAG5,SPAG5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0871207511616125,0.3,0.2,0.7,0.7,0.5,0.3468,Tier 3 - Exploratory,HS_PPARG,PPARG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.087210579598515,0.3,0.2,0.7,0.7,0.5,0.3468,Tier 3 - Exploratory,HS_CACNA1H,CACNA1H,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0856036346737633,0.3,0.2,0.7,0.7,0.5,0.3464,Tier 3 - Exploratory,HS_PDCD1,PDCD1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0856019450499778,0.3,0.2,0.7,0.7,0.5,0.3464,Tier 3 - Exploratory,HS_SPATA2,SPATA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0856019450499778,0.3,0.2,0.7,0.7,0.5,0.3464,Tier 3 - Exploratory,HS_RPL17-C18orf32,RPL17-C18orf32,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0856019450499778,0.3,0.2,0.7,0.7,0.5,0.3464,Tier 3 - Exploratory,HS_SNCA,SNCA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0844900612237526,0.3,0.2,0.7,0.7,0.5,0.3461,Tier 3 - Exploratory,HS_CACNA1I,CACNA1I,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0844900612237526,0.3,0.2,0.7,0.7,0.5,0.3461,Tier 3 - Exploratory,HS_CACNA1G,CACNA1G,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG2,CACNG2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA1S,CACNA1S,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA1E,CACNA1E,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA2D4,CACNA2D4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA1F,CACNA1F,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNB2,CACNB2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG3,CACNG3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA2D3,CACNA2D3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA2D1,CACNA2D1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA1B,CACNA1B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG5,CACNG5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNB3,CACNB3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG1,CACNG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG7,CACNG7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNB4,CACNB4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG6,CACNG6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG8,CACNG8,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA1A,CACNA1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNB1,CACNB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA1D,CACNA1D,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNG4,CACNG4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA2D2,CACNA2D2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0835661115870409,0.3,0.2,0.7,0.7,0.5,0.3459,Tier 3 - Exploratory,HS_CACNA1C,CACNA1C,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0831554673040579,0.3,0.2,0.7,0.7,0.5,0.3458,Tier 3 - Exploratory,HS_SLC6A4,SLC6A4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.082837217984746,0.3,0.2,0.7,0.7,0.5,0.3457,Tier 3 - Exploratory,HS_FOXM1,FOXM1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0,0.4,0.2,0.7,0.7,0.5,0.345,Tier 3 - Exploratory,LLM_TRPV1,TRPV1,both,False,0.0,False,False,,,False,,6
+0.0801479390242292,0.3,0.2,0.7,0.7,0.5,0.345,Tier 3 - Exploratory,HS_IL10,IL10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0799318437143173,0.3,0.2,0.7,0.7,0.5,0.345,Tier 3 - Exploratory,HS_ENO1,ENO1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0799216435755667,0.3,0.2,0.7,0.7,0.5,0.345,Tier 3 - Exploratory,HS_NT5E,NT5E,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0780969457041318,0.3,0.2,0.7,0.7,0.5,0.3445,Tier 3 - Exploratory,HS_SOX2,SOX2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0760591234498286,0.3,0.2,0.7,0.7,0.5,0.344,Tier 3 - Exploratory,HS_DSP,DSP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0755790802830215,0.3,0.2,0.7,0.7,0.5,0.3439,Tier 3 - Exploratory,HS_AGTR1,AGTR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0756647918596726,0.3,0.2,0.7,0.7,0.5,0.3439,Tier 3 - Exploratory,HS_NTRK1,NTRK1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0751943346542038,0.3,0.2,0.7,0.7,0.5,0.3438,Tier 3 - Exploratory,HS_IQCH,IQCH,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0750530449565202,0.3,0.2,0.7,0.7,0.5,0.3438,Tier 3 - Exploratory,HS_IL20,IL20,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0748091222524283,0.3,0.2,0.7,0.7,0.5,0.3437,Tier 3 - Exploratory,HS_KLF5,KLF5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0749117833231741,0.3,0.2,0.7,0.7,0.5,0.3437,Tier 3 - Exploratory,HS_PPL,PPL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0748932016693691,0.3,0.2,0.7,0.7,0.5,0.3437,Tier 3 - Exploratory,HS_PDE4A,PDE4A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0746551306463097,0.3,0.2,0.7,0.7,0.5,0.3437,Tier 3 - Exploratory,HS_ALOX5,ALOX5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.074285550791625,0.3,0.2,0.7,0.7,0.5,0.3436,Tier 3 - Exploratory,HS_PDE4B,PDE4B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.074285550791625,0.3,0.2,0.7,0.7,0.5,0.3436,Tier 3 - Exploratory,HS_S1PR4,S1PR4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0739159709369403,0.3,0.2,0.7,0.7,0.5,0.3435,Tier 3 - Exploratory,HS_S1PR5,S1PR5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0739159709369403,0.3,0.2,0.7,0.7,0.5,0.3435,Tier 3 - Exploratory,HS_PDE4D,PDE4D,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0739159709369403,0.3,0.2,0.7,0.7,0.5,0.3435,Tier 3 - Exploratory,HS_CHRM2,CHRM2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0739159709369403,0.3,0.2,0.7,0.7,0.5,0.3435,Tier 3 - Exploratory,HS_NLRP3,NLRP3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0739159709369403,0.3,0.2,0.7,0.7,0.5,0.3435,Tier 3 - Exploratory,HS_CLEC10A,CLEC10A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0739159709369403,0.3,0.2,0.7,0.7,0.5,0.3435,Tier 3 - Exploratory,HS_MGLL,MGLL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0739159709369403,0.3,0.2,0.7,0.7,0.5,0.3435,Tier 3 - Exploratory,HS_PDE4C,PDE4C,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0707540099579712,0.3,0.2,0.7,0.7,0.5,0.3427,Tier 3 - Exploratory,HS_BANCR,BANCR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0691217127991245,0.3,0.2,0.7,0.7,0.5,0.3423,Tier 3 - Exploratory,HS_ENPP2,ENPP2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0689475101898121,0.3,0.2,0.7,0.7,0.5,0.3422,Tier 3 - Exploratory,HS_DEXI,DEXI,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0685159986157138,0.3,0.2,0.7,0.7,0.5,0.3421,Tier 3 - Exploratory,HS_AREG,AREG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0651622828735542,0.3,0.2,0.7,0.7,0.5,0.3413,Tier 3 - Exploratory,HS_CTTN,CTTN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0641132222529052,0.3,0.2,0.7,0.7,0.5,0.341,Tier 3 - Exploratory,HS_STIM1,STIM1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0638065246563233,0.3,0.2,0.7,0.7,0.5,0.341,Tier 3 - Exploratory,HS_CXCL16,CXCL16,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0605533349993166,0.3,0.2,0.7,0.7,0.5,0.3401,Tier 3 - Exploratory,HS_TNFSF14,TNFSF14,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0593175666768946,0.3,0.2,0.7,0.7,0.5,0.3398,Tier 3 - Exploratory,HS_MAP4K4,MAP4K4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0591444241364956,0.3,0.2,0.7,0.7,0.5,0.3398,Tier 3 - Exploratory,HS_NPY,NPY,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0584518784866343,0.3,0.2,0.7,0.7,0.5,0.3396,Tier 3 - Exploratory,HS_SMG1,SMG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0584518784866343,0.3,0.2,0.7,0.7,0.5,0.3396,Tier 3 - Exploratory,HS_DMBX1,DMBX1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0570179586921898,0.3,0.2,0.7,0.7,0.5,0.3393,Tier 3 - Exploratory,HS_IKBKB,IKBKB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.05721520564523,0.3,0.2,0.7,0.7,0.5,0.3393,Tier 3 - Exploratory,HS_CLC,CLC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0567305076941017,0.3,0.2,0.7,0.7,0.5,0.3392,Tier 3 - Exploratory,HS_CALCRL,CALCRL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0563412265746829,0.3,0.2,0.7,0.7,0.5,0.3391,Tier 3 - Exploratory,HS_ICAM1,ICAM1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0558777737849398,0.3,0.2,0.7,0.7,0.5,0.339,Tier 3 - Exploratory,HS_RNASE3,RNASE3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0559913479847323,0.3,0.2,0.7,0.7,0.5,0.339,Tier 3 - Exploratory,HS_FAAH,FAAH,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0561710048585373,0.3,0.2,0.7,0.7,0.5,0.339,Tier 3 - Exploratory,HS_PTGS2,PTGS2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0554369782027052,0.3,0.2,0.7,0.7,0.5,0.3389,Tier 3 - Exploratory,HS_PTGS1,PTGS1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0553655634381279,0.3,0.2,0.7,0.7,0.5,0.3388,Tier 3 - Exploratory,HS_TRPM1,TRPM1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0546978184933358,0.3,0.2,0.7,0.7,0.5,0.3387,Tier 3 - Exploratory,HS_GPER1,GPER1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0543912717257607,0.3,0.2,0.7,0.7,0.5,0.3386,Tier 3 - Exploratory,HS_CD8A,CD8A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0527984751677127,0.3,0.2,0.7,0.7,0.5,0.3382,Tier 3 - Exploratory,HS_EHD3,EHD3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0528340555332677,0.3,0.2,0.7,0.7,0.5,0.3382,Tier 3 - Exploratory,HS_ATP10A,ATP10A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.050393855763391,0.3,0.2,0.7,0.7,0.5,0.3376,Tier 3 - Exploratory,HS_IL13RA1,IL13RA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0502628602371194,0.3,0.2,0.7,0.7,0.5,0.3376,Tier 3 - Exploratory,HS_ITGB4,ITGB4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0503831627239595,0.3,0.2,0.7,0.7,0.5,0.3376,Tier 3 - Exploratory,HS_TAC1,TAC1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0501056253766031,0.3,0.2,0.7,0.7,0.5,0.3375,Tier 3 - Exploratory,HS_TRPV3,TRPV3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0491401587674439,0.3,0.2,0.7,0.7,0.5,0.3373,Tier 3 - Exploratory,HS_CLDN7,CLDN7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0487845408183806,0.3,0.2,0.7,0.7,0.5,0.3372,Tier 3 - Exploratory,HS_STING1,STING1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0484118873838713,0.3,0.2,0.7,0.7,0.5,0.3371,Tier 3 - Exploratory,HS_EPX,EPX,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0483280751619689,0.3,0.2,0.7,0.7,0.5,0.3371,Tier 3 - Exploratory,HS_LOX,LOX,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0479402561725675,0.3,0.2,0.7,0.7,0.5,0.337,Tier 3 - Exploratory,HS_CD38,CD38,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0476425390674049,0.3,0.2,0.7,0.7,0.5,0.3369,Tier 3 - Exploratory,HS_NTF4,NTF4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0476948509035091,0.3,0.2,0.7,0.7,0.5,0.3369,Tier 3 - Exploratory,HS_CDH1,CDH1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.047123757292612,0.3,0.2,0.7,0.7,0.5,0.3368,Tier 3 - Exploratory,HS_CD1D,CD1D,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0458593514144847,0.3,0.2,0.7,0.7,0.5,0.3365,Tier 3 - Exploratory,HS_NFKB1,NFKB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0454421656102029,0.3,0.2,0.7,0.7,0.5,0.3364,Tier 3 - Exploratory,HS_MBP,MBP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0454583221262183,0.3,0.2,0.7,0.7,0.5,0.3364,Tier 3 - Exploratory,HS_PRL,PRL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0450887422715336,0.3,0.2,0.7,0.7,0.5,0.3363,Tier 3 - Exploratory,HS_CYRIB,CYRIB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0450887422715336,0.3,0.2,0.7,0.7,0.5,0.3363,Tier 3 - Exploratory,HS_IGKV1-16,IGKV1-16,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0447234714164003,0.3,0.2,0.7,0.7,0.5,0.3362,Tier 3 - Exploratory,HS_ANO1,ANO1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0448161645579602,0.3,0.2,0.7,0.7,0.5,0.3362,Tier 3 - Exploratory,HS_GPR15,GPR15,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0444089096139924,0.3,0.2,0.7,0.7,0.5,0.3361,Tier 3 - Exploratory,HS_CAMK4,CAMK4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0442608488611638,0.3,0.2,0.7,0.7,0.5,0.3361,Tier 3 - Exploratory,HS_CTLA4,CTLA4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0432435121859495,0.3,0.2,0.7,0.7,0.5,0.3358,Tier 3 - Exploratory,HS_LRRC31,LRRC31,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0419473135067136,0.3,0.2,0.7,0.7,0.5,0.3355,Tier 3 - Exploratory,HS_KITLG,KITLG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0420878963532706,0.3,0.2,0.7,0.7,0.5,0.3355,Tier 3 - Exploratory,HS_ATP12A,ATP12A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0413309982777792,0.3,0.2,0.7,0.7,0.5,0.3353,Tier 3 - Exploratory,HS_CCL17,CCL17,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0410233638700019,0.3,0.2,0.7,0.7,0.5,0.3353,Tier 3 - Exploratory,HS_RHOF,RHOF,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0406445462592971,0.3,0.2,0.7,0.7,0.5,0.3352,Tier 3 - Exploratory,HS_PRG2,PRG2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.040614829022002,0.3,0.2,0.7,0.7,0.5,0.3352,Tier 3 - Exploratory,HS_EFEMP2,EFEMP2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.040614829022002,0.3,0.2,0.7,0.7,0.5,0.3352,Tier 3 - Exploratory,HS_HIVEP1,HIVEP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.040614829022002,0.3,0.2,0.7,0.7,0.5,0.3352,Tier 3 - Exploratory,HS_MBL2,MBL2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0405467860413719,0.3,0.2,0.7,0.7,0.5,0.3351,Tier 3 - Exploratory,HS_ALB,ALB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.03900360996415,0.3,0.2,0.7,0.7,0.5,0.3348,Tier 3 - Exploratory,HS_FGF9,FGF9,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.039230793238019,0.3,0.2,0.7,0.7,0.5,0.3348,Tier 3 - Exploratory,HS_HTR3A,HTR3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0382309827457174,0.3,0.2,0.7,0.7,0.5,0.3346,Tier 3 - Exploratory,HS_UCN3,UCN3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.038313111602314,0.3,0.2,0.7,0.7,0.5,0.3346,Tier 3 - Exploratory,HS_SMAD2,SMAD2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0378819351051819,0.3,0.2,0.7,0.7,0.5,0.3345,Tier 3 - Exploratory,HS_CYSLTR1,CYSLTR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.038013151426537,0.3,0.2,0.7,0.7,0.5,0.3345,Tier 3 - Exploratory,HS_CDH26,CDH26,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0377080958028586,0.3,0.2,0.7,0.7,0.5,0.3344,Tier 3 - Exploratory,HS_VEGFA,VEGFA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0375123552504972,0.3,0.2,0.7,0.7,0.5,0.3344,Tier 3 - Exploratory,HS_GRIN2B,GRIN2B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0370610044474993,0.3,0.2,0.7,0.7,0.5,0.3343,Tier 3 - Exploratory,HS_CCL11,CCL11,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0373275653231548,0.3,0.2,0.7,0.7,0.5,0.3343,Tier 3 - Exploratory,HS_GRIN1,GRIN1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0373067125550501,0.3,0.2,0.7,0.7,0.5,0.3343,Tier 3 - Exploratory,HS_TNFSF10,TNFSF10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0369579854684701,0.3,0.2,0.7,0.7,0.5,0.3342,Tier 3 - Exploratory,HS_GRIN3B,GRIN3B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0369579854684701,0.3,0.2,0.7,0.7,0.5,0.3342,Tier 3 - Exploratory,HS_TMEM100,TMEM100,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0369579854684701,0.3,0.2,0.7,0.7,0.5,0.3342,Tier 3 - Exploratory,HS_GRIN2C,GRIN2C,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0369579854684701,0.3,0.2,0.7,0.7,0.5,0.3342,Tier 3 - Exploratory,HS_GRIN2D,GRIN2D,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0369579854684701,0.3,0.2,0.7,0.7,0.5,0.3342,Tier 3 - Exploratory,HS_GRIN2A,GRIN2A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0369579854684701,0.3,0.2,0.7,0.7,0.5,0.3342,Tier 3 - Exploratory,HS_GRIN3A,GRIN3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0365473411854871,0.3,0.2,0.7,0.7,0.5,0.3341,Tier 3 - Exploratory,HS_TMPRSS2,TMPRSS2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0363522851510702,0.3,0.2,0.7,0.7,0.5,0.3341,Tier 3 - Exploratory,HS_PTGER2,PTGER2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0359127225915557,0.3,0.2,0.7,0.7,0.5,0.334,Tier 3 - Exploratory,HS_AAGAB,AAGAB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0355882071077535,0.3,0.2,0.7,0.7,0.5,0.3339,Tier 3 - Exploratory,HS_IL2,IL2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0343704674521277,0.3,0.2,0.7,0.7,0.5,0.3336,Tier 3 - Exploratory,HS_OTUD7A,OTUD7A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0341810035047976,0.3,0.2,0.7,0.7,0.5,0.3335,Tier 3 - Exploratory,HS_PLN,PLN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0340526771663654,0.3,0.2,0.7,0.7,0.5,0.3335,Tier 3 - Exploratory,HS_ACE2,ACE2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.034017429034785,0.3,0.2,0.7,0.7,0.5,0.3335,Tier 3 - Exploratory,HS_HIF1A,HIF1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0340013466309925,0.3,0.2,0.7,0.7,0.5,0.3335,Tier 3 - Exploratory,HS_SPAG11B,SPAG11B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0340013466309925,0.3,0.2,0.7,0.7,0.5,0.3335,Tier 3 - Exploratory,HS_SPAG11A,SPAG11A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0333186301045757,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_ASRGL1,ASRGL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0333186301045757,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_SLPI,SLPI,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0333186301045757,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_NAT10,NAT10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0333186301045757,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_PDLIM3,PDLIM3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0333186301045757,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_ALPP,ALPP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0333186301045757,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_ATRNL1,ATRNL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0332621869216231,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_IL20RB,IL20RB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0333954505478911,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_CCL27,CCL27,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0332738902836881,0.3,0.2,0.7,0.7,0.5,0.3333,Tier 3 - Exploratory,HS_CD79A,CD79A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0329727975128195,0.3,0.2,0.7,0.7,0.5,0.3332,Tier 3 - Exploratory,HS_TSLP,TSLP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0326386235779134,0.3,0.2,0.7,0.7,0.5,0.3332,Tier 3 - Exploratory,HS_SLC9A3,SLC9A3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0325230272122537,0.3,0.2,0.7,0.7,0.5,0.3331,Tier 3 - Exploratory,HS_TWIST1,TWIST1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0322099109464792,0.3,0.2,0.7,0.7,0.5,0.3331,Tier 3 - Exploratory,HS_PIK3CA,PIK3CA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0320761027500497,0.3,0.2,0.7,0.7,0.5,0.333,Tier 3 - Exploratory,HS_CCR3,CCR3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0317680051820176,0.3,0.2,0.7,0.7,0.5,0.3329,Tier 3 - Exploratory,HS_ANXA2,ANXA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0314153133614091,0.3,0.2,0.7,0.7,0.5,0.3329,Tier 3 - Exploratory,HS_BDNF,BDNF,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0317504507815508,0.3,0.2,0.7,0.7,0.5,0.3329,Tier 3 - Exploratory,HS_IL6,IL6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0317992666634962,0.3,0.2,0.7,0.7,0.5,0.3329,Tier 3 - Exploratory,HS_KCNJ2,KCNJ2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0312224872203297,0.3,0.2,0.7,0.7,0.5,0.3328,Tier 3 - Exploratory,HS_ALOX15,ALOX15,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0303055480841455,0.3,0.2,0.7,0.7,0.5,0.3326,Tier 3 - Exploratory,HS_ATN1,ATN1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0303055480841455,0.3,0.2,0.7,0.7,0.5,0.3326,Tier 3 - Exploratory,HS_ITGA2B,ITGA2B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0303055480841455,0.3,0.2,0.7,0.7,0.5,0.3326,Tier 3 - Exploratory,HS_CYGB,CYGB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0295663883747761,0.3,0.2,0.7,0.7,0.5,0.3324,Tier 3 - Exploratory,HS_CDH2,CDH2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0295663883747761,0.3,0.2,0.7,0.7,0.5,0.3324,Tier 3 - Exploratory,HS_PTGER4,PTGER4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0289367674817886,0.3,0.2,0.7,0.7,0.5,0.3322,Tier 3 - Exploratory,HS_CRP,CRP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0286701868293004,0.3,0.2,0.7,0.7,0.5,0.3322,Tier 3 - Exploratory,HS_PPFIA1,PPFIA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0283977199230789,0.3,0.2,0.7,0.7,0.5,0.3321,Tier 3 - Exploratory,HS_IL4,IL4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0284371165965728,0.3,0.2,0.7,0.7,0.5,0.3321,Tier 3 - Exploratory,HS_ASIC3,ASIC3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0274690298942911,0.3,0.2,0.7,0.7,0.5,0.3319,Tier 3 - Exploratory,HS_IGHE,IGHE,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0277184891013526,0.3,0.2,0.7,0.7,0.5,0.3319,Tier 3 - Exploratory,HS_TGM2,TGM2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0271056001196234,0.3,0.2,0.7,0.7,0.5,0.3318,Tier 3 - Exploratory,HS_CCDC71L,CCDC71L,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0271333209981018,0.3,0.2,0.7,0.7,0.5,0.3318,Tier 3 - Exploratory,HS_CTSC,CTSC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0271641193193255,0.3,0.2,0.7,0.7,0.5,0.3318,Tier 3 - Exploratory,HS_PHOX2A,PHOX2A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0270409260344306,0.3,0.2,0.7,0.7,0.5,0.3318,Tier 3 - Exploratory,HS_GLDC,GLDC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.027023044902899,0.3,0.2,0.7,0.7,0.5,0.3318,Tier 3 - Exploratory,HS_DRD2,DRD2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0264249596099561,0.3,0.2,0.7,0.7,0.5,0.3316,Tier 3 - Exploratory,HS_PIK3CD,PIK3CD,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0264249596099561,0.3,0.2,0.7,0.7,0.5,0.3316,Tier 3 - Exploratory,HS_PIK3CG,PIK3CG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0264249596099561,0.3,0.2,0.7,0.7,0.5,0.3316,Tier 3 - Exploratory,HS_PIK3CB,PIK3CB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.026029714487585,0.3,0.2,0.7,0.7,0.5,0.3315,Tier 3 - Exploratory,HS_DPP4,DPP4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0258172781276553,0.3,0.2,0.7,0.7,0.5,0.3315,Tier 3 - Exploratory,HS_EGFR,EGFR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0251314301185597,0.3,0.2,0.7,0.7,0.5,0.3313,Tier 3 - Exploratory,HS_CNR2,CNR2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0251314301185597,0.3,0.2,0.7,0.7,0.5,0.3313,Tier 3 - Exploratory,HS_IGF1R,IGF1R,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0247505575460929,0.3,0.2,0.7,0.7,0.5,0.3312,Tier 3 - Exploratory,HS_TNFAIP6,TNFAIP6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0243922704091903,0.3,0.2,0.7,0.7,0.5,0.3311,Tier 3 - Exploratory,HS_FOXG1,FOXG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0245020006191172,0.3,0.2,0.7,0.7,0.5,0.3311,Tier 3 - Exploratory,HS_MTMR10,MTMR10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0243922704091903,0.3,0.2,0.7,0.7,0.5,0.3311,Tier 3 - Exploratory,HS_NOTCH3,NOTCH3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.024291338819837,0.3,0.2,0.7,0.7,0.5,0.3311,Tier 3 - Exploratory,HS_F2RL1,F2RL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0243238289154976,0.3,0.2,0.7,0.7,0.5,0.3311,Tier 3 - Exploratory,HS_IL13,IL13,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0243493898520747,0.3,0.2,0.7,0.7,0.5,0.3311,Tier 3 - Exploratory,HS_CYP2C19,CYP2C19,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.023933195416506,0.3,0.2,0.7,0.7,0.5,0.331,Tier 3 - Exploratory,HS_SLC52A1,SLC52A1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0239722944780571,0.3,0.2,0.7,0.7,0.5,0.331,Tier 3 - Exploratory,HS_GGTLC3,GGTLC3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0239722944780571,0.3,0.2,0.7,0.7,0.5,0.331,Tier 3 - Exploratory,HS_GGT1,GGT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0239450007392987,0.3,0.2,0.7,0.7,0.5,0.331,Tier 3 - Exploratory,HS_NR1I2,NR1I2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0239722944780571,0.3,0.2,0.7,0.7,0.5,0.331,Tier 3 - Exploratory,HS_GGTLC4P,GGTLC4P,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0239722944780571,0.3,0.2,0.7,0.7,0.5,0.331,Tier 3 - Exploratory,HS_GGTLC5P,GGTLC5P,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0237193145197085,0.3,0.2,0.7,0.7,0.5,0.3309,Tier 3 - Exploratory,HS_POMC,POMC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0236531106998209,0.3,0.2,0.7,0.7,0.5,0.3309,Tier 3 - Exploratory,HS_MMUT,MMUT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0230987409177938,0.3,0.2,0.7,0.7,0.5,0.3308,Tier 3 - Exploratory,HS_TF,TF,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0227302495136396,0.3,0.2,0.7,0.7,0.5,0.3307,Tier 3 - Exploratory,HS_IL9,IL9,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0229139509904515,0.3,0.2,0.7,0.7,0.5,0.3307,Tier 3 - Exploratory,HS_GPR39,GPR39,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0228967940208936,0.3,0.2,0.7,0.7,0.5,0.3307,Tier 3 - Exploratory,HS_SERPINE1,SERPINE1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0229139509904515,0.3,0.2,0.7,0.7,0.5,0.3307,Tier 3 - Exploratory,HS_PLVAP,PLVAP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0225766067119809,0.3,0.2,0.7,0.7,0.5,0.3306,Tier 3 - Exploratory,HS_CXCR6,CXCR6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0222292125841903,0.3,0.2,0.7,0.7,0.5,0.3306,Tier 3 - Exploratory,HS_MAPK1,MAPK1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0221747912810821,0.3,0.2,0.7,0.7,0.5,0.3305,Tier 3 - Exploratory,HS_CCL24,CCL24,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0221894459687478,0.3,0.2,0.7,0.7,0.5,0.3305,Tier 3 - Exploratory,HS_EPHB2,EPHB2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0221747912810821,0.3,0.2,0.7,0.7,0.5,0.3305,Tier 3 - Exploratory,HS_PRDM16,PRDM16,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0221747912810821,0.3,0.2,0.7,0.7,0.5,0.3305,Tier 3 - Exploratory,HS_CD163,CD163,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0221234607457092,0.3,0.2,0.7,0.7,0.5,0.3305,Tier 3 - Exploratory,HS_KRT78,KRT78,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.022031065782038,0.3,0.2,0.7,0.7,0.5,0.3305,Tier 3 - Exploratory,HS_MCAT,MCAT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0214356315717127,0.3,0.2,0.7,0.7,0.5,0.3304,Tier 3 - Exploratory,HS_KLRG1,KLRG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0215391167269318,0.3,0.2,0.7,0.7,0.5,0.3304,Tier 3 - Exploratory,HS_TNF,TNF,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0214356315717127,0.3,0.2,0.7,0.7,0.5,0.3304,Tier 3 - Exploratory,HS_ITGA2,ITGA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.021539101360281,0.3,0.2,0.7,0.7,0.5,0.3304,Tier 3 - Exploratory,HS_STAT1,STAT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0211884857322058,0.3,0.2,0.7,0.7,0.5,0.3303,Tier 3 - Exploratory,HS_MRPS24,MRPS24,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0212508416443703,0.3,0.2,0.7,0.7,0.5,0.3303,Tier 3 - Exploratory,HS_LTBR,LTBR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.021342338501567,0.3,0.2,0.7,0.7,0.5,0.3303,Tier 3 - Exploratory,HS_PTH,PTH,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0209380598173164,0.3,0.2,0.7,0.7,0.5,0.3302,Tier 3 - Exploratory,HS_PDYN,PDYN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0206697799839494,0.3,0.2,0.7,0.7,0.5,0.3302,Tier 3 - Exploratory,HS_MKI67,MKI67,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0206964718623433,0.3,0.2,0.7,0.7,0.5,0.3302,Tier 3 - Exploratory,HS_LTC4S,LTC4S,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0206759396481941,0.3,0.2,0.7,0.7,0.5,0.3302,Tier 3 - Exploratory,HS_MID1,MID1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0206964718623433,0.3,0.2,0.7,0.7,0.5,0.3302,Tier 3 - Exploratory,HS_IL34,IL34,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0205215248270491,0.3,0.2,0.7,0.7,0.5,0.3301,Tier 3 - Exploratory,HS_MUC5AC,MUC5AC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0202960936864348,0.3,0.2,0.7,0.7,0.5,0.3301,Tier 3 - Exploratory,HS_SMN1,SMN1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0202457828486028,0.3,0.2,0.7,0.7,0.5,0.3301,Tier 3 - Exploratory,HS_GPT,GPT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0200729713976342,0.3,0.2,0.7,0.7,0.5,0.33,Tier 3 - Exploratory,HS_SPINK7,SPINK7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0199573121529739,0.3,0.2,0.7,0.7,0.5,0.33,Tier 3 - Exploratory,HS_MIF,MIF,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.019834118868079,0.3,0.2,0.7,0.7,0.5,0.33,Tier 3 - Exploratory,HS_CXCL10,CXCL10,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0194983452959254,0.3,0.2,0.7,0.7,0.5,0.3299,Tier 3 - Exploratory,HS_RNASE2,RNASE2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0195449100610448,0.3,0.2,0.7,0.7,0.5,0.3299,Tier 3 - Exploratory,HS_IL13RA2,IL13RA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0197304421222387,0.3,0.2,0.7,0.7,0.5,0.3299,Tier 3 - Exploratory,HS_EDN1,EDN1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0191976202294553,0.3,0.2,0.7,0.7,0.5,0.3298,Tier 3 - Exploratory,HS_ACTA1,ACTA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0192181524436044,0.3,0.2,0.7,0.7,0.5,0.3298,Tier 3 - Exploratory,HS_CHIA,CHIA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0192286335336696,0.3,0.2,0.7,0.7,0.5,0.3298,Tier 3 - Exploratory,HS_CD40LG,CD40LG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0186555226692983,0.3,0.2,0.7,0.7,0.5,0.3297,Tier 3 - Exploratory,HS_FOXP3,FOXP3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0187561776252486,0.3,0.2,0.7,0.7,0.5,0.3297,Tier 3 - Exploratory,HS_CEACAM3,CEACAM3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0187561776252486,0.3,0.2,0.7,0.7,0.5,0.3297,Tier 3 - Exploratory,HS_CEACAM5,CEACAM5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0186467731073015,0.3,0.2,0.7,0.7,0.5,0.3297,Tier 3 - Exploratory,HS_CD274,CD274,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0187561776252486,0.3,0.2,0.7,0.7,0.5,0.3297,Tier 3 - Exploratory,HS_PSG2,PSG2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0187561776252486,0.3,0.2,0.7,0.7,0.5,0.3297,Tier 3 - Exploratory,HS_CEACAM7,CEACAM7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.018478992734235,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_IL24,IL24,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0185200571625333,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_FCGR3A,FCGR3A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0183225372624185,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_VIM,VIM,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.018478992734235,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_IL20RA,IL20RA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.018478992734235,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_PGA5,PGA5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0185200571625333,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_FCGR3B,FCGR3B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.018478992734235,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_SFRP1,SFRP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0182108923291753,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_NR1H4,NR1H4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0184069237650736,0.3,0.2,0.7,0.7,0.5,0.3296,Tier 3 - Exploratory,HS_TLR4,TLR4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0179194898986707,0.3,0.2,0.7,0.7,0.5,0.3295,Tier 3 - Exploratory,HS_OCLN,OCLN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0181094128795503,0.3,0.2,0.7,0.7,0.5,0.3295,Tier 3 - Exploratory,HS_CP,CP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0179040907380588,0.3,0.2,0.7,0.7,0.5,0.3295,Tier 3 - Exploratory,HS_NOS2,NOS2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0181545837506785,0.3,0.2,0.7,0.7,0.5,0.3295,Tier 3 - Exploratory,HS_IFNA1,IFNA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT1H,MT1H,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177808974531639,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_TP63,TP63,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT1G,MT1G,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT1A,MT1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT1E,MT1E,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT1M,MT1M,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT1F,MT1F,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT1X,MT1X,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_MT2A,MT2A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_COL3A1,COL3A1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_SIRT1,SIRT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_NLRP1,NLRP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0177398330248656,0.3,0.2,0.7,0.7,0.5,0.3294,Tier 3 - Exploratory,HS_HRH3,HRH3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0170006733154962,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_FXN,FXN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0170622699579437,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_CCNB1,CCNB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0172161235186769,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_DHTKD1,DHTKD1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0172641971012309,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_SULT2A1,SULT2A1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0170006733154962,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_FAS,FAS,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0172641971012309,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_SDCBP2,SDCBP2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0170006733154962,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_BCL2,BCL2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0170006733154962,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_CXCL14,CXCL14,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0170006733154962,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_FANCA,FANCA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0170786035774799,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_COL17A1,COL17A1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0173702531701809,0.3,0.2,0.7,0.7,0.5,0.3293,Tier 3 - Exploratory,HS_CXCR2,CXCR2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0168158833881539,0.3,0.2,0.7,0.7,0.5,0.3292,Tier 3 - Exploratory,HS_TP53,TP53,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0166310934608115,0.3,0.2,0.7,0.7,0.5,0.3292,Tier 3 - Exploratory,HS_EGR1,EGR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0166594279163374,0.3,0.2,0.7,0.7,0.5,0.3292,Tier 3 - Exploratory,HS_IL25,IL25,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0166310934608115,0.3,0.2,0.7,0.7,0.5,0.3292,Tier 3 - Exploratory,HS_ZAP70,ZAP70,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0162615136061268,0.3,0.2,0.7,0.7,0.5,0.3291,Tier 3 - Exploratory,HS_PTGDR,PTGDR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.016523674355321,0.3,0.2,0.7,0.7,0.5,0.3291,Tier 3 - Exploratory,HS_FOS,FOS,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.016207291577655,0.3,0.2,0.7,0.7,0.5,0.3291,Tier 3 - Exploratory,HS_GRP,GRP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0160561914646353,0.3,0.2,0.7,0.7,0.5,0.329,Tier 3 - Exploratory,HS_CXCL13,CXCL13,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0160561914646353,0.3,0.2,0.7,0.7,0.5,0.329,Tier 3 - Exploratory,HS_CMA1,CMA1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.015983997587913,0.3,0.2,0.7,0.7,0.5,0.329,Tier 3 - Exploratory,HS_NGF,NGF,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0161383203212319,0.3,0.2,0.7,0.7,0.5,0.329,Tier 3 - Exploratory,HS_TBXT,TBXT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.015933806897563,0.3,0.2,0.7,0.7,0.5,0.329,Tier 3 - Exploratory,HS_MS4A2,MS4A2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0159535303938896,0.3,0.2,0.7,0.7,0.5,0.329,Tier 3 - Exploratory,HS_CASP3,CASP3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0155223538967574,0.3,0.2,0.7,0.7,0.5,0.3289,Tier 3 - Exploratory,HS_CASP1,CASP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0155223538967574,0.3,0.2,0.7,0.7,0.5,0.3289,Tier 3 - Exploratory,HS_CNR1,CNR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0157482082523981,0.3,0.2,0.7,0.7,0.5,0.3289,Tier 3 - Exploratory,HS_C3,C3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0155223538967574,0.3,0.2,0.7,0.7,0.5,0.3289,Tier 3 - Exploratory,HS_GLRA3,GLRA3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0155223538967574,0.3,0.2,0.7,0.7,0.5,0.3289,Tier 3 - Exploratory,HS_ECE1,ECE1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.015388894504788,0.3,0.2,0.7,0.7,0.5,0.3288,Tier 3 - Exploratory,HS_KLK5,KLK5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0151527740420727,0.3,0.2,0.7,0.7,0.5,0.3288,Tier 3 - Exploratory,HS_NPY1R,NPY1R,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0153278667536071,0.3,0.2,0.7,0.7,0.5,0.3288,Tier 3 - Exploratory,HS_IL17A,IL17A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0149679841147304,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_NPTX2,NPTX2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0149679841147304,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_MMP2,MMP2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.014783194187388,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_SPINK8,SPINK8,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.014783194187388,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_MRPL13,MRPL13,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0146702670095677,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_CCL19,CCL19,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.014783194187388,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_REEP5,REEP5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.014783194187388,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_TFDP1,TFDP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.014783194187388,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_CPNE6,CPNE6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.014783194187388,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_TMEM163,TMEM163,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0146524039832579,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_LCN2,LCN2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.014783194187388,0.3,0.2,0.7,0.7,0.5,0.3287,Tier 3 - Exploratory,HS_AOC3,AOC3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0144136143327033,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_BTK,BTK,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0144596467342265,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_GPBAR1,GPBAR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0143930821185542,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_CSF2,CSF2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0144094157380904,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_STAT3,STAT3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0144419487882291,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_TSPAN12,TSPAN12,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0144136143327033,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_SYNPO,SYNPO,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0145702751266613,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_CLDN1,CLDN1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0145984042600457,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_PTEN,PTEN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0143568019393332,0.3,0.2,0.7,0.7,0.5,0.3286,Tier 3 - Exploratory,HS_IL22,IL22,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0138387123365271,0.3,0.2,0.7,0.7,0.5,0.3285,Tier 3 - Exploratory,HS_TFDP2,TFDP2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0140440344780186,0.3,0.2,0.7,0.7,0.5,0.3285,Tier 3 - Exploratory,HS_IL12A,IL12A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0140389014244813,0.3,0.2,0.7,0.7,0.5,0.3285,Tier 3 - Exploratory,HS_KRT20,KRT20,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0138387123365271,0.3,0.2,0.7,0.7,0.5,0.3285,Tier 3 - Exploratory,HS_APC,APC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0140440344780186,0.3,0.2,0.7,0.7,0.5,0.3285,Tier 3 - Exploratory,HS_DSG3,DSG3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0140389014244813,0.3,0.2,0.7,0.7,0.5,0.3285,Tier 3 - Exploratory,HS_MS4A1,MS4A1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0140440344780186,0.3,0.2,0.7,0.7,0.5,0.3285,Tier 3 - Exploratory,HS_SLURP1,SLURP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0136539224091848,0.3,0.2,0.7,0.7,0.5,0.3284,Tier 3 - Exploratory,HS_IL27,IL27,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0135007395208887,0.3,0.2,0.7,0.7,0.5,0.3284,Tier 3 - Exploratory,HS_ATP8B1,ATP8B1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0137592526677699,0.3,0.2,0.7,0.7,0.5,0.3284,Tier 3 - Exploratory,HS_SPP1,SPP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0133048747686492,0.3,0.2,0.7,0.7,0.5,0.3283,Tier 3 - Exploratory,HS_TRPM3,TRPM3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0133048747686492,0.3,0.2,0.7,0.7,0.5,0.3283,Tier 3 - Exploratory,HS_PTF1A,PTF1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0133048747686492,0.3,0.2,0.7,0.7,0.5,0.3283,Tier 3 - Exploratory,HS_SLC17A8,SLC17A8,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0133048747686492,0.3,0.2,0.7,0.7,0.5,0.3283,Tier 3 - Exploratory,HS_RPL13A,RPL13A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.012729972772473,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_CCL4,CCL4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0126935150871392,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_IL33,IL33,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0129841615836395,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_CRLF2,CRLF2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0129147626998154,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_HTR7,HTR7,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0127505049866222,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_C3AR1,C3AR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0126909489948463,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_VIP,VIP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0129147626998154,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_ESR1,ESR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0129636293694903,0.3,0.2,0.7,0.7,0.5,0.3282,Tier 3 - Exploratory,HS_OGDHL,OGDHL,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0125657150592798,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_CYP3A5,CYP3A5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0125246506309815,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_SHARPIN,SHARPIN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0125349167380561,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_THBS1,THBS1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0125786503541938,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_FGF19,FGF19,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0124425217743849,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_DEFB103B,DEFB103B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0124875049685755,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_IL1B,IL1B,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0125657150592798,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_PRMT3,PRMT3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0122577318470426,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_FAP,FAP,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0122875035575588,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_PTPRC,PTPRC,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0123809251319375,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_AKT1,AKT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0124425217743849,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_DEFB103A,DEFB103A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0123809251319375,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_LHB,LHB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0125657150592798,0.3,0.2,0.7,0.7,0.5,0.3281,Tier 3 - Exploratory,HS_FMR1,FMR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0121961352045951,0.3,0.2,0.7,0.7,0.5,0.328,Tier 3 - Exploratory,HS_MAPK3,MAPK3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0118265553499104,0.3,0.2,0.7,0.7,0.5,0.328,Tier 3 - Exploratory,HS_CX3CR1,CX3CR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0118265553499104,0.3,0.2,0.7,0.7,0.5,0.328,Tier 3 - Exploratory,HS_TPSD1,TPSD1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0118265553499104,0.3,0.2,0.7,0.7,0.5,0.328,Tier 3 - Exploratory,HS_CXCL12,CXCL12,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0118265553499104,0.3,0.2,0.7,0.7,0.5,0.328,Tier 3 - Exploratory,HS_CHI3L1,CHI3L1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0121961352045951,0.3,0.2,0.7,0.7,0.5,0.328,Tier 3 - Exploratory,HS_TPSAB1,TPSAB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0120113452772528,0.3,0.2,0.7,0.7,0.5,0.328,Tier 3 - Exploratory,HS_CCL13,CCL13,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0116007009942698,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_CYSLTR2,CYSLTR2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0114569754952257,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_SDS,SDS,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0114569754952257,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_SORD,SORD,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0114935001336461,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_IFNG,IFNG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0114569754952257,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_SARDH,SARDH,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0114569754952257,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_AASS,AASS,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0114569754952257,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_CX3CL1,CX3CL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0114569754952257,0.3,0.2,0.7,0.7,0.5,0.3279,Tier 3 - Exploratory,HS_SDHB,SDHB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0112971158529252,0.3,0.2,0.7,0.7,0.5,0.3278,Tier 3 - Exploratory,HS_SLC17A5,SLC17A5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0113263363728074,0.3,0.2,0.7,0.7,0.5,0.3278,Tier 3 - Exploratory,HS_TGFB1,TGFB1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0112971158529252,0.3,0.2,0.7,0.7,0.5,0.3278,Tier 3 - Exploratory,HS_GOT1,GOT1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0111489922829885,0.3,0.2,0.7,0.7,0.5,0.3278,Tier 3 - Exploratory,HS_AQP4,AQP4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.011087395640541,0.3,0.2,0.7,0.7,0.5,0.3278,Tier 3 - Exploratory,HS_CHM,CHM,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0110565973193173,0.3,0.2,0.7,0.7,0.5,0.3278,Tier 3 - Exploratory,HS_CTSS,CTSS,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0109744684627207,0.3,0.2,0.7,0.7,0.5,0.3277,Tier 3 - Exploratory,HS_SLC17A6,SLC17A6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.010604888608036,0.3,0.2,0.7,0.7,0.5,0.3277,Tier 3 - Exploratory,HS_GZMB,GZMB,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0106077631180169,0.3,0.2,0.7,0.7,0.5,0.3277,Tier 3 - Exploratory,HS_ERBB2,ERBB2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0102717193239153,0.3,0.2,0.7,0.7,0.5,0.3276,Tier 3 - Exploratory,HS_TFF2,TFF2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0103482359311716,0.3,0.2,0.7,0.7,0.5,0.3276,Tier 3 - Exploratory,HS_AMPH,AMPH,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0105107358354188,0.3,0.2,0.7,0.7,0.5,0.3276,Tier 3 - Exploratory,HS_TLR2,TLR2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.010533025858514,0.3,0.2,0.7,0.7,0.5,0.3276,Tier 3 - Exploratory,HS_GPR35,GPR35,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0102421516607766,0.3,0.2,0.7,0.7,0.5,0.3276,Tier 3 - Exploratory,HS_POSTN,POSTN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0101429137896801,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_PIEZO1,PIEZO1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.009811305960428,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_EPO,EPO,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0099355195706586,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_CXCL8,CXCL8,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0099993936127775,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_IFNA2,IFNA2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0101634460038293,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_TMEM132A,TMEM132A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0101634460038293,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_HADHA,HADHA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0101634460038293,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_LGALS1,LGALS1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0101634460038293,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_PIAS1,PIAS1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0098349305774429,0.3,0.2,0.7,0.7,0.5,0.3275,Tier 3 - Exploratory,HS_IFNA17,IFNA17,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0097760031228348,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_CCL5,CCL5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0094037540803107,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_IL19,IL19,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0094756168298327,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_AHR,AHR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0094626469990427,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_INS,INS,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0094550846156836,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_CCL2,CCL2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0094969577618045,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_CCL22,CCL22,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0096501406501005,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_STAT6,STAT6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0097938661491445,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_DSG1,DSG1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0095269473652056,0.3,0.2,0.7,0.7,0.5,0.3274,Tier 3 - Exploratory,HS_CCL3,CCL3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_LPAR3,LPAR3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_FZD4,FZD4,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_GPR166P,GPR166P,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090660664343133,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_IL37,IL37,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_OXER1,OXER1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_GPRC6A,GPRC6A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_MRGPRX3,MRGPRX3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090660664343133,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_IL23A,IL23A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_NMUR1,NMUR1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0091087061629874,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_ARTN,ARTN,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0092394963671175,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_TMEM37,TMEM37,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0092394963671175,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_PGR,PGR,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0092394963671175,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_PRH2,PRH2,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0093010930095649,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_IL21,IL21,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_GPR151,GPR151,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0092189641529683,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_TLR3,TLR3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0090573756276145,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_LGR6,LGR6,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0092137827313983,0.3,0.2,0.7,0.7,0.5,0.3273,Tier 3 - Exploratory,HS_IL5,IL5,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088458925526095,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_CALCA,CALCA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0089444484497942,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_IL2RA,IL2RA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0089649806639434,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_TBPL1,TBPL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088699165124328,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_TBK1,TBK1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088699165124328,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_ELOVL1,ELOVL1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088647834588955,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_IL18,IL18,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0089649806639434,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_TYRP1,TYRP1,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088302893391249,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_PPARA,PPARA,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0087467232275379,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_ISG20,ISG20,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0087005257457023,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_TRPC3,TRPC3,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088699165124328,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_CCL18,CCL18,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088571865396603,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_FCER1A,FCER1A,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088007229507502,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_FLG,FLG,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0088699165124328,0.3,0.2,0.7,0.7,0.5,0.3272,Tier 3 - Exploratory,HS_KIT,KIT,pruritus,False,0.0,False,False,,Homo sapiens,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL4,IL4,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_H4R,H4R,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_H1R,H1R,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_KOR,KOR,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPV3,TRPV3,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL31,IL31,both,False,0.0,False,False,,,False,,3
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAMA,BAMA,both,False,0.0,False,False,,,False,,5
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURB,MURB,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURA,MURA,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAM,BAM,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPA1,TRPA1,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_EGFR,EGFR,both,False,0.0,False,False,,,False,,5
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPV4,TRPV4,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_JAK,JAK,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TUBULIN,TUBULIN,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL17A,IL17A,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL31R,IL31R,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAM A,BAM A,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_OX40,OX40,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL33,IL33,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL4RΑ,IL4RΑ,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PAR-2,PAR-2,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-31R,IL-31R,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DEPOLYMERASES,DEPOLYMERASES,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL13,IL13,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CRISPRCAS,CRISPRCAS,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBP2A,PBP2A,both,False,0.0,False,False,,,False,,3
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURC,MURC,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DCW,DCW,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURD,MURD,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURE,MURE,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURF,MURF,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPS,LPS,both,False,0.0,False,False,,,False,,4
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_H2R,H2R,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NK1R,NK1R,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SP,SP,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPTD,LPTD,both,False,0.0,False,False,,,False,,5
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL6,IL6,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL31RA,IL31RA,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL23,IL23,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PLN,PLN,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GRPR,GRPR,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NGF,NGF,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TLN,TLN,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CHEMOKINES,CHEMOKINES,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL17,IL17,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PDL1,PDL1,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CYTOKINES,CYTOKINES,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRP,TRP,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TRPV2,TRPV2,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NAV1.7,NAV1.7,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-17A,IL-17A,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_STAT3,STAT3,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BDNF,BDNF,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRX2,MRGPRX2,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_FLG,FLG,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SALMONELLA,SALMONELLA,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_XOOFTSZ,XOOFTSZ,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SSRA,SSRA,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PA4735,PA4735,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_COX-1,COX-1,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MOR,MOR,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MURG,MURG,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_OMPS,OMPS,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAMD,BAMD,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ECOLI,ECOLI,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRX4,MRGPRX4,both,False,0.0,False,False,,,False,,3
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_WALR,WALR,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_WALK,WALK,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRAY,MRAY,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MREB,MREB,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MUR,MUR,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBP,PBP,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SORTASES,SORTASES,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GLMU,GLMU,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-17F,IL-17F,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TIGIT,TIGIT,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-31RA,IL-31RA,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SURA,SURA,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NRPS,NRPS,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_EFFLUX PUMPS,EFFLUX PUMPS,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PG HYDROLASE,PG HYDROLASE,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBP3,PBP3,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LCP5L4,LCP5L4,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CRISPR/CAS9,CRISPR/CAS9,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPTDE,LPTDE,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ENDOLYSINS,ENDOLYSINS,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_FTSQ,FTSQ,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDES,PEPTIDES,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PKS,PKS,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BAMAE470K,BAMAE470K,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-4RΑ,IL-4RΑ,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_OMP,OMP,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ΣE,ΣE,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_RCS,RCS,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LTA,LTA,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_WTA,WTA,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDOMIMETIC ANTIBIOTICS,PEPTIDOMIMETIC ANTIBIOTICS,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_RVD3,RVD3,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PTPS,PTPS,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ELSL,ELSL,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_SLAYER PROTEINS,SLAYER PROTEINS,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DHFR,DHFR,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CASPASE1,CASPASE1,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_LPC233,LPC233,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PC190723,PC190723,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NFΚB,NFΚB,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BENZODIOXANEBENZAMIDE INHIBITORS,BENZODIOXANEBENZAMIDE INHIBITORS,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDOMIMETICS,PEPTIDOMIMETICS,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_9J,9J,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PERIOSTIN,PERIOSTIN,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL33R,IL33R,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CAPSAICIN,CAPSAICIN,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BICYCLE®,BICYCLE®,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PBPS,PBPS,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IMP,IMP,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CLPP,CLPP,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PDE4,PDE4,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CIL-31,CIL-31,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_INTERLEUKIN 31 RECEPTOR ALPHA,INTERLEUKIN 31 RECEPTOR ALPHA,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-31,IL-31,both,False,0.0,False,False,,,False,,4
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PG SYNTHASES,PG SYNTHASES,both,False,0.0,False,False,,,False,,0
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ALPHA-GLUCOSIDASE,ALPHA-GLUCOSIDASE,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BACTERIAL METALLOENZYMES,BACTERIAL METALLOENZYMES,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PSA MEMBRANE,PSA MEMBRANE,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_DNA,DNA,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_RIBOSOMAL PROTEINS,RIBOSOMAL PROTEINS,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BACTERIAL MEMBRANES,BACTERIAL MEMBRANES,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ACINETOBACTER BAUMANNII,ACINETOBACTER BAUMANNII,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PEPTIDOGLYCAN,PEPTIDOGLYCAN,both,False,0.0,False,False,,,False,,3
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRSA,MRSA,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-13,IL-13,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_CASPASE-1,CASPASE-1,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_AROA,AROA,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL6ST,IL6ST,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BRAF,BRAF,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_HDAC,HDAC,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_ΔNP63,ΔNP63,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-4 RECEPTOR ALPHA,IL-4 RECEPTOR ALPHA,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PRODYNRPHIN,PRODYNRPHIN,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_TYROSYL TRNA SYNTHETASE,TYROSYL TRNA SYNTHETASE,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRX1,MRGPRX1,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_MRGPRD,MRGPRD,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PI3KΔ,PI3KΔ,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GLUTATHIONE PEROXIDASE,GLUTATHIONE PEROXIDASE,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_JAK1,JAK1,both,False,0.0,False,False,,,False,,2
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_PD-L1,PD-L1,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_IL-23,IL-23,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_GITR,GITR,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_BTK,BTK,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_NMDA,NMDA,both,False,0.0,False,False,,,False,,1
+0.0,0.3,0.2,0.7,0.7,0.5,0.325,Tier 3 - Exploratory,LLM_EGFR/MEK,EGFR/MEK,both,False,0.0,False,False,,,False,,1
+0.1062116592623062,0.3,0.2,0.3,0.7,0.5,0.2916,Tier 4 - Low Priority,HS_TRPV1,TRPV1,pruritus,False,0.0,False,False,,Homo sapiens,False,E7EQ78,2
+0.1053241963336693,0.3,0.2,0.3,0.7,0.5,0.2913,Tier 4 - Low Priority,HS_IL31,IL31,pruritus,False,0.0,False,False,,Homo sapiens,False,Q6EBC2,2
+0.0768915851473278,0.3,0.2,0.3,0.7,0.5,0.2842,Tier 4 - Low Priority,HS_JAK1,JAK1,pruritus,False,0.0,False,False,,Homo sapiens,False,A0A5F9ZHN8,2
+0.075856265174035,0.3,0.2,0.3,0.7,0.5,0.284,Tier 4 - Low Priority,HS_S1PR1,S1PR1,pruritus,False,0.0,False,False,,Homo sapiens,False,A0A3B3IUD4,3
+0.0399707199471413,0.3,0.2,0.3,0.7,0.5,0.275,Tier 4 - Low Priority,HS_OSMR,OSMR,pruritus,False,0.0,False,False,,Homo sapiens,False,H0Y9E3,2
+0.0342603710236304,0.3,0.2,0.3,0.7,0.5,0.2736,Tier 4 - Low Priority,HS_GRPR,GRPR,pruritus,False,0.0,False,False,,Homo sapiens,False,X5D7H2,2
+0.0308235178578989,0.3,0.2,0.3,0.7,0.5,0.2727,Tier 4 - Low Priority,HS_TRPV4,TRPV4,pruritus,False,0.0,False,False,,Homo sapiens,False,A0A6Q8PFZ3,2
+0.0205523975588393,0.3,0.2,0.3,0.7,0.5,0.2701,Tier 4 - Low Priority,HS_MRGPRX1,MRGPRX1,pruritus,False,0.0,False,False,,Homo sapiens,False,A0A494C1K4,2
+0.0185761033506162,0.3,0.2,0.3,0.7,0.5,0.2696,Tier 4 - Low Priority,HS_MRGPRX4,MRGPRX4,pruritus,False,0.0,False,False,,Homo sapiens,False,A0A2I4R868,2
+0.0177800093485544,0.3,0.2,0.3,0.7,0.5,0.2694,Tier 4 - Low Priority,HS_HRH4,HRH4,pruritus,False,0.0,False,False,,Homo sapiens,False,Q9H3N8,2
+0.017383666386134,0.3,0.2,0.3,0.7,0.5,0.2693,Tier 4 - Low Priority,HS_NPPB,NPPB,pruritus,False,0.0,False,False,,Homo sapiens,False,P16860,2
+0.010710924923373,0.3,0.2,0.3,0.7,0.5,0.2677,Tier 4 - Low Priority,HS_MRGPRX2,MRGPRX2,pruritus,False,0.0,False,False,,Homo sapiens,False,Q96LB1,2
