@@ -404,11 +404,11 @@ def fig5_selectivity():
     fig.add_vline(x=25, line_dash="dash", line_color="#ff9800", line_width=1.5)
     fig.add_vline(x=40, line_dash="dash", line_color="#c62828", line_width=1.5)
 
-    # Labels at bottom of chart (below last gene)
-    fig.add_annotation(x=25, y=1.03, text="Moderate (25%)", showarrow=False,
-                       font=dict(size=9, color="#ff9800"), xref="x", yref="paper")
-    fig.add_annotation(x=40, y=1.03, text="High (40%)", showarrow=False,
-                       font=dict(size=9, color="#c62828"), xref="x", yref="paper")
+    # Threshold labels as x-axis tick marks at bottom
+    fig.add_annotation(x=25, y=-0.04, text="▲ Moderate (25%)", showarrow=False,
+                       font=dict(size=8, color="#ff9800"), xref="x", yref="paper")
+    fig.add_annotation(x=40, y=-0.04, text="▲ High (40%)", showarrow=False,
+                       font=dict(size=8, color="#c62828"), xref="x", yref="paper")
 
     # Safe zone
     fig.add_vrect(x0=-1, x1=10, fillcolor="rgba(46,125,50,0.06)", line_width=0)
