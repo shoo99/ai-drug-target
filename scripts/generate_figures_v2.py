@@ -91,60 +91,66 @@ def fig2_fba_knockouts():
 
 
 def fig3_nlp_comparison():
-    """Fig 3: LLM vs Keyword NLP comparison."""
-    # Keyword NLP results (from earlier analysis — noise-filled)
-    keyword_top = [
-        ("RESULTS", 45), ("METHODS", 38), ("LPS", 30), ("CRISPR", 28),
-        ("AREAS", 25), ("COVERED", 22), ("EXPERT", 20), ("OPINION", 18),
-        ("ROS", 16), ("UDP", 15), ("GYRA", 14), ("PARE", 13),
-        ("LPXC", 12), ("OM", 11), ("QS", 10),
+    """Fig 3: LLM vs Keyword NLP — cleaned categories."""
+    # Keyword NLP: 3 categories
+    keyword_data = [
+        ("RESULTS", 45, "Section header"), ("METHODS", 38, "Section header"),
+        ("AREAS", 25, "Section header"), ("COVERED", 22, "Section header"),
+        ("EXPERT", 20, "Section header"), ("OPINION", 18, "Section header"),
+        ("LPS", 30, "Bio term"), ("CRISPR", 28, "Bio term"),
+        ("ROS", 16, "Bio term"), ("UDP", 15, "Bio term"),
+        ("GYRA", 14, "Real gene"), ("PARE", 13, "Real gene"),
+        ("LPXC", 12, "Real gene"), ("OM", 11, "Bio term"), ("QS", 10, "Bio term"),
     ]
 
-    # LLM results (from actual llm_gene_counts.csv)
-    llm_path = DATA_DIR / "llm_nlp" / "llm_gene_counts.csv"
-    if llm_path.exists():
-        llm_df = pd.read_csv(llm_path)
-        llm_top = list(zip(llm_df["gene"].head(15), llm_df["count"].head(15)))
-    else:
-        llm_top = [
-            ("FTSZ", 41), ("IL31", 19), ("LPXC", 17), ("IL13", 8),
-            ("TRPV1", 7), ("BAMA", 6), ("IL4", 6), ("MURA", 5),
-            ("TRPA1", 5), ("TRPV3", 5), ("EGFR", 5), ("JAK", 4),
-            ("MURB", 3), ("LPTD", 3), ("IL31RA", 3),
-        ]
+    # LLM: AMR vs Pruritus
+    llm_data = [
+        ("FTSZ", 41, "AMR"), ("LPXC", 17, "AMR"), ("BAMA", 6, "AMR"),
+        ("MURA", 5, "AMR"), ("MURB", 3, "AMR"), ("LPTD", 3, "AMR"),
+        ("IL31", 19, "Pruritus"), ("IL13", 8, "Pruritus"),
+        ("TRPV1", 7, "Pruritus"), ("IL4", 6, "Pruritus"),
+        ("TRPA1", 5, "Pruritus"), ("TRPV3", 5, "Pruritus"),
+        ("EGFR", 5, "Pruritus"), ("JAK", 4, "Pruritus"),
+        ("IL31RA", 3, "Pruritus"),
+    ]
 
     fig = make_subplots(rows=1, cols=2,
-                        subplot_titles=("(A) Keyword NLP — Top 15 'Genes'",
-                                       "(B) LLM NLP (gemma4) — Top 15 Genes"),
-                        horizontal_spacing=0.15)
+                        subplot_titles=("(A) Keyword NLP — Top 15",
+                                       "(B) LLM NLP — Top 15 (393 AMR + 521 Pruritus articles)"),
+                        horizontal_spacing=0.18)
 
-    # Keyword — color noise red, real genes blue
-    noise_words = {"RESULTS", "METHODS", "AREAS", "COVERED", "EXPERT", "OPINION",
-                   "ROS", "UDP", "OM", "QS", "LPS", "CRISPR"}
-    kw_colors = ["#c62828" if g in noise_words else "#1565c0" for g, _ in keyword_top]
+    # (A) Keyword — 3 colors
+    cat_colors = {"Section header": "#c62828", "Bio term": "#ff9800", "Real gene": "#1565c0"}
+    kw_colors = [cat_colors[c] for _, _, c in keyword_data]
 
     fig.add_trace(go.Bar(
-        y=[g for g, _ in keyword_top], x=[c for _, c in keyword_top],
-        orientation="h", marker_color=kw_colors, name="Keyword",
-        showlegend=False,
+        y=[g for g, _, _ in keyword_data], x=[c for _, c, _ in keyword_data],
+        orientation="h", marker_color=kw_colors, showlegend=False,
     ), row=1, col=1)
 
-    # LLM — all blue (real genes)
+    # (B) LLM — AMR vs Pruritus
+    track_colors = {"AMR": "#1565c0", "Pruritus": "#00897b"}
+    llm_colors = [track_colors[t] for _, _, t in llm_data]
+
     fig.add_trace(go.Bar(
-        y=[g for g, _ in llm_top], x=[c for _, c in llm_top],
-        orientation="h", marker_color="#1565c0", name="LLM",
-        showlegend=False,
+        y=[g for g, _, _ in llm_data], x=[c for _, c, _ in llm_data],
+        orientation="h", marker_color=llm_colors, showlegend=False,
     ), row=1, col=2)
 
     fig.update_yaxes(autorange="reversed")
-    fig.add_annotation(x=0.25, y=-0.08, text="🔴 Non-gene noise  🔵 Real gene",
-                       showarrow=False, font=dict(size=10), xref="paper", yref="paper")
+
+    # Legend as annotation (below)
+    fig.add_annotation(
+        x=0.0, y=-0.10,
+        text="(A): 🔴 Section header noise  🟠 Bio term (not gene)  🔵 Real gene  |  "
+             "(B): 🔵 AMR target  🟢 Pruritus target",
+        showarrow=False, font=dict(size=9), xref="paper", yref="paper", align="left")
 
     fig.update_layout(
         width=1100, height=500, font=FONT, plot_bgcolor="white",
-        title="Figure 3. NLP Extraction Quality — Keyword Matching vs LLM<br><br>"
-              "<sub>914 PubMed articles processed. LLM achieves 92% gene precision with zero noise artifacts.</sub>",
-        margin=dict(l=100, r=40, t=110, b=60),
+        title="Figure 3. NLP Extraction Quality — Keyword vs LLM<br> <br>"
+              "<sub>LLM eliminates section-header noise. 92% gene precision (50% article extraction rate).</sub>",
+        margin=dict(l=100, r=40, t=110, b=80),
     )
     fig.write_image(str(FIG_DIR / "fig3_nlp_comparison.png"), scale=3)
     fig.write_image(str(FIG_DIR / "fig3_nlp_comparison.pdf"))

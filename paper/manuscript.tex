@@ -197,7 +197,7 @@ The author declares no competing interests.
 \begin{figure}[H]
 \centering
 \includegraphics[width=\textwidth]{figures/fig3_nlp_comparison.png}
-\caption{\textbf{NLP extraction quality comparison.} (A) Traditional keyword-based NLP extracts non-gene noise artifacts (red bars: ``RESULTS'', ``METHODS'', ``AREAS'') as top ``genes''. (B) LLM-powered NLP (gemma4:e4b) correctly identifies real genes (FtsZ, IL31, LpxC) with 92\% precision validated against UniProt. 914 PubMed articles processed.}
+\caption{\textbf{NLP extraction quality comparison.} (A) Keyword NLP: red = section header noise (RESULTS, METHODS), orange = biological terms that are not genes (LPS, CRISPR, ROS), blue = correctly extracted genes. Majority of top extractions are non-gene artifacts. (B) LLM NLP (gemma4:e4b): blue = AMR targets, green = pruritus targets. Processing 393 AMR + 521 pruritus articles, LLM achieves 92\% gene precision (UniProt-validated) with 50\% article extraction rate. No section-header noise detected.}
 \label{fig:nlp}
 \end{figure}
 
