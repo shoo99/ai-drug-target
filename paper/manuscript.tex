@@ -71,6 +71,8 @@ Inspired by the CALMA framework \citep{arora2026}, we implemented a three-stage 
 
 \textbf{Stage 3: Subsystem-structured ANN.} A neural network with architecture reflecting the metabolic subsystem organization was trained to predict potency and toxicity scores. Each subsystem feeds into a dedicated encoder (linear $\rightarrow$ ReLU $\rightarrow$ dropout $\rightarrow$ linear bottleneck), producing a single neuron per subsystem before integration into separate potency and toxicity output heads. This architecture achieves a 61.5\% parameter reduction (2,230 vs. 5,792 for equivalent fully connected) compared to an equivalent fully connected network.
 
+For the partial gene inhibition dataset (Section 3.3), a dual-head ANN with a shared backbone was used instead of the subsystem-structured architecture, as the input features differ from sigma/delta profiles (see Supplementary Note 1b for architecture details).
+
 Double-gene knockout FBA simulations were performed for all 91 pairwise combinations of the 14 essential genes found in the iML1515 model. Bliss independence synergy scores \citep{bliss1939} were computed as: Bliss = ($g_A \times g_B$) -- $g_{AB}$, where positive values indicate synergistic (more potent than expected) combinations.
 
 \subsection{Potency-Toxicity Landscape and Pareto Optimization}
@@ -404,7 +406,7 @@ Liao YC, Huang TW, Chen FC, et~al.
 
 Potency R$^2$ = 0.997 and toxicity R$^2$ = 0.160 reported in Results are from architecture (b).
 
-\paragraph{Supplementary Note 2: Node2Vec Parameters.} Graph embeddings for the knowledge graph were computed using Node2Vec with: embedding dimensions = 64, walk length = 20, number of walks per node = 50, return parameter $p$ = 1.0, in-out parameter $q$ = 0.5 (biased toward exploration). SVD-based dimensionality reduction was applied to the co-occurrence matrix derived from random walks. Link prediction used a Gradient Boosting classifier (100 estimators, max depth = 4, learning rate = 0.1) with 3-fold cross-validation.
+\paragraph{Supplementary Note 2: Node2Vec Parameters.} Graph embeddings for the knowledge graph were computed using a Node2Vec-inspired approach: biased random walks (embedding dimensions = 64, walk length = 20, walks per node = 50, return parameter $p$ = 1.0, in-out parameter $q$ = 0.5) were used to generate a co-occurrence matrix, which was then factorized via truncated SVD rather than the standard Word2Vec skip-gram training. This SVD-based factorization (similar to NetMF) was chosen for computational efficiency on moderate-sized graphs. Link prediction used a Gradient Boosting classifier (100 estimators, max depth = 4, learning rate = 0.1) with 3-fold cross-validation.
 
 \paragraph{Supplementary Table S5.} Pareto-optimal drug target combinations. All 6 combinations (accA paired with lpxA, lpxB, lpxC, lpxD, lptD, ispD) show identical values (potency=0.991, toxicity=0.501, quality=0.495) because all component genes are individually lethal. Note that lptD is an LPS transport protein, distinct from the LPS synthesis enzymes lpxA--D. Available at \texttt{data/calma\_results/calma\_landscape.csv}.
 
