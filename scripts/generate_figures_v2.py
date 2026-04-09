@@ -286,7 +286,7 @@ def fig3_old_combination_landscape():
 
     fig.update_layout(
         width=900, height=650, font=FONT, plot_bgcolor="white",
-        title="Figure 3. Drug Combination Landscape — Potency vs Synergy",
+        title="Supp. Fig S1. Drug Combination Landscape — Potency vs Synergy",
         xaxis=dict(title="Combination Potency (1 - double KO growth ratio)", gridcolor="#eee"),
         yaxis=dict(title="Bliss Synergy Score (positive = synergistic)", gridcolor="#eee"),
         legend=dict(x=0.02, y=0.98, bgcolor="rgba(255,255,255,0.8)"),
@@ -329,7 +329,7 @@ def fig4_pathway_importance():
 
     fig.update_layout(width=1200, height=550, font=dict(family="Arial", size=11),
                       barmode="group", plot_bgcolor="white",
-                      title="Figure 4. Metabolic Pathway Importance Analysis",
+                      title="Figure 5. Metabolic Pathway Importance Analysis",
                       legend=dict(orientation="h", yanchor="bottom", y=1.05))
     fig.update_yaxes(autorange="reversed")
     fig.write_image(str(FIG_DIR / "fig4_pathway_importance.png"), scale=3)
