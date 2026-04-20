@@ -27,8 +27,8 @@ Dual-track analysis: **Antimicrobial Resistance (AMR)** and **Chronic Pruritus (
 ### Paper 1 — Drug Target Discovery Platform (Preprint)
 > Kang B. (2026). Methods for Continuous-Valued Training Data Generation from Genome-Scale Metabolic Models: Partial-Inhibition FBA with Mixed Essentiality Sampling, Applied to ESKAPE Drug Target Curation. *Research Square*. DOI: [10.21203/rs.3.rs-9374605/v1](https://doi.org/10.21203/rs.3.rs-9374605/v1)
 
-### Paper 2 — FBA Synergy Limitations & ML Alternative (In preparation)
-> Kang B. (2026). Why Standard LP-Based Flux Balance Analysis Cannot Detect Synergy for Essential Gene Pairs in ESKAPE Pathogens: A Systematic Evaluation and Proof-of-Concept Feature-Based ML Alternative. *Preprint in preparation*.
+### Paper 2 — FBA Synergy Limitations & ML Alternative (Preprint)
+> Kang B. (2026). Why Standard LP-Based Flux Balance Analysis Cannot Detect Synergy for Essential Gene Pairs in ESKAPE Pathogens: A Systematic Evaluation and Proof-of-Concept Feature-Based ML Alternative. *Research Square*. DOI: [10.21203/rs.3.rs-9398278/v1](https://doi.org/10.21203/rs.3.rs-9398278/v1)
 
 ## Key Results
 
