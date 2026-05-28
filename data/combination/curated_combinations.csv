@@ -1,0 +1,46 @@
+drug_A,drug_B,target_A,target_B,pathway_A,pathway_B,interaction,evidence,organism,bliss_score,ref,cross_pathway,interaction_numeric,pathway_pair
+trimethoprim,sulfamethoxazole,folA,folP,folate,folate,synergistic,clinical_gold,E. coli,0.85,Bushby 1969; WHO Essential Medicines,False,1,folate_x_folate
+ampicillin,gentamicin,murA,rpsA,peptidoglycan,ribosome,synergistic,clinical_gold,E. coli,0.72,Moellering 1971; IDSA guidelines,True,1,peptidoglycan_x_ribosome
+amoxicillin,gentamicin,murA,rpsA,peptidoglycan,ribosome,synergistic,clinical,E. faecalis,0.68,Moellering 1971,True,1,peptidoglycan_x_ribosome
+colistin,rifampicin,lpxA,rpoB,LPS,transcription,synergistic,clinical,K. pneumoniae,0.78,Garonzik 2011; Tascini 2013,True,1,LPS_x_transcription
+colistin,rifampicin,lpxA,rpoB,LPS,transcription,synergistic,clinical,A. baumannii,0.81,Durante-Mangoni 2013,True,1,LPS_x_transcription
+colistin,meropenem,lpxA,murA,LPS,peptidoglycan,synergistic,clinical,K. pneumoniae,0.65,Paul 2018; Zusman 2017,True,1,LPS_x_peptidoglycan
+ciprofloxacin,gentamicin,gyrA,rpsA,DNA_topology,ribosome,synergistic,in_vitro,E. coli,0.55,Brochado 2018,True,1,DNA_topology_x_ribosome
+fosfomycin,ciprofloxacin,murA,gyrA,peptidoglycan,DNA_topology,synergistic,in_vitro,E. coli,0.52,Samonis 2012; Brochado 2018,True,1,DNA_topology_x_peptidoglycan
+fosfomycin,meropenem,murA,murA,peptidoglycan,peptidoglycan,synergistic,clinical,K. pneumoniae,0.58,Falagas 2019,False,1,peptidoglycan_x_peptidoglycan
+fosmidomycin,ampicillin,dxr,murA,isoprenoid,peptidoglycan,synergistic,in_vitro,E. coli,0.48,Brochado 2018,True,1,isoprenoid_x_peptidoglycan
+triclosan,trimethoprim,fabI,folA,fatty_acid,folate,synergistic,in_vitro,E. coli,0.42,Brochado 2018,True,1,fatty_acid_x_folate
+cerulenin,colistin,fabH,lpxA,fatty_acid,LPS,synergistic,in_vitro,E. coli,0.45,Brochado 2018,True,1,LPS_x_fatty_acid
+A22,ampicillin,ftsZ,murA,cell_division,peptidoglycan,synergistic,in_vitro,E. coli,0.38,Brochado 2018; Buss 2019,True,1,cell_division_x_peptidoglycan
+colistin,trimethoprim,lpxA,folA,LPS,folate,synergistic,in_vitro,E. coli,0.5,MacNair 2018,True,1,LPS_x_folate
+fosmidomycin,trimethoprim,dxr,folA,isoprenoid,folate,synergistic,in_vitro,E. coli,0.35,Brochado 2018,True,1,folate_x_isoprenoid
+chloramphenicol,ampicillin,rplB,murA,ribosome,peptidoglycan,antagonistic,clinical_gold,E. coli,-0.45,Jawetz 1952; Ocampo 2014,True,-1,peptidoglycan_x_ribosome
+tetracycline,ampicillin,rpsA,murA,ribosome,peptidoglycan,antagonistic,in_vitro,E. coli,-0.38,Brochado 2018; Bollenbach 2009,True,-1,peptidoglycan_x_ribosome
+erythromycin,ciprofloxacin,rplB,gyrA,ribosome,DNA_topology,antagonistic,in_vitro,E. coli,-0.32,Brochado 2018,True,-1,DNA_topology_x_ribosome
+erythromycin,chloramphenicol,rplB,rplB,ribosome,ribosome,antagonistic,in_vitro,E. coli,-0.55,Brochado 2018; Yeh 2006,False,-1,ribosome_x_ribosome
+ciprofloxacin,triclosan,gyrA,fabI,DNA_topology,fatty_acid,antagonistic,in_vitro,E. coli,-0.28,Brochado 2018,True,-1,DNA_topology_x_fatty_acid
+rifampicin,triclosan,rpoB,fabI,transcription,fatty_acid,antagonistic,in_vitro,E. coli,-0.25,Brochado 2018,True,-1,fatty_acid_x_transcription
+ampicillin,meropenem,murA,murA,peptidoglycan,peptidoglycan,additive,in_vitro,E. coli,0.02,Brochado 2018,False,0,peptidoglycan_x_peptidoglycan
+ciprofloxacin,levofloxacin,gyrA,gyrA,DNA_topology,DNA_topology,additive,in_vitro,E. coli,0.01,Brochado 2018,False,0,DNA_topology_x_DNA_topology
+gentamicin,tobramycin,rpsA,rpsA,ribosome,ribosome,additive,in_vitro,E. coli,0.03,Bollenbach 2009,False,0,ribosome_x_ribosome
+trimethoprim,gentamicin,folA,rpsA,folate,ribosome,additive,in_vitro,E. coli,0.08,Brochado 2018,True,0,folate_x_ribosome
+fosfomycin,trimethoprim,murA,folA,peptidoglycan,folate,additive,in_vitro,S. aureus,0.05,Brochado 2018,True,0,folate_x_peptidoglycan
+vancomycin,gentamicin,murA,rpsA,peptidoglycan,ribosome,synergistic,clinical_gold,S. aureus,0.7,IDSA MRSA guidelines 2011,True,1,peptidoglycan_x_ribosome
+daptomycin,rifampicin,lpxA,rpoB,LPS,transcription,synergistic,clinical,S. aureus,0.6,Rand 2006,True,1,LPS_x_transcription
+vancomycin,rifampicin,murA,rpoB,peptidoglycan,transcription,synergistic,clinical,S. aureus,0.55,Zimmerli 2004,True,1,peptidoglycan_x_transcription
+meropenem,gentamicin,murA,rpsA,peptidoglycan,ribosome,synergistic,clinical,K. pneumoniae,0.62,Tamma 2012,True,1,peptidoglycan_x_ribosome
+colistin,gentamicin,lpxA,rpsA,LPS,ribosome,synergistic,in_vitro,K. pneumoniae,0.58,Tascini 2013,True,1,LPS_x_ribosome
+CHIR-090,rifampicin,lpxC,rpoB,LPS,transcription,synergistic,in_vitro,E. coli,0.63,Erwin 2016,True,1,LPS_x_transcription
+CHIR-090,ampicillin,lpxC,murA,LPS,peptidoglycan,synergistic,in_vitro,E. coli,0.55,Erwin 2016,True,1,LPS_x_peptidoglycan
+fosmidomycin,rifampicin,dxr,rpoB,isoprenoid,transcription,synergistic,in_vitro,E. coli,0.4,Brochado 2018,True,1,isoprenoid_x_transcription
+cerulenin,gentamicin,fabH,rpsA,fatty_acid,ribosome,additive,in_vitro,E. coli,0.06,Brochado 2018,True,0,fatty_acid_x_ribosome
+acetyl-CoA_carboxylase_inh,ampicillin,accA,murA,fatty_acid,peptidoglycan,synergistic,in_vitro,E. coli,0.42,Yao 2012,True,1,fatty_acid_x_peptidoglycan
+acetyl-CoA_carboxylase_inh,colistin,accA,lpxA,fatty_acid,LPS,synergistic,in_vitro,E. coli,0.5,Yao 2012,True,1,LPS_x_fatty_acid
+sulfamethoxazole,gentamicin,folP,rpsA,folate,ribosome,additive,in_vitro,E. coli,0.07,Bollenbach 2009,True,0,folate_x_ribosome
+novobiocin,ampicillin,gyrB,murA,DNA_topology,peptidoglycan,synergistic,in_vitro,E. coli,0.45,Brochado 2018,True,1,DNA_topology_x_peptidoglycan
+walkmycin,ampicillin,walK,murA,signaling,peptidoglycan,synergistic,in_vitro,S. aureus,0.55,Okada 2010,True,1,peptidoglycan_x_signaling
+compound_1,rifampicin,bamA,rpoB,outer_membrane,transcription,synergistic,in_vitro,E. coli,0.72,Hart 2019; Imai 2019,True,1,outer_membrane_x_transcription
+chloramphenicol,ciprofloxacin,rplB,gyrA,ribosome,DNA_topology,antagonistic,in_vitro,E. coli,-0.35,Bollenbach 2009,True,-1,DNA_topology_x_ribosome
+tetracycline,ciprofloxacin,rpsA,gyrA,ribosome,DNA_topology,antagonistic,in_vitro,E. coli,-0.3,Brochado 2018,True,-1,DNA_topology_x_ribosome
+chloramphenicol,fosfomycin,rplB,murA,ribosome,peptidoglycan,antagonistic,in_vitro,E. coli,-0.4,Brochado 2018,True,-1,peptidoglycan_x_ribosome
+erythromycin,ampicillin,rplB,murA,ribosome,peptidoglycan,antagonistic,in_vitro,E. coli,-0.42,Jawetz 1952; Brochado 2018,True,-1,peptidoglycan_x_ribosome

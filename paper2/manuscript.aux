@@ -1,0 +1,108 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{tyers2019}
+\citation{brochado2018}
+\citation{orth2010}
+\citation{bliss1939}
+\citation{loewe1953}
+\citation{arora2026}
+\citation{chandrasekaran2016}
+\citation{ji2023}
+\citation{kang2026}
+\citation{bertsimas1997}
+\citation{bollenbach2009}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{2}{section.1}\protected@file@percent }
+\citation{bertsimas1997}
+\citation{monk2017}
+\citation{seif2018}
+\citation{liao2011}
+\citation{king2016}
+\citation{ebrahim2013}
+\@writefile{toc}{\contentsline {section}{\numberline {2}Methods}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Genome-Scale Metabolic Models}{3}{subsection.2.1}\protected@file@percent }
+\citation{bliss1939}
+\citation{brochado2018,bollenbach2009,singh2021,ejim2011,farha2013,lazar2014,zheng2022}
+\citation{brochado2018}
+\citation{bollenbach2009}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Partial Inhibition Grid Simulation}{4}{subsection.2.2}\protected@file@percent }
+\newlabel{eq:bliss}{{1}{4}{Partial Inhibition Grid Simulation}{equation.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3}Literature Curation of Antibiotic Combinations}{4}{subsection.2.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.4}Feature Extraction from FBA}{5}{subsection.2.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.5}Machine Learning Models}{5}{subsection.2.5}\protected@file@percent }
+\citation{bertsimas1997}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Results}{6}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}FBA Partial Inhibition Grids Detect Zero Synergy}{6}{subsection.3.1}\protected@file@percent }
+\citation{lloyd2018}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces \textbf  {FBA produces step-function dose--response curves that preclude synergy detection.} (A) Single-gene dose--response under partial inhibition. The blue line shows the FBA result (identical for all 39 essential genes tested---a single step function at $\alpha ^* = 1.00$). The red dashed line shows the graded sigmoidal response expected biologically. The shaded area represents the biological information lost by FBA's LP optimality. (B) FBA pairwise inhibition surface: growth remains at 1.0 for any $(\alpha _i, \alpha _j) > 0$ and drops to 0 only at complete knockout edges. (C) Expected biological surface with a synergy region (red) where the combination is more effective than predicted by individual effects. Results in (A--B) are representative of all gene pairs across all three GEMs.}}{7}{figure.1}\protected@file@percent }
+\newlabel{fig:threshold}{{1}{7}{\textbf {FBA produces step-function dose--response curves that preclude synergy detection.} (A) Single-gene dose--response under partial inhibition. The blue line shows the FBA result (identical for all 39 essential genes tested---a single step function at $\alpha ^* = 1.00$). The red dashed line shows the graded sigmoidal response expected biologically. The shaded area represents the biological information lost by FBA's LP optimality. (B) FBA pairwise inhibition surface: growth remains at 1.0 for any $(\alpha _i, \alpha _j) > 0$ and drops to 0 only at complete knockout edges. (C) Expected biological surface with a synergy region (red) where the combination is more effective than predicted by individual effects. Results in (A--B) are representative of all gene pairs across all three GEMs}{figure.1}{}}
+\newlabel{eq:step}{{2}{7}{FBA Partial Inhibition Grids Detect Zero Synergy}{equation.3.2}{}}
+\newlabel{eq:bliss_zero}{{3}{7}{FBA Partial Inhibition Grids Detect Zero Synergy}{equation.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Curated Antibiotic Combination Dataset}{7}{subsection.3.2}\protected@file@percent }
+\citation{bollenbach2009}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces \textbf  {Summary of curated antibiotic combination dataset.} 45 experimentally characterized combinations from published literature, classified by interaction type and pathway combination.}}{8}{table.1}\protected@file@percent }
+\newlabel{tab:dataset}{{1}{8}{\textbf {Summary of curated antibiotic combination dataset.} 45 experimentally characterized combinations from published literature, classified by interaction type and pathway combination}{table.1}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces \textbf  {ML model performance for synergy prediction.} Primary metrics reported under gene-level GroupKFold (5 folds) to prevent data leakage from shared target genes. Stratified 5-fold results shown in parentheses for comparison.}}{8}{table.2}\protected@file@percent }
+\newlabel{tab:ml_results}{{2}{8}{\textbf {ML model performance for synergy prediction.} Primary metrics reported under gene-level GroupKFold (5 folds) to prevent data leakage from shared target genes. Stratified 5-fold results shown in parentheses for comparison}{table.2}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}ML Classification Performance}{8}{subsection.3.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \textbf  {Pathway-level interaction heatmap for curated antibiotic combinations.} (A) Number of curated combinations per pathway pair. (B) Mean Bliss synergy score per pathway pair. Ribosome-targeting combinations show a mixed profile: enriched for antagonism (8/10 antagonistic pairs) rather than synergy (6/28 synergistic pairs). LPS + transcription pairs show the strongest synergy enrichment.}}{9}{figure.2}\protected@file@percent }
+\newlabel{fig:heatmap}{{2}{9}{\textbf {Pathway-level interaction heatmap for curated antibiotic combinations.} (A) Number of curated combinations per pathway pair. (B) Mean Bliss synergy score per pathway pair. Ribosome-targeting combinations show a mixed profile: enriched for antagonism (8/10 antagonistic pairs) rather than synergy (6/28 synergistic pairs). LPS + transcription pairs show the strongest synergy enrichment}{figure.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces \textbf  {Feature ablation study.} Reported under stratified 5-fold CV for consistency with ablation comparisons (GroupKFold ablation is not shown because gene-group structure varies across feature subsets). Pathway features include one-hot pathway encoding; FBA features include flux changes, reaction counts, essentiality scores, subsystem disruption. Primary full-model results use GroupKFold (Table~\ref {tab:ml_results}).}}{9}{table.3}\protected@file@percent }
+\newlabel{tab:ablation}{{3}{9}{\textbf {Feature ablation study.} Reported under stratified 5-fold CV for consistency with ablation comparisons (GroupKFold ablation is not shown because gene-group structure varies across feature subsets). Pathway features include one-hot pathway encoding; FBA features include flux changes, reaction counts, essentiality scores, subsystem disruption. Primary full-model results use GroupKFold (Table~\ref {tab:ml_results})}{table.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Feature ablation.}{9}{section*.1}\protected@file@percent }
+\citation{bollenbach2009}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces \textbf  {ML synergy prediction under gene-level GroupKFold CV.} (A) ROC curves for binary classification (synergistic vs.\ rest) under GroupKFold. Gradient Boosting achieves AUROC = 0.804, Random Forest AUROC = 0.742. (B) Confusion matrix for Gradient Boosting binary classifier (GroupKFold F1 = 0.847). (C) Permutation test under GroupKFold: observed F1 = 0.847 (red line) compared to 1,000 permutations of shuffled labels (gray histogram); $z$ = 2.58, $p < 0.001$.}}{10}{figure.3}\protected@file@percent }
+\newlabel{fig:ml_performance}{{3}{10}{\textbf {ML synergy prediction under gene-level GroupKFold CV.} (A) ROC curves for binary classification (synergistic vs.\ rest) under GroupKFold. Gradient Boosting achieves AUROC = 0.804, Random Forest AUROC = 0.742. (B) Confusion matrix for Gradient Boosting binary classifier (GroupKFold F1 = 0.847). (C) Permutation test under GroupKFold: observed F1 = 0.847 (red line) compared to 1,000 permutations of shuffled labels (gray histogram); $z$ = 2.58, $p < 0.001$}{figure.3}{}}
+\@writefile{toc}{\contentsline {paragraph}{Ribosome ablation.}{10}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Cross-species mapping coverage.}{10}{section*.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4}Feature Importance Analysis}{10}{subsection.3.4}\protected@file@percent }
+\citation{bollenbach2009,cokol2011}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.5}Bliss Score Regression}{11}{subsection.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Discussion}{11}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}The LP Limitation of FBA for Synergy Detection}{11}{subsection.4.1}\protected@file@percent }
+\citation{king2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces \textbf  {Feature importance for the Gradient Boosting synergy classifier.} Top 20 features ranked by Gini importance from a model trained on the full dataset (all 45 combinations, not cross-validated; CV-based importance estimates are unstable at $n = 45$). Pathway identity (ribosome) and FBA flux perturbation metrics are the strongest predictors. Feature categories: blue = pathway identity, green = FBA metabolic features, orange = gene essentiality, gray = other.}}{12}{figure.4}\protected@file@percent }
+\newlabel{fig:feature_importance}{{4}{12}{\textbf {Feature importance for the Gradient Boosting synergy classifier.} Top 20 features ranked by Gini importance from a model trained on the full dataset (all 45 combinations, not cross-validated; CV-based importance estimates are unstable at $n = 45$). Pathway identity (ribosome) and FBA flux perturbation metrics are the strongest predictors. Feature categories: blue = pathway identity, green = FBA metabolic features, orange = gene essentiality, gray = other}{figure.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}FBA as Feature Generator, Not Synergy Calculator}{12}{subsection.4.2}\protected@file@percent }
+\citation{bollenbach2009}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \textbf  {Predicted vs.\ observed Bliss independence scores (GroupKFold CV).} Gradient Boosting regression ($R^2 = 0.594$, Pearson $r = 0.772$) on 45 curated antibiotic combinations. Points are colored by interaction class: synergistic (blue), antagonistic (red), additive (gray). The dashed line indicates perfect prediction. Note reduced $R^2$ compared to stratified CV (0.718) due to gene-level splitting that prevents leakage from shared target genes.}}{13}{figure.5}\protected@file@percent }
+\newlabel{fig:regression}{{5}{13}{\textbf {Predicted vs.\ observed Bliss independence scores (GroupKFold CV).} Gradient Boosting regression ($R^2 = 0.594$, Pearson $r = 0.772$) on 45 curated antibiotic combinations. Points are colored by interaction class: synergistic (blue), antagonistic (red), additive (gray). The dashed line indicates perfect prediction. Note reduced $R^2$ compared to stratified CV (0.718) due to gene-level splitting that prevents leakage from shared target genes}{figure.5}{}}
+\citation{kang2026}
+\citation{arora2026}
+\citation{ji2023}
+\citation{chandrasekaran2016}
+\citation{brochado2018}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Relationship to Prior Work}{14}{subsection.4.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Limitations}{14}{subsection.4.4}\protected@file@percent }
+\citation{kang2026}
+\citation{brochado2018,cokol2011}
+\citation{sanchez2017}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Practical Recommendations}{15}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Conclusions}{16}{section.5}\protected@file@percent }
+\bibstyle{unsrtnat}
+\bibcite{tyers2019}{{1}{2019}{{Tyers \& Wright}}{{}}}
+\bibcite{brochado2018}{{2}{2018}{{Brochado et~al.}}{{}}}
+\bibcite{orth2010}{{3}{2010}{{Orth et~al.}}{{}}}
+\bibcite{bliss1939}{{4}{1939}{{Bliss}}{{}}}
+\bibcite{loewe1953}{{5}{1953}{{Loewe}}{{}}}
+\bibcite{arora2026}{{6}{2026}{{Arora et~al.}}{{}}}
+\bibcite{chandrasekaran2016}{{7}{2016}{{Chandrasekaran et~al.}}{{}}}
+\bibcite{ji2023}{{8}{2023}{{Ji \& Chandrasekaran}}{{}}}
+\bibcite{kang2026}{{9}{2026}{{Kang}}{{}}}
+\bibcite{bertsimas1997}{{10}{1997}{{Bertsimas \& Tsitsiklis}}{{}}}
+\bibcite{bollenbach2009}{{11}{2009}{{Bollenbach et~al.}}{{}}}
+\bibcite{monk2017}{{12}{2017}{{Monk et~al.}}{{}}}
+\bibcite{seif2018}{{13}{2019}{{Seif et~al.}}{{}}}
+\bibcite{liao2011}{{14}{2011}{{Liao et~al.}}{{}}}
+\bibcite{king2016}{{15}{2016}{{King et~al.}}{{}}}
+\bibcite{ebrahim2013}{{16}{2013}{{Ebrahim et~al.}}{{}}}
+\bibcite{singh2021}{{17}{2021}{{Singh et~al.}}{{}}}
+\bibcite{ejim2011}{{18}{2011}{{Ejim et~al.}}{{}}}
+\bibcite{farha2013}{{19}{2013}{{Farha \& Brown}}{{}}}
+\bibcite{lazar2014}{{20}{2014}{{L\'az\'ar et~al.}}{{}}}
+\bibcite{zheng2022}{{21}{2022}{{Zheng et~al.}}{{}}}
+\bibcite{cokol2011}{{22}{2011}{{Cokol et~al.}}{{}}}
+\bibcite{lloyd2018}{{23}{2018}{{Lloyd et~al.}}{{}}}
+\bibcite{sanchez2017}{{24}{2017}{{S\'anchez et~al.}}{{}}}
+\gdef \@abspage@last{18}

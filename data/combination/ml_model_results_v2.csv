@@ -1,0 +1,12 @@
+,0
+n_combinations,45.0
+n_features,60.0
+n_mapped_genes,9.0
+n_unmapped_genes,8.0
+f1_stratified,0.873
+f1_groupkfold,0.847457627118644
+f1_logo,0.8666666666666667
+z_score_groupkfold,2.5768873675742654
+p_value_groupkfold,0.0
+r2_groupkfold,0.5935552775100528
+corr_groupkfold,0.7716812259700084
