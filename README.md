@@ -30,6 +30,12 @@ Dual-track analysis: **Antimicrobial Resistance (AMR)** and **Chronic Pruritus (
 ### Paper 2 — FBA Synergy Limitations & ML Alternative (Preprint)
 > Kang B. (2026). Why Standard LP-Based Flux Balance Analysis Cannot Detect Synergy for Essential Gene Pairs in ESKAPE Pathogens: A Systematic Evaluation and Proof-of-Concept Feature-Based ML Alternative. *Research Square*. DOI: [10.21203/rs.3.rs-9398278/v1](https://doi.org/10.21203/rs.3.rs-9398278/v1)
 
+### Paper 3 — Chronic Stress × Brain Scoping Review (Preprint)
+> Kang B. (2026). Large-Scale Scoping Review of Chronic Stress-Induced Brain Changes via LLM-Powered Extraction of 9,585 Studies: BDNF Directional Inconsistency, Structural-Functional Dissociation, and the Neuroinflammation-HPA Crossover. *Research Square*. DOI: [10.21203/rs.3.rs-9884522/v1](https://doi.org/10.21203/rs.3.rs-9884522/v1)
+
+### Paper 4 — MDD GWAS Drug Repurposing (Preprint)
+> Kang B. (2026). Colocalization Reprioritizes the Major Depressive Disorder Druggable Genome: Demotion of the Top TWAS Signal (DRD2) and Nomination of SLC12A5/FURIN/DCC by Direction-Aware, Confirmation-Gated Analysis of 635 GWAS Loci. *Research Square*. DOI: [10.21203/rs.3.rs-9880173/v1](https://doi.org/10.21203/rs.3.rs-9880173/v1)
+
 ## Key Results
 
 ### AMR Track — Top Novel Targets
