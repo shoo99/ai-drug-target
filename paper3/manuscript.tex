@@ -34,7 +34,7 @@ Byeongsoo Kang\textsuperscript{1*}\\
 
 \textbf{Results.} Five findings challenge or refine established narratives: (1) BDNF direction in the hippocampus is not consistently downward---reports of decrease (46\%) and increase (46\%) are nearly equal across 1,434 BDNF-hippocampus entries, with a temporal reversal from decrease-dominant (56\%, 2010--2014) to increase-dominant (57\%, 2020--2026); (2) this reversal is stress-type-dependent: early-life stress strongly favors BDNF decrease (55\%) while acute stress favors increase (46\%); (3) neuroinflammation genes (IL1B, TNF, IL6, NFKB1, NLRP3; combined 1,143 mentions) have overtaken HPA axis genes (NR3C1, CRH, FKBP5; 597 mentions) since approximately 2018 (inflammation/HPA ratio: 0.32 in 2010--2014, 1.03 in 2015--2019, 2.15 in 2020--2026); (4) metric-separated analysis reveals that the hippocampus shows structural decrease (67\%) but functional increase (41\%), and the amygdala shows structural decrease (50\%) but functional increase (45\%)---resolving the apparent contradictions in the literature; (5) systematic research gap analysis across 2,157 genes and 1,930 brain regions identified 15 significantly under-studied combinations, with the insula-inflammation axis (NR3C1, IL1B, TNF, IL6 $\times$ insula: 0 publications each despite $>$10 expected) as the largest gap.
 
-\textbf{Conclusions.} This large-scale scoping review, based on LLM-powered extraction from 9,585 abstracts, reveals that established stress--brain narratives are quantitatively more complex than textbook summaries suggest. The ``BDNF always decreases'' and ``amygdala always increases'' simplicities do not survive metric-separated, temporally resolved analysis of reporting patterns. These patterns provide an evidence-based roadmap for future research priorities and demonstrate the utility of LLM-based extraction as a complement to traditional systematic reviews. We emphasize that these are literature reporting patterns, not pooled effect sizes; full-text quantitative meta-analysis is in progress. The dataset (9,585 entries) is available at \url{https://huggingface.co/datasets/shoo99/KBRI} under CC-BY-4.0.
+\textbf{Conclusions.} This large-scale scoping review, based on LLM-powered extraction from 9,585 abstracts, reveals that established stress--brain narratives are quantitatively more complex than textbook summaries suggest. The ``BDNF always decreases'' and ``amygdala always increases'' simplicities do not survive metric-separated, temporally resolved analysis of reporting patterns. These patterns provide an evidence-based roadmap for future research priorities and demonstrate the utility of LLM-based extraction as a complement to traditional systematic reviews. We emphasize that these are literature reporting patterns, not pooled effect sizes; full-text quantitative meta-analysis is in progress. The complete list of all 9,585 included studies (PMID, title, journal, year, PMC ID) is provided as Supplementary Table~S1, enabling full retrieval of the source literature from PubMed/PMC under each article's respective license.
 
 \medskip
 \noindent\textbf{Keywords:} chronic stress, brain structure, BDNF, neuroinflammation, HPA axis, hippocampus, amygdala, LLM, NLP, scoping review, reporting patterns
@@ -58,7 +58,7 @@ Our contributions are:
     \item Identification and dating of the neuroinflammation--HPA axis crossover ($\sim$2018), with the inflammation/HPA publication ratio increasing from 0.32 (2010--2014) to 2.15 (2020--2026).
     \item A metric-separated analysis framework showing that ``structural decrease + functional increase'' is the dominant pattern for both hippocampus and amygdala, resolving contradictions in the literature.
     \item Systematic identification of 15 under-researched gene--brain-region combinations, with the insula--inflammation axis as the largest gap.
-    \item A validated, openly available dataset of 9,585 structured extractions for community use.
+    \item A validated extraction pipeline applied to 9,585 studies, with the complete list of included studies provided (Supplementary Table~S1) for full reproducibility.
 \end{enumerate}
 
 %-------------------------------------------------------------------
@@ -309,7 +309,7 @@ The metric-separated analysis (Table~\ref{tab:metric}) resolves a long-standing 
 \section{Conclusions}
 %-------------------------------------------------------------------
 
-By applying LLM-powered extraction to 9,585 abstracts, we provide a large-scale scoping review that reveals quantitative complexities within established stress--brain narratives. Three key reporting patterns challenge textbook simplifications: (1) BDNF direction in the hippocampus is split nearly evenly (46\% decrease vs.\ 46\% increase), with a temporal shift toward increase in recent years; (2) neuroinflammation-related publications have overtaken HPA axis publications since $\sim$2018; and (3) the ``amygdala increases'' narrative masks a structural--functional dissociation (structural decrease 50\%, functional increase 45\%). We stress that these are \textit{reporting patterns}, not pooled effect sizes, and require validation through full-text quantitative meta-analysis with standardized effect sizes, which is in progress (26,061 regex-extracted effect sizes from 4,353 PMC articles are available for this purpose). The complete extraction dataset (9,585 entries, CC-BY-4.0) and all analysis code are freely available for community use at \url{https://huggingface.co/datasets/shoo99/KBRI}.
+By applying LLM-powered extraction to 9,585 abstracts, we provide a large-scale scoping review that reveals quantitative complexities within established stress--brain narratives. Three key reporting patterns challenge textbook simplifications: (1) BDNF direction in the hippocampus is split nearly evenly (46\% decrease vs.\ 46\% increase), with a temporal shift toward increase in recent years; (2) neuroinflammation-related publications have overtaken HPA axis publications since $\sim$2018; and (3) the ``amygdala increases'' narrative masks a structural--functional dissociation (structural decrease 50\%, functional increase 45\%). We stress that these are \textit{reporting patterns}, not pooled effect sizes, and require validation through full-text quantitative meta-analysis with standardized effect sizes, which is in progress. The complete list of the 9,585 included studies is provided as Supplementary Table~S1, enabling retrieval of the source abstracts and full texts from PubMed and PMC via the listed identifiers (under each publisher's respective license); analysis code and structured extraction data are available from the authors on reasonable request.
 
 %-------------------------------------------------------------------
 \section*{Acknowledgments}
@@ -322,9 +322,9 @@ LLM extraction was performed using Qwen3.5-397B on a 9-node CPU cluster. Manuscr
 %-------------------------------------------------------------------
 
 \begin{itemize}
-    \item Extraction dataset (9,585 entries): \url{https://huggingface.co/datasets/shoo99/KBRI} (CC-BY-4.0)
-    \item Pipeline code: \url{https://github.com/shoo99/KBRI} (MIT)
-    \item Analysis scripts and figures: \url{https://github.com/shoo99/ai-drug-target/scripts/paper3_figures.py}
+    \item Complete list of all 9,585 included studies (PMID, title, journal, year, PMC ID): Supplementary Table~S1.
+    \item Source abstracts/full texts: retrievable from PubMed/PMC via the identifiers in Supplementary Table~S1, under each article's respective license. The 4,139 PMC-indexed articles can be obtained from the PMC Open Access subset where applicable.
+    \item Structured extraction data and analysis code: available from the corresponding author on reasonable request.
 \end{itemize}
 
 %-------------------------------------------------------------------

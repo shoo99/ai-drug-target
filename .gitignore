@@ -14,6 +14,20 @@ data/llm_nlp/llm_extraction_full.json
 data/*/pubmed_*.json
 data/models_cache/
 
+# Paper 3 stress corpus — large / mixed-license raw data, kept out of public repo
+data/stress/pmc_fulltext.tar.gz
+data/stress/pmc_fulltext/
+data/stress/fulltext_extract/
+data/stress/extractions/
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+
 # Generated reports (reproducible via scripts)
 reports/*.pdf
 reports/*.txt

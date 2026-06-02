@@ -1,0 +1,106 @@
+gene	zscore	risk_direction	therapy_needed	drug	interaction_type	approved	score
+AMT	-8.40	low_expr_risk	increase	FINGOLIMOD	agonist	True	0.375054795
+AMT	-8.40	low_expr_risk	increase	PONESIMOD	agonist	True	0.300043836
+AMT	-8.40	low_expr_risk	increase	SIPONIMOD	agonist	True	0.2500365296937833
+AMT	-8.40	low_expr_risk	increase	ETRASIMOD	agonist	True	0.300043836
+AMT	-8.40	low_expr_risk	increase	OZANIMOD	agonist	True	0.2500365296937833
+APEH	-6.22	low_expr_risk	increase	ADENOSINE TRIPHOSPHATE	agonist	True	0.1816874437221263
+DAGLA	-4.60	low_expr_risk	increase	ADENOSINE TRIPHOSPHATE	activator	True	0.3088686543276147
+DAGLA	-4.60	low_expr_risk	increase	CAFFEINE	activator	True	0.1419126249613364
+DDB1	4.68	high_expr_risk	decrease	LENALIDOMIDE	inhibitor	True	1.009762908
+DDB1	4.68	high_expr_risk	decrease	POMALIDOMIDE	inhibitor	True	3.281729452230906
+DDB1	4.68	high_expr_risk	decrease	THALIDOMIDE	inhibitor	True	0.3547815624033412
+DRD2	-10.99	low_expr_risk	increase	MINAPRINE	agonist	True	0.069180068
+DRD2	-10.99	low_expr_risk	increase	BROMOCRIPTINE MESYLATE	agonist	True	0.0296486
+DRD2	-10.99	low_expr_risk	increase	CABERGOLINE	agonist	True	0.077827576
+DRD2	-10.99	low_expr_risk	increase	ARIPIPRAZOLE LAUROXIL	agonist	True	0.043692674
+DRD2	-10.99	low_expr_risk	increase	BREXPIPRAZOLE	agonist	True	0.088945801
+DRD2	-10.99	low_expr_risk	increase	ARIPIPRAZOLE LAUROXIL	agonist	True	0.043692674
+DRD2	-10.99	low_expr_risk	increase	MINAPRINE HYDROCHLORIDE	agonist	True	0.023060023
+DRD2	-10.99	low_expr_risk	increase	PRAMIPEXOLE DIHYDROCHLORIDE	agonist	True	0.069180068
+DRD2	-10.99	low_expr_risk	increase	APOMORPHINE	agonist	True	0.030746697
+DRD2	-10.99	low_expr_risk	increase	PERGOLIDE MESYLATE	agonist	True	0.0296486
+DRD2	-10.99	low_expr_risk	increase	ROTIGOTINE	agonist	True	0.062262061
+DRD2	-10.99	low_expr_risk	increase	ERGOLOID MESYLATES, USP	agonist	True	0.015964631
+DRD2	-10.99	low_expr_risk	increase	ROPINIROLE HYDROCHLORIDE	agonist	True	0.051885051
+GPR27	6.96	high_expr_risk	decrease	ELOTUZUMAB	antibody	True	26.25383561784724
+LAMB2	4.66	high_expr_risk	decrease	OCRIPLASMIN	cleavage	True	1.381780822
+PSEN2	6.75	high_expr_risk	decrease	NIROGACESTAT	inhibitor	True	0.3409589041278863
+RHOA	7.97	high_expr_risk	decrease	QUINIDINE	blocker	True	0.375054795
+TLR9	5.18	high_expr_risk	decrease	HYDROXYCHLOROQUINE SULFATE	inhibitor	True	0.7721716358190367
+VAMP2	5.17	high_expr_risk	decrease	BOTULINUM TOXIN TYPE B	inhibitor	True	17.50255707856483
+AMT	-8.40	low_expr_risk	increase	SPHINGOSINE 1-PHOSPHATE	agonist	False	0.1666910197958555
+AMT	-8.40	low_expr_risk	increase	A-971432	agonist	False	0.750109589
+AMT	-8.40	low_expr_risk	increase	SAR247799	agonist	False	0.750109589
+AMT	-8.40	low_expr_risk	increase	FINGOLIMOD-PHOSPHATE	agonist	False	0.300043836
+AMT	-8.40	low_expr_risk	increase	AFD(R)	agonist	False	0.375054795
+AMT	-8.40	low_expr_risk	increase	ASP4058	agonist	False	0.375054795
+AMT	-8.40	low_expr_risk	increase	RP-101075	agonist	False	0.750109589
+AMT	-8.40	low_expr_risk	increase	SEW2871	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	RP-001	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	BMS-986104 DERIVATIVE 24	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	CYM5442	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	COMPOUND 43 [PMID: 26751273]	agonist	False	0.300043836
+AMT	-8.40	low_expr_risk	increase	BMS-986104 DERIVATIVE 12	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	ST-2191	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	AMISELIMOD PHOSPHATE	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	GSK-2018682	agonist	False	0.5000730593875666
+AMT	-8.40	low_expr_risk	increase	COMPOUND 26 [PMID: 16190743]	agonist	False	0.375054795
+AMT	-8.40	low_expr_risk	increase	CYM5181	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	AUY954	agonist	False	0.750109589
+AMT	-8.40	low_expr_risk	increase	ST-1505	agonist	False	0.750109589
+AMT	-8.40	low_expr_risk	increase	ICANBELIMOD	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	CENERIMOD	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	BMS-986166	agonist	False	1.500219178
+AMT	-8.40	low_expr_risk	increase	ST-1478	agonist	False	0.750109589
+APEH	-6.22	low_expr_risk	increase	2MESATP	agonist	False	0.5147810905460244
+APEH	-6.22	low_expr_risk	increase	NF546	agonist	False	3.088686543276147
+APEH	-6.22	low_expr_risk	increase	BZATP	agonist	False	0.6177373086552295
+APEH	-6.22	low_expr_risk	increase	ADP&BETA;S	agonist	False	0.7721716358190367
+APEH	-6.22	low_expr_risk	increase	DATP	agonist	False	3.088686543276147
+APEH	-6.22	low_expr_risk	increase	ATP&GAMMA;S	agonist	False	1.029562181092048
+APEH	-6.22	low_expr_risk	increase	NADIDE	agonist	False	1.544343271638073
+APEH	-6.22	low_expr_risk	increase	ADP	agonist	False	0.4412409347537352
+APEH	-6.22	low_expr_risk	increase	URIDINE 5'-TRIPHOSPHATE	agonist	False	0.7721716358190367
+APEH	-6.22	low_expr_risk	increase	NAADP	agonist	False	1.544343271638073
+APEH	-6.22	low_expr_risk	increase	AR-C67085	agonist	False	1.544343271638073
+CD40	-7.35	low_expr_risk	increase	CDX-1140	agonist	False	2.187819634820604
+CD40	-7.35	low_expr_risk	increase	CD40 LIGAND	agonist	False	1.093909817410302
+CD40	-7.35	low_expr_risk	increase	TENELIXIMAB	agonist	False	2.187819634820604
+CD40	-7.35	low_expr_risk	increase	GILORALIMAB	agonist	False	2.187819634820604
+CD40	-7.35	low_expr_risk	increase	SOTIGALIMAB	agonist	False	4.375639269641208
+CD40	-7.35	low_expr_risk	increase	SELICRELUMAB	agonist	False	2.187819634820604
+CHRNA4	5.15	high_expr_risk	decrease	DEXMECAMYLAMINE	inhibitor	False	0.5585922471882393
+CHRNA4	5.15	high_expr_risk	decrease	TC-2216	inhibitor	False	0.5585922471882393
+CTBP1	5.33	high_expr_risk	decrease	SOTRASTAURIN	inhibitor	False	0.4303907478335614
+CTBP1	5.33	high_expr_risk	decrease	BALANOL	inhibitor	False	2.019525816757481
+DAG1	7.98	high_expr_risk	decrease	UAMC00039	inhibitor	False	52.50767123569449
+DAGLA	-4.60	low_expr_risk	increase	SURAMIN	activator	False	0.138178082
+DAGLA	-4.60	low_expr_risk	increase	CA2+	activator	False	0.1312691780892362
+DAGLA	-4.60	low_expr_risk	increase	RYANODINE	activator	False	1.312691780892362
+DRD2	-10.99	low_expr_risk	increase	QUINAGOLIDE	agonist	False	0.4150804050252529
+DRD2	-10.99	low_expr_risk	increase	SARIZOTAN HYDROCHLORIDE	agonist	False	0.051885051
+DRD2	-10.99	low_expr_risk	increase	BIFEPRUNOX	agonist	False	0.069180068
+DRD2	-10.99	low_expr_risk	increase	SUMANIROLE	agonist	False	0.2075402025126264
+DRD2	-10.99	low_expr_risk	increase	ONZIGOLIDE	agonist	False	0.069180068
+DRD2	-10.99	low_expr_risk	increase	PF-00217830	agonist	False	0.2075402025126264
+DRD2	-10.99	low_expr_risk	increase	VEGFA	agonist	False	0.1037701012563132
+DRD2	-10.99	low_expr_risk	increase	APLINDORE FUMARATE	agonist	False	0.4150804050252529
+DRD2	-10.99	low_expr_risk	increase	PARDOPRUNOX	agonist	False	0.088945801
+EFNA5	5.00	high_expr_risk	decrease	CCT244747	inhibitor	False	13.12691780892362
+EP300	6.19	high_expr_risk	decrease	STAUROSPORINE	inhibitor	False	0.5147810905460245
+FES	4.79	high_expr_risk	decrease	HESPERADIN	inhibitor	False	0.3281729452230906
+MST1R	4.84	high_expr_risk	decrease	NARNATUMAB	inhibitor	False	2.187819634820604
+MST1R	4.84	high_expr_risk	decrease	GLESATINIB	inhibitor	False	0.6563458904461812
+MST1R	4.84	high_expr_risk	decrease	MK-8033	inhibitor	False	1.093909817410302
+MST1R	4.84	high_expr_risk	decrease	GLESATINIB	inhibitor	False	0.6563458904461812
+MST1R	4.84	high_expr_risk	decrease	FORETINIB	inhibitor	False	0.1151484018326633
+MYRF	5.93	high_expr_risk	decrease	DECAVANADATE	inhibitor	False	3.500511415712967
+PSEN2	6.75	high_expr_risk	decrease	RG-4733	inhibitor	False	0.7955707762984013
+PSEN2	6.75	high_expr_risk	decrease	SEMAGACESTAT	inhibitor	False	2.386712328895204
+PSEN2	6.75	high_expr_risk	decrease	AVAGACESTAT	inhibitor	False	1.193356164447602
+PSEN2	6.75	high_expr_risk	decrease	BEGACESTAT	inhibitor	False	0.596678082
+RASGRP1	-6.05	low_expr_risk	increase	RASGRP ACTIVATOR 1	activator	False	5.834185692854944
+TLR9	5.18	high_expr_risk	decrease	BAZLITORAN	inhibitor	False	0.5147810905460244
+TMEM258	6.11	high_expr_risk	decrease	CD2+	blocker	False	2.187819634820604
+TMEM258	6.11	high_expr_risk	decrease	ZN2+	blocker	False	1.193356164447602

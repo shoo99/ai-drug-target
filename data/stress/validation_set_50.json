@@ -1,0 +1,1481 @@
+[
+  {
+    "pmid": "19931399",
+    "title": "Amygdala volume in depressed patients with bipolar disorder assessed using high resolution 3T MRI: the impact of medication.",
+    "year": "2010",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "amygdala",
+        "effect": "decrease",
+        "metric": "volume"
+      },
+      {
+        "region": "amygdala",
+        "effect": "increase",
+        "metric": "volume"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "gray matter"
+      }
+    ],
+    "extracted_finding": "Unmedicated bipolar disorder patients exhibited smaller amygdala volumes compared to controls, whereas medicated patients showed a trend towards larger amygdala volumes, suggesting mood stabilizers may moderate neuroplastic changes in this region.",
+    "n_genes": 0,
+    "n_regions": 3
+  },
+  {
+    "pmid": "21658845",
+    "title": "Chronic juvenile stress produces corticolimbic dendritic architectural remodeling and modulates emotional behavior in male and female rats.",
+    "year": "2012",
+    "extracted_study_type": "animal",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "dendritic complexity"
+      },
+      {
+        "region": "prefrontal cortex",
+        "effect": "decrease",
+        "metric": "dendritic complexity"
+      },
+      {
+        "region": "amygdala",
+        "effect": "increase",
+        "metric": "dendritic complexity"
+      }
+    ],
+    "extracted_finding": "Chronic juvenile stress in rats causes depressive-like behavior and dendritic simplification in the hippocampus and prefrontal cortex, alongside dendritic hypertrophy in the amygdala, without significant sex differences.",
+    "n_genes": 0,
+    "n_regions": 3
+  },
+  {
+    "pmid": "29630906",
+    "title": "Elevated stress hormone levels and antidepressant treatment starting before pregnancy affect maternal care and litter characteristics in an animal model of depression.",
+    "year": "2018",
+    "extracted_study_type": "animal",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "neurogenesis"
+      }
+    ],
+    "extracted_finding": "Pre-conceptional corticosterone exposure induced a depressive-like phenotype and reduced litter size in rats, while sertraline treatment failed to rescue these behavioral deficits or alter hippocampal neurogenesis.",
+    "n_genes": 0,
+    "n_regions": 1
+  },
+  {
+    "pmid": "28780410",
+    "title": "Genome-wide transcriptome analysis of hippocampus in rats indicated that TLR/NLR signaling pathway was involved in the pathogenisis of depressive disorder induced by chronic restraint stress.",
+    "year": "2017",
+    "extracted_study_type": "animal",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "transcriptome"
+      }
+    ],
+    "extracted_finding": "Acupuncture reversed the upregulation of gene sets related to inflammatory and immune responses, specifically the TLR and NLR signaling pathways, in the hippocampus of rats with depression induced by chronic restraint stress.",
+    "n_genes": 0,
+    "n_regions": 1
+  },
+  {
+    "pmid": "28158790",
+    "title": "IGFBP2 Produces Rapid-Acting and Long-Lasting Effects in Rat Models of Posttraumatic Stress Disorder via a Novel Mechanism Associated with Structural Plasticity.",
+    "year": "2017",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "IGFBP2",
+      "IGF1"
+    ],
+    "extracted_regions": [
+      {
+        "region": "dentate gyrus",
+        "effect": "increase",
+        "metric": "dendritic spine density"
+      },
+      {
+        "region": "medial prefrontal cortex",
+        "effect": "increase",
+        "metric": "dendritic spine density"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "dendritic spine density"
+      }
+    ],
+    "extracted_finding": "IGFBP2 produces rapid-acting and long-lasting therapeutic-like effects in rat models of PTSD via an IGF1 receptor-independent mechanism associated with increased dendritic spine density in the medial prefrontal cortex and hippocampus.",
+    "n_genes": 2,
+    "n_regions": 3
+  },
+  {
+    "pmid": "23982148",
+    "title": "Childhood maltreatment and psychopathology: A case for ecophenotypic variants as clinically and neurobiologically distinct subtypes.",
+    "year": "2013",
+    "extracted_study_type": "review",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "volume"
+      },
+      {
+        "region": "amygdala",
+        "effect": "increase",
+        "metric": "reactivity"
+      }
+    ],
+    "extracted_finding": "Childhood maltreatment defines a clinically and neurobiologically distinct ecophenotypic subtype of psychopathology characterized by earlier onset, greater severity, reduced hippocampal volume, and amygdala hyperreactivity.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "25541389",
+    "title": "The ACDC pilot trial: targeting the anterior cingulate by double cone coil rTMS for the treatment of depression.",
+    "year": "2015",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "no_change",
+        "metric": null
+      },
+      {
+        "region": "dorsolateral-prefrontal cortex",
+        "effect": "no_change",
+        "metric": null
+      }
+    ],
+    "extracted_finding": "This pilot study demonstrated that double cone coil rTMS targeting the anterior cingulate cortex is a feasible and well-tolerated add-on treatment for depression, showing significant clinical effects compared to conventional DLPFC stimulation.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "40495440",
+    "title": "Dissecting the pro-neurogenic effects of monoaminergic medications used to treat depression: a systematic review and meta-analysis.",
+    "year": "2025",
+    "extracted_study_type": "meta_analysis",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "neurogenesis"
+      }
+    ],
+    "extracted_finding": "A systematic review and meta-analysis found a small but significant pro-neurogenic effect of monoaminergic treatments in laboratory rodents, with robust evidence specifically for fluoxetine in both mice and rats.",
+    "n_genes": 0,
+    "n_regions": 1
+  },
+  {
+    "pmid": "24970773",
+    "title": "Diffusion tensor imaging predictors of treatment outcomes in major depressive disorder.",
+    "year": "2014",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "anterior cingulate",
+        "effect": "no_change",
+        "metric": "white matter connectivity"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "white matter connectivity"
+      }
+    ],
+    "extracted_finding": "Altered connectivity in the cingulum and stria terminalis white matter tracts significantly predicts antidepressant treatment remission in major depressive disorder.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "34648865",
+    "title": "MiR-186-5p Dysregulation Leads to Depression-like Behavior by De-repressing SERPINF1 in Hippocampus.",
+    "year": "2021",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "SERPINF1",
+      "MIR186"
+    ],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "mRNA"
+      }
+    ],
+    "extracted_finding": "MiR-186-5p dysregulation leads to depression-like behavior by suppressing SERPINF1 in the hippocampus, and inhibiting this microRNA restores SERPINF1 expression and ameliorates behavioral deficits in a chronic stress mouse model.",
+    "n_genes": 2,
+    "n_regions": 1
+  },
+  {
+    "pmid": "21990419",
+    "title": "Neuronal correlates of extinction learning are modulated by sex hormones.",
+    "year": "2012",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "amygdala",
+        "effect": "increase",
+        "metric": "brain responses"
+      },
+      {
+        "region": "thalamus",
+        "effect": "increase",
+        "metric": "brain responses"
+      },
+      {
+        "region": "anterior cingulate",
+        "effect": "increase",
+        "metric": "brain responses"
+      },
+      {
+        "region": "ventromedial prefrontal cortex",
+        "effect": "increase",
+        "metric": "brain responses"
+      }
+    ],
+    "extracted_finding": "Oral contraceptive use, which suppresses endogenous sex hormones, leads to higher differential brain responses in the amygdala, thalamus, anterior cingulate, and ventromedial prefrontal cortex during fear extinction compared to men and women in the luteal phase.",
+    "n_genes": 0,
+    "n_regions": 4
+  },
+  {
+    "pmid": "21903032",
+    "title": "Successful pharmacologic treatment of major depressive disorder attenuates amygdala activation to negative facial expressions: a functional magnetic resonance imaging study.",
+    "year": "2012",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "amygdala",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "dorsal prefrontal cortex",
+        "effect": "increase",
+        "metric": "activation"
+      },
+      {
+        "region": "pregenual anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "activation"
+      },
+      {
+        "region": "dorsal cingulate gyrus",
+        "effect": "increase",
+        "metric": "activation"
+      },
+      {
+        "region": "dorsolateral prefrontal cortex",
+        "effect": "increase",
+        "metric": "activation"
+      }
+    ],
+    "extracted_finding": "Successful paroxetine treatment in patients with major depressive disorder significantly decreases amygdala activation to negative facial expressions in clinical responders, likely mediated by improved frontolimbic control involving the pregenual anterior cingulate and prefrontal cortex.",
+    "n_genes": 0,
+    "n_regions": 5
+  },
+  {
+    "pmid": "25165064",
+    "title": "Cognition-Modulated Frontal Activity in Prediction and Augmentation of Antidepressant Efficacy: A Randomized Controlled Pilot Study.",
+    "year": "2016",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "rostral anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "glucose uptake"
+      },
+      {
+        "region": "frontal cortex",
+        "effect": "increase",
+        "metric": "theta power"
+      }
+    ],
+    "extracted_finding": "Manipulating pre-treatment frontal theta power via a cognitive task predicted and augmented antidepressant responses to rTMS in patients with major depressive disorder.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "27987539",
+    "title": "Altered network efficiency in major depressive disorder.",
+    "year": "2016",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "amygdala",
+        "effect": "increase",
+        "metric": "nodal efficiency"
+      },
+      {
+        "region": "thalamus",
+        "effect": "increase",
+        "metric": "nodal efficiency"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "nodal efficiency"
+      },
+      {
+        "region": "dorsolateral prefrontal cortex",
+        "effect": "decrease",
+        "metric": "nodal efficiency"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "nodal efficiency"
+      }
+    ],
+    "extracted_finding": "Major depressive disorder is associated with increased nodal efficiency in affective processing regions (amygdala, thalamus, hippocampus) and decreased nodal efficiency in cognitive control regions (dorsolateral prefrontal cortex, anterior cingulate cortex), indicating disrupted functional connectivity between these systems.",
+    "n_genes": 0,
+    "n_regions": 5
+  },
+  {
+    "pmid": "28410266",
+    "title": "2, 3, 5, 4'-Tetrahydroxystilbene-2-O-β-D-glucoside prevention of lipopolysaccharide-induced depressive-like behaviors in mice involves neuroinflammation and oxido-nitrosative stress inhibition.",
+    "year": "2017",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "BDNF"
+    ],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "BDNF levels"
+      },
+      {
+        "region": "prefrontal cortex",
+        "effect": "no_change",
+        "metric": "BDNF levels"
+      }
+    ],
+    "extracted_finding": "TSG treatment prevented LPS-induced depressive-like behaviors in mice by inhibiting neuroinflammation, oxido-nitrosative stress, and the reduction of BDNF levels in the hippocampus and prefrontal cortex.",
+    "n_genes": 1,
+    "n_regions": 2
+  },
+  {
+    "pmid": "38871019",
+    "title": "Integrative molecular and structural neuroimaging analyses of the interaction between depression and age of onset: A multimodal magnetic resonance imaging study.",
+    "year": "2024",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "insula",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "superior temporal gyrus",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "anterior cingulate gyrus",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "orbitofrontal gyrus",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "thalamus",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "frontal lobe",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "cerebellum",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "parietal lobe",
+        "effect": "decrease",
+        "metric": "gray matter"
+      },
+      {
+        "region": "temporal lobe",
+        "effect": "decrease",
+        "metric": "gray matter"
+      }
+    ],
+    "extracted_finding": "The study reveals a pronounced antagonistic interaction between depression and age of onset affecting gray matter volume in the right insula, superior temporal gyrus, anterior cingulate gyrus, and orbitofrontal gyrus, with depression-related reductions primarily located in thalamic-limbic-cortical regions linked to serotonergic and dopaminergic systems.",
+    "n_genes": 0,
+    "n_regions": 9
+  },
+  {
+    "pmid": "21767611",
+    "title": "Chronic variable physical stress during the peripubertal-juvenile period causes differential depressive and anxiogenic effects in the novelty-seeking phenotype: functional implications for hippocampal and amygdalar brain-derived neurotrophic factor and the mossy fibre plasticity.",
+    "year": "2011",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "BDNF"
+    ],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "BDNF mRNA"
+      },
+      {
+        "region": "basolateral amygdala",
+        "effect": "increase",
+        "metric": "BDNF mRNA"
+      },
+      {
+        "region": "suprapyramidal mossy fibre terminal field",
+        "effect": "increase",
+        "metric": "volume"
+      },
+      {
+        "region": "suprapyramidal mossy fibre",
+        "effect": "decrease",
+        "metric": "volume"
+      }
+    ],
+    "extracted_finding": "Chronic variable physical stress during the peripubertal-juvenile period induces differential depressive- and anxiety-like behaviors in high- and low-reactivity rats, mediated by opposite epigenetic regulation of hippocampal BDNF and subsequent changes in mossy fibre volume.",
+    "n_genes": 1,
+    "n_regions": 4
+  },
+  {
+    "pmid": "41137395",
+    "title": "Extracellular vesicle-based bumetanide delivery alleviates depression-like behaviors of male mice by restoring chloride homeostasis.",
+    "year": "2026",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "SLC12A5",
+      "GABRA1",
+      "CHRNA1"
+    ],
+    "extracted_regions": [
+      {
+        "region": "dorsal hippocampus",
+        "effect": "decrease",
+        "metric": "KCC2 expression"
+      }
+    ],
+    "extracted_finding": "Extracellular vesicle-based delivery of bumetanide restores KCC2-mediated chloride homeostasis in the dorsal hippocampus and alleviates depression-like behaviors in mice subjected to chronic social defeat stress.",
+    "n_genes": 3,
+    "n_regions": 1
+  },
+  {
+    "pmid": "27327561",
+    "title": "Neurochemical correlates of rapid treatment response to electroconvulsive therapy in patients with major depression.",
+    "year": "2017",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "creatine"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "N-acetylaspartate"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "N-acetylaspartate"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "glutamate/glutamine"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "glutamate/glutamine"
+      }
+    ],
+    "extracted_finding": "Electroconvulsive therapy elicits robust effects on brain chemistry, specifically impacting creatine, N-acetylaspartate, and glutamate/glutamine levels in the anterior cingulate cortex and hippocampus, suggesting restorative and neurotrophic processes in patients with major depression.",
+    "n_genes": 0,
+    "n_regions": 5
+  },
+  {
+    "pmid": "40480639",
+    "title": "Corticosteroid-induced gene expression is attenuated in the hippocampus of mice with model of post-traumatic stress disorder.",
+    "year": "2025",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "MT2",
+      "FKBP5",
+      "JDP2",
+      "CRH",
+      "NR3C1",
+      "NR3C2"
+    ],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "gene expression"
+      },
+      {
+        "region": "hypothalamus",
+        "effect": "no_change",
+        "metric": "gene expression"
+      }
+    ],
+    "extracted_finding": "In a mouse model of PTSD induced by single prolonged stress, hippocampal glucocorticoid receptor signaling is attenuated, evidenced by reduced Fkbp5 expression and a lack of transcriptional response to high-dose dexamethasone or hydrocortisone compared to controls.",
+    "n_genes": 6,
+    "n_regions": 2
+  },
+  {
+    "pmid": "34561028",
+    "title": "Emotion Dysregulation Following Trauma: Shared Neurocircuitry of Traumatic Brain Injury and Trauma-Related Psychiatric Disorders.",
+    "year": "2022",
+    "extracted_study_type": "review",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "prefrontal cortex",
+        "effect": "no_change",
+        "metric": "connectivity"
+      },
+      {
+        "region": "subcortical circuitry",
+        "effect": "no_change",
+        "metric": "connectivity"
+      }
+    ],
+    "extracted_finding": "This review synthesizes evidence that acute post-injury molecular processes from physical or emotional trauma adversely impact prefrontal-subcortical circuitry, leading to shared long-term structural and functional changes in TBI and PTSD that manifest as emotion dysregulation.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "28039090",
+    "title": "Effects of previous physical exercise to chronic stress on long-term aversive memory and oxidative stress in amygdala and hippocampus of rats.",
+    "year": "2017",
+    "extracted_study_type": "animal",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "amygdala",
+        "effect": "no_change",
+        "metric": "gene expression"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "gene expression"
+      }
+    ],
+    "extracted_finding": "Previous physical exercise protected rats against aversive memory impairment and brain oxidative damage caused by chronic variable stress, although it did not fully reverse changes in enzymatic activities.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "35987176",
+    "title": "Altered functional connectivity in common resting-state networks in patients with major depressive disorder: A resting-state functional connectivity study.",
+    "year": "2022",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "insula",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "inferior parietal lobule",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "superior frontal gyrus",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      }
+    ],
+    "extracted_finding": "Patients with major depressive disorder exhibited altered resting-state functional connectivity, specifically increased connectivity between the hippocampus and anterior cingulate cortex, and decreased connectivity between the insula and anterior cingulate cortex, as well as between the inferior parietal lobule and superior frontal gyrus.",
+    "n_genes": 0,
+    "n_regions": 6
+  },
+  {
+    "pmid": "29747140",
+    "title": "Short-term escitalopram treatment normalizes aberrant self-referential processing in major depressive disorder.",
+    "year": "2018",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "medial prefrontal cortex",
+        "effect": "increase",
+        "metric": "neural response"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "neural response"
+      },
+      {
+        "region": "medial fronto-parietal regions",
+        "effect": "decrease",
+        "metric": "neural response"
+      }
+    ],
+    "extracted_finding": "One-week treatment with escitalopram normalized aberrant self-referential processing in depressed patients by shifting focus from the self to the external environment and potentiating positive self-referential processing before symptom improvement.",
+    "n_genes": 0,
+    "n_regions": 3
+  },
+  {
+    "pmid": "20218796",
+    "title": "A single photon emission computerized tomography (SPECT) study of regional cerebral blood flow in bipolar disorder.",
+    "year": "2010",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "frontal cortex",
+        "effect": "decrease",
+        "metric": "regional cerebral blood flow"
+      },
+      {
+        "region": "anterior cingulate",
+        "effect": "decrease",
+        "metric": "regional cerebral blood flow"
+      },
+      {
+        "region": "parietal cortex",
+        "effect": "decrease",
+        "metric": "regional cerebral blood flow"
+      },
+      {
+        "region": "temporal cortex",
+        "effect": "decrease",
+        "metric": "regional cerebral blood flow"
+      },
+      {
+        "region": "thalamus",
+        "effect": "decrease",
+        "metric": "regional cerebral blood flow"
+      }
+    ],
+    "extracted_finding": "Patients with bipolar disorder and unipolar depression exhibit significantly reduced regional cerebral blood flow in frontal, temporal, parietal, and subcortical regions compared to controls, with altered blood flow in frontal-subcortical systems characterizing both conditions.",
+    "n_genes": 0,
+    "n_regions": 5
+  },
+  {
+    "pmid": "25977168",
+    "title": "Olfactory bulb volume predicts therapeutic outcome in major depression disorder.",
+    "year": "2016",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "olfactory bulb",
+        "effect": "decrease",
+        "metric": "volume"
+      }
+    ],
+    "extracted_finding": "Reduced olfactory bulb volume is associated with non-response to psychotherapy in women with major depressive disorder, suggesting it may be a biological vulnerability factor.",
+    "n_genes": 0,
+    "n_regions": 1
+  },
+  {
+    "pmid": "34688026",
+    "title": "Abnormal core functional connectivity on the pathology of MDD and antidepressant treatment: A systematic review.",
+    "year": "2022",
+    "extracted_study_type": "review",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "amygdala",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "insula",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "prefrontal cortex",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "precuneus",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "cerebellar",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "pulvinar",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      }
+    ],
+    "extracted_finding": "This systematic review identifies a set of core abnormal functional connectivity (CA-FC) patterns involving the amygdala, insula, ACC, and PFC that contribute to mood and cognitive impairment in MDD, with symptom remission linked to the normalization of these connectivity patterns after treatment.",
+    "n_genes": 0,
+    "n_regions": 7
+  },
+  {
+    "pmid": "31392266",
+    "title": "Neural correlates of weighted reward prediction error during reinforcement learning classify response to cognitive behavioral therapy in depression.",
+    "year": "2019",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "striatum",
+        "effect": "increase",
+        "metric": "neural activity"
+      },
+      {
+        "region": "amygdala",
+        "effect": "increase",
+        "metric": "neural activity"
+      }
+    ],
+    "extracted_finding": "Pretreatment neural activity encoding weighted reward prediction error in the right striatum and right amygdala predicts response to cognitive behavioral therapy in depression.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "29742620",
+    "title": "Ketamine differentially restores diverse alterations of neuroligins in brain regions in a rat model of neuropathic pain-induced depression.",
+    "year": "2018",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "NLGN1",
+      "NLGN2",
+      "BDNF"
+    ],
+    "extracted_regions": [
+      {
+        "region": "medial prefrontal cortex",
+        "effect": "decrease",
+        "metric": "NL1"
+      },
+      {
+        "region": "medial prefrontal cortex",
+        "effect": "increase",
+        "metric": "NL2"
+      },
+      {
+        "region": "medial prefrontal cortex",
+        "effect": "decrease",
+        "metric": "BDNF"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "NL1"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "BDNF"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "NL2"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "BDNF"
+      }
+    ],
+    "extracted_finding": "In a rat model of neuropathic pain-induced depression, neuroligins (NL1, NL2) and BDNF showed diverse regional alterations in the mPFC, ACC, and hippocampus, which were differentially restored by ketamine administration.",
+    "n_genes": 3,
+    "n_regions": 7
+  },
+  {
+    "pmid": "25864195",
+    "title": "Sex differences in orbitofrontal connectivity in male and female veterans with TBI.",
+    "year": "2015",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "orbitofrontal cortex",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "parietal",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "occipital",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "frontal",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "temporal",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      }
+    ],
+    "extracted_finding": "Female and male veterans with TBI exhibit divergent patterns of orbitofrontal functional connectivity, with females showing greater connectivity to parietal and occipital regions and males to frontal and temporal regions, while clinical associations with aggression were found only in males.",
+    "n_genes": 0,
+    "n_regions": 5
+  },
+  {
+    "pmid": "27862185",
+    "title": "Short-term exposure to enriched environment rescues chronic stress-induced impaired hippocampal synaptic plasticity, anxiety, and memory deficits.",
+    "year": "2017",
+    "extracted_study_type": "animal",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "LTP"
+      },
+      {
+        "region": "hippocampal CA1",
+        "effect": "decrease",
+        "metric": "LTP"
+      }
+    ],
+    "extracted_finding": "Short-term exposure to an enriched environment rescues chronic stress-induced impairments in hippocampal synaptic plasticity, working memory, and anxiety-like behavior in rats.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "31310776",
+    "title": "Potential link between antidepressant-like effects of ketamine and promotion of adult neurogenesis in the ventral hippocampus of mice.",
+    "year": "2019",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "GRIN2B",
+      "GRIN1",
+      "BDNF",
+      "GRIA1",
+      "MTOR"
+    ],
+    "extracted_regions": [
+      {
+        "region": "ventral hippocampus",
+        "effect": "increase",
+        "metric": "neuronal progenitor density"
+      },
+      {
+        "region": "ventral hippocampus",
+        "effect": "increase",
+        "metric": "newborn granule cell density"
+      },
+      {
+        "region": "dorsal hippocampus",
+        "effect": "no_change",
+        "metric": "neuronal progenitor density"
+      },
+      {
+        "region": "dorsal hippocampus",
+        "effect": "no_change",
+        "metric": "newborn granule cell density"
+      }
+    ],
+    "extracted_finding": "A single ketamine administration selectively promotes adult neurogenesis and induces expression of GluN2B, p-mTOR, GluA1, and BDNF in the ventral hippocampus, but not the dorsal hippocampus, correlating with ameliorated depression-related behavior without affecting spatial memory.",
+    "n_genes": 5,
+    "n_regions": 4
+  },
+  {
+    "pmid": "25533973",
+    "title": "DISC1 gene and affective psychopathology: a combined structural and functional MRI study.",
+    "year": "2015",
+    "extracted_study_type": "human",
+    "extracted_genes": [
+      "DISC1"
+    ],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "volume"
+      },
+      {
+        "region": "parahippocampus",
+        "effect": "decrease",
+        "metric": "volume"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "dorsolateral prefrontal cortex",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "volume"
+      },
+      {
+        "region": "parahippocampus",
+        "effect": "increase",
+        "metric": "volume"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "activation"
+      }
+    ],
+    "extracted_finding": "The DISC1 Ser704Cys genotype influences (para)hippocampal structure and dorsal prefrontal cortex functioning during executive planning, with effects modulated by the presence of affective psychopathology.",
+    "n_genes": 1,
+    "n_regions": 7
+  },
+  {
+    "pmid": "25133665",
+    "title": "Abnormal amygdala resting-state functional connectivity in adolescent depression.",
+    "year": "2014",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "amygdala",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "parahippocampus",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "brainstem",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "precuneus",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      }
+    ],
+    "extracted_finding": "Adolescents with major depressive disorder exhibited reduced positive resting-state functional connectivity between the amygdala and the hippocampus, parahippocampus, and brainstem, alongside increased positive connectivity between the amygdala and precuneus compared to healthy controls.",
+    "n_genes": 0,
+    "n_regions": 5
+  },
+  {
+    "pmid": "32768711",
+    "title": "Neural correlates of the association between depression and high density lipoprotein cholesterol change.",
+    "year": "2020",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "ventromedial prefrontal cortex",
+        "effect": "decrease",
+        "metric": "gray matter volume"
+      },
+      {
+        "region": "genu of corpus callosum",
+        "effect": "decrease",
+        "metric": "micro-structural integrity"
+      }
+    ],
+    "extracted_finding": "In patients with major depressive disorder, lower serum HDL-C levels were associated with reduced gray matter volume in the ventromedial prefrontal cortex and lower white matter integrity in the genu of the corpus callosum, with default mode network connectivity mediating the relationship between prefrontal volume and HDL-C.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "25316238",
+    "title": "Magnetic resonance study of the structure and function of the hippocampus and amygdala in patients with depression.",
+    "year": "2014",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "volume"
+      },
+      {
+        "region": "amygdala",
+        "effect": "decrease",
+        "metric": "volume"
+      }
+    ],
+    "extracted_finding": "Hippocampal and amygdala volumes decreased with increasing depression severity, accompanied by reduced fMRI signal response to negative stimuli and altered cerebral vein morphology.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "32029885",
+    "title": "Hippocampal subregions and networks linked with antidepressant response to electroconvulsive therapy.",
+    "year": "2021",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "cerebral blood flow"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "gray matter volume"
+      },
+      {
+        "region": "amygdala",
+        "effect": null,
+        "metric": null
+      },
+      {
+        "region": "parahippocampal cortex",
+        "effect": null,
+        "metric": null
+      },
+      {
+        "region": "thalamus",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "striatum",
+        "effect": "decrease",
+        "metric": "functional connectivity"
+      }
+    ],
+    "extracted_finding": "The location and extent of ECT-related hippocampal plasticity, including changes in cerebral blood flow and gray matter volume, differ between antidepressant responders and nonresponders, with specific decreases in hippocampus-thalamus-striatum functional connectivity observed only in responders.",
+    "n_genes": 0,
+    "n_regions": 6
+  },
+  {
+    "pmid": "31475432",
+    "title": "White matter integrity and functional predictors of response to repetitive transcranial magnetic stimulation for posttraumatic stress disorder and major depression.",
+    "year": "2019",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "dorsolateral prefrontal cortex",
+        "effect": "no_change",
+        "metric": "stimulation target"
+      },
+      {
+        "region": "medial prefrontal cortex",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "subgenual anterior cingulate cortex",
+        "effect": "no_change",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "anterior thalamic radiations",
+        "effect": "increase",
+        "metric": "fractional anisotropy"
+      }
+    ],
+    "extracted_finding": "Fractional anisotropy in the anterior thalamic radiations was consistently associated with symptom improvement in patients with PTSD and MDD following repetitive transcranial magnetic stimulation.",
+    "n_genes": 0,
+    "n_regions": 4
+  },
+  {
+    "pmid": "29361837",
+    "title": "Cortical surface area reduction in identification of subjects at high risk for post-traumatic stress disorder: A pilot study.",
+    "year": "2018",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "frontal-temporal loop",
+        "effect": "decrease",
+        "metric": "volume"
+      },
+      {
+        "region": "superior parietal cortex",
+        "effect": "decrease",
+        "metric": "surface area"
+      },
+      {
+        "region": "insula",
+        "effect": "decrease",
+        "metric": "surface area"
+      },
+      {
+        "region": "rostral anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "surface area"
+      }
+    ],
+    "extracted_finding": "Reduced cortical surface area in the left insula and left rostral anterior cingulate cortex observed within 48 hours of trauma predicts subsequent development of PTSD.",
+    "n_genes": 0,
+    "n_regions": 4
+  },
+  {
+    "pmid": "22699718",
+    "title": "Diffusion tensor imaging to aid subgenual cingulum target selection for deep brain stimulation in depression.",
+    "year": "2012",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "subgenual cingulate gyrus",
+        "effect": "no_change",
+        "metric": "target location"
+      }
+    ],
+    "extracted_finding": "Targets within the subgenual cingulate gyrus selected using diffusion tensor imaging differ significantly in location from those selected using standard T2 sequences.",
+    "n_genes": 0,
+    "n_regions": 1
+  },
+  {
+    "pmid": "36610318",
+    "title": "Smaller rostral cingulate volume and psychosocial correlates in veterans at risk for suicide.",
+    "year": "2023",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "rostral anterior cingulate cortex",
+        "effect": "decrease",
+        "metric": "gray matter volume"
+      }
+    ],
+    "extracted_finding": "Veterans with Major Depressive Disorder and a history of suicide attempt exhibited significantly smaller left rostral anterior cingulate cortex gray matter volume compared to those without a suicide attempt, with both reduced volume and lower grit levels predicting suicide attempt history.",
+    "n_genes": 0,
+    "n_regions": 1
+  },
+  {
+    "pmid": "40199850",
+    "title": "Alterations in gamma-aminobutyric acid and glutamate neurotransmission linked to intermittent theta-burst stimulation in depression: a sham-controlled study.",
+    "year": "2025",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "dorsal anterior cingulate cortex",
+        "effect": "no_change",
+        "metric": "GABA levels"
+      },
+      {
+        "region": "dorsal anterior cingulate cortex",
+        "effect": "no_change",
+        "metric": "glutamate levels"
+      },
+      {
+        "region": "nucleus accumbens",
+        "effect": "no_change",
+        "metric": "GABA_A-receptor availability"
+      },
+      {
+        "region": "dorsal anterior cingulate cortex",
+        "effect": "no_change",
+        "metric": "GABA_A-receptor availability"
+      }
+    ],
+    "extracted_finding": "While intermittent theta-burst stimulation did not significantly alter overall GABA, glutamate, or GABA_A-receptor levels compared to sham, improvements in depressive symptoms were positively correlated with reduced GABA levels in the dorsal anterior cingulate cortex and baseline GABA_A-receptor availability in the nucleus accumbens.",
+    "n_genes": 0,
+    "n_regions": 4
+  },
+  {
+    "pmid": "21963442",
+    "title": "Differences between effects of psychological versus pharmacological treatments on functional and morphological brain alterations in anxiety disorders and major depressive disorder: a systematic review.",
+    "year": "2012",
+    "extracted_study_type": "review",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "prefrontal cortex",
+        "effect": "increase",
+        "metric": "activity"
+      },
+      {
+        "region": "amygdala",
+        "effect": "decrease",
+        "metric": "activity"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "activity"
+      }
+    ],
+    "extracted_finding": "Both psychotherapy and pharmacotherapy normalize functional brain abnormalities in anxiety and depressive disorders, with pharmacotherapy decreasing limbic over-activity and psychotherapy increasing frontal recruitment, while only pharmacotherapy is associated with morphological changes.",
+    "n_genes": 0,
+    "n_regions": 3
+  },
+  {
+    "pmid": "32723547",
+    "title": "Stress and remodeling of hippocampal spine synapses.",
+    "year": "2020",
+    "extracted_study_type": "review",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "decrease",
+        "metric": "spine synapses"
+      },
+      {
+        "region": "prefrontal cortex",
+        "effect": "decrease",
+        "metric": "spine synapses"
+      }
+    ],
+    "extracted_finding": "This review summarizes research indicating that traumatic stress causes a loss of hippocampal and prefrontal cortical spine synapses, supporting the synaptogenic hypothesis of major depressive disorder which links reduced spine synapse density to depressive symptom severity.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "24621958",
+    "title": "Neural correlates of cognitive and affective processing in maltreated youth with posttraumatic stress symptoms: does gender matter?",
+    "year": "2014",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "precuneus",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "posterior middle cingulate",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "inferior frontal gyrus",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "posterior cingulate",
+        "effect": "increase",
+        "metric": "activation"
+      },
+      {
+        "region": "dorsomedial prefrontal cortex",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "cerebellum I-VI",
+        "effect": "decrease",
+        "metric": "activation"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "activation"
+      },
+      {
+        "region": "fusiform cortex",
+        "effect": "increase",
+        "metric": "activation"
+      },
+      {
+        "region": "cerebellar crus I",
+        "effect": "increase",
+        "metric": "activation"
+      },
+      {
+        "region": "visual cortex",
+        "effect": "increase",
+        "metric": "activation"
+      }
+    ],
+    "extracted_finding": "Maltreated youth with PTSD symptoms exhibit distinct, gender-specific patterns of neural activation during executive and affective processing, with males showing hypoactivation in attentional networks and females showing decreased activity in prefrontal and cerebellar regions.",
+    "n_genes": 0,
+    "n_regions": 10
+  },
+  {
+    "pmid": "40795854",
+    "title": "Molecular and neural control of social hierarchy by a forebrain-thalamocortical circuit.",
+    "year": "2025",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "TRPM3"
+    ],
+    "extracted_regions": [
+      {
+        "region": "mediodorsal thalamus",
+        "effect": "no_change",
+        "metric": "circuit potentiation"
+      },
+      {
+        "region": "caudal anterior cingulate cortex",
+        "effect": "no_change",
+        "metric": "synaptic plasticity"
+      },
+      {
+        "region": "orbitofrontal cortex",
+        "effect": "no_change",
+        "metric": null
+      },
+      {
+        "region": "basal forebrain",
+        "effect": "no_change",
+        "metric": null
+      },
+      {
+        "region": "dorsomedial prefrontal cortex",
+        "effect": "increase",
+        "metric": "pyramidal cell activity"
+      }
+    ],
+    "extracted_finding": "A forebrain-thalamocortical circuit involving the mediodorsal thalamus and caudal anterior cingulate cortex regulates social hierarchy in mice through Trpm3-dependent synaptic plasticity and opposing patterns of pyramidal cell activity compared to the dorsomedial prefrontal cortex.",
+    "n_genes": 1,
+    "n_regions": 5
+  },
+  {
+    "pmid": "30240504",
+    "title": "Functional plasticity of the dorsomedial prefrontal cortex in depression reorganized by electroconvulsive therapy: Validation in two independent samples.",
+    "year": "2019",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "dorsomedial prefrontal cortex",
+        "effect": "increase",
+        "metric": "local activity"
+      },
+      {
+        "region": "dorsomedial prefrontal cortex",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      },
+      {
+        "region": "posterior cingulate cortex",
+        "effect": "increase",
+        "metric": "functional connectivity"
+      }
+    ],
+    "extracted_finding": "Electroconvulsive therapy increases local activity in the dorsomedial prefrontal cortex and enhances its functional connectivity with the posterior cingulate cortex, which correlates with clinical improvement in depression.",
+    "n_genes": 0,
+    "n_regions": 3
+  },
+  {
+    "pmid": "32133764",
+    "title": "Hippocampal CD39/ENTPD1 promotes mouse depression-like behavior through hydrolyzing extracellular ATP.",
+    "year": "2020",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "ENTPD1"
+    ],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "neurogenesis"
+      },
+      {
+        "region": "hippocampus",
+        "effect": "increase",
+        "metric": "dendritic spine numbers"
+      }
+    ],
+    "extracted_finding": "Hippocampal CD39/ENTPD1 promotes chronic social defeat stress-induced depression-like behavior in mice by hydrolyzing extracellular ATP, while its inhibition increases ATP levels, neurogenesis, and dendritic spine numbers to produce antidepressant effects.",
+    "n_genes": 1,
+    "n_regions": 2
+  },
+  {
+    "pmid": "41821416",
+    "title": "Unravelling Structural and Metabolic Alterations in the Hippocampus and Anterior Cingulate Cortex Using Integrated MRI and MRS in Major Depressive Disorder.",
+    "year": "2026",
+    "extracted_study_type": "human",
+    "extracted_genes": [],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "volume"
+      },
+      {
+        "region": "anterior cingulate cortex",
+        "effect": "increase",
+        "metric": "volume"
+      }
+    ],
+    "extracted_finding": "In patients with Major Depressive Disorder, anterior cingulate cortex volume was significantly increased while hippocampal volume remained unchanged, accompanied by distinct metabolic alterations in both regions.",
+    "n_genes": 0,
+    "n_regions": 2
+  },
+  {
+    "pmid": "27104927",
+    "title": "Propofol ameliorates electroconvulsive shock-induced learning and memory impairment by regulation of synaptic metaplasticity via autophosphorylation of CaMKIIa at Thr 305 in stressed rats.",
+    "year": "2016",
+    "extracted_study_type": "animal",
+    "extracted_genes": [
+      "CAMK2A"
+    ],
+    "extracted_regions": [
+      {
+        "region": "hippocampus",
+        "effect": "no_change",
+        "metric": "protein expression"
+      }
+    ],
+    "extracted_finding": "Propofol ameliorates electroconvulsive shock-induced learning and memory impairment in stressed rats by regulating synaptic metaplasticity via autophosphorylation of CaMKIIa at Thr 305.",
+    "n_genes": 1,
+    "n_regions": 1
+  }
+]
