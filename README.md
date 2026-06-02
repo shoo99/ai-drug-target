@@ -36,6 +36,9 @@ Dual-track analysis: **Antimicrobial Resistance (AMR)** and **Chronic Pruritus (
 ### Paper 4 — MDD GWAS Drug Repurposing (Preprint)
 > Kang B. (2026). Colocalization Reprioritizes the Major Depressive Disorder Druggable Genome: Demotion of the Top TWAS Signal (DRD2) and Nomination of SLC12A5/FURIN/DCC by Direction-Aware, Confirmation-Gated Analysis of 635 GWAS Loci. *Research Square*. DOI: [10.21203/rs.3.rs-9880173/v1](https://doi.org/10.21203/rs.3.rs-9880173/v1)
 
+### ARIA — Autonomous Transcriptome Analysis Framework (Preprint)
+> Kang B. (2026). ARIA: Adaptive Reasoning for Integrated Analysis — An LLM-Powered Framework for Autonomous Transcriptome Analysis with Decision-Aware Workflow Orchestration. *Research Square*. DOI: [10.21203/rs.3.rs-9500973/v1](https://doi.org/10.21203/rs.3.rs-9500973/v1)
+
 ## Key Results
 
 ### AMR Track — Top Novel Targets
