@@ -1,0 +1,27 @@
+set,region,metric_class,decrease,increase,null,n_studies,sign_p
+BEFORE-clean (all v3),amygdala,functional,110,128,0,96,0.27044989509957157
+BEFORE-clean (all v3),hippocampus,structural,153,40,0,79,8.97370124274252e-17
+BEFORE-clean (all v3),amygdala,structural,69,37,0,46,0.0024400083793490387
+BEFORE-clean (all v3),hippocampus,functional,51,44,0,46,0.5383940262921683
+BEFORE-clean (all v3),prefrontal cortex,functional,31,29,0,42,0.8974218269914305
+BEFORE-clean (all v3),insula,functional,22,28,0,24,0.47988766169832786
+BEFORE-clean (all v3),striatum,functional,19,26,0,19,0.3712980344710104
+BEFORE-clean (all v3),ACC,functional,16,12,0,18,0.5715881884098053
+BEFORE-clean (all v3),striatum,structural,15,2,0,7,0.002349853515625
+BEFORE-clean (all v3),thalamus,structural,12,5,0,10,0.143463134765625
+BEFORE-clean (all v3),thalamus,functional,7,10,0,9,0.629058837890625
+BEFORE-clean (all v3),insula,structural,10,3,0,9,0.09228515625
+BEFORE-clean (all v3),prefrontal cortex,structural,8,2,0,6,0.109375
+AFTER-clean,amygdala,functional,96,114,0,87,0.24068185791401187
+AFTER-clean,hippocampus,structural,135,34,0,69,1.907843728854735e-15
+AFTER-clean,amygdala,structural,62,24,0,36,5.083654201844157e-05
+AFTER-clean,hippocampus,functional,38,39,0,39,1.0
+AFTER-clean,prefrontal cortex,functional,29,25,0,36,0.6834892282353375
+AFTER-clean,insula,functional,20,26,0,22,0.4613911821367651
+AFTER-clean,striatum,functional,19,23,0,17,0.6439689563703723
+AFTER-clean,ACC,functional,15,10,0,16,0.42435622215270996
+AFTER-clean,striatum,structural,14,0,0,6,0.0001220703125
+AFTER-clean,thalamus,structural,9,4,0,7,0.266845703125
+AFTER-clean,thalamus,functional,4,9,0,8,0.266845703125
+AFTER-clean,insula,structural,7,3,0,7,0.34375
+AFTER-clean,prefrontal cortex,structural,8,2,0,6,0.109375

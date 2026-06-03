@@ -1,0 +1,15 @@
+region,metric_class,n_entries,n_studies,decrease,increase,null,sign_test_p
+amygdala,functional,247,96,110,128,0,0.27044989509957157
+hippocampus,structural,194,79,153,40,0,8.97370124274252e-17
+amygdala,structural,108,46,69,37,0,0.0024400083793490387
+hippocampus,functional,97,46,51,44,0,0.5383940262921683
+prefrontal cortex,functional,62,42,31,29,0,0.8974218269914305
+insula,functional,50,24,22,28,0,0.47988766169832786
+striatum,functional,42,17,18,24,0,0.44079906734259566
+ACC,functional,37,23,18,19,0,1.0
+thalamus,structural,17,10,12,5,0,0.143463134765625
+thalamus,functional,17,9,7,10,0,0.629058837890625
+ACC,structural,13,11,9,4,0,0.266845703125
+striatum,structural,13,6,12,1,0,0.00341796875
+insula,structural,13,9,10,3,0,0.09228515625
+prefrontal cortex,structural,10,6,8,2,0,0.109375
