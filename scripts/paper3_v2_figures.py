@@ -139,18 +139,19 @@ def fig2(clean):
                              "insula", "striatum", "thalamus"] if len(rmag.get(reg, [])) >= 5]
     data = [rmag[reg] for reg in order]
     import statistics
-    labels = [f"{reg}\n(n={len(rmag[reg])}, med={statistics.median(rmag[reg]):+.2f})" for reg in order]
-    fig, ax = plt.subplots(figsize=(8.2, 4.8))
+    # n and median on separate lines so adjacent labels do not collide
+    labels = [f"{reg}\nn={len(rmag[reg])}\nmed={statistics.median(rmag[reg]):+.2f}" for reg in order]
+    fig, ax = plt.subplots(figsize=(9.6, 5.0))
     bp = ax.boxplot(data, vert=True, showfliers=False, patch_artist=True,
                     medianprops=dict(color="black", lw=1.5))
     for patch in bp["boxes"]:
         patch.set_facecolor("#9ecae1")
         patch.set_alpha(0.8)
     for xi, vals in enumerate(data, start=1):
-        import random  # not seeded; only horizontal jitter for display
         xs = [xi + (hash((xi, j)) % 1000 / 1000 - 0.5) * 0.3 for j in range(len(vals))]
         ax.scatter(xs, vals, s=6, color="#08519c", alpha=0.35, zorder=3)
     ax.axhline(0, color="#888", lw=1, ls="--")
+    ax.set_xticks(range(1, len(order) + 1))
     ax.set_xticklabels(labels, fontsize=8)
     ax.set_ylabel("reported correlation r (signed)", fontsize=9)
     ax.set_title("Stress/severity × region correlations (as reported)", fontsize=10)
