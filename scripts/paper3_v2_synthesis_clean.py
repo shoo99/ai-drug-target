@@ -108,7 +108,7 @@ def main():
         w.writeheader(); w.writerows(rows_all + rows_clean)
     print(f"\n[v2] wrote {OUTDIR}/v2_clean_synthesis.csv")
     print(f"[v2] CAVEATS: clean set = {len(clean)} sentences from "
-          f"{len(set(r['pmid'] for r in clean))} studies; sample size in ~5% -> "
+          f"{len(set(r['pmid'] for r in clean))} studies; sample size in ~6% -> "
           f"sign-test/magnitude synthesis, not pooled meta-analysis.")
 
 if __name__ == "__main__":

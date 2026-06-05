@@ -1,0 +1,12 @@
+total mapped entries:        1490
+change-type (dec/inc) model: 856
+entered silver (unambiguous cue): 586
+correct:                     564  (96.2%)
+
+confusion matrix (rows=model direction, cols=silver/lexical label):
+               silver=decrease  silver=increase
+model=decrease        292              19
+model=increase          3             272
+
+model 'increase' but lexical 'decrease' (false increase): 3
+model 'decrease' but lexical 'increase' (false decrease): 19

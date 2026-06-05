@@ -35,3 +35,8 @@ reports/*.txt
 # Model weights
 models/*.pt
 models/*.pkl
+
+# Paper 3 v2.2 — full-text source sentences kept out of PUBLIC repo (mixed licenses; KBRI-private only)
+paper3/results_v2/clean_entries_canonical.jsonl
+paper3/results_v2/validation/aicrosscheck_50_labeled.csv
+paper3/results_v2/validation/silver_disagreements.csv

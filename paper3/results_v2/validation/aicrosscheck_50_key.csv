@@ -1,0 +1,51 @@
+item_id,model_region,model_metric,model_direction_raw,model_direction_reduced,model_value,strata,negation,deactivation,correlation,no_cue,study
+E00253,limbic_system,connectivity,positive_correlation,increase,0.2,correlation,0,0,1,1,42046888
+E01142,hippocampus,volume,decrease,decrease,-0.14,easy,0,0,0,0,26122586
+E01290,L-DLPFC,connectivity,negative_correlation,decrease,-0.3841,correlation,0,0,1,1,41109521
+E01459,parahippocampal gyrus of the LMB,connectivity,positive_correlation,increase,0.243,correlation,0,0,1,1,41173853
+E00135,rACC–right precuneus,connectivity,decrease,decrease,-3.91,negation,1,0,0,0,30266022
+E00314,amygdala,volume,decrease,decrease,-0.2,negation,1,0,0,0,29217296
+E00198,hippocampus,volume,decrease,decrease,-1.95,no_cue,0,0,0,1,38909414
+E01378,PVN,homer1a mRNA expression,positive_correlation,increase,0.353,correlation,0,0,1,1,20738409
+E01053,left mPFC,connectivity,negative_correlation,decrease,-0.5252,correlation,0,0,1,1,34035803
+E00058,substantia nigra,binding,positive_correlation,increase,0.6,correlation,0,0,1,0,40550956
+E01181,hippocampus,activation,negative_correlation,decrease,-0.39,correlation,0,0,1,1,33819532
+E01006,right hippocampus,volume,decrease,decrease,-0.74,negation,1,0,0,0,30809764
+E00515,ACC,[11C]P943 BPND,negative_correlation,decrease,-0.42,correlation,0,0,1,0,21893657
+E00951,IL,other,increase,increase,3.1983,negation,1,0,0,1,39711016
+E00703,CA1,cell_count,decrease,decrease,2.535,easy,0,0,0,0,24675061
+E00900,hippocampus,volume,decrease,decrease,-0.23,negation,1,0,0,0,35728922
+E00791,hippocampal fissure,volume,increase,increase,0.11,easy,0,0,0,0,31175352
+E01026,hippocampus,volume,increase,increase,0.8,negation,1,0,0,1,30006199
+E00529,hippocampus,AKT signaling,decrease,decrease,2.8,negation,1,0,0,0,41898673
+E00191,hippocampus,volume,decrease,decrease,-3.087,no_cue,0,0,0,1,38909414
+E00295,hippocampus,volume,decrease,decrease,-0.1,negation,1,0,0,0,34916497
+E00391,left putamen,activation,decrease,decrease,2.71,deactivation,0,1,0,0,23930595
+E00867,caudate nuclei,connectivity,decrease,decrease,-4.29,no_cue,0,0,0,1,21051206
+E00342,posterior cingulate cortex,connectivity,negative_correlation,decrease,-0.512,correlation,0,0,1,0,22519864
+E00731,amygdala-pgPFC,connectivity,negative_correlation,decrease,0.84,correlation,0,0,1,0,27872489
+E01438,right nucleus accumbens,volume,negative_correlation,decrease,-23.81,correlation,0,0,1,1,39921150
+E00535,striatum,BDNF expression,decrease,decrease,-5.3,no_cue,0,0,0,1,41898673
+E01258,left amygdala-right AI connectivity,connectivity,decrease,decrease,1.01,no_cue,0,0,0,1,34455213
+E01059,medial prefrontal cortex,activation,negative_correlation,decrease,-4.9,correlation,0,0,1,0,29422521
+E00776,PFC,TPH expression,decrease,decrease,5.2,no_cue,0,0,0,1,24551226
+E00567,amygdala,connectivity,increase,increase,1.2,no_cue,0,0,0,1,39738361
+E00104,total GMV,volume,negative_correlation,decrease,-0.21,correlation,0,0,1,1,36088843
+E00307,amygdala,volume,null,null,-0.12,negation,1,0,0,1,29217296
+E00796,total gray matter,volume,increase,increase,3.1,easy,0,0,0,0,31175352
+E01005,left hippocampus,volume,decrease,decrease,-0.87,negation,1,0,0,0,30809764
+E00389,left putamen,activation,increase,increase,2.38,deactivation,0,1,0,0,23930595
+E00668,amygdala,activation,increase,increase,0.32,no_cue,0,0,0,1,27591712
+E01283,left precuneus-right precuneus,connectivity,negative_correlation,decrease,-0.27,correlation,0,0,1,0,39232415
+E00773,cortex,thickness,decrease,decrease,-0.548,easy,0,0,0,0,36001419
+E00472,left lateral orbitofrontal gyrus,thickness,increase,increase,4.0,negation,1,0,0,0,31446381
+E01171,left hippocampus,volume,decrease,decrease,-0.2,easy,0,0,0,0,20071148
+E00390,left putamen,activation,increase,increase,2.19,deactivation,0,1,0,0,23930595
+E00618,right amygdala,connectivity,negative_correlation,decrease,-0.485,correlation,0,0,1,1,24040385
+E00310,amygdala,volume,decrease,decrease,-0.16,negation,1,0,0,0,29217296
+E01433,right rSTG,activation,negative_correlation,decrease,-0.43,correlation,0,0,1,0,23056309
+E00604,amygdala,volume,positive_correlation,increase,0.55,correlation,0,0,1,1,31644424
+E00820,right amygdala–right VS,connectivity,null,null,0.269,negation,1,0,0,1,40671512
+E00901,hippocampus,volume,decrease,decrease,-0.54,easy,0,0,0,0,35728922
+E00960,posterior hippocampus,volume,decrease,decrease,-2.69,negation,1,0,0,0,36949685
+E00830,mesial temporal,GMV,decrease,decrease,0.097,negation,1,0,0,0,38485934
