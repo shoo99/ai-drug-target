@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-human_gold_validation.py
+crosscheck_validation.py
 ========================
 Build a BLINDED, hard-case-oversampled validation set for the LLM *direction*
 extraction, and score it against the model's labels.
@@ -9,13 +9,24 @@ WHY THIS EXISTS
 ---------------
 The manuscript's "silver" validation derived its reference label from the same
 surface lexical cues (reduced/lower/...) the model keys on, and *excluded*
-every sentence without an unambiguous cue. So it (a) only measured the ~52%
-easy subset and (b) was near-tautological there. The dangerous failure modes
-for a directional synthesis -- negation, "reduced deactivation", and
+every sentence without an unambiguous cue. So it (a) only measured the easy
+subset and (b) was near-tautological there. The dangerous failure modes for a
+directional synthesis -- negation, "reduced deactivation", and
 correlation-VALENCE mapping -- were never tested.
 
-This tool oversamples exactly those strata and asks a HUMAN for a gold label,
-keeping the model's prediction hidden until scoring.
+This tool oversamples exactly those strata and asks an INDEPENDENT RE-LABELLER
+for a reference label, keeping the model's prediction hidden until scoring.
+
+IMPORTANT -- who the re-labeller was in this study:
+  In Paper 3 v2.2 the 50-sentence cross-check reference labels were produced by
+  an INDEPENDENT LLM (a second model, blind to the original mapping), NOT by a
+  human. This is therefore an AI-vs-AI cross-check and is reported as inter-model
+  *agreement*, not as a human gold standard. The ONLY human-labelled step was the
+  author re-reading the five model-vs-cross-check disagreements against their
+  source sentences (see manuscript section 3.6 / 2.6.1). The column names below
+  read "human_*" only because this harness was written generically to accept any
+  independent rater; here that rater was a second LLM. Read "human_*" as
+  "independent re-labeller".
 
 INPUT
 -----
@@ -28,18 +39,19 @@ negative_correlation | null  (the model's raw output).
 WORKFLOW
 --------
   # 1) sample  -> writes annotation_sheet.csv (blind) + .answer_key.csv (hidden)
-  python human_gold_validation.py sample --records mapped_entries.jsonl --n 50
+  python crosscheck_validation.py sample --records mapped_entries.jsonl --n 50
 
-  # 2) a human fills the `human_direction` column of annotation_sheet.csv
-  #    with one of: decrease | increase | null | unclear
+  # 2) an independent re-labeller (a second LLM in this study; could be a human)
+  #    fills the `human_direction` column of annotation_sheet.csv with one of:
+  #    decrease | increase | null | unclear  (read "human_*" as "re-labeller_*")
   #    (optional: a 2nd rater fills human_direction_2 for a kappa)
 
   # 3) score
-  python human_gold_validation.py score --sheet annotation_sheet.csv \
+  python crosscheck_validation.py score --sheet annotation_sheet.csv \
                                         --key .answer_key.csv
 
   # self-test on synthetic data (no real input needed)
-  python human_gold_validation.py demo
+  python crosscheck_validation.py demo
 """
 
 import argparse, csv, json, os, random, re, sys
@@ -69,7 +81,7 @@ SEED = 20260603
 
 # how the model's raw direction reduces to a sign for the sign test.
 # negative_correlation with a SEVERITY/STRESS correlate -> metric DECREASES as
-# severity rises -> "decrease". This is the assumption the human is checking.
+# severity rises -> "decrease". This is the assumption the re-labeller is checking.
 REDUCE = {
     "decrease": "decrease", "increase": "increase", "null": "null",
     "negative_correlation": "decrease", "positive_correlation": "increase",

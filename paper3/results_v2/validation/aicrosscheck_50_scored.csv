@@ -1,4 +1,4 @@
-item_id,strata,correlation,model_reduced,human,correct
+item_id,strata,correlation,model_reduced,crosscheck,correct
 E00253,correlation,1,increase,increase,1
 E01142,easy,0,decrease,decrease,1
 E01290,correlation,1,decrease,null,0
